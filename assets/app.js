@@ -211,12 +211,19 @@ function setupSidebarToggle() {
   });
 }
 
-// 방문 기록 — 화면에는 아무것도 표시하지 않는다(요청: "웹사이트에서는 안보이더라도
-// 로그에 남겨줄래"). 브라우저마다 익명 id 하나를 localStorage에 남겨 재방문과
-// 순방문자를 구분할 수 있게 하고, 서버(api/visit.js → Vercel KV)로 한 번
-// fire-and-forget 전송한다. 실패해도 페이지 이용에는 영향이 없어야 하므로
-// 항상 조용히 넘어간다.
+// 방문 기록 — 화면에는 아무것도 표시하지 않고 서버 로그에만 남긴다. 브라우저마다
+// 익명 id 하나를 localStorage에 남겨 재방문과 순방문자를 구분하고, 수집 엔드포인트로
+// 한 번 fire-and-forget 전송한다. 실패해도 페이지 이용에는 영향이 없다.
+//
+// 엔드포인트는 서버리스 함수(원본은 Vercel 의 api/visit.js → Vercel KV)가 있어야
+// 동작한다. GitHub Pages 는 정적 호스팅이라 그런 함수가 없고, 경로도 저장소 하위가
+// 아닌 도메인 루트(https://<계정>.github.io/api/visit)로 나가 매 방문마다 404 만
+// 남는다. 그래서 정적 배포에서는 null 로 두어 아예 보내지 않는다.
+// 서버리스 환경으로 옮기면 이 한 줄만 "/api/visit" 로 되돌리면 된다.
+const VISIT_ENDPOINT = null;
+
 function trackVisit() {
+  if (!VISIT_ENDPOINT) return;
   try {
     const KEY = "govax_cid";
     let cid = localStorage.getItem(KEY);
@@ -226,7 +233,7 @@ function trackVisit() {
         : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
       localStorage.setItem(KEY, cid);
     }
-    fetch("/api/visit", {
+    fetch(VISIT_ENDPOINT, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ cid }),
