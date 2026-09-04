@@ -345,6 +345,16 @@ a { color: var(--primary); }
 }
 .q-select select:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
 
+/* 보고서를 내려 둔 동안의 안내 카드 — 빈 화면처럼 보이지 않게 '왜 없는지'와
+   '대신 어디를 보면 되는지'를 함께 알려 준다. */
+.report-pending {
+  background: var(--brand-soft); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 26px 28px;
+}
+.report-pending h3 { margin: 0 0 10px; font-size: 17.67px; color: var(--primary); }
+.report-pending p { margin: 0 0 10px; font-size: 15px; line-height: 1.65; color: var(--text); }
+.report-pending p:last-child { margin-bottom: 0; }
+
 /* AI 리포트 탭 하단 — 전체 동향보고서 "한눈에 보기" 발췌 */
 .ax-highlights-group { margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--border); }
 .ax-highlights-group .report-group-h { font-size: 17.67px; }
