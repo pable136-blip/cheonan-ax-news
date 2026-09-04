@@ -84,7 +84,6 @@ a { color: var(--primary); }
 .tagline { margin: 3px 0 0; color: var(--text-dim); font-size: 15.17px; }
 
 .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex: none; }
-.brand-logo { height: 30px; width: auto; display: block; }
 
 .src-link {
   text-decoration: none; font-weight: 600; font-size: 11.5px;
@@ -93,15 +92,12 @@ a { color: var(--primary); }
 }
 .src-link:hover { background: var(--primary); color: #fff; }
 @media (max-width: 899px) {
-  /* header-right(로고+탭)가 줄지 않아(flex:none) 가로 배치를 유지하면 제목·
-     부제목이 폭을 거의 못 받아 글자 단위로 줄바꿈되는 문제가 있음(태블릿
-     폭에서도 발생) — 720px보다 넓은 태블릿 폭까지 세로 배치로 전환해 이를 막음. */
+  /* header-right(탭)가 줄지 않아(flex:none) 가로 배치를 유지하면 제목·부제목이
+     폭을 거의 못 받아 글자 단위로 줄바꿈되는 문제가 있음(태블릿 폭에서도 발생)
+     — 720px보다 넓은 태블릿 폭까지 세로 배치로 전환해 이를 막음. */
   .header-inner { flex-direction: column; align-items: flex-start; gap: 4px; }
   .header-left { gap: 6px; }
   .header-right { align-items: flex-start; }
-  /* 천안시 로고(+워드마크) 이미지는 좁은 화면에서 굳이 안 보여도 됨 —
-     헤더가 화면 위쪽을 너무 많이 차지하지 않게 뺀다. */
-  .brand-logo-link { display: none; }
 }
 @media (max-width: 600px) {
   /* 아이패드 등 화면이 충분한 모바일 기기에서는 계속 보이고, 화면이 좁은
@@ -532,21 +528,16 @@ a { color: var(--primary); }
   .ms-list-head { align-items: flex-start; }
 }
 
-/* About */
+/* About — 원본에는 기관 캐릭터 일러스트가 함께 놓였지만 천안시 버전에서는
+   기관 이미지를 쓰지 않아 본문만 들어간다(기관 CI 사용 지침 확인 전). */
 .about-hero {
   display: flex; align-items: center; gap: 18px;
   background: var(--brand-soft); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 18px 22px; margin-bottom: 22px;
 }
-/* 원본은 정사각형에 가까운 캐릭터 일러스트(84px)였지만 천안시 로고는 가로로 긴
-   워드마크(127:43)라, 같은 높이면 폭이 250px 가까이 돼 본문을 밀어낸다. */
-.about-hero img { height: 54px; width: auto; flex: none; }
 .about-hero p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--text); }
 @media (max-width: 560px) {
-  /* 좁은 화면에서 로고+본문을 나란히 두면 글줄이 너무 좁아져(약 200px대) 거의
-     한 단어씩 줄바꿈된다 — 세로로 쌓아 본문 폭을 화면 전체로 확보한다 */
   .about-hero { flex-direction: column; text-align: center; }
-  .about-hero img { height: 44px; }
 }
 /* 수집·판정 기준 / 환각·허위 방지 본문 — 기존 대비 2px씩 축소(17→15, 16→14, 13→11) */
 .about h2 { font-size: 15px; margin: 22px 0 8px; }
