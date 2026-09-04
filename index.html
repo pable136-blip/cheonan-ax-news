@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>천안 AX 인사이트 - 정부 부처·천안시 인공지능 전환 보도자료</title>
+  <meta name="description" content="대한민국 정부 각 부처·청·위원회와 충청남도 천안시의 AI/AX(인공지능 전환) 관련 보도자료를 수집하고, 천안시 관점의 AX 현황 리포트를 제공합니다." />
+  <!-- 폰트는 CDN 대신 로컬 호스팅(assets/fonts.css) — 내부망에서도 동일하게 보이도록. -->
+  <link rel="stylesheet" href="assets/fonts.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="header-left">
+        <div class="hero-txt">
+          <h1 id="brand-title" role="button" tabindex="0" aria-label="뉴스 화면으로 이동">천안 AX 인사이트 <br class="brand-title-break">- <span class="brand-title-kr">정부 부처 · 천안시 AI 보도자료</span></h1>
+          <p class="tagline tagline-desktop-only">정부 부처와 천안시의 인공지능 전환(AX) 보도자료를 매일 모아 보여 드립니다</p>
+          <p class="tagline">천안시 'AI 대전환(AX)'을 위한 소중한 자료로 활용됩니다</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <a class="brand-logo-link" href="https://www.cheonan.go.kr/kor.do" target="_blank" rel="noopener" aria-label="천안시 공식 누리집으로 이동">
+          <img class="brand-logo" src="assets/cheonan-logo.svg" alt="천안시" />
+        </a>
+        <nav class="tabs" role="tablist">
+          <button class="tab active" data-tab="news" role="tab">뉴스</button>
+          <button class="tab" data-tab="milestone" role="tab">마일스톤</button>
+          <button class="tab" data-tab="dashboard" role="tab">히트맵</button>
+          <button class="tab" data-tab="dashboard2" role="tab">월별추이</button>
+          <button class="tab" data-tab="reports" role="tab">AI 리포트</button>
+          <button class="tab" data-tab="about" role="tab">안내</button>
+          <a class="src-link" href="https://www.korea.kr/news/ministryNewsHome.do" target="_blank" rel="noopener">대한민국 정책브리핑 ↗</a>
+          <a class="src-link" href="https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/list.do" target="_blank" rel="noopener">천안시 보도자료 ↗</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- 뉴스 탭 -->
+    <section id="tab-news" class="tab-panel active">
+      <div class="layout">
+        <button id="sidebar-toggle" class="sidebar-toggle" aria-expanded="false" aria-controls="sidebar-panel">
+          <span>기관·분류 필터</span>
+          <span class="sidebar-toggle-icon" aria-hidden="true">▾</span>
+        </button>
+        <aside class="sidebar" id="sidebar-panel">
+          <div class="sidebar-total">
+            <div class="st-num" id="side-total">0</div>
+            <div class="st-lbl">수집 뉴스 (누적)</div>
+          </div>
+          <h2 class="sidebar-title">분류</h2>
+          <div id="category-chips" class="chips chips-vert"></div>
+          <div class="sidebar-search">
+            <input id="search" type="search" placeholder="제목·기관·키워드 검색…" autocomplete="off" />
+          </div>
+          <h2 class="sidebar-title">기관 <small>(보도자료순)</small></h2>
+          <ul id="agency-list" class="agency-list"></ul>
+        </aside>
+        <div class="content">
+          <div class="topicbar">
+            <div id="topic-chips" class="chips"></div>
+          </div>
+          <div id="active-filter" class="active-filter" hidden></div>
+          <div id="pager-top" class="pager"></div>
+          <div id="news-list" class="news-list"></div>
+          <div id="pager-bottom" class="pager"></div>
+          <div id="empty" class="empty" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 리포트 탭 -->
+    <section id="tab-reports" class="tab-panel">
+      <div class="panel-intro">
+        <h2>AX 동향보고서(AI 자동작성)</h2>
+        <p>수집된 보도자료를 근거로 AI에 의해 자동 생성된 <strong>전체·분기 동향보고서</strong>입니다.
+           참고적인 용도로만 활용하시기 바랍니다.<br />
+           <small>※ 현재 보고서는 정부 부처 보도자료를 기준으로 작성된 것으로, 천안시 관점의 제언은 다음 분기부터 반영됩니다.</small></p>
+      </div>
+
+      <div class="report-group">
+        <h3 class="report-group-h">전체 동향보고서</h3>
+        <div id="reports-overall" class="reports-list"></div>
+      </div>
+
+      <div class="report-group">
+        <div class="report-group-head">
+          <h3 class="report-group-h">분기 동향보고서</h3>
+          <label class="q-select">
+            <span>분기 선택</span>
+            <select id="q-report-select" aria-label="분기 선택"></select>
+          </label>
+        </div>
+        <div id="q-report-detail" class="reports-list"></div>
+      </div>
+
+      <div class="report-group ax-highlights-group">
+        <h3 class="report-group-h">AX 정부 보도자료 주요 동향</h3>
+        <!-- 아래 항목은 전체 동향보고서의 「한눈에 보기」를 그대로 옮긴 발췌다(문구를 고치면
+             '발췌'가 성립하지 않으므로 원문을 손대지 않는다). 원본 보고서가 지식재산처
+             관점으로 작성돼 일부 시사점이 그 기관 기준인 점만 아래에 밝혀 둔다. -->
+        <p class="axh-note"><small>※ 정부 부처 보도자료에서 뽑은 동향이며, 원본 보고서가 작성된 관점(지식재산처)의 시사점이 일부 포함되어 있습니다. 사실·출처는 그대로 유효합니다.</small></p>
+        <ol id="ax-highlights-list" class="ax-highlights-list"></ol>
+      </div>
+    </section>
+
+    <!-- 대시보드 탭 -->
+    <section id="tab-dashboard" class="tab-panel">
+      <div class="panel-intro">
+        <p>정부기관별 AX 활동을 AI가 <strong>세부 주제별</strong>로 시각화합니다.<br>
+           AX 세부주제는 <strong>수집된 뉴스로부터 자동으로 최적 설계</strong>되었습니다.</p>
+      </div>
+      <div id="dash-kpi" class="dash-kpi"></div>
+      <div class="dash-grid">
+        <div class="dash-main">
+          <div class="dash-h">기관 × AX 주제 히트맵 <small>· 셀 클릭 → 해당 기관·주제 뉴스</small></div>
+          <div id="dash-rangeslider" class="dash-rangeslider"></div>
+          <div id="dash-heatmap" class="dash-heatmap"></div>
+          <div id="dash-drill" class="dash-drill" hidden></div>
+        </div>
+        <aside class="dash-side">
+          <div class="dash-h">벤치마킹 — 타 기관 우수사례 <small>· 천안시 관점</small></div>
+          <div id="dash-topicfilter" class="dash-topicfilter"></div>
+          <div id="dash-bench" class="dash-bench"></div>
+        </aside>
+      </div>
+
+      <div class="dash-h">최다 주제 TOP 3 <small>· 카드 클릭 → 세부 분류</small></div>
+      <div id="dash-top3-row" class="dash-top3-row"></div>
+    </section>
+
+    <!-- 대시보드 2 탭 (주제별 트렌드) -->
+    <section id="tab-dashboard2" class="tab-panel">
+      <div class="panel-intro">
+        <p><strong>주제별 트렌드 차트(시계열)</strong> — 월별로 AX 뉴스가 어떻게 늘어왔는지, 그리고 12개 세부주제 각각이
+           최근 어느 방향으로 움직이는지 한눈에 봅니다.</p>
+      </div>
+      <div class="dash-h">전체 AX 뉴스 추이 <small>· 월별 수집 건수</small></div>
+      <div id="trend-overall" class="trend-overall"></div>
+      <div class="dash-h" style="margin-top:22px">세부주제별 추이 <small>· 각 카드의 색 점 = 이번 달, 선 = 최근 추이</small></div>
+      <div id="trend-grid" class="trend-grid"></div>
+      <div class="dash-h" style="margin-top:22px">키워드 관계망
+        <small>· 최근 6개월 AI 요약에서 추출 · 같은 보도자료에 함께 등장한 키워드를 선으로 연결</small></div>
+      <div id="keyword-cloud-meta" class="kw-meta"></div>
+      <div id="keyword-cloud" class="kw-cloud"></div>
+      <div class="dash-h" style="margin-top:22px">보도자료 Top 10 부처 추이(전월 누적 기준)
+        <small>· 기관마다 규모가 달라 카드별로 y축을 따로 잡음(카드 아래 최고치 표기)</small></div>
+      <div id="trend-agencies" class="trend-grid"></div>
+    </section>
+
+    <!-- 마일스톤 탭 -->
+    <section id="tab-milestone" class="tab-panel">
+      <div class="panel-intro">
+        <h2>주요 정책 마일스톤 타임라인</h2>
+        <p><strong>AI전환의 이정표가 되는</strong> 주요 보도자료들을 AI가 시간순으로 정리했습니다.</p>
+      </div>
+      <div id="milestone-filters" class="ms-filters"></div>
+
+      <div class="ms-chart-card">
+        <div class="dash-h">영역별 진행 흐름 <small>· 마우스를 올리면 상세 내용 · 제목을 클릭하면 AI 요약문 팝업</small></div>
+        <div id="milestone-chart" class="ms-chart-scroll"></div>
+      </div>
+
+      <div class="ms-list-head">
+        <div class="dash-h">마일스톤 상세 <small>· 제목을 클릭하면 AI 요약문 팝업</small></div>
+        <div class="ms-sort">
+          <span>정렬</span>
+          <button type="button" id="ms-sort-toggle" class="ms-sort-btn" aria-live="polite">최근 순 ↓</button>
+        </div>
+      </div>
+      <div id="milestone-timeline" class="ms-timeline"></div>
+      <div id="milestone-empty" class="empty" hidden>선택한 영역에 해당하는 마일스톤이 없습니다.</div>
+      <div class="ms-tooltip" id="ms-tooltip" hidden></div>
+    </section>
+
+    <!-- 안내 탭 -->
+    <section id="tab-about" class="tab-panel">
+      <div class="about-hero">
+        <img src="assets/cheonan-logo.svg" alt="천안시" />
+        <p><strong>천안시</strong>의 인공지능 전환(AX)을 위해 정부 부처와 천안시의 AI 보도자료를
+           함께 자동 수집·분석하는 서비스입니다.<br />
+           중앙부처 정책 동향을 참조해 천안시에 맞는 정책을 설계하고, 천안시가 그동안 추진해 온
+           AI 사업을 한 화면에서 확인할 목적으로 제작되었습니다.<br />
+           기획부터 배포까지 바이브코딩 방식으로 개발되어 사이트 운영에 미숙한 점이 있더라도
+           양해 부탁드립니다.</p>
+      </div>
+      <div class="about">
+        <h2>수집·판정 기준</h2>
+        <ul>
+          <li><strong>1순위(제목 키워드)</strong>: 제목에 <code>인공지능 · AI · AX · AI 에이전트 · 인공지능 에이전트</code> 등이 있으면 자동 수집.</li>
+          <li><strong>AX 밀접(판정)</strong>: 제목에 키워드가 없어도 인공지능 전환과 밀접하면 수집. 제목에 <code>데이터</code>가 있고 AI 관련이면 포함.</li>
+          <li><strong>출처</strong>: 1차 <a href="https://www.korea.kr/news/ministryNewsHome.do" target="_blank" rel="noopener">대한민국 정책브리핑(korea.kr)</a>, 보강으로 각 기관 공식 채널(공식 도메인 <code>.go.kr</code>/<code>korea.kr</code>로 한정).</li>
+          <li><strong>천안시</strong>: 정책브리핑은 지자체 보도자료를 다루지 않아, <a href="https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/list.do" target="_blank" rel="noopener">천안시 누리집 보도자료</a>를 제목 키워드(<code>인공지능 · AI · AX · 생성형 · 빅데이터 · 자율주행 · 로봇</code> 등)로 직접 수집합니다. 축산 방역의 <code>AI</code>(조류인플루엔자)는 제외합니다.</li>
+        </ul>
+        <h2>환각·허위 방지</h2>
+        <ul>
+          <li>모든 항목은 <strong>원문 URL·발행일·출처</strong>를 보존합니다.</li>
+          <li>AI 리포트는 <strong>수집된 뉴스에서 확인되는 내용만</strong> 기술하며, 각 서술에 출처를 답니다.</li>
+          <li>확인되지 않는 사실은 생성하지 않고 "확인된 뉴스 없음"으로 표기합니다.</li>
+        </ul>
+      </div>
+
+      <!-- 정부 정책담당자를 위한 누리집 목록 (위 '수집·판정 기준/환각·허위 방지'와 구분되는 별도 자료 블록) -->
+      <section class="gov-links" aria-labelledby="gov-links-title">
+        <!-- 링크 종류 아이콘 스프라이트 -->
+        <svg class="gov-sprite" aria-hidden="true" focusable="false">
+          <symbol id="i-ext" viewBox="0 0 16 16">
+            <path d="M6.5 3.2h-3A1.3 1.3 0 0 0 2.2 4.5v8A1.3 1.3 0 0 0 3.5 13.8h8a1.3 1.3 0 0 0 1.3-1.3v-3"
+                  fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M9.6 2.4h4v4M13.6 2.4 7.7 8.3" fill="none" stroke="currentColor"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </symbol>
+          <symbol id="i-doc" viewBox="0 0 16 16">
+            <path d="M9 1.8H4.4a1.3 1.3 0 0 0-1.3 1.3v9.8a1.3 1.3 0 0 0 1.3 1.3h7.2a1.3 1.3 0 0 0 1.3-1.3V5.8z"
+                  fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M9 1.8v4h3.9M5.6 8.6h4.8M5.6 11h3.2" fill="none" stroke="currentColor"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </symbol>
+          <symbol id="i-play" viewBox="0 0 16 16">
+            <rect x="1.4" y="3.2" width="13.2" height="9.6" rx="2.6" fill="none"
+                  stroke="currentColor" stroke-width="1.5"/>
+            <path d="M6.8 6.2 10.4 8l-3.6 1.8z" fill="currentColor" stroke="currentColor"
+                  stroke-width="1.2" stroke-linejoin="round"/>
+          </symbol>
+        </svg>
+
+        <header class="gov-links-head">
+          <div class="gov-links-headtext">
+            <h2 id="gov-links-title">유용한 누리집 목록</h2>
+          </div>
+        </header>
+
+        <div class="gov-group" data-group="committee">
+          <h3 class="gov-group-title"><span class="gov-dot"></span>대통령직속 위원회<span class="gov-count">1</span></h3>
+          <div class="gov-cards">
+            <article class="gov-card">
+              <a class="gov-card-head gov-card-head-link is-logo-only" href="https://www.aikorea.go.kr/" target="_blank" rel="noopener" aria-label="국가인공지능전략위원회 누리집 바로가기">
+                <span class="gov-logo is-photo" style="--logo-ar:443/105; height:58px;">
+                  <img src="assets/aicommitee.png" alt="국가인공지능전략위원회 로고" loading="lazy" />
+                </span>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <div class="gov-group" data-group="platform">
+          <h3 class="gov-group-title"><span class="gov-dot"></span>데이터, 사업 플랫폼<span class="gov-count">4</span></h3>
+          <div class="gov-cards">
+            <article class="gov-card">
+              <a class="gov-card-head gov-card-head-link" href="https://ax360.kr/main" target="_blank" rel="noopener">
+                <span class="gov-logo is-photo" style="--logo-ar:106/52;">
+                  <img src="assets/AX360.png" alt="AX360 로고" loading="lazy" />
+                </span>
+                <div>
+                  <p class="gov-card-org">AX360</p>
+                  <h4 class="gov-card-title">'수요기업'과 '공급기업'을 연결해 주는 AX 원스톱 매칭 플랫폼</h4>
+                </div>
+              </a>
+            </article>
+            <article class="gov-card">
+              <a class="gov-card-head gov-card-head-link" href="https://aihub.or.kr/" target="_blank" rel="noopener">
+                <span class="gov-logo is-photo" style="--logo-ar:157/56;">
+                  <img src="assets/AIhub.png" alt="AI Hub 로고" loading="lazy" />
+                </span>
+                <div>
+                  <p class="gov-card-org">AI Hub</p>
+                  <h4 class="gov-card-title">국가 AI 개발지원 플랫폼</h4>
+                </div>
+              </a>
+            </article>
+            <article class="gov-card">
+              <a class="gov-card-head gov-card-head-link" href="https://portal.koreaconnect.kr/user/ma/main" target="_blank" rel="noopener">
+                <span class="gov-logo is-photo" style="--logo-ar:197/54;">
+                  <img src="assets/DP.png" alt="디지털융합플랫폼 로고" loading="lazy" />
+                </span>
+                <div>
+                  <p class="gov-card-org">디지털융합플랫폼</p>
+                  <h4 class="gov-card-title">민간, 공공 디지털자원 연계융합 플랫폼</h4>
+                </div>
+              </a>
+            </article>
+            <article class="gov-card">
+              <a class="gov-card-head gov-card-head-link" href="https://www.data.go.kr/index.do" target="_blank" rel="noopener">
+                <span class="gov-logo is-photo" style="--logo-ar:239/53; height:32px;">
+                  <img src="assets/dataportal.png" alt="공공데이터포털 로고" loading="lazy" />
+                </span>
+                <div>
+                  <p class="gov-card-org">공공데이터포털</p>
+                  <h4 class="gov-card-title">공공기관이 생성·취득 관리하고 있는 공공데이터 통합 제공</h4>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <div class="gov-group" data-group="agent-platform">
+          <h3 class="gov-group-title"><span class="gov-dot"></span>AI 에이전트 플랫폼<span class="gov-count">2</span></h3>
+          <div class="gov-cards">
+            <article class="gov-card">
+              <a class="gov-card-head gov-card-head-link" href="https://aitestbed.kr/" target="_blank" rel="noopener">
+                <span class="gov-logo is-photo" style="--logo-ar:208/52;">
+                  <img src="assets/AiLab.png" alt="모두의 AI 실험실 로고" loading="lazy" />
+                </span>
+                <div>
+                  <p class="gov-card-org">모두의 AI 실험실</p>
+                  <h4 class="gov-card-title">AI 서비스개발에 필요한 자원 통합제공</h4>
+                </div>
+              </a>
+            </article>
+            <article class="gov-card">
+              <a class="gov-card-head gov-card-head-link" href="https://axboard.aigov.go.kr/" target="_blank" rel="noopener">
+                <span class="gov-logo is-photo" style="--logo-ar:220/59;">
+                  <img src="assets/HAILab.png" alt="행정안전부 AI 정부실험실 로고" loading="lazy" />
+                </span>
+                <div>
+                  <p class="gov-card-org">행정안전부 AI 정부실험실</p>
+                  <h4 class="gov-card-title">공공 GitLab 저장소 프로젝트 현황 대시보드</h4>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <div class="gov-group" data-group="org">
+          <h3 class="gov-group-title"><span class="gov-dot"></span>기관<span class="gov-count">2</span></h3>
+          <div class="gov-cards">
+            <article class="gov-card">
+              <a class="gov-card-head gov-card-head-link" href="https://www.nia.or.kr/site/nia_kor/27/12702000000002026041001.jsp" target="_blank" rel="noopener">
+                <span class="gov-logo is-photo" style="--logo-ar:88/45; height:32px;">
+                  <img src="assets/NIA.png" alt="NIA 로고" loading="lazy" />
+                </span>
+                <div>
+                  <p class="gov-card-org">한국지능정보사회진흥원</p>
+                  <h4 class="gov-card-title">공공AI사업지원센터</h4>
+                </div>
+              </a>
+            </article>
+            <article class="gov-card">
+              <a class="gov-card-head gov-card-head-link" href="https://www.nipa.kr/home/bsnsAll/3/detail?bsnsDtlsIemNo=854" target="_blank" rel="noopener">
+                <span class="gov-logo is-photo" style="--logo-ar:94/65;">
+                  <img src="assets/nipa.png" alt="nipa 로고" loading="lazy" />
+                </span>
+                <div>
+                  <p class="gov-card-org">정보통신산업진흥원</p>
+                  <h4 class="gov-card-title">AX 원스톱 지원센터</h4>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <div class="gov-group" data-group="program">
+          <h3 class="gov-group-title"><span class="gov-dot"></span>중앙부처 및 지방정부 지원사업<span class="gov-count">2</span></h3>
+          <div class="gov-cards">
+            <article class="gov-card is-program">
+              <div class="gov-card-head">
+                <span class="gov-logo" style="--logo-a:#2a78d6; --logo-b:#134b91; --logo-fs:12px;">MSIT</span>
+                <div>
+                  <p class="gov-card-org">과학기술정보통신부 · 정보통신산업진흥원</p>
+                  <h4 class="gov-card-title">2026년 공공 AX 프로젝트 사업 공고</h4>
+                </div>
+              </div>
+              <p class="gov-card-badge">접수마감 26년 2월</p>
+              <ul class="gov-card-links">
+                <li><a class="gov-pill" href="https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118550" target="_blank" rel="noopener"><svg class="gov-ico"><use href="#i-doc"/></svg>사업 공고<em>기업마당</em></a></li>
+                <li><a class="gov-pill" href="https://www.nipa.kr/home/2-2/16471" target="_blank" rel="noopener"><svg class="gov-ico"><use href="#i-doc"/></svg>사업 공고<em>nipa</em></a></li>
+              </ul>
+            </article>
+            <article class="gov-card is-program">
+              <div class="gov-card-head">
+                <span class="gov-logo" style="--logo-a:#3f7f6b; --logo-b:#245043; --logo-fs:12px;">MOIS</span>
+                <div>
+                  <p class="gov-card-org">행정안전부 · 한국지능정보사회진흥원</p>
+                  <h4 class="gov-card-title">공공부문 AI 서비스 지원사업</h4>
+                </div>
+              </div>
+              <p class="gov-card-badge">접수마감 26년 2월</p>
+              <ul class="gov-card-links">
+                <li><a class="gov-pill" href="https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99835&amp;bcIdx=29024" target="_blank" rel="noopener"><svg class="gov-ico"><use href="#i-doc"/></svg>사업 공고<em>NIA</em></a></li>
+                <li><a class="gov-pill" href="https://www.youtube.com/watch?v=7l4q_MLfV9M" target="_blank" rel="noopener"><svg class="gov-ico"><use href="#i-play"/></svg>사업 설명 영상<em>YouTube</em></a></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <p class="gov-links-note">외부 누리집으로 연결되며, 공고 일정·내용은 각 기관 안내를 기준으로 확인해 주시기 바랍니다.</p>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-text">
+        <p class="foot-src">출처: 대한민국 정책브리핑 · 각 정부기관 공식 채널 · 천안시 누리집 보도자료 · <span id="last-updated">갱신: —</span></p>
+        <p class="foot-org"><strong>천안 AX 인사이트</strong> / 원본 Gov.AX Insight — Designed by Buyong JEONG(2026-07-26)</p>
+        <p class="foot-note">이 서비스는 천안시 공식 누리집이 아니며, 시범 운영 중입니다. AI가 매일 자동검색한 새로운 정부 부처·천안시 보도자료를 누적 보관합니다.</p>
+        <p class="foot-note">보관된 전체 뉴스를 기반으로 AI가 분기별로 AX 동향보고서를 자동 업데이트하여 제공합니다.</p>
+      </div>
+      <a class="portfolio-link" href="https://www.cheonan.go.kr/kor.do" target="_blank" rel="noopener">천안시 누리집 ↗</a>
+    </div>
+  </footer>
+
+  <div id="news-modal" class="news-modal" hidden>
+    <div class="news-modal-backdrop" data-close="1"></div>
+    <div class="news-modal-panel" role="dialog" aria-modal="true" aria-labelledby="nm-title">
+      <div class="news-modal-meta">
+        <span id="nm-agency" class="meta-item"></span>
+        <span id="nm-date" class="meta-item"></span>
+      </div>
+      <h3 id="nm-title"></h3>
+      <div class="news-modal-summary-box">
+        <div class="news-modal-summary-label">AI 요약문</div>
+        <p id="nm-summary" class="news-modal-summary"></p>
+      </div>
+      <div class="news-modal-actions">
+        <a id="nm-link" class="news-modal-link" target="_blank" rel="noopener">원문 보기 ↗</a>
+        <button type="button" class="news-modal-close-btn" data-close="1">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="subtopic-modal" class="subtopic-modal" hidden>
+    <div class="subtopic-modal-backdrop" data-close="1"></div>
+    <div class="subtopic-modal-panel" role="dialog" aria-modal="true" aria-labelledby="stm-title">
+      <div class="subtopic-modal-header" id="stm-header">
+        <span class="subtopic-modal-eyebrow" id="stm-eyebrow">세부 분류</span>
+        <h3 id="stm-title"></h3>
+        <span class="subtopic-modal-count" id="stm-count"></span>
+        <button type="button" class="subtopic-modal-x" data-close="1" aria-label="닫기">✕</button>
+      </div>
+      <div class="subtopic-modal-body">
+        <p class="subtopic-modal-sub" id="stm-sub"></p>
+        <div class="subtopic-modal-buckets" id="stm-buckets"></div>
+      </div>
+      <div class="subtopic-modal-actions">
+        <button type="button" class="subtopic-modal-close-btn" data-close="1">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" id="back-to-top" class="back-to-top" hidden aria-label="맨 위로 이동">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+         stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19V5M6 11l6-6 6 6"></path>
+    </svg>
+  </button>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
+

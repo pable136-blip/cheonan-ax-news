@@ -1,0 +1,578 @@
+{
+  "updated": "2026-08-31",
+  "lanes": [
+    {
+      "id": "gov",
+      "name": "거버넌스·법제",
+      "color": "#2a78d6"
+    },
+    {
+      "id": "org",
+      "name": "조직·예산",
+      "color": "#eb6834"
+    },
+    {
+      "id": "industry",
+      "name": "산업·제조 AX",
+      "color": "#1baf7a"
+    },
+    {
+      "id": "infra",
+      "name": "인프라·컴퓨팅",
+      "color": "#eda100"
+    },
+    {
+      "id": "data",
+      "name": "데이터·행정",
+      "color": "#e87ba4"
+    },
+    {
+      "id": "support",
+      "name": "지원체계",
+      "color": "#4a3aa7"
+    },
+    {
+      "id": "safety",
+      "name": "안전·책임",
+      "color": "#008300"
+    },
+    {
+      "id": "intl",
+      "name": "국제협력",
+      "color": "#e34948"
+    }
+  ],
+  "events": [
+    {
+      "lane": "gov",
+      "date": "2025-09-02",
+      "agency": "과기정통부",
+      "title": "국가인공지능전략위원회 설치 규정 국무회의 의결",
+      "detail": "「국가인공지능전략위원회의 설치 및 운영에 관한 규정」(대통령령) 의결 — 민간위원 34명·8개 분과위원회로 부처간 AI정책 조정·이행점검 기능 부여.",
+      "id": "07e704c41ee6fe61",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156722738&pageIndex=20&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "industry",
+      "date": "2025-09-10",
+      "agency": "산업통상부",
+      "title": "제조 AX 얼라이언스(M.AX) 출범",
+      "detail": "산업통상자원부·대한상공회의소 공동 출범 — 1,000여개 기업·대학·연구기관이 참여하는 민관 협업체계.",
+      "id": "c48ed0fd4ad0dcb4",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156754845&pageIndex=6&repCodeType=&repCode=A00015&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "data",
+      "date": "2025-09-18",
+      "agency": "행안부",
+      "title": "'AI-Ready' 공공데이터 기준, 국내 최초 도입",
+      "detail": "AI가 직접 학습·추론할 수 있는 형태로 공공데이터를 관리하는 기준을 국내 최초로 마련.",
+      "id": "137914f707fa206a",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156730190&pageIndex=6&repCodeType=&repCode=A00031&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "org",
+      "date": "2025-10-14",
+      "agency": "과기정통부",
+      "title": "과기정통부, 부총리급 부처로 승격",
+      "detail": "정부조직법 개정으로 과학기술·AI 국가컨트롤타워로 출범 — 범부처 AI 정책의 위상이 격상됨.",
+      "id": "afe53faec77ce5ac",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156722875&pageIndex=19&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "intl",
+      "date": "2025-11-19",
+      "agency": "과기정통부 등",
+      "title": "UAE 국빈방문 계기 '스타게이트 프로젝트' 참여",
+      "detail": "이재명 대통령 UAE 국빈방문 계기 — 과기정통부·기후부·해수부·산업부·국가AI전략위 합동으로 양국 AI 협력을 확대.",
+      "id": "1955f4725018fa73",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156729197&pageIndex=18&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2025-11-24",
+      "agency": "국무조정실",
+      "title": "제1회 과학기술관계장관회의 출범",
+      "detail": "국무총리 주재로 신설 — 과학기술·AI 정책을 부처 간 조정하는 상설 협의체가 처음 가동됨.",
+      "id": "7179f6b6fec12efa",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156730976&pageIndex=2&repCodeType=&repCode=A00004&startDate=2025-07-28&endDate=2026-07-28&srchWord=인공지능&period="
+    },
+    {
+      "lane": "infra",
+      "date": "2025-11-24",
+      "agency": "행안부·과기정통부",
+      "title": "범정부 AI 공통기반 서비스 개시",
+      "detail": "보안상 인터넷망에서만 쓰던 민간 AI를 중앙·지방정부 내부망에서도 공동활용 — 부처별 산발 도입을 표준 인프라로 전환하는 첫 걸음.",
+      "id": "96385c4cdf5832b2",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156731023&pageIndex=5&repCodeType=&repCode=A00031&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "support",
+      "date": "2025-12-11",
+      "agency": "인사혁신처",
+      "title": "범정부 '공공 인공지능 교육 협의체' 출범",
+      "detail": "공직 AI 인재 육성을 위한 범정부 협의체 첫 회의 개최.",
+      "id": "5535a852aa562eed",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156734598&pageIndex=1&repCodeType=&repCode=A00030&startDate=2025-07-28&endDate=2026-07-28&srchWord=AX&period="
+    },
+    {
+      "lane": "org",
+      "date": "2025-12-12",
+      "agency": "과기정통부",
+      "title": "AI예산, 3조원→9.9조원으로 확대",
+      "detail": "2026년도 업무계획 대통령 보고 — 2025년 3조원이던 AI 관련 예산이 2026년 9.9조원으로 3배 이상 늘어남.",
+      "id": "2b199d70437c4934",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156734855&pageIndex=14&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "industry",
+      "date": "2025-12-24",
+      "agency": "산업통상부",
+      "title": "M.AX 얼라이언스 1차 정기총회, 참여기관 확대",
+      "detail": "출범 100여일 만에 참여기관이 크게 늘며 내년도 5대 중점 추진과제를 발표.",
+      "id": "cf8e7e3d071bf3c3",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156736696&pageIndex=10&repCodeType=&repCode=A00015&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "safety",
+      "date": "2025-12-29",
+      "agency": "과기정통부",
+      "title": "국내 최초 AI 모델 안전성 평가 결과 공개",
+      "detail": "AI안전연구소·TTA와 함께 국내 최초로 AI 모델 안전성 평가 결과를 공개.",
+      "id": "1ce18c635588e5a9",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156737186&pageIndex=15&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2025-12-30",
+      "agency": "과기정통부",
+      "title": "「인공지능기본법」 개정안 국회 통과",
+      "detail": "시행을 앞두고 위임사항·세부기준을 보완하는 개정안이 국회 본회의를 통과.",
+      "id": "12f2b1a25fcec897",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156737545&pageIndex=13&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2026-01-22",
+      "agency": "과기정통부",
+      "title": "「인공지능기본법」 시행",
+      "detail": "공공기관 AI 우선구매, 도입기관 배상책임 면책, 고영향AI 판단기준 등이 법적 효력을 갖게 됨 — 정부 AX의 법적 기반이 마련된 분수령.",
+      "id": "ef9b644dd4ea356f",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156740659&pageIndex=14&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2026-01-29",
+      "agency": "행안부",
+      "title": "「공공 AI법」 국회 통과",
+      "detail": "기존 데이터기반행정법을 전면개정 — 공공부문 AI·데이터 활용의 법적 근거를 명확히 함.",
+      "id": "4b7a8871cf758fe5",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156742058&pageIndex=5&repCodeType=&repCode=A00031&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "intl",
+      "date": "2026-02-20",
+      "agency": "과기정통부",
+      "title": "GPAI 각료이사회 공동의장 수임",
+      "detail": "싱가포르와 공동으로 「인공지능에 관한 국제 동반관계(GPAI)」 각료이사회를 주재 — AI 국제규범 논의에서 주도적 역할 확보.",
+      "id": "5a4d76804aa551ae",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156745225&pageIndex=12&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2026-02-25",
+      "agency": "국가AI전략위",
+      "title": "「대한민국 인공지능 행동계획(인공지능 기본계획 2026~2028)」 발표",
+      "detail": "3대 정책축(혁신 생태계 조성·범국가 AI 대전환·글로벌 AI 기본사회 기여)·12대 전략분야로 구성된 국가 AI 정책 이정표. 정부의 단기·중장기 정책 목표와 권고사항 제시.",
+      "id": "db7bf29975c38ca1",
+      "url": "https://www.aikorea.go.kr/web/board/brdDetail.do?menu_cd=000011&num=328"
+    },
+    {
+      "lane": "safety",
+      "date": "2026-02-26",
+      "agency": "국무조정실",
+      "title": "'AI 악용 가짜뉴스 대응' 관계장관회의 개최",
+      "detail": "국무총리 주재 — AI 오남용에 따른 사회적 위험에 범정부 차원으로 대응하기 시작.",
+      "id": "378875d7a3057f9c",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156746200&pageIndex=1&repCodeType=&repCode=A00004&startDate=2025-07-28&endDate=2026-07-28&srchWord=인공지능&period="
+    },
+    {
+      "lane": "infra",
+      "date": "2026-03-08",
+      "agency": "과기정통부·행안부",
+      "title": "범정부 AX 지원체계 본격 가동",
+      "detail": "'정부 AI전환 사업 지원방안 설명회' 개최 — 부처별 AX 사업에 GPU·국산 AI모델을 공동 지원하는 체계가 가동됨.",
+      "id": "ff3330a2bcabe078",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156747765&pageIndex=2&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=AX&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-04-02",
+      "agency": "행안부",
+      "title": "범정부 '공공AI사업지원센터' 개소",
+      "detail": "개별 부처가 예산·인력을 자력으로 갖추지 않아도 AX를 상시 지원받을 수 있는 채널이 처음 마련됨.",
+      "id": "9647343485bf6cc8",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156752607&pageIndex=4&repCodeType=&repCode=A00031&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-04-16",
+      "agency": "과기정통부",
+      "title": "범정부 AX(AI전환) 컨설팅 착수",
+      "detail": "'현장의 작은 불편부터 AI로 해결'을 내걸고 정부기관 대상 자문(컨설팅)을 본격 착수.",
+      "id": "117b8d94f783d2ce",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156756011&pageIndex=8&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2026-05-07",
+      "agency": "과기정통부",
+      "title": "「AI데이터센터산업진흥법(AIDC특별법)」 국회 통과",
+      "detail": "AI 데이터센터 산업을 별도 특별법으로 육성 — 전력·용지 등 인프라 확충의 법적 근거가 마련됨.",
+      "id": "57d67861296fff80",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156760349&pageIndex=6&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "infra",
+      "date": "2026-05-11",
+      "agency": "과기정통부",
+      "title": "국가 AI컴퓨팅센터 민간참여자, 삼성SDS 컨소시엄 확정",
+      "detail": "실시협약 및 주주간계약 체결 — 국가 AI 인프라의 핵심 축인 컴퓨팅센터 사업이 구체화됨.",
+      "id": "e8371a2629dc18b9",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156760903&pageIndex=6&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "data",
+      "date": "2026-05-12",
+      "agency": "행안부",
+      "title": "온나라 문서시스템, 개방형 문서 첨부 의무화",
+      "detail": "「행정업무 운영 및 혁신에 관한 규정」 개정 — 중앙·지방 온나라 문서시스템에 AI가 기계판독 가능한 개방형 문서만 첨부하도록 의무화.",
+      "id": "ad09afcc22077d6d",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156761081&pageIndex=3&repCodeType=&repCode=A00031&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "intl",
+      "date": "2026-05-21",
+      "agency": "국무조정실·재정경제부",
+      "title": "'글로벌 AI 허브' 비전 선포",
+      "detail": "국무총리 주재 선포식에서 9개 국제기구와 공동성명 발표 — 대한민국을 AI 국제협력의 거점으로 자리매김하려는 선언.",
+      "id": "708ddb72dfac9283",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156763005&pageIndex=2&repCodeType=&repCode=A00041&startDate=2025-07-28&endDate=2026-07-28&srchWord=AI&period="
+    },
+    {
+      "lane": "data",
+      "date": "2026-05-28",
+      "agency": "국무조정실·과기정통부",
+      "title": "데이터 관계장관회의 신설",
+      "detail": "국무총리가 직접 주재하는 범부처 총괄기구 신설 — 데이터 정책이 개별 부처 소관에서 총리실 직속 조정 대상으로 격상됨.",
+      "id": "3c47cf7d16ec8116",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764338&pageIndex=4&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "org",
+      "date": "2026-06-29",
+      "agency": "과기정통부",
+      "title": "제6차 과학기술기본계획 확정(2026~2030)",
+      "detail": "5년간 200조원 이상 R&D 투자를 예고 — 국가 R&D 최상위 계획에 AI전환이 핵심 축으로 반영됨.",
+      "id": "1e7e8f65588dce78",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768490&pageIndex=2&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "industry",
+      "date": "2026-06-29",
+      "agency": "산업·과기정통·중기부",
+      "title": "'제조AI 2030 전략' 공개",
+      "detail": "국가인공지능전략위원회·산업부·과기정통부·중기부 합동 — 2030년까지 민관 20조원 투자, 부가가치 100조원 창출 목표.",
+      "id": "17a93723d194bfca",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768655&pageIndex=1&repCodeType=&repCode=A00015&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "industry",
+      "date": "2026-07-01",
+      "agency": "과기정통부",
+      "title": "'물리적 인공지능(피지컬AI)' 핵심 경쟁력 확보 전략 발표",
+      "detail": "로봇·자율주행 등 물리 세계와 결합하는 AI 분야의 국가 전략을 별도로 수립.",
+      "id": "b3e1f80d68c8c5f7",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156769196&pageIndex=2&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "safety",
+      "date": "2026-07-13",
+      "agency": "행안부",
+      "title": "AI 보안패치 신속 적용, '적극행정'으로 면책",
+      "detail": "AI가 발견한 고위험 취약점(CVSS 7.0 이상)의 신속한 보안 패치를 적극행정으로 인정 — AI 활용 시 발생하는 책임 문제에 대한 첫 제도적 해법.",
+      "id": "218d441332a88ee2",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156770580&pageIndex=1&repCodeType=&repCode=A00031&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "data",
+      "date": "2026-07-14",
+      "agency": "법제처",
+      "title": "'AI 법령비서', 전 공무원 대상 시범 개시",
+      "detail": "법제처·행안부·과기정통부 공동 개발 — 행정업무에 AI를 접목한 대표적 공동 서비스.",
+      "id": "6cbfad013f2bfb07",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156770582&pageIndex=1&repCodeType=&repCode=A00011&startDate=2025-07-28&endDate=2026-07-28&srchWord=AI&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2026-07-23",
+      "agency": "과기정통부",
+      "title": "「에이전틱 AI 이니셔티브」 등 6개 안건 심의",
+      "detail": "제11회 과학기술관계장관회의에서 안전·신뢰/개방형 실행기반/수요중심 도입 3대 전략과 공공 AX 프라이버시 보호 안내서 등을 함께 논의.",
+      "id": "3707ede57ff4e942",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156771818&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=&period="
+    },
+    {
+      "lane": "industry",
+      "date": "2026-07-29",
+      "agency": "과기정통부",
+      "title": "'AI 데이터센터(AIDC) 얼라이언스' 출범",
+      "detail": "산업부·금융위·국토부와 400여개 기업·기관이 참여 — AIDC특별법 통과 두 달 만에 민관 협업체계로 이어짐.",
+      "id": "f5b2f727ed8596d2",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156772564&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-07-29&endDate=2026-07-29&srchWord=&period="
+    },
+    {
+      "lane": "infra",
+      "date": "2026-08-03",
+      "agency": "과기정통부",
+      "title": "국가 AI컴퓨팅센터 착공",
+      "detail": "전남 해남 솔라시도 데이터센터 파크에서 착공식 개최 — 계획에서 실제 구축 단계로 진입.",
+      "id": "982f7fcf1f817b46",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156773197&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-08-03&endDate=2026-08-03&srchWord=&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2026-08-24",
+      "agency": "과기정통부",
+      "title": "「대한민국 인공지능 윤리원칙」 제정",
+      "detail": "인공지능기본법 제27조에 따라 제정 — 인간의 존엄성·사회의 공공선·인류의 지속가능성 3대 가치와 7대 원칙 제시. 8월21일 과학기술관계장관회의 심의·의결로 확정, 해설서·자율점검표 등 후속 보급 예정.",
+      "id": "c725885c7881c559",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775263&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-08-24&endDate=2026-08-24&srchWord=&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2026-08-20",
+      "agency": "개인정보보호위원회",
+      "title": "개인정보 보호법 개정안 국회 통과",
+      "detail": "AI 개발용 개인정보 활용 특례 신설 — 가명·익명정보만으로 AI 개발이 곤란하고 공익적 필요성이 인정되는 경우, 개인정보위 심의·의결과 강화된 안전조치를 전제로 개인정보를 AI 기술개발에 활용 가능. 공포 후 6개월 뒤 시행, 범부처 AI 학습데이터 확보의 법적 근거로 활용될 전망.",
+      "id": "e125133ab911e0ac",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156774994&pageIndex=1&repCodeType=&repCode=C00019&startDate=2025-08-21&endDate=2026-08-21&srchWord=&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2026-03-11",
+      "agency": "과학기술정보통신부",
+      "title": "제5회 과학기술관계장관회의, K-문샷 프로젝트 등 국가 AX 전략 확정",
+      "detail": "배경훈 부총리 주재로 K-문샷 프로젝트 12대 국가미션 확정, '모두의 AI' 실행을 위한 전국민 AI 활용역량 강화·일상화 방안, 전국민 AI 경진대회(200만명 참여 목표) 추진계획 등 7개 안건 논의·확정.",
+      "id": "7a8567ccfac1106b",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748406&pageIndex=10&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "data",
+      "date": "2026-04-30",
+      "agency": "행정안전부",
+      "title": "지능형 업무관리 플랫폼 '온AI' 모바일 서비스 개시",
+      "detail": "내부망·모바일 간 대화·파일공유가 가능한 AI 업무관리 플랫폼 — 공간 제약 없는 회의·보고·결재, AI 회의록 자동요약 등 지원. 4개 기관(행안부·과기정통부·기획예산처·식약처) 우선 도입 후 하반기까지 40개 이상 중앙행정기관으로 확대 계획.",
+      "id": "6e1c75e4d1eb4195",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156759304&pageIndex=4&repCodeType=&repCode=A00031&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "industry",
+      "date": "2026-04-28",
+      "agency": "농림축산식품부",
+      "title": "'국가 농업AX플랫폼' 우선협상대상자로 전라남도 컨소시엄 선정",
+      "detail": "AI·로봇으로 누구나 전문적 농업경영이 가능한 환경 조성을 목표로 한 국가 농업AX플랫폼 사업의 우선협상대상자에 전라남도 컨소시엄(대동·전남·무안군·LG CNS 등) 선정. 실시협약 체결 후 특수목적법인(SPC) 설립, 21.6ha AI온실 구축 계획.",
+      "id": "07fb7e2f667f1b06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156758461&pageIndex=3&repCodeType=&repCode=A00008&startDate=2025-07-28&endDate=2026-07-28&srchWord=AI&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-07-02",
+      "agency": "행정안전부",
+      "title": "공무원 자체개발 지원 'AI 정부 실험실' 출범",
+      "detail": "업무 담당 공무원이 바이브 코딩·AI 에이전트 등을 활용해 현장의 반복업무를 직접 개선하도록 지원 — 민간 클라우드·AI 코딩도구로 시제품을 개발·검증하고 결과물은 '공공 GitLab'에 통합관리. 한 달여 만에 GitLab 가입자 1000명 돌파·실험 405건 등록(2026-08-12 기준).",
+      "id": "304afe195086039d",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156769299&pageIndex=1&repCodeType=&repCode=A00031&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-07-13",
+      "agency": "과학기술정보통신부",
+      "title": "「모두의 인공지능 사업(모두의 AI)」 프로젝트 본격 착수",
+      "detail": "비용부담·이용량 제약 없는 범용 AI 챗봇과 공공서비스 신청 대행 AI 에이전트를 민간기업 2~3개사 선정해 연내 출시 목표로 사업자 공모 개시(국산 AI 모델 50% 이상 활용 의무화, 정부 보유 GPU 512장 지원). '27년 이후 AI 에이전트 고도화로 전 국민 1인 1 AI 에이전트 구현을 목표로 제시.",
+      "id": "37397acb2aa2855e",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156771558&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2025-09-08",
+      "agency": "국가AI전략위",
+      "title": "국가인공지능전략위원회 공식 출범",
+      "detail": "대통령 직속 국가 AI 지휘본부로 출범(위원장 이재명 대통령, 상근 부위원장 임문영) — 34명 민간위원을 기술혁신·인프라, 산업AX·생태계, 공공AX, 데이터, 사회, 국제협력, 과학·인재, 국방·안보 8개 분과위원회에 배정. 「대한민국 인공지능 행동계획」 3대 정책축·12대 전략분야 추진방향과 국가 AI컴퓨팅센터 추진방안을 의결.",
+      "id": "2dd594d2da17b0c8",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156722761&pageIndex=20&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "org",
+      "date": "2026-03-25",
+      "agency": "국가AI전략위",
+      "title": "국가AI전략위, 위원회 조직 확대 개편",
+      "detail": "8개 분과·6개 TF 체계를 10개 분과위원회·2개 특별위원회·1개 TF로 확대 — AI민주주의 분과 신설, 과학·인재 분과를 과학/교육·인재로 분리, 지역·보안 특별위·법률 TF 신설. 위원 82명→127명으로 확대 위촉.",
+      "id": "6252c0fd15d6061f",
+      "url": "https://www.aikorea.go.kr/web/board/brdDetail.do?menu_cd=000012&num=434"
+    },
+    {
+      "lane": "org",
+      "date": "2026-03-18",
+      "agency": "과학기술정보통신부 등 관계부처",
+      "title": "'AX-Sprint' 사업 추진 — 46개 AI 응용제품 개발에 7,540억원 지원",
+      "detail": "국내 AX 확산 속도가 저조하다는 평가에 따라 11개 부처 협의체로 추진 — '25년 예타면제로 확보한 7,540억원(2026~2027년, 출연보조 6,140억+융자 1,400억)으로 10개 부처 246개 제품(Agile 145개·Build-up 101개) 개발·상용화 지원. 제조·농축어업·국토교통·보건복지환경·생활보안방산 5대 분야.",
+      "id": "eabe329cf5072d28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156749464&pageIndex=10&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "industry",
+      "date": "2025-12-04",
+      "agency": "산업통상부·금융위원회",
+      "title": "M.AX 얼라이언스, 150조원 국민성장펀드와 연계 추진",
+      "detail": "삼성전자·현대차·SK·CJ대한통운 등 참여기업이 M.AX얼라이언스-국민성장펀드 연계 간담회에서 제조 AX 투자계획 발표 — 1차 조사 결과 투자수요 10조원+α(휴머노이드 6.6조·AI반도체 1.5조·AI팩토리 1.3조 등). 국민성장펀드(150조원 중 AI 관련 30조원 이상)와 상시 협의채널 구축.",
+      "id": "3db987a9601345b6",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156733266&pageIndex=12&repCodeType=&repCode=A00015&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "infra",
+      "date": "2026-06-01",
+      "agency": "행정안전부",
+      "title": "국가정보자원관리원, 차세대 인공지능정부 인프라 전환 착수",
+      "detail": "국정자원 대전센터 화재를 계기로 국가AI전략위가 발표한 'AI정부 인프라 거버넌스·혁신 추진방향'의 후속조치 — 노후 데이터센터를 차세대 AI정부 인프라로 전환하는 혁신 정보화전략계획(ISP) 착수. 2030년 대전센터 폐쇄에 대비해 입주 시스템 693개의 단계적 재배치 로드맵 수립.",
+      "id": "4bc4d9ebac5abfcc",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764701&pageIndex=2&repCodeType=&repCode=A00031&startDate=2025-07-24&endDate=2026-07-24&srchWord=인공지능&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-08-04",
+      "agency": "과학기술정보통신부",
+      "title": "AX 원스톱 지원포털 'AX360°' 서비스 개시",
+      "detail": "과기정통부·한국인공지능소프트웨어산업협회(KOSA)가 부처별 사이트·개별기업에 흩어져 있던 정보를 통합 — 정부 AX사업(부처별 사업개요·예산·공고일정), AX자원(GPU·AI모델 가격·이용방식), AI기업·솔루션 탐색을 한곳(AX360.kr)에서 제공.",
+      "id": "cc67bd8fa6f56a49",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156773302&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-08-05&endDate=2026-08-05&srchWord=&period="
+    },
+    {
+      "lane": "infra",
+      "date": "2025-09-09",
+      "agency": "과학기술정보통신부",
+      "title": "'독자 AI 파운데이션 모델' 프로젝트 착수식 개최",
+      "detail": "8월 4일 발표평가로 선정된 5개 정예팀(네이버클라우드·업스테이지·SK텔레콤·엔씨에이아이·LG경영개발원 AI연구원)이 참석 — '한국형 AI(K-AI)' 명칭·앰블럼을 공식 부여해 국제 공신력 강화를 뒷받침. SOTA급 독자 AI모델 개발 계획과 단계평가 추진방안 논의, 올해 말 1차 단계평가로 5개팀 압축 예정.",
+      "id": "eae25a09f723277d",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156722766&pageIndex=20&repCodeType=&repCode=A00033&startDate=2025-07-24&endDate=2026-07-24&srchWord=AI&period="
+    },
+    {
+      "lane": "infra",
+      "date": "2026-08-11",
+      "agency": "과학기술정보통신부",
+      "title": "독자 AI 파운데이션 모델 4개 정예팀 전원, 美 Epoch AI '주목할만한 모델' 등재",
+      "detail": "'독자 AI 파운데이션 모델' 프로젝트 4개 정예팀이 2026년 상반기 개발한 AI모델 전부가 美 스탠포드大 AI Index 보고서 핵심지표인 Epoch AI '주목할만한 모델(Notable Model)'에 등재 — 2026년 기준 이 지표를 보유한 국가는 미국·중국·한국 3개국뿐(2025년 미 59개·중 35개·한 8개). 글로벌 빅테크 대비 제한된 자원으로도 경쟁력 있는 독자 모델을 오픈소스로 공개해 국내 AI 경쟁력을 입증.",
+      "id": "3d89925f475f477b",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156774084&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-08-12&endDate=2026-08-12&srchWord=&period="
+    },
+    {
+      "lane": "gov",
+      "date": "2026-08-25",
+      "agency": "행정안전부 등 관계부처합동",
+      "title": "「AI 민주정부」 실현 전략 국무회의 보고, 본격 추진",
+      "detail": "행안부 등 관계부처합동으로 국무회의에서 '세계 최고의 AI민주정부 실현 전략' 보고 — 복지·안전·세금·농업·식약 5대 분야 AI 대민상담체계, 'AI국민비서' 고도화(정부24·혜택알리미·민간플랫폼 연동), 정책제안 플랫폼 '모두의 광장', 온AI 47개 중앙부처 확대(~2026.12), AI정부실험실·공무원 AI교육 의무화·AI 전문인재 2만명 육성 등을 종합한 범정부 AI전환 이행 전략.",
+      "id": "b152d183e5b09264",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775436&pageIndex=1&repCodeType=&repCode=B00023&startDate=2025-08-26&endDate=2026-08-26&srchWord=&period="
+    },
+    {
+      "lane": "data",
+      "date": "2026-08-26",
+      "agency": "지식재산처",
+      "title": "'Gov.AX Insight' 시범 운영",
+      "detail": "정부 부처 AI 보도자료 분석 플랫폼 'Gov.AX Insight'를 시범 운영 — 정부 부처 인공지능 전환(AX) 정책 흐름을 데이터로 관리하고 지식재산 정책 기획에 반영.",
+      "id": "68f8f980c7257cc6",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775510&pageIndex=1&repCodeType=&repCode=A00039&startDate=2025-08-26&endDate=2026-08-26&srchWord=&period="
+    },
+    {
+      "lane": "industry",
+      "date": "2026-03-11",
+      "agency": "농림축산식품부 등 관계부처",
+      "title": "농업·농촌 AI 대전환(AX) 전략 발표",
+      "detail": "제5회 과학기술관계장관회의에서 발표 — 기존 생산분야 중심 스마트농업 정책을 넘어 모든 농업인·농촌주민이 AI 혜택을 누리도록 정책범위 확대. 4대 분야(생산성 혁신·유통구조 고도화·농촌 삶의 질 개선·AX 생태계 기반조성) 13대 과제, 국가 농업AX플랫폼·AI-Farm 등 추진 → 농식품 분야 최초의 부문별 국가 AX 전략.",
+      "id": "fcd1c649742fe935",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748411&pageIndex=2&repCodeType=&repCode=A00008&startDate=2025-07-28&endDate=2026-07-28&srchWord=인공지능&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-08-06",
+      "agency": "보건복지부·국가AI전략위원회·과기정통부",
+      "title": "「AI 기본의료 전략」 국가정책조정회의 심의·의결",
+      "detail": "국무총리 주재 제12차 국가정책조정회의에서 심의·의결 — 지역·필수·공공의료 공백 해소를 위한 3대 전략(국민 체감 AI 의료혁신/전국 AI 의료혁신 디지털기반 구축/지속가능 AI 의료생태계)·12대 과제. 전국 공공병원 72개소를 잇는 '공공의료 AI 고속도로' 구축 등 보건의료 분야 최초의 범정부 AI 국가전략.",
+      "id": "64d565ef39957a50",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156773551&pageIndex=1&repCodeType=&repCode=A00012&startDate=2025-08-09&endDate=2026-08-09&srchWord=&period="
+    },
+    {
+      "lane": "data",
+      "date": "2026-07-22",
+      "agency": "지식재산처",
+      "title": "AI 에이전트 3종 자체개발",
+      "detail": "지식재산처가 업무에 필요한 AI 에이전트 3종을 자체 개발해 정책업무 인공지능전환(AX) '새바람'에 활용 — 현장지식과 인공지능을 결합해 지식재산 AX(IP-AX)를 본격 추진.",
+      "id": "b0d928712c4ee345",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156771701&pageIndex=1&repCodeType=&repCode=A00039&startDate=2025-07-24&endDate=2026-07-24&srchWord=&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-08-26",
+      "agency": "과학기술정보통신부",
+      "title": "국민AI서비스혁신추진단 신설",
+      "detail": "국무총리훈령 제948호에 근거해 과기정통부 산하에 신설(총 61명, 단장 포함 26명 민간 전문가 공개채용) — AI 기술로 국민 체감 대국민 서비스를 신속·유연하게 기획·개발하고, 부처·지방정부·민간이 참여하는 정책협의체·민관협의체를 운영해 범정부 AI 서비스 개발 지원체계로 자리잡음.",
+      "id": "5e81d04c8d6f0f23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775573&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-08-27&endDate=2026-08-27&srchWord=&period="
+    },
+    {
+      "lane": "org",
+      "date": "2026-08-31",
+      "agency": "국가AI전략위",
+      "title": "국가AI전략위, 하정우 신임 상근부위원장 취임",
+      "detail": "국가인공지능전략위원회(위원장 이재명 대통령) 상근부위원장으로 하정우 취임 — AI 3대 강국 도약을 위한 국가적 역량 결집, 산업·공공·국민생활 전반의 AI 대전환 등을 위원회 운영 중점 방향으로 제시.",
+      "id": "4d3d94959b71f154",
+      "url": "https://www.aikorea.go.kr/web/board/brdDetail.do?menu_cd=000012&num=902"
+    },
+    {
+      "lane": "data",
+      "date": "2026-08-27",
+      "agency": "과학기술정보통신부",
+      "title": "공공데이터 TOP100 조기개방… \"글로벌 AI 경쟁력 확보의 핵심\"",
+      "detail": "한 총리 주재 데이터관계장관회의(2차) — AI·고가치 공공데이터 Top 100 개방 시기를 2028년에서 2027년으로 1년 단축, 저작권·개인정보 문제 없는 공공저작물 37종을 AI 학습용으로 개방(공공누리 AI유형 전환).",
+      "id": "661b00654d83db4c",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775787&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-08-28&endDate=2026-08-28&srchWord=&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-08-28",
+      "agency": "과학기술정보통신부",
+      "title": "「모두의 AI」 프로젝트, 사업자 선정 결과 발표",
+      "detail": "공모에 참여한 6개 컨소시엄 중 SKT·카카오·KT 컨소시엄을 수행기관으로 선정 — 3개 사업자에 올해 GPU B200 512장을 지원하고 9월 협약·베타서비스를 거쳐 연내 「모두의 AI」 정식 출시, 2027년부터 전 국민 서비스 비용을 정부 예산으로 지원할 계획.",
+      "id": "e2b79ec08b8e8f76",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156775850&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-08-28&endDate=2026-08-28&srchWord=&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-08-03",
+      "agency": "과학기술정보통신부",
+      "title": "'모두의 AI 성장사다리 프로젝트' 본격 출범",
+      "detail": "국립광주과학관에서 '모두의 AI 배움터·실험실·라운지' 합동 개소 — 국가인공지능행동계획에 따라 개별 추진되던 AI 교육·개발·실증 인프라를 연결해 배움→개발·실증→청년창업으로 이어지는 단계별 성장체계 구축. 실험실은 바이브코딩 환경·AI모델 구독 토큰·공공민간 데이터 9.9만건 제공, 라운지는 2026년 전국 5개 권역에 구축.",
+      "id": "b27bf111ce365e4e",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156773130&pageIndex=1&repCodeType=&repCode=A00033&startDate=2025-08-03&endDate=2026-08-03&srchWord=&period="
+    },
+    {
+      "lane": "support",
+      "date": "2026-07-22",
+      "agency": "보건복지부",
+      "title": "「AI 기본의료 전략」 발표 — 의료공백 해소",
+      "detail": "'생명을 위한 AI, 모두가 누리는 의료혁신' 비전 아래 지역·필수·공공의료 공백 해소를 위한 3대 전략·10대 정책과제 발표 — 전국 72개 책임의료기관을 잇는 '공공의료AI 고속도로' 구축, 응급 통합AI 플랫폼으로 골든타임 확보, 국가 보건의료데이터 허브 기반 한국형 의료AI 개발 계획. 이후 8.6 국가정책조정회의에서 심의·의결됨.",
+      "id": "cb3f2f9dfa707ea9",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156771714&pageIndex=1&repCodeType=&repCode=A00012&startDate=2025-07-28&endDate=2026-07-28&srchWord=인공지능&period="
+    }
+  ]
+}

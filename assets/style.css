@@ -1,0 +1,1258 @@
+/* 천안시 Gov.AX 디자인 시스템 (레이아웃은 ipax-support 디자인 시스템 참고):
+   Pretendard, 천안 블루(#2257b4) 단일 액센트 + 천안 오렌지(#d64210) 보조,
+   페이퍼 배경·둥근 카드.
+   색상 근거: 천안시 누리집(cheonan.go.kr) 스타일시트에서 실제로 쓰는 값과
+   공식 로고 심볼색(#005ca9 블루 · #00a439 그린 · #e84915 오렌지). */
+:root {
+  --bg: #f5f5f7;
+  --surface: #ffffff;
+  --surface-2: #eef1f6;
+  --border: #e0e0e0;
+  --text: #1d1d1f;
+  --text-dim: #7a7a7a;
+  --primary: #2257b4;         /* 천안 블루 (주색) */
+  --primary-dim: #1c4690;     /* 천안 블루 진한 단계 — hover/pressed */
+  --brand-soft: #e9f0fa;      /* 천안 블루 틴트 */
+  --accent: #d64210;          /* 천안 오렌지 (보조색) */
+  --accent-soft: #fbeee8;
+  --brand-point: #00a439;     /* 천안 그린 — 로고 심볼색, 포인트 타일·배지용 */
+  --tier1: var(--primary);
+  --accepted: var(--accent);
+  --chip-bg: #e9f0fa;
+  --shadow: 0 1px 2px rgba(20, 28, 46, .04), 0 6px 20px rgba(20, 28, 46, .05);
+  --radius: 16px;
+  color-scheme: light;
+  /* 마일스톤 타임라인 영역 전용 — 8개 정책 영역을 구분하는 고정 순서 색상
+     (블루·오렌지·아쿠아·옐로우·마젠타·그린·바이올렛·레드) */
+  --ms-lane-1: #2a78d6;
+  --ms-lane-2: #eb6834;
+  --ms-lane-3: #1baf7a;
+  --ms-lane-4: #eda100;
+  --ms-lane-5: #e87ba4;
+  --ms-lane-6: #008300;
+  --ms-lane-7: #4a3aa7;
+  --ms-lane-8: #e34948;
+}
+
+/* ipax-support 와 동일하게 라이트 전용(다크 자동전환 없음). */
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+    system-ui, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: -.02em;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+a { color: var(--primary); }
+
+/* Header — 콘텐츠를 스크롤해도 상단에 고정 */
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 30;
+}
+/* 헤더: (좌) 타이틀  (우) 천안시 로고(위)+탭메뉴·출처 링크(아래) — 여백 최소화한 컴팩트 구성.
+   원본에 있던 기관 캐릭터 영역(.brand-mascot)은 천안시 버전에서 쓰지 않아 제거했다. */
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 12px 24px; }
+.header-left { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.hero-txt { min-width: 0; }
+.hero-txt h1 { font-size: 28.67px; margin: 0; font-weight: 700; letter-spacing: -.03em; line-height: 1.15; cursor: pointer; }
+.hero-txt h1:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 4px; }
+/* 한국어 부분만 2pt(≈2.667px) 작게 — 화면 폭별로 h1 크기가 달라져도(모바일 등)
+   상대적으로 항상 정확히 2pt 작게 유지되도록 부모 em 기준 calc 사용 */
+.brand-title-kr { font-size: calc(1em - 2.667px); }
+/* 폭이 넓을 때(900px~)만 줄바꿈 없이 한 줄로 — 900px 미만은 모바일과 동일하게
+   "Gov.AX Insight" 다음에서 줄바꿈(좁은 화면에서 여러 줄로 어색하게 쪼개지는
+   것을 막기 위해 720px보다 넓은 태블릿 폭까지도 이 처리를 적용). */
+.brand-title-break { display: none; }
+@media (max-width: 899px) {
+  .brand-title-break { display: block; }
+  .hero-txt h1 { font-size: 26.67px; }
+}
+@media (min-width: 900px) {
+  /* 헤더 우측 영역과 겹치지 않도록 제목 폭에 맞춰 글자 크기를 살짝 줄인다. */
+  .hero-txt h1 { white-space: nowrap; font-size: 26.67px; }
+  /* 부제목 두 줄 사이 여백을 없애 한 문단처럼 붙여 보이게 함(데스크톱 전용). */
+  .tagline + .tagline { margin-top: 0; }
+}
+.tagline { margin: 3px 0 0; color: var(--text-dim); font-size: 15.17px; }
+
+.header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex: none; }
+.brand-logo { height: 30px; width: auto; display: block; }
+
+.src-link {
+  text-decoration: none; font-weight: 600; font-size: 11.5px;
+  color: var(--primary); background: var(--brand-soft);
+  border-radius: 999px; padding: 5px 11px; white-space: nowrap;
+}
+.src-link:hover { background: var(--primary); color: #fff; }
+@media (max-width: 899px) {
+  /* header-right(로고+탭)가 줄지 않아(flex:none) 가로 배치를 유지하면 제목·
+     부제목이 폭을 거의 못 받아 글자 단위로 줄바꿈되는 문제가 있음(태블릿
+     폭에서도 발생) — 720px보다 넓은 태블릿 폭까지 세로 배치로 전환해 이를 막음. */
+  .header-inner { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .header-left { gap: 6px; }
+  .header-right { align-items: flex-start; }
+  /* 천안시 로고(+워드마크) 이미지는 좁은 화면에서 굳이 안 보여도 됨 —
+     헤더가 화면 위쪽을 너무 많이 차지하지 않게 뺀다. */
+  .brand-logo-link { display: none; }
+}
+@media (max-width: 600px) {
+  /* 아이패드 등 화면이 충분한 모바일 기기에서는 계속 보이고, 화면이 좁은
+     휴대폰에서는 첫 줄(안내성 문구)만 숨겨 헤더를 더 간결하게 함 — "천안시
+     'AI 대전환(AX)'을 위한 소중한 자료로 활용됩니다"는 휴대폰에서도 계속 표시. */
+  .tagline-desktop-only { display: none; }
+}
+
+/* Tabs */
+.tabs { display: flex; align-items: center; gap: 1px; }
+.tabs .src-link { margin-left: 8px; }
+@media (max-width: 480px) { .tabs .src-link { display: none; } }
+.tab {
+  border: none; background: none; cursor: pointer;
+  padding: 8px 10px; font-size: 16.5px; font-weight: 600;
+  color: var(--text-dim); border-bottom: 2px solid transparent;
+  letter-spacing: -.01em;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--primary); border-bottom-color: var(--primary); }
+.tab-panel { display: none; padding: 22px 0 60px; }
+.tab-panel.active { display: block; }
+
+/* 사이드바 누적 수집 건수 — 천안시 로고 심볼의 그린(#00a439)을 포인트 색으로 적용 */
+.sidebar-total {
+  display: flex; align-items: baseline; gap: 8px;
+  background: var(--brand-point); color: #fff; border-radius: 10px;
+  padding: 9px 12px; margin-bottom: 14px; box-shadow: var(--shadow);
+}
+.sidebar-total .st-num { font-size: 19px; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }
+.sidebar-total .st-lbl { font-size: 11.5px; opacity: .75; }
+
+/* 사이드바 검색(분류 칩과 기관 목록 사이) */
+.sidebar-search { margin-bottom: 18px; }
+#search {
+  width: 100%; padding: 9px 14px; border: 1px solid var(--border);
+  border-radius: 999px; background: var(--surface); color: var(--text); font-size: 13.5px;
+}
+#search:focus { outline: none; border-color: var(--primary); }
+
+.sortwrap { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; color: var(--text-dim); justify-self: end; }
+.sortwrap select {
+  font: inherit; font-size: 13px; font-weight: 600; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
+  padding: 8px 30px 8px 14px; cursor: pointer; -webkit-appearance: none; appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--text-dim) 50%), linear-gradient(135deg, var(--text-dim) 50%, transparent 50%);
+  background-position: calc(100% - 16px) center, calc(100% - 11px) center; background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+}
+.sortwrap select:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
+
+/* AX 하위주제 필터 — 주제 수가 늘면(12종) 한 줄에 다 안 들어가므로 자연스럽게
+   여러 줄로 흐르게 하고(가로 스크롤 금지), 각 칩 내부 텍스트는 줄바꿈되지 않게 고정 */
+.topicbar { margin-bottom: 12px; }
+.tchip { display: inline-flex; align-items: center; gap: 6px; }
+/* 비활성 상태는 무채색(.chip 기본값)으로 두고, 선택(active)했을 때만 주제색을 꽉 채운다 —
+   주제별 히트맵의 주제 필터(.tf/.tf.on)와 같은 패턴 */
+#topic-chips .tchip.active { background: var(--tc); border-color: var(--tc); color: var(--tc-ink, #fff); }
+#topic-chips .tchip-all.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+/* '전체' 칩은 개별 주제칩들과 성격이 달라(필터 해제) 폭을 넓히고 오른쪽에 여백을 둬 이격 */
+#topic-chips .tchip-all { padding: 6px 22px; font-weight: 700; margin-right: 10px; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text-dim);
+  padding: 6px 13px; border-radius: 999px; font-size: 13px; cursor: pointer;
+  white-space: nowrap; transition: background .15s, border-color .15s;
+}
+.chip.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+/* 사이드바 분류 필터 — 긴 라벨(전체분류·상위N개기관·위원회)은 한 줄 전체,
+   짧은 부/처/청 은 3열 한 줄에 배치(구분되는 개별 버튼으로 표시) */
+.chips-vert { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 18px; }
+.chips-vert .chip { text-align: center; padding-left: 6px; padding-right: 6px; }
+.chips-vert .chip.chip-wide { grid-column: 1 / -1; text-align: left; padding-left: 13px; padding-right: 13px; }
+
+/* 페이지네이션 — 좌: 건수정보 · 가운데: 페이지 번호 · 우: 정렬(상단만) */
+.pager { display: grid; grid-template-columns: minmax(auto, 1fr) auto minmax(auto, 1fr); align-items: center; gap: 12px; margin: 4px 0 14px; }
+#pager-bottom { margin: 18px 0 4px; }
+.pager:empty { display: none; }
+.pager-info { display: flex; align-items: center; gap: 12px; font-size: 13px; color: var(--text-dim); justify-self: start; white-space: nowrap; }
+.pager-nav { justify-self: center; }
+@media (max-width: 720px) {
+  .pager { grid-template-columns: 1fr; justify-items: center; gap: 8px; }
+  .pager-info, .sortwrap { justify-self: center; }
+}
+.pg-sizewrap { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.pg-size {
+  font: inherit; font-size: 13px; font-weight: 600; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+  padding: 5px 26px 5px 10px; cursor: pointer; -webkit-appearance: none; appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--text-dim) 50%), linear-gradient(135deg, var(--text-dim) 50%, transparent 50%);
+  background-position: calc(100% - 13px) center, calc(100% - 9px) center; background-size: 4px 4px, 4px 4px; background-repeat: no-repeat;
+}
+.pg-count { font-variant-numeric: tabular-nums; }
+.pager-nav { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.pg-btn, .pg-num {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 8px; padding: 6px 10px; font-size: 13px; font-weight: 600; cursor: pointer;
+  min-width: 34px; text-align: center;
+}
+.pg-btn:hover:not(:disabled), .pg-num:hover { border-color: var(--primary); color: var(--primary); }
+.pg-btn:disabled { opacity: .4; cursor: default; }
+.pg-num.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.pg-ellipsis { padding: 0 4px; color: var(--text-dim); }
+
+/* Layout — 사이드바·콘텐츠 프레임 분리(콘텐츠를 스크롤해도 사이드바·상단 헤더는 고정) */
+.layout { display: grid; grid-template-columns: 210px 1fr; gap: 18px; align-items: start; }
+.sidebar { position: sticky; top: 113px; max-height: calc(100vh - 129px); overflow-y: auto; }
+.sidebar-toggle { display: none; }
+@media (max-width: 820px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { position: static; max-height: none; overflow-y: visible; }
+
+  /* 모바일: 기관·분류 필터는 기본 접힘 — 콘텐츠(검색결과)가 바로 보이도록 */
+  .sidebar-toggle {
+    display: flex; align-items: center; justify-content: space-between;
+    width: 100%; margin-bottom: 12px; padding: 11px 14px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow); font-size: 14px; font-weight: 700; color: var(--text); cursor: pointer;
+  }
+  .sidebar-toggle-icon { transition: transform .15s; color: var(--text-dim); }
+  .sidebar-toggle[aria-expanded="true"] .sidebar-toggle-icon { transform: rotate(180deg); }
+  .sidebar { display: none; }
+  .sidebar.open { display: block; margin-bottom: 14px; }
+}
+
+.sidebar-title { font-size: 14px; margin: 0 0 10px; color: var(--text-dim); text-transform: none; }
+.sidebar-title small { font-weight: 400; }
+.agency-list { list-style: none; margin: 0; padding: 0; }
+.agency-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 9px 12px; border-radius: 8px; cursor: pointer; border: 1px solid transparent;
+}
+.agency-item:hover { background: var(--surface-2); }
+.agency-item.active { background: var(--surface); border-color: var(--primary); box-shadow: var(--shadow); }
+.agency-name { font-weight: 600; font-size: 14px; }
+/* 천안시는 sortedAgencies() 에서 항상 목록 맨 위에 고정되며, 우리 기관임이 한눈에
+   보이도록 이름을 강조색·볼드체로 표시한다(히트맵의 tr.home-agency 강조와 동일). */
+.agency-item.home-agency .agency-name { color: var(--primary); font-weight: 800; }
+.agency-cat { font-size: 11px; color: var(--text-dim); }
+.agency-count {
+  font-size: 12px; font-weight: 700; color: var(--primary);
+  background: var(--chip-bg); border-radius: 12px; padding: 2px 9px; min-width: 26px; text-align: center;
+}
+.agency-toggle-wrap { padding: 4px 0 0; }
+.agency-toggle { width: 100%; font-size: 12px; padding: 6px 10px; }
+
+/* News cards */
+.news-list { display: flex; flex-direction: column; gap: 12px; }
+.news-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px 18px; box-shadow: var(--shadow);
+}
+/* AI 요약이 있는 기사만 카드 전체가 클릭 가능(팝업) — 없는 기사는 제목 링크로 원문 직행 */
+.news-card.clickable { cursor: pointer; }
+.news-card.clickable:hover { border-color: var(--primary); }
+/* 메타(1줄): 등급 배지 · 기관 · 날짜 · 키워드 */
+.news-meta { display: flex; gap: 7px 10px; flex-wrap: wrap; align-items: center; font-size: 12.5px; color: var(--text-dim); margin-bottom: 9px; }
+.meta-item { display: inline-flex; align-items: center; gap: 4px; }
+.meta-item .ico { opacity: .7; flex: none; }
+.badge { border-radius: 6px; padding: 3px 9px; font-weight: 700; font-size: 11px; letter-spacing: .2px; }
+.badge.tier1 { background: var(--tier1); color: #fff; }
+.badge.accepted { background: var(--accepted); color: #fff; }
+.kw { background: var(--chip-bg); color: var(--primary); border-radius: 12px; padding: 2px 9px; font-weight: 600; font-size: 12px; }
+
+/* 제목(2줄) */
+.news-card h3 { margin: 0; font-size: 16px; line-height: 1.45; color: var(--text); }
+/* 대표주제(primary_topic) 색 점 — 제목 맨 앞에서 어느 추진방향 기사인지 한눈에 구분 */
+.topic-dot {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--tc, #8b95a4); margin-right: 8px; vertical-align: middle; position: relative; top: -1px;
+  flex: none;
+  /* 계열별 밝은 단계(흰 배경 대비 3:1 미만)도 형태가 또렷하게 보이도록 얇은 링 */
+  box-shadow: inset 0 0 0 1px rgba(11, 11, 11, .22);
+}
+/* 신규(3일 이내) 배지 — 천안시 로고 심볼의 그린(#00a439)을 적용.
+   10.5px 볼드 소형 텍스트라 흰 글자 대신 진한 글자로 대비를 확보한다. */
+.new-badge {
+  display: inline-block; background: var(--brand-point); color: #0f2410; font-size: 10.5px; font-weight: 800;
+  letter-spacing: .2px; border-radius: 5px; padding: 2px 6px; margin-right: 7px;
+  vertical-align: middle; position: relative; top: -1px;
+}
+.news-card.clickable:hover h3 { color: var(--primary); }
+.news-card h3 a { color: var(--text); text-decoration: none; }
+.news-card h3 a:hover { color: var(--primary); text-decoration: underline; }
+/* 부제목: 제목보다 1~2pt 작게, 일반 굵기 */
+.news-sub { margin: 4px 0 0; font-size: 14px; font-weight: 400; line-height: 1.5; color: var(--text-dim); }
+
+.active-filter { margin-bottom: 12px; font-size: 13px; }
+.active-filter button { margin-left: 8px; cursor: pointer; border: 1px solid var(--border); background: var(--surface); border-radius: 6px; padding: 2px 8px; }
+.empty { text-align: center; color: var(--text-dim); padding: 44px 20px; }
+/* 빈 결과 일러스트 — 원본의 지식재산처 캐릭터(pose-notice.png) 대신 기관색이
+   드러나지 않는 중립 아이콘을 인라인 SVG 로 넣는다(외부 파일 의존 없음). */
+.empty::before {
+  content: ""; display: block; width: 84px; height: 84px; margin: 0 auto 12px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='%23c2c8d2' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='11' y='7' width='32' height='45' rx='5'/%3E%3Cpath d='M19 19h16M19 28h16M19 37h9'/%3E%3Ccircle cx='43' cy='43' r='11' fill='%23fff'/%3E%3Cpath d='M51 51l7 7'/%3E%3C/svg%3E") center/contain no-repeat;
+  opacity: .95;
+}
+
+/* Reports */
+.panel-intro { margin-bottom: 20px; }
+.panel-intro p { color: var(--text-dim); }
+/* 대시보드는 소제목(h2)을 없애 여백을 줄임 */
+#tab-dashboard .panel-intro { margin-bottom: 10px; }
+#tab-dashboard .panel-intro p { margin-top: 0; }
+.reports-list { display: flex; flex-direction: column; gap: 12px; }
+.report-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px 18px; box-shadow: var(--shadow); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.report-card h3 { margin: 0 0 4px; font-size: 16px; }
+.report-links { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.dl {
+  text-decoration: none; font-weight: 600; font-size: 13px;
+  border: 1px solid var(--primary); color: var(--primary); border-radius: 999px; padding: 7px 16px;
+  transition: background .15s;
+}
+.dl:hover { background: var(--brand-soft); }
+.dl.primary { background: var(--primary); color: #fff; }
+.dl.primary:hover { background: var(--primary-dim); }
+
+
+/* 리포트 그룹 + 분기 콤보박스 */
+.report-group { margin-top: 18px; }
+.report-group:first-of-type { margin-top: 0; }
+.report-group-h { font-size: 15px; margin: 0 0 10px; color: var(--text); }
+.report-group-head {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 12px; flex-wrap: wrap; margin-bottom: 10px;
+}
+.report-group-head .report-group-h { margin: 0; }
+.q-select { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-dim); }
+.q-select select {
+  font: inherit; font-size: 13px; font-weight: 600; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+  padding: 7px 30px 7px 12px; cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, var(--text-dim) 50%),
+                    linear-gradient(135deg, var(--text-dim) 50%, transparent 50%);
+  background-position: calc(100% - 16px) center, calc(100% - 11px) center;
+  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+  -webkit-appearance: none; appearance: none;
+}
+.q-select select:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
+
+/* AI 리포트 탭 하단 — 전체 동향보고서 "한눈에 보기" 발췌 */
+.ax-highlights-group { margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--border); }
+.ax-highlights-group .report-group-h { font-size: 17.67px; }
+/* 발췌의 출처·관점을 밝히는 안내 — 목록 위에 눈에 띄되 본문보다 약하게. */
+.axh-note { margin: 6px 0 12px; color: var(--text-dim); line-height: 1.5; }
+.ax-highlights-list {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.ax-highlights-list li {
+  position: relative; counter-increment: axh;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 14px 18px 14px 52px;
+  font-size: 15.83px; line-height: 1.65; color: var(--text);
+}
+.ax-highlights-list { counter-reset: axh; }
+.ax-highlights-list li::before {
+  content: counter(axh); position: absolute; left: 16px; top: 14px;
+  width: 24px; height: 24px; border-radius: 50%;
+  background: var(--primary); color: #fff; font-size: 12.5px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+/* 제목은 별도 줄로 굵게, 그 아래 세부내용(근거·시사점)은 일반 글자체로 —
+   화살표(→)로 이어지는 흐름은 단계별 블록으로 나눠 화살표 아이콘 + 여백을
+   두어 시각적으로 갈래를 탄다. */
+.axh-title { font-weight: 700; color: var(--text); margin-bottom: 6px; }
+.axh-step { padding-left: 20px; position: relative; font-weight: 400; }
+.axh-step-first { padding-left: 0; }
+.axh-step + .axh-step { margin-top: 8px; }
+.axh-step:not(.axh-step-first)::before {
+  content: "→"; position: absolute; left: 0; top: 0;
+  color: var(--primary); font-weight: 700;
+}
+.ax-highlights-list li strong { color: var(--text); font-weight: 700; }
+.ax-highlights-list li a { color: var(--primary); font-weight: 600; text-decoration: none; border-bottom: 1px solid rgba(34,87,180,.3); }
+.ax-highlights-list li a:hover { border-bottom-color: var(--primary); }
+/* 근거 링크(연월) — 읽는 흐름을 깨지 않게 평소엔 본문과 같은 톤의 옅은 점선 밑줄로 두고,
+   마우스를 올렸을 때만 링크임이 드러나게 한다. 요약이 있는 근거는 실제 <a> 가 아니라
+   <span data-newsid> 클릭 트리거(요약 팝업)라 tag 를 가리지 않고 클래스로만 잡는다. */
+.ax-highlights-list li a.axh-src, .ax-highlights-list li span.axh-src {
+  color: inherit; font-weight: inherit;
+  border-bottom: 1px dotted var(--border);
+  cursor: pointer;
+}
+.ax-highlights-list li a.axh-src:hover, .ax-highlights-list li span.axh-src:hover {
+  color: var(--primary); border-bottom-color: var(--primary);
+}
+.ax-highlights-list li a.axh-src-mark, .ax-highlights-list li span.axh-src-mark {
+  border-bottom: none; color: var(--text-dim); font-size: .85em; margin-left: 2px;
+}
+.ax-highlights-list li a.axh-src-mark:hover, .ax-highlights-list li span.axh-src-mark:hover {
+  color: var(--primary);
+}
+.ax-highlights-foot { margin-top: 12px; font-size: 13.83px; color: var(--text-dim); }
+.ax-highlights-foot a { color: var(--primary); font-weight: 600; }
+
+/* ===== 마일스톤 타임라인 ===== */
+#tab-milestone .panel-intro h2 { margin: 0 0 8px; font-size: 20px; }
+.ms-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 22px; }
+.ms-chip {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text-dim);
+  padding: 7px 15px; border-radius: 999px; font-size: 13.5px; font-weight: 600; cursor: pointer;
+  white-space: nowrap; transition: background .15s, border-color .15s, color .15s;
+  display: inline-flex; align-items: center; gap: 7px;
+}
+.ms-chip .ms-chip-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+.ms-chip.active { background: var(--surface-2); border-color: var(--text); color: var(--text); }
+.ms-chip:hover { border-color: var(--text-dim); }
+
+/* 영역별 진행 흐름 차트 — 기간이 길어지면 폰트를 줄이지 않고 가로 스크롤로 넘긴다
+   (라벨이 읽을 수 없을 만큼 작아지는 것을 방지). 바탕은 항상 밝은 흰 카드. */
+.ms-chart-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 18px 20px 12px; margin-bottom: 30px;
+}
+.ms-chart-card .dash-h { margin-bottom: 10px; }
+.ms-chart-scroll {
+  display: flex; align-items: flex-start;
+  overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;
+  padding-bottom: 6px;
+}
+.ms-chart-scroll svg { display: block; font-family: inherit; }
+/* 레인(주제) 이름 svg만 따로 떼어 sticky 처리 — 가로로 스크롤해도 어느 주제
+   줄인지 계속 보이게 한다. z-index로 뒤에서 스크롤되는 본문 svg보다 위에
+   그려지게 하고, 배경을 카드 배경과 맞춰 뒤 내용을 가린다. */
+.msc-labels-svg { position: sticky; left: 0; z-index: 2; flex: none; background: var(--surface); }
+.msc-main-svg { flex: none; }
+.msc-lane-label { font-size: 14px; font-weight: 700; fill: var(--text); }
+.msc-lane-line { stroke: var(--border); stroke-width: 1; }
+.msc-grid { stroke: var(--border); stroke-width: 1; stroke-dasharray: 3 4; }
+.msc-month { font-size: 12.5px; fill: var(--text-dim); }
+.msc-stem { stroke-width: 1.5; opacity: .45; }
+.msc-dot { transition: r .12s ease; }
+.msc-dot:hover { r: 9; }
+.msc-dot-link { cursor: pointer; }
+.msc-title { font-size: 13px; fill: var(--text); font-weight: 600; }
+/* 차트 안의 마일스톤 제목도 클릭하면 원문으로 이동 */
+.msc-title-link { cursor: pointer; }
+.msc-title-link:hover { fill: var(--primary); text-decoration: underline; }
+.msc-title-link:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+/* 모바일에선 app.js의 renderMilestoneChart()가 간격·점 크기를 더 촘촘하게
+   계산해 그린다(LANE_FONT/TITLE_FONT/MONTH_FONT 등) — 여기 폰트 크기도
+   그 값과 맞춰야 라벨 폭 계산이 실제 렌더 크기와 어긋나지 않는다. */
+@media (max-width: 680px) {
+  .msc-lane-label { font-size: 12px; }
+  .msc-month { font-size: 11px; }
+  .msc-title { font-size: 11.5px; }
+  .msc-dot:hover { r: 7; }
+  /* 모바일에서는 화면이 좁아 레인 라벨을 고정해 두면 본문을 더 가린다 —
+     sticky를 끄고 스크롤을 따라 함께 넘어가게 둔다. */
+  .msc-labels-svg { position: static; z-index: auto; background: none; }
+}
+
+.ms-tooltip {
+  position: fixed; z-index: 60; pointer-events: none; max-width: 320px;
+  background: var(--text); color: #fff; font-size: 13px; line-height: 1.5;
+  padding: 10px 13px; border-radius: 10px; box-shadow: var(--shadow);
+}
+.ms-tooltip b { display: block; font-size: 13.5px; margin-bottom: 3px; }
+.ms-tooltip .mst-meta { display: block; opacity: .72; font-size: 12px; margin-bottom: 5px; }
+
+/* 상세 목록 헤더 + 정렬 토글 */
+.ms-list-head {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap; margin-bottom: 14px;
+}
+.ms-list-head .dash-h { margin-bottom: 0; }
+.ms-sort { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-dim); }
+.ms-sort-btn {
+  font: inherit; font-size: 13px; font-weight: 700; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
+  padding: 7px 15px; cursor: pointer; white-space: nowrap;
+  transition: border-color .15s, color .15s;
+}
+.ms-sort-btn:hover { border-color: var(--primary); color: var(--primary); }
+
+.ms-timeline { position: relative; padding-left: 30px; }
+.ms-timeline::before {
+  content: ""; position: absolute; left: 9px; top: 8px; bottom: 8px; width: 2px;
+  background: var(--border);
+}
+.ms-item { position: relative; padding-bottom: 26px; }
+.ms-item:last-child { padding-bottom: 0; }
+.ms-dot {
+  position: absolute; left: -30px; top: 6px; width: 20px; height: 20px; border-radius: 50%;
+  background: var(--ms-lane-color); border: 3px solid var(--surface);
+  box-shadow: 0 0 0 1.5px var(--border);
+}
+.ms-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 18px 22px;
+}
+.ms-card-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.ms-date { font-size: 14px; font-weight: 800; color: var(--text); font-variant-numeric: tabular-nums; }
+.ms-lane-pill {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700;
+  padding: 3px 11px; border-radius: 999px;
+  background: color-mix(in srgb, var(--ms-lane-color) 14%, white); color: var(--ms-lane-color);
+}
+.ms-lane-pill .ms-chip-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ms-lane-color); }
+.ms-agency { font-size: 13px; color: var(--text-dim); font-weight: 600; }
+.ms-title { font-size: 18px; font-weight: 800; color: var(--text); margin: 0 0 8px; line-height: 1.4; }
+/* 제목 자체가 원문 링크 — 평소엔 본문 글자색으로 두고(제목처럼 읽히게) 마우스를 올렸을
+   때만 링크임이 드러나게 한다. */
+.ms-title-link { color: inherit; text-decoration: none; }
+.ms-title-link:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
+.ms-title-link:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 4px; }
+.ms-detail { font-size: 15px; color: var(--text-dim); line-height: 1.7; margin: 0; }
+
+@media (max-width: 680px) {
+  .ms-card { padding: 15px 16px; }
+  .ms-title { font-size: 16.5px; }
+  .ms-detail { font-size: 14px; }
+  .ms-chart-card { padding: 14px 14px 10px; }
+  .ms-list-head { align-items: flex-start; }
+}
+
+/* About */
+.about-hero {
+  display: flex; align-items: center; gap: 18px;
+  background: var(--brand-soft); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 18px 22px; margin-bottom: 22px;
+}
+/* 원본은 정사각형에 가까운 캐릭터 일러스트(84px)였지만 천안시 로고는 가로로 긴
+   워드마크(127:43)라, 같은 높이면 폭이 250px 가까이 돼 본문을 밀어낸다. */
+.about-hero img { height: 54px; width: auto; flex: none; }
+.about-hero p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--text); }
+@media (max-width: 560px) {
+  /* 좁은 화면에서 로고+본문을 나란히 두면 글줄이 너무 좁아져(약 200px대) 거의
+     한 단어씩 줄바꿈된다 — 세로로 쌓아 본문 폭을 화면 전체로 확보한다 */
+  .about-hero { flex-direction: column; text-align: center; }
+  .about-hero img { height: 44px; }
+}
+/* 수집·판정 기준 / 환각·허위 방지 본문 — 기존 대비 2px씩 축소(17→15, 16→14, 13→11) */
+.about h2 { font-size: 15px; margin: 22px 0 8px; }
+.about ul { margin: 0 0 8px; padding-left: 20px; font-size: 14px; }
+.about code { background: var(--surface-2); padding: 1px 6px; border-radius: 5px; font-size: 11px; }
+.about .note { color: var(--text-dim); font-size: 11px; border-left: 3px solid var(--border); padding-left: 12px; }
+
+/* About > 정부 정책담당자를 위한 누리집 목록
+   위쪽의 '수집·판정 기준 / 환각·허위 방지'는 본문형 목록이라, 이 블록은 카드형 + 별도
+   배경 밴드로 감싸 시각적으로 확실히 구분한다(같은 라이트 팔레트는 유지).
+   기관 로고는 외부 핫링크 대신 기관별 색상 모노그램 타일로 표현해 오프라인에서도 깨지지 않는다. */
+.gov-links {
+  position: relative;
+  margin-top: 34px;
+  padding: 0 0 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.gov-links::before {
+  content: ""; position: absolute; inset: 0 0 auto; height: 4px;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 55%, var(--ms-lane-4) 100%);
+}
+.gov-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+/* 헤더 밴드 — 마스코트를 우측에 배치해 사이트 전체 톤과 맞춘다 */
+.gov-links-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 22px 22px 20px;
+  background: linear-gradient(135deg, var(--brand-soft) 0%, #eef4fc 60%, var(--surface) 100%);
+  border-bottom: 1px solid var(--border);
+}
+.gov-links-headtext { min-width: 0; }
+.gov-links h2 { margin: 0; font-size: 20px; line-height: 1.35; color: var(--text); }
+
+/* 카테고리 그룹 */
+.gov-group { padding: 20px 22px 0; }
+.gov-group + .gov-group { margin-top: 18px; border-top: 1px dashed var(--border); }
+.gov-group-title {
+  display: flex; align-items: center; gap: 8px;
+  margin: 0 0 12px; font-size: 14.5px; font-weight: 700; color: var(--text);
+}
+.gov-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); flex: none; }
+.gov-group[data-group="platform"] .gov-dot { background: var(--accent); }
+.gov-group[data-group="agent-platform"] .gov-dot { background: var(--ms-lane-7); }
+.gov-group[data-group="program"] .gov-dot { background: var(--ms-lane-4); }
+.gov-count {
+  min-width: 20px; padding: 1px 7px; border-radius: 999px;
+  background: var(--surface-2); color: var(--text-dim);
+  font-size: 11.5px; font-weight: 700; text-align: center;
+}
+
+.gov-cards {
+  display: grid; gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+}
+/* 플랫폼 배너 카드: 데스크탑 2열 고정, 모바일은 아래 공통 미디어쿼리로 1열 */
+.gov-group[data-group="platform"] .gov-cards,
+.gov-group[data-group="agent-platform"] .gov-cards {
+  grid-template-columns: repeat(2, 1fr);
+}
+.gov-card {
+  display: flex; flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 15px 16px 14px;
+  transition: box-shadow .16s ease, transform .16s ease, border-color .16s ease;
+}
+.gov-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: #cfdcee; }
+.gov-card.is-program { border-left: 3px solid var(--ms-lane-4); }
+
+/* 기관 로고 타일 — 로고 이미지가 있는 기관(NIA·nipa·AX360)은 실제 업로드 파일을
+   is-photo로 표시하고, 로고가 없는 기관(MSIT·MOIS)은 --logo-a/--logo-b 그라디언트
+   모노그램을 그대로 쓴다. */
+.gov-card-head { display: flex; align-items: flex-start; gap: 12px; }
+/* 로고·기관명을 눌러 바로가기 — 별도 '누리집 바로가기' 버튼 없이 카드 head
+   전체(로고+명칭)를 링크로 감싼다(사업공고 카드는 공고·영상 등 링크가 여러
+   개라 예외). */
+.gov-card-head-link { text-decoration: none; color: inherit; }
+.gov-card-head-link:hover .gov-card-title { color: var(--primary); text-decoration: underline; }
+.gov-card-head-link:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 8px; }
+.gov-card-head-link.is-logo-only { justify-content: center; }
+.gov-logo {
+  flex: none; width: 46px; height: 46px; border-radius: 11px;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(145deg, var(--logo-a, #2257b4), var(--logo-b, #14346c));
+  color: #fff; font-size: var(--logo-fs, 13px); font-weight: 800; letter-spacing: -.01em;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .28), 0 2px 6px rgba(20, 28, 46, .16);
+}
+.gov-logo small { font-size: .72em; font-weight: 700; opacity: .9; }
+/* 실제 로고 이미지 — 원본 비율(--logo-ar)을 그대로 유지한 채(object-fit: contain)
+   높이만 맞춰 키우거나 줄인다. 절대 늘리거나 찌그러뜨리지 않는다. 박스 비율을
+   이미지 실제 비율과 맞춰뒀기 때문에 레터박스 없이 꽉 차며, 여백 없이 원본
+   그대로(이미지 자체 배경 포함) 보이도록 패딩 없이 테두리만 준다. */
+.gov-logo.is-photo {
+  width: auto; height: 46px; aspect-ratio: var(--logo-ar, 1 / 1);
+  padding: 0; overflow: hidden;
+  background: #fff; box-shadow: inset 0 0 0 1px var(--border);
+}
+.gov-logo.is-photo img {
+  width: 100%; height: 100%; object-fit: contain; display: block;
+}
+.gov-card-org { margin: 2px 0 3px; font-size: 12px; font-weight: 600; color: var(--text-dim); }
+.gov-card-title { margin: 0; font-size: 17px; line-height: 1.4; font-weight: 700; color: var(--text); word-break: keep-all; }
+/* 배너형 그룹(데이터·사업 플랫폼 / AI 에이전트 플랫폼)의 설명 문구는 기관명을
+   보조하는 부가 설명이므로 2px 작게·볼드 없이·본문보다 옅은 회색으로 표시한다.
+   색은 --text(#1d1d1f)와 --text-dim(#7a7a7a)의 중간 톤 — 위 기관명 줄과 같은
+   --text-dim 을 쓰면 두 줄의 위계가 사라져 별도 값을 쓴다. */
+.gov-group[data-group="platform"] .gov-card-title,
+.gov-group[data-group="agent-platform"] .gov-card-title {
+  font-size: 15px; font-weight: 400; color: #4a4a4f;
+}
+.gov-card-badge {
+  align-self: flex-start; margin: 11px 0 0;
+  padding: 3px 10px; border-radius: 999px;
+  background: #fdf3dc; border: 1px solid #f0d79a; color: #8a5d00;
+  font-size: 11.5px; font-weight: 700;
+}
+
+/* 링크 pill */
+.gov-card-links { list-style: none; margin: 11px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.gov-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 11px; border-radius: 8px;
+  background: var(--surface-2); border: 1px solid transparent;
+  font-size: 12.5px; font-weight: 600; color: var(--primary); text-decoration: none;
+  transition: background .16s ease, border-color .16s ease, color .16s ease;
+}
+.gov-pill:hover { background: var(--brand-soft); border-color: var(--primary); color: var(--primary-dim); }
+.gov-pill em {
+  font-style: normal; font-size: 11px; font-weight: 600; color: var(--text-dim);
+  padding-left: 6px; margin-left: 1px; border-left: 1px solid var(--border);
+}
+.gov-ico { width: 14px; height: 14px; flex: none; }
+
+.gov-links-note {
+  margin: 18px 22px 0; padding-top: 14px; border-top: 1px solid var(--border);
+  font-size: 12.5px; line-height: 1.6; color: var(--text-dim);
+}
+@media (max-width: 560px) {
+  .gov-links-head { flex-direction: column; align-items: flex-start; padding: 18px 16px; }
+  .gov-group { padding: 18px 16px 0; }
+  .gov-cards, .gov-group[data-group="platform"] .gov-cards, .gov-group[data-group="agent-platform"] .gov-cards { grid-template-columns: 1fr; }
+  .gov-links-note { margin: 16px 16px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gov-card, .gov-pill { transition: none; }
+  .gov-card:hover { transform: none; }
+}
+
+/* Footer */
+.site-footer { border-top: 1px solid var(--border); background: var(--surface); }
+.site-footer .wrap { padding-top: 20px; padding-bottom: 24px; }
+.site-footer p { color: var(--text-dim); font-size: 12.5px; line-height: 1.6; margin: 0; }
+.foot-src { color: var(--text) !important; }
+.foot-org { font-weight: 400; color: var(--text) !important; margin-top: 14px !important; }
+.foot-note { font-size: 12px; }
+.footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+.footer-text { flex: 1; min-width: 0; }
+.portfolio-link {
+  flex: none; background: var(--primary); color: #fff; text-decoration: none;
+  font-weight: 700; font-size: 13.5px; letter-spacing: -.01em;
+  padding: 11px 18px; border-radius: 999px; transition: background .15s;
+}
+.portfolio-link:hover { background: var(--primary-dim); }
+@media (max-width: 560px) {
+  .footer-inner { flex-direction: column; align-items: stretch; }
+  .portfolio-link { text-align: center; }
+}
+
+/* ===== 대시보드 ===== */
+:root{ --up:#0ca30c; --down:#d03b3b;
+  /* 천안 블루(#2257b4) 기준 명암 램프(연 → 진, 단계 간 차이 크게).
+     b3~b5 는 흰 글자를 얹으므로 대비 4.5:1 이상을 유지해야 한다. */
+  --hm0:#eef2f8; --hm1:#d6e4f6; --hm2:#a3c3e8; --hm3:#5f8fcb; --hm4:#2257b4; --hm5:#14346c; }
+
+.dash-kpi{ display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:12px; align-items:start; }
+@media (max-width:720px){ .dash-kpi{ grid-template-columns:repeat(2,1fr); } }
+.kpi{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+  padding:10px 12px; box-shadow:var(--shadow);
+  display:flex; align-items:baseline; flex-wrap:nowrap; gap:7px; overflow:hidden;
+}
+.kpi-v{ font-size:18px; font-weight:800; color:var(--primary); font-variant-numeric:tabular-nums; line-height:1.1; flex:none; }
+.kpi-v.sm{ font-size:14px; }
+.kpi-l{ font-size:11px; color:var(--text-dim); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0; }
+.kpi-d{ font-size:11px; font-weight:700; white-space:nowrap; flex:none; margin-left:auto; }
+/* 모바일 2열 그리드에서는 폭이 좁아 증감(특히 % 추가 후)이 라벨과 한 줄에서
+   경쟁하면 라벨이 "202…"처럼 심하게 잘린다 — 증감을 다음 줄로 내려 라벨이
+   충분한 폭을 쓰게 한다("최다 주제 TOP 3" 타일은 이미 세로 배치라 제외). */
+@media (max-width:720px){
+  .kpi:not(.kpi-topics){ flex-wrap:wrap; }
+  .kpi:not(.kpi-topics) .kpi-d{ margin-left:0; flex-basis:100%; }
+}
+
+/* 최다 주제 TOP 3 — 숫자 하나짜리 다른 타일과 달리 세로로 랭킹 목록을 담아야
+   해서 flex 방향을 바꾸고, 1위는 굵게·2·3위는 옅게 둬 순위가 한눈에 읽히게 한다. */
+.kpi-topics{ flex-direction:column; align-items:stretch; gap:5px; }
+.kpi-topic-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:3px; }
+.kpi-topic-list li{ display:flex; align-items:center; gap:6px; font-size:12.5px; line-height:1.3; }
+.kpi-topic-list li:first-child{ font-weight:800; }
+.kpi-topic-list li:not(:first-child){ opacity:.78; }
+.kpi-topic-dot{ width:8px; height:8px; border-radius:50%; flex:none; }
+.kpi-topic-name{
+  flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--text);
+}
+.kpi-topic-n{ font-variant-numeric:tabular-nums; color:var(--text-dim); flex:none; }
+
+.dash-grid{ display:grid; grid-template-columns:1fr 1fr; gap:20px; align-items:stretch; }
+@media (max-width:900px){
+  .dash-grid{ grid-template-columns:1fr; }
+  .dash-bench{ min-height:0; max-height:70vh; }
+}
+.dash-h{ font-size:16px; font-weight:700; color:var(--text); margin:0 0 12px; }
+.dash-h small{ font-weight:600; color:var(--muted,#8b95a4); font-size:12px; }
+/* min-width:0 — 그리드 아이템은 기본적으로 내부 콘텐츠의 최소 크기(min-content)만큼
+   트랙을 넓히려 한다. 히트맵처럼 가로로 넓은 표가 안에 있으면 .hm-scroll의
+   overflow-x:auto 보다 이 그리드 확장이 먼저 적용돼 화면 전체가 가로로 밀려버린다
+   (좁은 화면에서 실측 확인). 0으로 낮춰야 내부 스크롤이 정상 동작한다. */
+.dash-main, .dash-side{ background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:16px; box-shadow:var(--shadow); min-width:0; }
+.dash-side{ display:flex; flex-direction:column; min-height:0; }
+
+/* 히트맵+벤치마킹(.dash-grid) 아래, 최다 주제 TOP3를 3단 카드로 다시 한번 —
+   위쪽 KPI 타일이 훑어보기용 요약이라면, 이쪽은 각 주제를 카드 하나씩 크게
+   펼쳐 세부 분류 진입점(클릭)까지 자연스럽게 이어지도록 한 상세판. */
+#tab-dashboard > .dash-h{ margin-top:22px; }
+.dash-top3-row{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+@media (max-width:820px){ .dash-top3-row{ grid-template-columns:1fr; } }
+.top3-card{
+  position:relative; text-align:left;
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+  box-shadow:var(--shadow); padding:16px 16px 14px; overflow:hidden;
+  border-top:4px solid var(--t3-color, var(--primary));
+  display:flex; flex-direction:column; gap:10px;
+  font:inherit; color:inherit;
+}
+/* 모바일(top3-card-compact) — 카드 전체가 버튼, 누르면 팝업 */
+.top3-card-compact{ cursor:pointer; transition:box-shadow .15s, transform .15s; }
+.top3-card-compact:hover{ box-shadow:0 2px 4px rgba(20,28,46,.06), 0 10px 26px rgba(20,28,46,.09); transform:translateY(-1px); }
+.top3-card-compact:focus-visible{ outline:2px solid var(--primary); outline-offset:2px; }
+.top3-head{ display:flex; align-items:center; gap:8px; }
+.top3-rank{
+  flex:none; width:22px; height:22px; border-radius:50%; font-size:11.5px; font-weight:800;
+  display:flex; align-items:center; justify-content:center; color:#fff; background:var(--t3-color, var(--primary));
+}
+.top3-name{ font-size:14.5px; font-weight:800; color:var(--text); flex:1; min-width:0; }
+.top3-metrics{ display:flex; align-items:baseline; gap:8px; }
+.top3-value{ font-size:26px; font-weight:800; color:var(--text); font-variant-numeric:tabular-nums; line-height:1; }
+.top3-value small{ font-size:12.5px; font-weight:600; color:var(--text-dim); margin-left:2px; }
+.top3-share{
+  font-size:11.5px; font-weight:700; color:var(--t3-color, var(--primary));
+  background:var(--t3-soft, var(--brand-soft)); padding:2px 8px; border-radius:999px;
+}
+.top3-preview{ font-size:12px; color:var(--text-dim); line-height:1.5; }
+.top3-preview strong{ color:var(--text); font-weight:700; }
+.top3-cta{
+  margin-top:auto; padding-top:10px; border-top:1px solid var(--border);
+  display:flex; align-items:center; justify-content:space-between; gap:6px;
+  font-size:12.5px; font-weight:700; color:var(--t3-color, var(--primary));
+}
+.top3-cta .arrow{ transition:transform .15s; }
+.top3-card-compact:hover .top3-cta .arrow{ transform:translateX(3px); }
+
+/* 데스크톱 카드 — 제목(순위+이름)만 버튼(눌러서 팝업), 세부 분류는 기본 펼침 */
+.top3-head-btn{
+  all:unset; display:flex; align-items:center; gap:8px; cursor:pointer; border-radius:8px;
+  padding:2px 4px; margin:-2px -4px;
+}
+.top3-head-btn:hover, .top3-head-btn:focus-visible{ background:var(--t3-soft, var(--brand-soft)); }
+.top3-head-btn:hover .top3-name, .top3-head-btn:focus-visible .top3-name{ color:var(--t3-color, var(--primary)); }
+.top3-head-btn:focus-visible{ outline:2px solid var(--primary); outline-offset:1px; }
+.top3-breakdown{ display:flex; flex-direction:column; gap:7px; }
+.top3-breakdown[hidden]{ display:none; }
+.top3-bar-row{ display:grid; grid-template-columns:1fr auto; gap:2px 10px; align-items:center; }
+.top3-bar-name{ font-size:12px; font-weight:600; color:var(--text); }
+.top3-bar-count{ font-size:12px; font-weight:800; color:var(--text); font-variant-numeric:tabular-nums; white-space:nowrap; }
+.top3-bar-count .top3-bar-pct{ font-size:10.5px; font-weight:600; color:var(--text-dim); margin-left:4px; }
+.top3-bar-track{ grid-column:1 / -1; height:6px; background:var(--surface-2); border-radius:4px; overflow:hidden; }
+.top3-bar-fill{ height:100%; border-radius:4px; background:var(--t3-color, var(--primary)); }
+.top3-toggle{
+  all:unset; margin-top:auto; padding-top:10px; border-top:1px solid var(--border);
+  display:flex; align-items:center; justify-content:center; gap:5px; cursor:pointer;
+  font-size:12px; font-weight:700; color:var(--text-dim); width:100%; text-align:center;
+}
+.top3-toggle:hover, .top3-toggle:focus-visible{ color:var(--text); }
+.top3-toggle:focus-visible{ outline:2px solid var(--primary); outline-offset:2px; border-radius:6px; }
+.top3-toggle .chev{ font-size:9px; }
+
+/* 히트맵 기간 슬라이더 — 처음 수집일 ~ 오늘, 양쪽 노드 각각 드래그 가능 */
+.dash-rangeslider{ margin:0 0 4px; }
+.range-slider-track-wrap{ position:relative; height:22px; margin-top:24px; }
+/* 드래그 중 노드 위에 뜨는 날짜 말풍선 — 겹칠 땐 JS가 좌우로 이격시킴 */
+.range-slider-tip{
+  position:absolute; top:-26px; left:0; transform:translateX(-50%);
+  background:var(--text); color:var(--surface); font-size:11px; font-weight:700;
+  padding:3px 7px; border-radius:6px; white-space:nowrap; pointer-events:none;
+  opacity:0; transition:opacity .12s; z-index:5;
+}
+.range-slider-tip.show{ opacity:1; }
+.range-slider-tip::after{
+  content:""; position:absolute; left:50%; top:100%; transform:translateX(-50%);
+  border:4px solid transparent; border-top-color:var(--text);
+}
+.range-slider-track{
+  position:absolute; top:50%; left:0; right:0; height:4px; background:var(--border);
+  border-radius:2px; transform:translateY(-50%);
+}
+.range-slider-fill{
+  position:absolute; top:50%; height:4px; background:var(--primary); border-radius:2px;
+  transform:translateY(-50%);
+}
+.range-slider-track-wrap input[type="range"]{
+  position:absolute; top:0; left:0; width:100%; height:22px; margin:0;
+  -webkit-appearance:none; appearance:none; background:transparent; pointer-events:none;
+}
+.range-slider-track-wrap input[type="range"]::-webkit-slider-runnable-track{ background:transparent; }
+.range-slider-track-wrap input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance:none; appearance:none; pointer-events:auto; cursor:pointer;
+  width:16px; height:16px; border-radius:50%; margin-top:3px;
+  background:var(--primary); border:2px solid var(--surface); box-shadow:0 1px 3px rgba(0,0,0,.35);
+}
+.range-slider-track-wrap input[type="range"]::-moz-range-track{ background:transparent; height:4px; }
+.range-slider-track-wrap input[type="range"]::-moz-range-thumb{
+  pointer-events:auto; cursor:pointer; width:16px; height:16px; border-radius:50%;
+  background:var(--primary); border:2px solid var(--surface); box-shadow:0 1px 3px rgba(0,0,0,.35);
+}
+.range-slider-labels{ display:flex; justify-content:space-between; font-size:12px; color:var(--text-dim); margin-top:2px; }
+
+/* 모바일은 손가락으로 드래그해야 해서 데스크톱(마우스, 16px)보다 잡기 쉽게
+   손잡이를 키운다 — 트랙 중심(래퍼 높이의 50%)에 맞춰 margin-top도 같이 조정. */
+@media (max-width: 680px) {
+  .range-slider-track-wrap { height: 30px; }
+  .range-slider-track-wrap input[type="range"] { height: 30px; }
+  .range-slider-track-wrap input[type="range"]::-webkit-slider-thumb {
+    width: 24px; height: 24px; margin-top: 3px;
+  }
+  .range-slider-track-wrap input[type="range"]::-moz-range-thumb {
+    width: 24px; height: 24px;
+  }
+}
+
+/* heatmap */
+.hm-scroll{ overflow-x:auto; padding:2px 28px 0 0; }
+table.hm{ border-collapse:separate; border-spacing:4px; width:auto; margin:0 auto; }
+/* 열 머리글: 45도 사선(왼쪽아래→오른쪽위)으로 기울여 가독성 향상 */
+table.hm th{ position:relative; height:125px; padding:0; vertical-align:bottom; }
+table.hm th.hm-corner{ height:auto; width:auto; }
+table.hm th .hm-th{
+  position:absolute; left:calc(50% - 6px); bottom:10px;
+  transform-origin:left bottom; transform:rotate(-45deg);
+  white-space:nowrap; font-size:13px; font-weight:600; color:var(--text-dim); letter-spacing:-.01em;
+}
+td.hm-ag{ font-size:13px; color:var(--text-dim); text-align:right; padding-right:10px; white-space:nowrap; font-weight:600; }
+td.hm-cell{ width:40px; height:32px; border-radius:7px; text-align:center; font-size:13px; font-weight:700; cursor:pointer;
+  font-variant-numeric:tabular-nums; color:var(--text); transition:transform .08s; }
+td.hm-cell:hover{ transform:scale(1.08); outline:2px solid var(--primary); }
+.hm-cell.b0{ background:var(--hm0); color:var(--muted,#8b95a4); }
+.hm-cell.b1{ background:var(--hm1); } .hm-cell.b2{ background:var(--hm2); }
+.hm-cell.b3{ background:var(--hm3); } .hm-cell.b4{ background:var(--hm4); } .hm-cell.b5{ background:var(--hm5); }
+.hm-cell.b3,.hm-cell.b4,.hm-cell.b5{ color:#fff; }
+tr.home-agency td.hm-ag{ color:var(--primary); font-weight:800; }
+tr.home-agency td.hm-cell{ outline:2px solid var(--primary); outline-offset:-2px; }
+.hm-legend{ display:flex; align-items:center; gap:5px; font-size:11px; color:var(--text-dim); margin-top:12px; flex-wrap:wrap; }
+.hm-legend i{ width:15px; height:11px; border-radius:2px; display:inline-block; }
+.hm-legend i.b0{ background:var(--hm0);} .hm-legend i.b1{background:var(--hm1);} .hm-legend i.b2{background:var(--hm2);}
+.hm-legend i.b3{ background:var(--hm3);} .hm-legend i.b4{background:var(--hm4);} .hm-legend i.b5{background:var(--hm5);}
+.home-agency-key{ color:var(--primary); }
+.hm-toggle{
+  display:block; margin:10px auto 0; font-size:12.5px; font-weight:600; color:var(--primary);
+  background:var(--surface-2); border:1px solid var(--border); border-radius:999px;
+  padding:6px 16px; cursor:pointer;
+}
+.hm-toggle:hover{ background:var(--chip-bg); }
+
+/* drilldown */
+.dash-drill{ margin-top:14px; border-top:1px solid var(--border); padding-top:12px; }
+.drill-head{ display:flex; align-items:center; gap:8px; font-size:13px; margin-bottom:8px; }
+.drill-cnt{ font-size:11px; color:var(--text-dim); }
+.drill-x{ margin-left:auto; border:1px solid var(--border); background:var(--surface); color:var(--text-dim);
+  border-radius:6px; cursor:pointer; padding:2px 8px; }
+.drill-list{ margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px; }
+/* 요약이 있으면 <a> 대신 <span class="drill-t"> 클릭 트리거(요약 팝업)를 쓴다 —
+   보이는 모습은 원문 링크와 동일하게 유지. */
+.drill-list a, .drill-list .drill-t{ font-size:13px; color:var(--text); text-decoration:none; cursor:pointer; }
+.drill-list a:hover, .drill-list .drill-t:hover{ color:var(--primary); text-decoration:underline; }
+.d-date{ font-size:11px; color:var(--text-dim); }
+
+/* topic filter + benchmark feed */
+.dash-topicfilter{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+.tf{ font-size:11.5px; border:1px solid var(--border); background:var(--surface); color:var(--text-dim);
+  border-radius:999px; padding:4px 10px; cursor:pointer; }
+.tf.on{ background:var(--tc,var(--primary)); border-color:var(--tc,var(--primary)); color:var(--tc-ink,#fff); }
+.dash-bench{ display:flex; flex-direction:column; gap:10px; flex:1; min-height:520px; overflow-y:auto; }
+.bench-item{ border:1px solid var(--border); border-radius:10px; padding:10px 12px; background:var(--surface-2); }
+.bench-m{ display:flex; align-items:center; gap:8px; font-size:12.5px; color:var(--text-dim); margin-bottom:5px; }
+.bench-ag{ display:inline-flex; align-items:center; gap:4px; font-weight:700; color:var(--text); }
+.bench-date{ margin-left:auto; }
+.bench-t{ font-size:15px; font-weight:600; color:var(--text); text-decoration:none; line-height:1.45; display:block; cursor:pointer; }
+.bench-t:hover{ color:var(--primary); text-decoration:underline; }
+.bench-tag{ flex:none; }
+.topic-badge{ font-size:11.5px; font-weight:700; padding:2px 7px; border-radius:999px;
+  color:var(--tc,#555); background:color-mix(in srgb, var(--tc,#888) 14%, transparent); }
+
+/* 리포트 종류 배지 */
+.rk{ font-size:11px; font-weight:800; border-radius:6px; padding:2px 8px; vertical-align:middle; }
+.rk-all{ background:var(--primary); color:#fff; }
+.rk-q{ background:var(--accepted); color:#fff; }
+.rmeta{ font-size:12px; color:var(--text-dim); margin-top:4px; }
+
+/* 뉴스 상세 팝업 */
+.news-modal { position: fixed; inset: 0; z-index: 220; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.news-modal[hidden] { display: none; }
+.news-modal-backdrop { position: absolute; inset: 0; background: rgba(20, 24, 32, .5); }
+.news-modal-panel {
+  position: relative; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+  max-width: 560px; width: 100%; max-height: 80vh; overflow-y: auto; padding: 28px 26px 24px;
+}
+.news-modal-meta { display: flex; gap: 7px 10px; flex-wrap: wrap; align-items: center; font-size: 12.5px; color: var(--text-dim); margin-bottom: 10px; }
+.news-modal-panel h3 { margin: 0 0 14px; font-size: 19px; line-height: 1.4; color: var(--text); }
+/* AI 요약문 — 라벨 + 사각 프레임 */
+.news-modal-summary-box {
+  border: 1px solid var(--border); border-radius: 8px; background: var(--surface-2);
+  padding: 14px 16px; margin: 0 0 18px;
+}
+.news-modal-summary-label {
+  font-size: 11.5px; font-weight: 800; letter-spacing: .3px; color: var(--accent);
+  margin-bottom: 8px;
+}
+.news-modal-summary { margin: 0; font-size: 14.5px; line-height: 1.7; color: var(--text); white-space: pre-line; }
+/* 하단 액션 행 — 닫기(넓게, 누르기 쉬움) / 원문 보기(오른쪽) */
+.news-modal-actions { display: flex; align-items: stretch; gap: 10px; }
+.news-modal-close-btn {
+  flex: 1; border: 1px solid var(--border); background: var(--surface); color: var(--text-dim);
+  font-size: 14px; font-weight: 700; border-radius: 999px; padding: 11px 16px; cursor: pointer;
+}
+.news-modal-close-btn:hover { background: var(--surface-2); color: var(--text); }
+.news-modal-link {
+  flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 4px; font-size: 13.5px; font-weight: 700;
+  color: #fff; background: var(--primary); border-radius: 999px; padding: 11px 20px; text-decoration: none;
+  white-space: nowrap;
+}
+.news-modal-link:hover { background: var(--primary-dim); }
+
+/* ---- 세부 분류 드릴다운 팝업(대시보드 "최다 주제 TOP 3" 클릭 시) ----
+   news-modal과 같은 backdrop/닫기 상호작용을 재사용하되, 어느 주제를 클릭해도
+   동일한 구조로 뜨도록 일반화되어 있다(주제 색상은 --stm-color/--stm-soft로 주입). */
+.subtopic-modal { position: fixed; inset: 0; z-index: 210; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.subtopic-modal[hidden] { display: none; }
+.subtopic-modal-backdrop { position: absolute; inset: 0; background: rgba(20, 24, 32, .5); }
+.subtopic-modal-panel {
+  position: relative; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+  max-width: 640px; width: 100%; max-height: 85vh; overflow: hidden; display: flex; flex-direction: column;
+}
+/* 제목 영역을 본문과 뚜렷이 구분: 주제색 상단 바 + 배경틴트 + eyebrow 배지 */
+.subtopic-modal-header {
+  position: relative; flex: none; padding: 22px 54px 18px 24px;
+  border-bottom: 1px solid var(--border);
+  border-top: 5px solid var(--stm-color, var(--primary));
+  background: var(--stm-soft, var(--brand-soft));
+}
+.subtopic-modal-eyebrow {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 800;
+  letter-spacing: .04em; color: var(--stm-color, var(--primary));
+  background: var(--surface); padding: 3px 9px; border-radius: 999px; margin-bottom: 9px;
+}
+.subtopic-modal-header h3 { margin: 0; font-size: 21px; font-weight: 800; color: var(--text); line-height: 1.35; }
+.subtopic-modal-count { display: block; margin-top: 5px; font-size: 12.5px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+/* 닫기(X) — 항상 같은 자리(우상단)에 원형 버튼으로, 색과 무관하게 항상 잘 보이도록 */
+.subtopic-modal-x {
+  position: absolute; top: 14px; right: 14px; width: 34px; height: 34px; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text-dim);
+  font-size: 15px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center;
+}
+.subtopic-modal-x:hover { background: var(--text); color: #fff; border-color: var(--text); }
+.subtopic-modal-x:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+.subtopic-modal-body { padding: 18px 24px; overflow-y: auto; flex: 1; }
+.subtopic-modal-sub { margin: 0 0 14px; font-size: 13px; color: var(--text-dim); }
+.subtopic-modal-buckets { display: flex; flex-direction: column; gap: 8px; }
+.stb-row { border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; }
+.stb-top { display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; align-items: center; cursor: pointer; }
+.stb-name { font-size: 13px; font-weight: 700; color: var(--text); }
+.stb-count { font-size: 13px; font-weight: 800; color: var(--text); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.stb-count .stb-pct { font-size: 11px; font-weight: 600; color: var(--text-dim); margin-left: 5px; }
+.stb-track { grid-column: 1 / -1; height: 8px; background: var(--surface-2); border-radius: 5px; overflow: hidden; }
+.stb-fill { height: 100%; border-radius: 5px; }
+.stb-examples { list-style: none; margin: 10px 0 0; padding: 10px 0 0; border-top: 1px dashed var(--border); display: none; }
+.stb-row.expanded .stb-examples { display: block; }
+.stb-examples li + li { margin-top: 7px; }
+.stb-examples a, .stb-examples button.stb-ex-link {
+  all: unset; cursor: pointer; font-size: 14.5px; color: var(--text); line-height: 1.5; display: block;
+}
+.stb-examples a:hover, .stb-examples button.stb-ex-link:hover { color: var(--primary); text-decoration: underline; }
+.stb-hint { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+
+/* 기관별 이번 달 보도자료 목록(#subtopic-modal 재사용, "보도자료 상위 10개
+   기관 추이" 카드 클릭 시) — 세부분류 막대 대신 단순 목록으로 채운다. */
+.stm-newslist { list-style: none; margin: 0; padding: 0; }
+.stm-news-row {
+  display: flex; align-items: baseline; gap: 12px; padding: 10px 2px;
+  border-bottom: 1px solid var(--border);
+}
+.stm-news-row:last-child { border-bottom: none; }
+.stm-news-date {
+  flex: none; width: 42px; font-size: 11.5px; color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+.stm-news-title {
+  all: unset; cursor: pointer; flex: 1; min-width: 0; font-size: 14.5px; color: var(--text); line-height: 1.5;
+}
+.stm-news-title:hover, .stm-news-title:focus-visible { color: var(--primary); text-decoration: underline; }
+
+.subtopic-modal-actions { padding: 14px 24px; border-top: 1px solid var(--border); flex: none; }
+.subtopic-modal-close-btn {
+  width: 100%; border: 1px solid var(--border); background: var(--surface); color: var(--text-dim);
+  font-size: 14px; font-weight: 700; border-radius: 999px; padding: 11px 16px; cursor: pointer;
+}
+.subtopic-modal-close-btn:hover { background: var(--surface-2); color: var(--text); }
+
+@media (max-width: 640px) {
+  .subtopic-modal { padding: 12px; }
+  .subtopic-modal-panel { max-height: 88vh; }
+  .subtopic-modal-header { padding: 18px 50px 16px 18px; }
+  .subtopic-modal-body { padding: 14px 18px; }
+  .subtopic-modal-actions { padding: 12px 18px; }
+}
+
+/* KPI TOP3 주제명 클릭 가능 표시 */
+.kpi-topic-name.clickable { all: unset; cursor: pointer; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text); }
+.kpi-topic-name.clickable:hover, .kpi-topic-name.clickable:focus-visible { color: var(--primary); text-decoration: underline; }
+.kpi-topic-name.clickable:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; border-radius: 3px; }
+
+/* ===== 대시보드 2 — 주제별 트렌드(시계열) ===== */
+/* 전체 추이 라인 차트 — 월별 보도자료 건수(파랑, 왼쪽 축) + 활성기관 수(빨강, 오른쪽 축)
+   2개 시리즈. 스케일이 전혀 달라(건수는 수백, 기관수는 수십) 오른쪽에 별도 축을 둔다. */
+.trend-overall { position: relative; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px 10px 6px; }
+.trend-svg { width: 100%; height: 200px; display: block; overflow: visible; }
+.trend-gridline { stroke: var(--border); stroke-width: 1; }
+.trend-axis-y, .trend-axis-x, .trend-axis-y2 { font-size: 10px; fill: var(--text-dim); }
+.trend-axis-y2 { fill: var(--down); }
+.trend-area { fill: var(--primary); opacity: .1; stroke: none; }
+.trend-line { fill: none; stroke: var(--primary); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.trend-line-agencies {
+  fill: none; stroke: var(--down); stroke-width: 1.6; stroke-dasharray: 5 3;
+  stroke-linejoin: round; stroke-linecap: round;
+}
+.trend-end-dot { fill: var(--primary); stroke: var(--surface); stroke-width: 2; }
+.trend-end-dot-agencies { fill: var(--down); stroke: var(--surface); stroke-width: 2; }
+.trend-hit { fill: transparent; cursor: crosshair; }
+.trend-hit:focus { outline: none; }
+.trend-crosshair { stroke: var(--text-dim); stroke-width: 1; opacity: .5; }
+.trend-legend { display: flex; align-items: center; gap: 14px; padding: 0 4px 6px; font-size: 11.5px; color: var(--text-dim); }
+.trend-legend-item { display: inline-flex; align-items: center; gap: 5px; }
+.trend-legend-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.trend-legend-dot.primary { background: var(--primary); }
+.trend-legend-dot.agencies { background: var(--down); }
+.trend-expand-btn {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 3px;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+  padding: 3px 9px 3px 11px; font-size: 11px; color: var(--text-dim); cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.trend-expand-btn:hover { background: var(--brand-soft); color: var(--primary); border-color: var(--primary); }
+.trend-expand-btn .ico { transition: transform .18s; }
+.trend-expand-btn.expanded { background: var(--brand-soft); color: var(--primary); border-color: var(--primary); }
+.trend-expand-btn.expanded .ico { transform: rotate(90deg); }
+.trend-tip {
+  position: absolute; top: 10px; transform: translateX(-50%); pointer-events: none;
+  background: var(--text); color: var(--surface); border-radius: 8px; padding: 6px 10px;
+  font-size: 12px; line-height: 1.5; box-shadow: var(--shadow); white-space: nowrap;
+}
+.trend-tip b { display: block; font-weight: 700; }
+.trend-tip span { display: block; font-variant-numeric: tabular-nums; opacity: .9; }
+
+/* 세부주제별 스탯 타일 + 스파크라인 그리드 — 색은 카드 헤더 점과 끝점 도트에만 사용,
+   선 자체는 절제색(회색)이라 12개 카드가 나란히 있어도 색 구분이 필요 없다 */
+.trend-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
+.trend-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 12px 14px 8px; }
+.trend-card.clickable { cursor: pointer; }
+.trend-card.clickable:hover { border-color: var(--primary); }
+.trend-card.clickable:hover .trend-card-name { color: var(--primary); }
+.trend-card.clickable:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.trend-card-h { display: flex; align-items: center; gap: 7px; margin-bottom: 8px; }
+.trend-dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.trend-card-name { font-size: 12.5px; font-weight: 700; color: var(--text); }
+.trend-card-body { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px; }
+.trend-card-value { font-size: 20px; font-weight: 800; color: var(--text); font-variant-numeric: tabular-nums; }
+.trend-card-value small { font-size: 12px; font-weight: 600; color: var(--text-dim); margin-left: 2px; }
+.trend-card-delta { font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; }
+/* 키워드 관계망(지식그래프) — 원 크기 = 언급 보도자료 수, 원 색 = 대표주제, 선 = 동시출현.
+   글자에 주제색을 직접 입히지 않는다: 주제 팔레트의 밝은 계열은 흰 배경 대비가
+   2.3~2.7:1로 본문 텍스트 기준(4.5:1)에 못 미쳐 읽히지 않는다. 색은 원이 담당하고
+   라벨은 먹색을 유지한다. */
+.kw-meta { font-size: 12px; color: var(--text-dim); margin-bottom: 10px; line-height: 1.55; }
+.kw-cloud {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 8px; box-shadow: var(--shadow); overflow-x: auto;
+}
+.kg { width: 100%; height: auto; display: block; overflow: visible; }
+.kg-edge { stroke: #7a828c; stroke-linecap: round; opacity: .32; transition: opacity .15s, stroke .15s; }
+.kg-dot { stroke: var(--surface); stroke-width: 2; transition: opacity .15s; }
+.kg-label {
+  fill: var(--text); font-weight: 700; letter-spacing: -.02em;
+  paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round;
+  transition: opacity .15s;
+}
+.kg-node { cursor: pointer; }
+.kg-node:focus { outline: none; }
+.kg-node:focus-visible .kg-dot { stroke: var(--primary); stroke-width: 3; }
+/* 한 노드에 올리면(또는 키보드 포커스) 그 노드와 이웃만 남기고 나머지를 흐리게 */
+.kg-focus .kg-edge { opacity: .06; }
+.kg-focus .kg-dot, .kg-focus .kg-label { opacity: .18; }
+.kg-focus .kg-edge.on { opacity: .95; stroke: var(--text-dim); }
+.kg-focus .kg-node.on .kg-dot, .kg-focus .kg-node.on .kg-label { opacity: 1; }
+
+/* 기관 카드 — 기관은 주제와 달리 고정 색 체계가 없으므로(이름이 식별 역할을 한다)
+   색으로 구분하지 않고 단일 액센트만 쓴다. 누적 건수는 상위 10위에 든 근거로 함께 표기 */
+.trend-card-sub { margin-left: auto; font-size: 11px; font-weight: 600; color: var(--text-dim); white-space: nowrap; }
+.trend-mini-end-ag { fill: var(--primary); }
+/* 카드별 y축이 달라 높이로 기관 크기를 비교하면 오해가 생기므로 최고치를 명시 */
+.trend-card-scale { margin-top: 2px; font-size: 10.5px; color: var(--text-dim); text-align: right; font-variant-numeric: tabular-nums; }
+.trend-mini { width: 100%; height: 44px; display: block; }
+.trend-mini-line { fill: none; stroke: var(--text-dim); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; opacity: .55; }
+.trend-mini-end { stroke: var(--surface); stroke-width: 2; }
+.trend-mini-hit { fill: transparent; }
+
+/* ===== 모바일 최적화 =====
+   이 사이트는 PC 모니터 기준으로 설계돼 있어(가로 폭 넓은 히트맵/관계망 등),
+   스마트폰에서는 (1) 여백·글자 크기를 줄이고, (2) 가로로 넓은 시각화는 억지로
+   줄여 넣지 않고 가로 스크롤로 넘기고(라벨이 안 보일 정도로 축소되는 것을
+   방지), (3) 입력 요소 글자 크기를 16px 이상으로 둬 iOS 사파리가 포커스 시
+   화면을 확대해버리는 현상을 막는다. */
+@media (max-width: 680px) {
+  .wrap { padding: 0 14px; }
+  .header-inner { padding: 6px 14px; gap: 4px; }
+  /* 스마트폰에서는 제목·부제목 폰트도 1pt씩 줄여 화면 공간을 아낀다. */
+  .hero-txt h1 { font-size: 25.33px; }
+  .tagline { font-size: 15.5px; }
+
+  /* 헤더가 세로로 쌓이면서 좌우 정렬이 flex-start 로 바뀌어(899px 기준) 자식이
+     내용 크기만큼 넓어질 수 있다 — 폭을 100%로 고정해야 아래 탭의
+     overflow-x:auto 가 "화면 안에서" 스크롤되고, 페이지 전체가 가로로
+     밀리지 않는다. */
+  .header-left, .header-right { width: 100%; }
+
+  /* 탭 5개 + 정책브리핑 링크가 좁은 화면에 다 안 들어가므로 줄바꿈 대신
+     가로 스크롤 띠로 전환(라벨이 잘리거나 두 줄로 깨지는 것을 방지) */
+  .tabs {
+    width: 100%; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex: none; font-size: 14.5px; padding: 7px 10px; }
+  .tabs .src-link { flex: none; }
+
+  .tab-panel { padding: 6px 0 44px; }
+
+  /* 폼 요소 — 16px 미만이면 iOS 사파리가 포커스 시 화면을 확대한다 */
+  #search, .sortwrap select, .pg-size, .q-select select { font-size: 16px; }
+
+  .news-card { padding: 13px 14px; }
+  .news-card h3 { font-size: 17.667px; }
+
+  /* 히트맵 — 스크롤은 이미 가능하지만, 화면 자체도 좁혀 최소한의 가로 스크롤만 필요하게 */
+  table.hm th { height: 92px; }
+  table.hm th .hm-th { font-size: 11.5px; }
+  td.hm-cell { width: 32px; height: 28px; font-size: 12px; }
+  td.hm-ag { font-size: 12px; }
+
+  /* 키워드 관계망 — 라벨이 읽히지 않을 정도로 줄이는 대신, 원래 크기를 유지하고
+     가로 스크롤로 보게 한다(히트맵과 같은 방식) */
+  .kg { width: 780px; max-width: none; }
+
+  .news-modal { padding: 12px; }
+  .news-modal-panel { padding: 20px 16px 16px; max-height: 88vh; }
+  .news-modal-panel h3 { font-size: 17px; }
+
+  /* 월별추이의 세부주제별/기관별 카드 그리드 — 최소폭(210px) 제약 때문에
+     좁은 화면에서 auto-fill이 1열로 떨어져 카드가 세로로 길게 나열되던 것을
+     2열로 고정. 페이지는 여전히 세로로 스크롤되고, 한 화면에 더 많은
+     카드가 보인다. */
+  .trend-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .trend-card { padding: 10px 11px 6px; }
+  .trend-card-name { font-size: 11.5px; }
+  .trend-card-value { font-size: 17px; }
+}
+
+@media (max-width: 380px) {
+  .tab { font-size: 13.5px; padding: 6px 8px; }
+  .dash-kpi { grid-template-columns: 1fr 1fr; }
+  .trend-grid { gap: 6px; }
+  .trend-card { padding: 9px 9px 5px; }
+  .trend-card-value { font-size: 15.5px; }
+  .trend-card-name { font-size: 11px; }
+}
+
+/* 맨 위로 이동 버튼 — 스크롤이 일정 길이 이상 내려갔을 때만 나타난다(app.js가
+   hidden 속성을 토글). 모달(z-index 200)보다는 아래, 툴팁(60)보다는 위. */
+.back-to-top {
+  position: fixed; right: 20px; bottom: 24px; z-index: 90;
+  width: 44px; height: 44px; border-radius: 50%; padding: 0;
+  border: none; background: #14346c; color: #fff;
+  box-shadow: var(--shadow); line-height: 1; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s, transform .1s;
+}
+.back-to-top svg { display: block; }
+.back-to-top:hover { background: var(--primary); }
+.back-to-top:active { transform: scale(.94); }
+.back-to-top[hidden] { display: none; }
+@media (max-width: 600px) {
+  .back-to-top { right: 14px; bottom: 16px; width: 40px; height: 40px; }
+  .back-to-top svg { width: 18px; height: 18px; }
+}

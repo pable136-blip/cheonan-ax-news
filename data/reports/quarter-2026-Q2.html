@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-Q2 AX 동향보고서</title>
+<style>
+  @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+
+  :root {
+    --navy:#0b2545; --blue:#0b4da2; --blue-light:#eef4ff; --line:#e1e6ee;
+    --ink:#1c2531; --muted:#5b6472; --warn-bg:#fdf6e8; --warn-line:#e3ac1f;
+    --warn-ink:#7a5200; --note-bg:#f4f6f9;
+  }
+  * { box-sizing:border-box; }
+  body {
+    font-family:"Pretendard","NanumGothic","Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+    max-width:880px; margin:0 auto; padding:52px 36px 90px; color:var(--ink);
+    line-height:1.75; font-size:15.5px; -webkit-font-smoothing:antialiased;
+  }
+  .rpt-kicker { font-size:12px; letter-spacing:.16em; text-transform:uppercase;
+                 color:var(--blue); font-weight:700; margin-bottom:12px; }
+  h1 { font-size:26px; line-height:1.4; color:var(--navy); margin:0 0 20px;
+        padding-bottom:16px; border-bottom:3px solid var(--blue); }
+  .rpt-meta-block { display:flex; flex-direction:column; gap:8px; margin:0 0 34px; }
+  .rpt-meta, .rpt-warning, .rpt-note { font-size:13px; padding:10px 14px; border-radius:6px; }
+  .rpt-meta { color:var(--muted); background:var(--note-bg); border-left:3px solid var(--blue); }
+  .rpt-warning { background:var(--warn-bg); border-left:3px solid var(--warn-line); color:var(--warn-ink); }
+  .rpt-note { font-size:12.5px; color:var(--muted); background:#f7f8fa; border-left:3px solid #b9c2cf; }
+  h2 { font-size:19px; margin:42px 0 16px; color:var(--navy); padding-bottom:9px;
+        border-bottom:2px solid var(--line); display:flex; align-items:center; gap:10px; }
+  .h2-num { display:inline-flex; align-items:center; justify-content:center; width:26px; height:26px;
+             border-radius:50%; background:var(--blue); color:#fff; font-size:13px; font-weight:700;
+             flex-shrink:0; }
+  h3 { font-size:15.5px; margin:26px 0 12px; padding:7px 14px; border-left:4px solid var(--blue);
+        color:var(--navy); background:linear-gradient(90deg,var(--blue-light),transparent);
+        border-radius:0 6px 6px 0; }
+  p { margin:0 0 14px; }
+  ul, ol { padding-left:22px; margin:0 0 8px; }
+  li { margin-bottom:10px; }
+  strong { color:var(--navy); font-weight:700; }
+  table { border-collapse:collapse; width:100%; font-size:13px; margin:14px 0 24px;
+           border-radius:8px; overflow:hidden; box-shadow:0 0 0 1px var(--line); }
+  th, td { border-bottom:1px solid var(--line); padding:9px 12px; text-align:left; vertical-align:top; }
+  th { background:var(--navy); color:#fff; font-weight:600; }
+  tr:nth-child(even) td { background:#f7f9fc; }
+  a { color:var(--blue); text-decoration:none; border-bottom:1px solid rgba(11,77,162,.35);
+       word-break:break-all; }
+  a:hover { border-bottom-color:var(--blue); }
+  a.src { font-size:11.5px; font-weight:600; border:none; border-radius:10px;
+           background:var(--blue-light); padding:1px 8px; margin-left:3px; white-space:nowrap;
+           word-break:normal; }
+  code { background:var(--note-bg); padding:1px 5px; border-radius:4px; font-size:.92em; }
+  .exec-brief { background:linear-gradient(135deg,var(--blue-light),#f8fafd); border:1px solid #cfe0f7;
+                  border-left:6px solid var(--blue); border-radius:10px; padding:6px 24px 20px; margin:20px 0 34px; }
+  .exec-brief h2 { border-bottom:none; margin-bottom:6px; }
+  .exec-brief ul { list-style:none; padding-left:0; margin:10px 0 0; }
+  .exec-brief li { position:relative; padding-left:28px; margin-bottom:15px; font-size:15px; line-height:1.75; }
+  .exec-brief li::before { content:"▶"; position:absolute; left:0; top:1px; color:var(--blue); font-weight:bold; }
+  @media print {
+    body { padding:14mm 12mm; font-size:12.5px; }
+    h2 { break-after:avoid; }
+    h3 { break-after:avoid; }
+    table, .exec-brief { break-inside:avoid; }
+    a.src { background:none; padding:0; }
+  }
+</style></head><body>
+<div class="rpt-kicker">지식재산처 IP-AX 추진단 · AI 전환(AX) 동향분석</div>
+<h1 id="ax-2026-2">대한민국 정부기관 AX 동향보고서 — 2026년 2분기</h1>
+<div class="rpt-meta-block"><div class="rpt-meta">생성일: 2026-08-17 · 근거 뉴스: 485건 · 데이터 갱신: 2026-08-16T23:42:35+00:00</div></div>
+<div class="exec-brief"><h2 id="executive-brief">한눈에 보기 (Executive Brief)</h2>
+<ul>
+<li><strong>AI 데이터센터 특별법</strong> 국회 본회의 통과(2027년 2월 시행) 및 하위법령 마련 착수 → <strong>인허가 통합창구·전력계통 규제완화</strong>로 민간 AIDC 투자가 본격화, 지식재산처 관할 특허·영업비밀 침해 리스크(데이터센터·반도체 관련 기술유출)도 함께 커질 국면(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156760349&amp;pageIndex=6&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>인공지능 기본법 시행령</strong> 개정안 입법예고(7월 21일 개정법 시행 전제) → <strong>국가인공지능전략위원회 개편·공공AI 도입촉진·AI연구소 설립근거</strong>가 새로 생기며, 부처별 AX 추진의 법적 기반이 재편됨(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762916&amp;pageIndex=5&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>지식재산처, 'AI 시대 올바른 특허출원 안내서' 배포</strong>(6/9) → AI를 활용한 발명은 <strong>사람의 실질적 기여</strong>가 있어야 발명자로 인정되고, 허위 시험결과 제출 시 법적 책임까지 명시 → 이번 분기 지식재산처가 AI-발명 심사기준을 처음으로 공개 정리한 사례(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156765748&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>지식재산처 '지식재산인공지능전환추진단' 신설</strong>(5/20)과 <strong>'지식재산정보 분석 플랫폼(IPOP)' 착수</strong>(5/27) → IP-AX를 총괄할 조직·인프라가 이번 분기에 갖춰짐, 향후 사업 확장의 발판(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762613&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>, <a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156763846&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>행정안전부 'AI 민주정부 실현 전략' 발표</strong>(6/24)와 <strong>국무조정실 데이터 관계장관회의</strong>(5/28, 총리 주재) → 데이터·AI 정책 거버넌스가 총리급으로 상향되며 범부처 조정 축이 강화됨, 지식재산처의 IP데이터 정책도 이 거버넌스 안에서 위상을 확인해야 할 시점(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156767944&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>, <a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764126&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00004&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+</ul></div>
+<h2 id="1-ax"><span class="h2-num">1</span>지금 알아야 할 AX 마일스톤</h2>
+<ul>
+<li><strong>인공지능 데이터센터 특별법 국회 본회의 통과</strong>(과학기술정보통신부, 2026-05-07) — 인허가 통합창구·타임아웃제, 비수도권 전력계통 영향평가 면제 등 규제완화 포함, <strong>2027년 2월 시행 예정</strong> → AIDC·GPU 투자를 촉진해 산업재산권·영업비밀 이슈가 몰릴 인프라 축(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156760349&amp;pageIndex=6&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>인공지능 기본법 시행령 개정안 입법예고</strong>(과학기술정보통신부, 2026-05-21) — 국가인공지능전략위원회 개편, 공공분야 AI 도입 촉진, AI연구소 설립근거, 취약계층 지원범위 확대 등 <strong>AI기본법의 실질 집행 규정</strong>이 확정되는 단계(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762916&amp;pageIndex=5&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>제6차 과학기술기본계획('26~'30) 수립</strong>(과학기술정보통신부, 2026-06-26) — 36개 부·처·청·위원회가 참여한 국가 최상위 계획, <strong>5년간 200조원 이상 R&amp;D 투자</strong>와 'AI대전환' 전략 포함 → 향후 5년 부처별 AX 예산·사업의 근간(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768490&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=AI&amp;period=" class="src">출처</a>).</li>
+<li><strong>'AI 민주정부 실현 전략' 발표</strong>(행정안전부, 2026-06-24) — 디지털정부에서 'AI 민주정부'로 전환을 공식 선언, 친절한·함께하는·유능한 정부 3대 방향 제시 → 공공서비스 전반의 AI 전환 기준선 재설정(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156767944&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>국가 인공지능 사업 52개 과제 선정</strong>(과학기술정보통신부, 2026-04-01) — 25개부처가 첨단GPU 약 3천장(총 1만장 중)을 배분받아 착수, 산업통상부·중소벤처기업부·기상청·보건복지부 등 부처별 파운데이션모델·특화모델 개발 본격화 → 부처간 AI 자원경쟁의 첫 조정 사례(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156752417&amp;pageIndex=9&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>국가 AI컴퓨팅센터 구축사업 민간참여자 삼성SDS 컨소시엄 확정</strong>(과학기술정보통신부, 2026-05-11) — 총 4,000억원 민관 출자(공공 1,160억+민간 2,840억), 2028년까지 AI반도체 1.5만장 규모 구축 → 국가 AI 인프라의 핵심 축이 구체화(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156760903&amp;pageIndex=6&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>인공지능 윤리원칙 초안 공개</strong>(과학기술정보통신부, 2026-05-28) — 2020년 범정부 윤리기준을 국가 차원 원칙으로 재정립, 3대 가치·6대 원칙 제시 후 대국민 의견수렴 착수 → AI기본법 시행과 맞물린 규범 정비(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766130&amp;pageIndex=4&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>'AI 활용 발명, 사람이 발명에 기여해야 발명자 인정된다' — AI 시대 올바른 특허출원 안내서 배포</strong>(지식재산처, 2026-06-09) — AI 발명 유형별 성립성·진보성 기재요건, 허위 시험결과 제출 시 법적 책임까지 명시한 <strong>지식재산처의 첫 AI-발명 심사 가이드</strong>(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156765748&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>기술유출·탈취 대응체계 확대개편</strong>(지식재산처, 2026-06-29) — 기술유출특별사법경찰과 신설로 기술경찰 27명→61명 확충, 전담조직 1개과→4개과 확대, 특허빅데이터 기반 고위험영역 선제탐지 → 반도체·AI 첨단기술 보호를 위한 조직개편(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768557&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=&amp;period=" class="src">출처</a>).</li>
+<li><strong>'제조AI 2030 전략' 공개</strong>(국가인공지능전략위원회·산업통상부·과학기술정보통신부·중소벤처기업부 합동, 2026-06-29) — 국가 제조데이터 라이브러리, 제조업 특화 AI 파운데이션모델('풀스택 AI팩토리') 등 핵심과제로 <strong>2030년까지 민관 20조원 투자, 부가가치 100조원 창출</strong> 목표 → 제조 데이터·모델의 지식재산권 이슈가 커질 신호(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768660&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+</ul>
+<h2 id="2"><span class="h2-num">2</span>주요 기관별 정책동향</h2>
+<h3 id="133">과학기술정보통신부 — 133건</h3>
+<ul>
+<li><strong>AI 3대 강국(G3) 도약을 위한 인프라·제도 정비 확대</strong>: 국가AI사업 52개 과제에 GPU 배분(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156752417&amp;pageIndex=9&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → 국가AI컴퓨팅센터 삼성SDS 컨소시엄 확정(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156760903&amp;pageIndex=6&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → 데이터센터특별법 국회통과·하위법령 마련(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156760349&amp;pageIndex=6&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)으로 이어지는 <strong>일관된 인프라 확충 로드맵</strong> 추진.</li>
+<li><strong>AI기본법 시행 체계·규범 정비 착수</strong>: 시행령 개정안 입법예고(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762916&amp;pageIndex=5&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 인공지능 윤리원칙 초안 공개(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766130&amp;pageIndex=4&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 인공지능정책센터(NIA) 개소(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768909&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)로 <strong>AI기본법의 실행 축</strong>을 완성.</li>
+<li><strong>에이전틱 AI·피지컬 AI 생태계 육성 본격화</strong>: 에이전틱AI얼라이언스 출범(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156752328&amp;pageIndex=9&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 피지컬AI얼라이언스 2기 '실행형' 개편(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156767244&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), AI휴머노이드 원천기술 개발 착수(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762171&amp;pageIndex=5&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) 등 <strong>차기 AI 기술축을 민관 협의체로 조직화</strong>.</li>
+<li><strong>글로벌 AI 안전·표준 협력 확대</strong>: 오픈AI·앤트로픽과 신뢰기반 접근(GTAC/TAC) 프로그램 참여(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156767060&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), AI·6G 보안 국제표준 개발 착수(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766311&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 국제 AI기본사회 연대체 발표(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156752363&amp;pageIndex=9&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)로 <strong>해외 빅테크·국제기구와의 안전동맹</strong>을 병행 추진.</li>
+</ul>
+<h3 id="40">고용노동부 — 40건</h3>
+<ul>
+<li><strong>AI 전환기 직업훈련체계 재편</strong>: KDT AI캠퍼스 44개소 확정(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156755013&amp;pageIndex=6&amp;repCodeType=&amp;repCode=A00001&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=AI&amp;period=" class="src">출처</a>), 'AI 워커' 직업훈련 시범사업(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156755926&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00001&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) 등 <strong>AI와 협업하는 노동자 양성</strong>을 정책 축으로 설정.</li>
+<li><strong>피지컬 AI 현장인력 양성 강화</strong>: 폴리텍대학-코그넥스 피지컬AI 전문인력 협약(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156761110&amp;pageIndex=4&amp;repCodeType=&amp;repCode=A00001&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=AI&amp;period=" class="src">출처</a>), 폴리텍-KAIST 피지컬AI 포럼 등 <strong>제조·현장 직업교육에 피지컬 AI를 결합</strong>.</li>
+<li><strong>'사람중심 AI 전환' 국제 의제화</strong>: 김영훈 장관이 국제노동기구(ILO) 사무총장 면담(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156763053&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00001&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)과 제114차 ILO 총회(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766096&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00001&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)에서 "사람중심 인공지능(AI) 전환" 국제연대를 반복 제안 — 노동정책 관점의 AX 국제규범 형성에 관여.</li>
+</ul>
+<h3 id="38">산업통상부 — 38건</h3>
+<ul>
+<li><strong>제조AI전환(M.AX) 전국 확산</strong>: 5극3특 권역별 현장행보(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156756280&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00015&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 산업단지 M.AX 지원사업, 유통물류·조선·이차전지 등 업종별 M.AX 확산 → <strong>제조AI 2030 전략</strong>으로 귀결(민관 20조원, 부가가치 100조원 목표)(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768655&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00015&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>국산 AI반도체·소버린 AI 경쟁력 강화</strong>: 국민성장펀드의 소버린AI 지원(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156759661&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00015&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 스마트기기 국산 'AI 두뇌' 탑재 추진으로 <strong>제조 현장의 AI칩 국산화</strong>를 병행.</li>
+<li><strong>첨단산업 투자외교 확대</strong>: UAE·카타르·우즈베키스탄 등과 AI인프라·반도체 투자협력을 연쇄적으로 체결, 통상 리스크와 AX 산업정책을 결합.</li>
+</ul>
+<h3 id="35">행정안전부 — 35건</h3>
+<ul>
+<li><strong>'AI 민주정부 실현 전략'으로 공공AI 정책 총괄 선언</strong>(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156767944&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) — 공공AI사업지원센터 개소(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156752607&amp;pageIndex=4&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)로 조직적 기반을 먼저 마련.</li>
+<li><strong>대화형 AI 민원서비스 전면 확대</strong>: 'AI 국민비서'로 등본발급 등 음성 민원 처리(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156761443&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=AI&amp;period=" class="src">출처</a>), 연말 'AI정부24' 확대 도입 예고로 <strong>국민 접점의 AI화</strong>를 단계적으로 추진.</li>
+<li><strong>고가치 공공데이터 개방 로드맵 구체화</strong>: 'AI·고가치 공공데이터 TOP 100' 중 올해 25개 세부계획 확정, 2028년까지 총 100개 목표(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764699&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=AI&amp;period=" class="src">출처</a>) — <strong>AI기업 육성용 데이터 개방 정책의 구체적 실행 단계</strong> 진입.</li>
+<li><strong>딥페이크 대응·정보보안 강화</strong>: 성평등가족부·방송통신위원회와 딥페이크 성범죄 대응 기술협력(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768201&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)으로 <strong>AI 오남용 대응체계</strong>를 부처간 연계로 구축.</li>
+</ul>
+<h3 id="28">국가인공지능전략위원회 — 28건</h3>
+<ul>
+<li><strong>AI 국가컨트롤타워 기능 지속 수행</strong>: "국가 AI 정책 총괄 역할을 차질 없이 수행하고 있다"고 반복 강조(<a href="https://www.aikorea.go.kr/web/board/brdDetail.do?menu_cd=000012&amp;num=626" class="src">출처</a>)하며 <strong>AI행동계획 이행점검</strong>을 위한 지역 현장행보(광주·나주, 전북, 대전·오송 등)를 다수 진행.</li>
+<li><strong>제조AI 2030 전략 공동 수립</strong>: 산업통상부·과학기술정보통신부·중소벤처기업부와 합동으로 국가 제조데이터 라이브러리·제조 특화 파운데이션모델 전략 마련(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768660&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) — <strong>범부처 산업AX의 조정자 역할</strong>을 수행.</li>
+<li><strong>AI 데이터센터 특별법 시행 준비 주도</strong>: 지방시대위원회·과학기술정보통신부·기후에너지환경부와 인허가 일괄처리, 비수도권 특구 지정 등 시행 준비상황 점검(<a href="https://www.aikorea.go.kr/web/board/brdDetail.do?menu_cd=000012&amp;num=728" class="src">출처</a>).</li>
+<li><strong>피지컬AI·휴머노이드 등 신산업 간담회 주관</strong>: 휴머노이드 업계 간담회 개최로 <strong>차세대 AI 산업의 부처간 조율 기능</strong>을 이어감.</li>
+</ul>
+<h3 id="20">중소벤처기업부 — 20건</h3>
+<ul>
+<li><strong>AI 스타트업·창업생태계 지원 확대</strong>: '모두의 챌린지' 연속 공고(뷰티·플랫폼·팹리스 등), K-스타트업 AI리그 출범으로 <strong>분야별 맞춤 창업지원</strong>을 세분화.</li>
+<li><strong>AI 전환 인프라 직접 지원</strong>: 중소제조·스타트업에 GPU 264장 공급(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156756743&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00032&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)으로 <strong>컴퓨팅 자원의 직접 배분</strong>까지 관여.</li>
+<li><strong>지식재산처와 첫 협업 사례 마련</strong>: 「2026 스마트제조 전략기술로드맵」 수립에 공동 착수, AI기반 스마트제조 미래기술 발굴(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766638&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00032&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) — <strong>지식재산처와의 협업 채널이 이번 분기 처음 공식화</strong>된 사례.</li>
+</ul>
+<h3 id="19">지식재산처 — 19건</h3>
+<ul>
+<li><strong>AI 발명 심사기준 최초 정립</strong>: '사람의 실질적 기여'를 발명자 인정 요건으로 명시하고 AI 할루시네이션 시험결과 제출 시 법적 책임까지 안내(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156765748&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>IP-AX 총괄조직·인프라 신설</strong>: '지식재산인공지능전환추진단' 출범(5/20)(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762613&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), '지식재산정보 분석 플랫폼(IPOP)' 구축 착수(5/27)(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156763846&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 차세대 전자출원시스템(IPNEX) 전략수립 간담회(5/28)(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764100&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)로 <strong>AI시대 IP행정 인프라 정비</strong>를 동시 추진.</li>
+<li><strong>첨단기술 유출 대응체계 확대개편</strong>: 기술유출특별사법경찰과 신설, 기술경찰 27명→61명 확충(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768557&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=&amp;period=" class="src">출처</a>) — 반도체·AI 국가핵심기술 보호 역량 강화.</li>
+<li><strong>AI-IP 국제규범 논의 주도</strong>: IP5(한·미·일·중·유럽) 수장회의에서 'Human-in-the-Loop' 원칙 합의 및 IP-AX 추진계획 소개(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766519&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), WIPO와 'AI&amp;IP 교육과정' 공동운영(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762094&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+</ul>
+<h3 id="18">교육부 — 18건</h3>
+<ul>
+<li><strong>전주기 AI 인재양성 체계화</strong>: 대학 AI기본교육과정 20개교 신규 선정, AI교육 관계장관회의 개최(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156758151&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00002&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 선도교사 1만 명 양성 계획 등 <strong>초중등~대학 전 단계 AI교육 확충</strong>.</li>
+<li><strong>과학기술정보통신부와 인재양성 협력체계 구축</strong>: 'AI 인재양성 전담TF' 공동 출범(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156757776&amp;pageIndex=7&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)으로 부처간 인재정책 조율.</li>
+<li><strong>AI 학습비용 지원 신설</strong>: '인공지능(AI) 학업장려 학자금대출' 도입으로 <strong>AI 역량 격차 해소를 재정지원까지 확대</strong>.</li>
+</ul>
+<h3 id="6">국무조정실 — 6건</h3>
+<ul>
+<li><strong>데이터·AI 정책 거버넌스를 총리급으로 상향</strong>: '데이터 관계장관회의' 신설 주재(5/28), 기존 국가데이터정책위·공공데이터전략위를 조정·연계(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764126&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00004&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>AI 교육 관계장관회의 주재</strong>: 김민석 국무총리 주재로 AI 시대 교육 방향 논의(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156757843&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00004&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) — <strong>범부처 AX 의제를 총리 주재 회의체로 격상</strong>.</li>
+<li><strong>데이터 기반 AI 행정 실무 점검</strong>: 국무총리 후보자가 공직자와 데이터기반 AI행정 간담회 개최 — 국정 최고위층의 AX 관심이 데이터 이슈로 이어짐.</li>
+</ul>
+<h3 id="5">국가데이터처 — 5건</h3>
+<ul>
+<li><strong>데이터 통계 분야 국제협력 개시</strong>: 핀란드 통계청과 'AI 시대 데이터·통계 혁신' 협력(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766147&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00038&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=&amp;period=" class="src">출처</a>).</li>
+<li><strong>AI 기반 데이터 전문인재 양성 착수</strong>: 데이터 혁신 전문인재 본격 양성 발표(6/17)(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766915&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00038&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=&amp;period=" class="src">출처</a>) — 신생 조직으로서 <strong>인력·역량 기반부터 다지는 단계</strong>임이 확인됨. 이번 분기 근거 뉴스가 5건으로 타 부처 대비 적어, 데이터 관계장관회의체(국무조정실 주도) 등 상위 거버넌스에서의 역할이 상대적으로 크게 보도되는 구조.</li>
+</ul>
+<h2 id="3"><span class="h2-num">3</span>주제별 흐름</h2>
+<p>(<code>data/topics.json</code>의 2026-Q2 분류 기준, 상위 주제 위주로 정리)</p>
+<ul>
+<li><strong>AI 인재·교육(85건, 최다)</strong>: 대학 AI중심대학 7개교 선정(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156759846&amp;pageIndex=6&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 교육부-과학기술정보통신부 인재양성 TF(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156757776&amp;pageIndex=7&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) 등 → <strong>초중등부터 대학·직업훈련까지 전 생애 AI역량 확충</strong>이 최대 정책 물량을 차지.</li>
+<li><strong>공공서비스 AI(55건)</strong>: 'AI 민주정부 실현 전략'(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156767944&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), AI 국민비서 등본발급(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156761443&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=AI&amp;period=" class="src">출처</a>) → <strong>대국민 민원·행정서비스의 AI 대체</strong>가 정책의 두 번째 축.</li>
+<li><strong>AI 스타트업·투자(53건)</strong>: 유니콘·모두의챌린지 등 중소벤처기업부·과학기술정보통신부 창업지원 다수 → <strong>AI 산업 저변 확대</strong>가 지속.</li>
+<li><strong>법·제도·거버넌스(50건)</strong>: AI기본법 시행령(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762916&amp;pageIndex=5&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 데이터센터특별법(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156760349&amp;pageIndex=6&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → <strong>AX의 법적 기반이 이번 분기에 굵직하게 완성</strong>됨.</li>
+<li><strong>제조·산업현장 AX(48건)</strong>: '제조AI 2030 전략'(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768660&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), M.AX 산업단지 확산 → 제조데이터·특화모델 관련 <strong>지식재산 이슈가 늘어날 잠재 영역</strong>.</li>
+<li><strong>AI·데이터(44건)</strong>: 데이터 관계장관회의(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764126&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00004&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 고가치 공공데이터 TOP100 개방(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764699&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=AI&amp;period=" class="src">출처</a>) → <strong>데이터 거버넌스 재편</strong>이 뚜렷.</li>
+<li><strong>국제협력·외교(44건)</strong>: 글로벌 AI허브 비전선포(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762978&amp;pageIndex=5&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), IP5 공동성명(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766519&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → <strong>한국의 AI 국제규범 참여가 다자화</strong>되는 흐름.</li>
+<li><strong>AI 인프라·컴퓨팅(35건)</strong>: 국가AI컴퓨팅센터(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156760903&amp;pageIndex=6&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 데이터센터특별법 → <strong>GPU·전력 등 물리적 자원 확보 경쟁</strong>이 계속됨.</li>
+<li><strong>피지컬 AI·로봇(26건)</strong>: 피지컬AI얼라이언스 2기(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156767244&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), AI휴머노이드 개발착수(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762171&amp;pageIndex=5&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → 협의체가 '실행형'으로 전환되며 <strong>양산·실증 단계 진입</strong> 신호.</li>
+</ul>
+<h2 id="4"><span class="h2-num">4</span>급상승 키워드와 시사점</h2>
+<p>이 분기(2026-Q2) 대비 직전 분기(2026-Q1) 문서빈도 증감(growth = 이번분기건수 − 직전분기건수, <code>build_keywords.py</code> 급상승 판정 로직 기준) 상위 키워드 중 의미가 뚜렷한 항목을 정리함.</p>
+<ul>
+<li><strong>모델(growth +42, 87건/45건)</strong>: 국내 자체 개발 AI모델을 지칭 — 과학기술정보통신부가 '25년 출시 주목할 만한 인공지능 모델 8개'를 소개(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156757504&amp;pageIndex=7&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)한 데 이어 '우리 한국형 인공지능(K-AI) 모델이 현장에 펼쳐지고 있습니다' 시리즈를 매 분기 8회 연속 게재(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768491&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → <strong>지식재산처 시사점</strong>: 국내 자체 모델 확산이 빨라지는 만큼, AI모델 자체(아키텍처·학습기법) 및 모델 산출물에 대한 <strong>특허·영업비밀 보호 수요</strong>가 함께 늘어날 가능성.</li>
+<li><strong>AI 모델(growth +32, 56건/24건)</strong>: '모델'과 함께 특화모델 개발 사례가 급증 — 생명공학·재료화학 등 6대 과학기술 분야 특화 인공지능 모델 개발 착수(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156765134&amp;pageIndex=4&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → <strong>지식재산처 시사점</strong>: 분야별 특화모델이 늘수록 모델별 발명자성·데이터 출처 심사기준 수요도 늘어날 것으로 관찰됨(뚜렷한 근거는 아직 제한적).</li>
+<li><strong>데이터(growth +45, 97건/52건)</strong>: 학습데이터 확보·개방 이슈 — 과학기술정보통신부, 인공지능 학습용데이터 보유 현황 전 부처 첫 전수조사 실시(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156753910&amp;pageIndex=8&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 데이터 관계장관회의 신설(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764126&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00004&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → <strong>지식재산처 시사점</strong>: 지식재산처도 IP데이터 개방·AI학습데이터화(IPOP 등)를 이미 추진 중이며, 범부처 데이터 거버넌스 재편 국면에서 IP데이터의 위치를 명확히 할 필요.</li>
+<li><strong>플랫폼(growth +30, 54건/24건)</strong>: 부처별 AI 업무플랫폼 구축이 급증 — 행정안전부 지능형 업무관리 플랫폼 '온AI' 정식 개시(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156759304&amp;pageIndex=4&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=AI&amp;period=" class="src">출처</a>), 과학기술정보통신부 'AI소재 R&amp;D 플랫폼 구축 전략' 발표(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156759297&amp;pageIndex=7&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → <strong>지식재산처 시사점</strong>: 부처별로 업무 특화 AI플랫폼을 구축하는 흐름과 맞물려, 지식재산처도 IPOP·차세대 IPNEX를 통해 유사한 전환을 이미 추진 중이므로 타 부처 플랫폼 구축방식(민간참여·단계별 ISP)을 참고할 만함.</li>
+<li><strong>분석(growth +25, 49건/24건)</strong>: AI 기반 자료·특허 분석 수요 확대 — 지식재산처 '인공지능으로 특허·기술정보 쉽게 분석한다'(IPOP 구축 착수, <a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156763846&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 한국고용정보원 20주년 AI기반 지능형 분석 서비스 확대(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156757533&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00001&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → <strong>지식재산처 시사점</strong>: 이미 지식재산처가 이 흐름의 선두에 있는 사례로, IPOP 등 분석 인프라의 조기 확산·고도화가 타 기관 대비 경쟁우위 요소.</li>
+<li><strong>생성형 AI(growth +21, 39건/18건)</strong>: 생성형 AI 활용 서비스 전환이 다수 기관으로 확산 — 법제처 생성형 AI 기반 대국민 법령검색 서비스 전환 추진(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768354&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00011&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), 식품의약품안전처 국내 최초 생성형 인공지능 기반 디지털의료기기 허가(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156752395&amp;pageIndex=1&amp;repCodeType=&amp;repCode=A00027&amp;startDate=2025-07-28&amp;endDate=2026-07-28&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → <strong>지식재산처 시사점</strong>: 생성형 AI 기반 대국민 정보검색 서비스로의 전환이 법제처 등에서 이미 이뤄지고 있어, 지식재산처의 특허정보 검색·안내 서비스도 유사 전환을 검토할 근거가 될 수 있음.</li>
+<li><strong>피지컬(growth +19, 31건/12건)</strong>: 피지컬 AI(물리적 AI)의 실행 단계 진입 — 피지컬 AI 얼라이언스 2기 '실행형' 개편(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156767244&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>), AI휴머노이드 원천기술 개발 착수(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156762171&amp;pageIndex=5&amp;repCodeType=&amp;repCode=A00033&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>) → <strong>지식재산처 시사점</strong>: 로봇·자율주행 등 피지컬 AI 제품이 양산·실증 단계로 진입하는 만큼, 하드웨어·소프트웨어 결합발명에 대한 특허·디자인 출원 수요 증가가 예상됨(구체 통계는 관찰됨 수준).</li>
+</ul>
+<h2 id="5_1"><span class="h2-num">5</span>지식재산처 실행 아이디어</h2>
+<h3 id="ai">AI 에이전트 기반 출원지원 서비스, 상표·디자인까지 확대</h3>
+<ul>
+<li><strong>사례</strong>: 중소벤처기업부, 'AI+로그인' 한 번에 AI 에이전트가 지원사업 추천부터 서류작성 보조까지 수행하는 서비스 도입(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156756089&amp;pageIndex=4&amp;repCodeType=&amp;repCode=A00032&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>).</li>
+<li><strong>업무 연결</strong>: 특허·상표·디자인 심사(출원인 서비스).</li>
+<li><strong>실행 아이디어</strong>: 지식재산처가 이미 운영 중인 특허정보 AI Agent(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156753944&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)를 상표·디자인 출원 서류작성 보조까지 확대해 다출원 중소기업의 출원 실무부담 경감.</li>
+</ul>
+<h3 id="ai_1">행정안전부식 대화형 AI 민원을 지식재산 민원에 적용</h3>
+<ul>
+<li><strong>사례</strong>: 행정안전부, 'AI 국민비서'로 등본 발급 등을 말로 요청하는 대화형 민원서비스 도입(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156761443&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=AI&amp;period=" class="src">출처</a>).</li>
+<li><strong>업무 연결</strong>: 지식재산 데이터·정보 제공(대민 민원 응대).</li>
+<li><strong>실행 아이디어</strong>: 특허출원 진행상황 조회, 상표·디자인 존부조사 등 반복 민원을 대화형 AI로 처리하는 서비스를 IPNEX 전자출원 혁신 로드맵(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764100&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)에 반영.</li>
+</ul>
+<h3 id="_1">지식재산 데이터의 고가치 공공데이터 개방 목록 편입</h3>
+<ul>
+<li><strong>사례</strong>: 행정안전부, 'AI·고가치 공공데이터 TOP 100' 중 올해 25개 개방 세부계획 확정(2028년까지 100개 목표)(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156764699&amp;pageIndex=3&amp;repCodeType=&amp;repCode=A00031&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=AI&amp;period=" class="src">출처</a>).</li>
+<li><strong>업무 연결</strong>: 지식재산 데이터·정보 제공(AI 기업지원).</li>
+<li><strong>실행 아이디어</strong>: 지식재산처가 이미 착수한 IPOP 분석 플랫폼(<a href="https://www.korea.kr/briefing/pressReleaseView.do?newsId=156763846&amp;pageIndex=2&amp;repCodeType=&amp;repCode=A00039&amp;startDate=2025-07-24&amp;endDate=2026-07-24&amp;srchWord=인공지능&amp;period=" class="src">출처</a>)에서 정제된 특허·상표·디자인 데이터셋을 행정안전부의 고가치 공공데이터 개방목록에 등재 신청해, AI 스타트업의 학습데이터 접근성을 높이고 개방 성과를 대외적으로 연계.</li>
+</ul>
+</body></html>

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 윈도우/맥 탐색기 부산물
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 화면 확인용으로 잠깐 만드는 임시 페이지(scripts 없이 손으로 만들 때)
+_t-*.html
+
+# 편집기
+.vscode/
+.idea/
