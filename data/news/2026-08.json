@@ -464,8 +464,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 인공지능(AI)을 활용해 아동 및 청소년의 건강한 성장관리 지원에 나섰다. 시는 27~28일 초등학생 230명을 대상으로 '인공지능 아동 및 청소년 성장관리 지원사업' 1차 검진을 실시한다.",
-    "subtitle": "성장기 아동 신체 발달·건강상태 분석해 맞춤형 건강관리",
+    "snippet": "천안시가 인공지능(AI)을 활용해 아동 및 청소년의 건강한 성장관리 지원에 나섰다.",
+    "subtitle": "성장기 아동 신체 발달, 건강상태 분석해 맞춤형 건강관리",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -474,10 +474,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
+      "talent",
+      "security",
       "data"
     ],
-    "primary_topic": "public",
+    "primary_topic": "talent",
     "dept": "건강생활팀",
     "nttId": "B000000513039Nd3rE2"
   },
@@ -1135,8 +1136,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 25일 시청 대회의실에서 '2027 시책구상 보고회'를 열고 내년도 주요 정책과 신규 사업 389건을 논의했다. 인공지능 대전환 흐름에 맞춰 시정 전 분야에 AI를 접목한 시책을 대거 발굴했다.",
-    "subtitle": "시책구상 보고회…'세대·산업·행정교체' 본격화",
+    "snippet": "천안시는 25일 시청 대회의실에서 ‘2027 시책구상 보고회’를 열고 내년도 주요 정책과 신규 사업 389건을 논의했다.",
+    "subtitle": "시책구상 보고회 개최…‘세대, 산업, 행정교체’ 본격화",
     "tier": "tier1",
     "matched": [
       "AI"
@@ -1145,11 +1146,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
       "genai",
+      "physical",
       "talent"
     ],
-    "primary_topic": "public",
+    "primary_topic": "genai",
     "dept": "기획팀",
     "nttId": "B000000512752Ff6dP5"
   },
@@ -1267,8 +1268,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 '봉명지구 꿈꾸는 레일웨이 AI라운지'를 준공하고 내달부터 본격 운영한다. 동남구 봉명동 장항선 철도 하부에 연면적 799㎡, 3층 규모로 건립된 AI 체험·교육·창업 복합 거점 공간이다.",
-    "subtitle": "봉명동 연면적 799㎡ 3층 규모…도시재생 연계 AI 거점",
+    "snippet": "천안시는 ‘봉명지구 꿈꾸는 레일웨이 AI라운지’를 준공하고 내달부터 본격 운영한다고 24일 밝혔다.",
+    "subtitle": "동남구 봉명동 연면적 799㎡ 3층 규모…국토부 도시재생 연계 거점 구축",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -1278,11 +1279,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "genai",
       "talent",
-      "public",
-      "startup"
+      "industry"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "재생사업2팀",
     "nttId": "B000000512738Xf8sF1"
   },
@@ -1295,8 +1296,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 시민 누구나 생활권 가까이에서 인공지능(AI)을 배울 수 있도록 24일 쌍용1동을 시작으로 '읍면동 찾아가는 AI 교육'을 운영한다. 과기정통부·NIA의 'AI디지털배움터'와 연계해 진행된다.",
-    "subtitle": "쌍용1동 시작 읍면동 순회…'모두의 AI' 발맞춰 격차 해소",
+    "snippet": "천안시는 시민 누구나 생활권 가까이에서 인공지능(AI)을 배울 수 있는 환경을 조성하기 위해 24일 쌍용1동을 시작으로 ‘읍면동 찾아가는 AI 교육’을 운영한다고 밝혔다.",
+    "subtitle": "쌍용1동 시작으로 읍면동 순회…정부 ‘모두의 AI’ 발맞춰 격차 해소",
     "tier": "tier1",
     "matched": [
       "AI"
@@ -1305,11 +1306,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "genai",
       "talent",
-      "public",
-      "genai"
+      "public"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "스마트도시정책팀",
     "nttId": "B000000512741Qi4kI8"
   },
@@ -2295,8 +2296,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 제81주년 광복절을 맞아 천안 출신 독립운동가 석오 이동녕 선생을 주제로 한 인공지능(AI) 특별 뮤직비디오를 제작해 15일 오전 9시 공식 유튜브 채널에 공개한다.",
-    "subtitle": "생성형 AI로 독립운동·시민 일상 연계…15일 유튜브 공개",
+    "snippet": "천안시는 제81주년 광복절을 맞아 천안 출신 독립운동가 석오 이동녕 선생을 주제로 한 인공지능(AI) 특별 뮤직비디오를 제작해 공개한다고 14일 밝혔다.",
+    "subtitle": "생성형 인공지능으로 독립 운동, 시민 일상 연계…15일 유튜브서 시청",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -2306,7 +2307,8 @@
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
       "genai",
-      "public"
+      "public",
+      "law"
     ],
     "primary_topic": "genai",
     "dept": "미디어홍보팀",
@@ -2472,8 +2474,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 자율주행버스 운행을 확대하고 오는 11월부터 정식 서비스를 개시한다. 운행 구간은 KTX천안아산역에서 불당상업지구를 거쳐 천안 제3산업단지까지 이어지는 5.9㎞로, 요금은 무료다.",
-    "subtitle": "KTX천안아산역~제3산단 5.9㎞…무료 운행·시간 확대",
+    "snippet": "천안시가 자율주행버스 운행을 확대하고 오는 11월부터 정식 서비스를 개시하기로 결정했다.",
+    "subtitle": "KTX천안아산역~제3산단 5.9㎞ 구간…무료 운행, 시간 확대",
     "tier": "accepted",
     "matched": [
       "자율주행"
@@ -2483,7 +2485,8 @@
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
       "physical",
-      "public"
+      "industry",
+      "infra"
     ],
     "primary_topic": "physical",
     "dept": "지능형교통팀",
@@ -2803,8 +2806,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "대학생과 시민들로 구성된 '천안시 스마트도시 시민연구단'이 5개월간 현장 실증을 거쳐 도출한 서비스 개선 방안을 발표했다. 천안시는 오엔시티호텔에서 성과공유회를 열었다고 10일 밝혔다.",
-    "subtitle": "성과공유회서 앱·웹 프로토타입 공개…서비스 개선안 도출",
+    "snippet": "대학생과 시민들로 구성된 ‘천안시 스마트도시 시민연구단’이 5개월간 현장 실증을 거쳐 도출한 서비스 개선 방안을 발표했다.",
+    "subtitle": "성과공유회서 앱, 웹 등 프로토타입 공개…스마트도시 서비스 개선안 도출",
     "tier": "accepted",
     "matched": [
       "스마트도시"
@@ -2814,7 +2817,7 @@
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
       "public",
-      "other"
+      "law"
     ],
     "primary_topic": "public",
     "dept": "스마트도시TF팀",
@@ -2880,8 +2883,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 시내버스에 '인공지능 영상분석 안전시스템'을 도입해 운용한 결과, 도입 초기 대비 3분기 차 기준 42.3%의 사고 감소 효과를 거두었다고 7일 밝혔다.",
-    "subtitle": "운전점수 10% 상승…미설치 200대에도 확대 추진",
+    "snippet": "천안시는 시내버스에 ‘인공지능 영상분석 안전시스템’을 도입해 운용한 결과, 도입 초기(1분기 차) 대비 3분기 차 기준 42.3%의 사고 감소 효과를 거두었다고 7일 밝혔다.",
+    "subtitle": "도입 초기 대비 운전점수 10% 상승…미설치 200대에도 확대 추진",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -2890,10 +2893,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "data"
+      "security",
+      "data",
+      "public"
     ],
-    "primary_topic": "public",
+    "primary_topic": "security",
     "dept": "버스행정팀",
     "nttId": "B000000511935Cj9lJ3"
   },
@@ -3239,8 +3243,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 시민 삶의 질 향상과 디지털 역량 강화를 위해 이달부터 평생학습 강좌를 확대 운영한다. 총 134개 강좌, 2,113명 대상으로 생성형 인공지능과 코딩 등 디지털 신기술 강좌를 대폭 확대했다.",
-    "subtitle": "총 134개 강좌 2,113명…'인공지능 온마을 배움터'도 추진",
+    "snippet": "천안시는 시민 삶의 질 향상과 디지털 역량 강화를 위해 이달부터 평생학습 강좌를 확대 운영한다고 5일 밝혔다.",
+    "subtitle": "총 134개 강좌, 2,113명 대상…‘인공지능 온마을 배움터’ 사업도 추진",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -3250,11 +3254,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "talent",
       "genai",
-      "public"
+      "talent",
+      "industry"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "교육협력팀",
     "nttId": "B000000511774Gd1qY0"
   },

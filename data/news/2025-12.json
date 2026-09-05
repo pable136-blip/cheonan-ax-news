@@ -1054,7 +1054,7 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안도시공사가 22일 천안시 쌍용3동에 쌍방향 소통형 인공지능(AI) 돌봄인형을 기부했다. 자선바자회 수익금으로 마련한 300만 원 상당으로 독거노인 가구에 전달된다.",
+    "snippet": "천안도시공사는 22일 천안시 쌍용3동에 ‘쌍방향 소통형 인공지능(AI) 돌봄인형’을 기부했다고 밝혔다.",
     "subtitle": "독거노인 맞춤형 돌봄서비스 제공",
     "tier": "tier1",
     "matched": [
@@ -1064,10 +1064,10 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "physical"
+      "security",
+      "public"
     ],
-    "primary_topic": "public",
+    "primary_topic": "security",
     "dept": "천안도시공사",
     "nttId": "B00000404702QufzQEm1"
   },
@@ -1522,7 +1522,7 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시 동남구는 야생동물 로드킬을 방지하기 위해 빅데이터 기반 관리체계를 구축했다고 19일 밝혔다. 최근 2년간 지역별 발생건수와 계절 등을 분석해 로드킬 현황 분석 지도를 만들었다.",
+    "snippet": "천안시 동남구는 야생동물 로드킬을 방지하기 위해 빅데이터 기반의 관리체계를 구축했다고 19일 밝혔다.",
     "subtitle": "로드킬 다발 구간에 감속 운행 안내표지판 설치",
     "tier": "accepted",
     "matched": [
@@ -1533,10 +1533,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "security",
       "data",
       "public"
     ],
-    "primary_topic": "data",
+    "primary_topic": "security",
     "dept": "환경관리팀",
     "nttId": "B00000404624OtuOZXDR"
   },
@@ -1956,8 +1957,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 오는 23일 백석문화대학교 창의융합교육센터에서 시민과 전문가가 함께하는 스마트도시 토크콘서트 '프리즘시티, 스마트천안 Talk! Talk!'를 개최한다고 18일 밝혔다.",
-    "subtitle": "23일 백석문화대 창의융합교육센터서 스마트도시 비전 공유",
+    "snippet": "천안시는 오는 23일 백석문화대학교 창의융합교육센터에서 시민과 전문가가 함께하는 스마트도시 토크콘서트 ‘프리즘시티, 스마트천안 Talk! Talk!’를 개최한다고 18일 밝혔다.",
+    "subtitle": "23일 백석문화대학교 창의융합교육센터서 스마트도시 비전 공유",
     "tier": "accepted",
     "matched": [
       "스마트도시"
@@ -1966,10 +1967,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "genai"
+      "talent",
+      "industry",
+      "security"
     ],
-    "primary_topic": "public",
+    "primary_topic": "talent",
     "dept": "스마트도시TF팀",
     "nttId": "B00000404568klPxZjS8"
   },
@@ -2160,8 +2162,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 (사)한국인공지능협회와 17일 지속 가능하고 혁신적인 인공지능(AI) 산업 생태계 조성을 위한 업무협약을 체결했다. 지역경제 발전과 미래 성장동력 확보가 목적이다.",
-    "subtitle": "한국인공지능협회와 협약…중부권 대표 AI 도시 도약",
+    "snippet": "천안시는 (사)한국인공지능협회와 17일 지속 가능하고 혁신적인 인공지능(AI) 산업 생태계 조성을 위한 업무협약을 체결했다.",
+    "subtitle": "인공지능 분야 국정과제 실현을 위한 공동사업 등 추진",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -2170,11 +2172,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "industry",
       "talent",
-      "other"
+      "industry",
+      "infra"
     ],
-    "primary_topic": "industry",
+    "primary_topic": "talent",
     "dept": "스마트도시산업팀",
     "nttId": "B00000404478JdmO6Xyw"
   },
@@ -3571,8 +3573,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 단국대와 함께 추진한 인공지능(AI) 글로벌 마케팅 인재양성 교육과정을 성황리에 마쳤다고 8일 밝혔다. RISE 사업의 일환으로 지난 10월부터 6주간 진행됐다.",
-    "subtitle": "단국대와 6주 과정 운영…시민 참여형 AI 교육으로 역량 강화",
+    "snippet": "천안시는 단국대와 함께 추진한 인공지능(AI) 글로벌 마케팅 인재양성 교육과정을 성황리에 마쳤다고 8일 밝혔다.",
+    "subtitle": "시민 참여형 인공지능 교육으로 역량 강화",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -3581,11 +3583,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "talent",
       "genai",
-      "startup"
+      "talent",
+      "industry"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "스마트도시TF팀",
     "nttId": "B00000404030bmWfx5VY"
   },
@@ -4823,8 +4825,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안도시공사는 인공지능(AI) 기반 명예직원 '유순'을 정식 도입했다고 28일 밝혔다. 유관순 열사의 이름을 모티브로 한 AI 디지털 휴먼으로 발표와 사회 등 내부 업무를 맡는다.",
-    "subtitle": "AI 디지털 휴먼 '유순' 도입…조직 운영 전반 디지털 혁신 시동",
+    "snippet": "천안도시공사는 인공지능(AI) 기반 명예직원 ‘유순’을 정식 도입했다고 28일 밝혔다.",
+    "subtitle": "조직 운영 전반 디지털 혁신 시동",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -4833,10 +4835,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "genai"
+      "agent",
+      "talent",
+      "public"
     ],
-    "primary_topic": "public",
+    "primary_topic": "agent",
     "dept": "천안도시공사",
     "nttId": "B00000403756mhBqmewP"
   },

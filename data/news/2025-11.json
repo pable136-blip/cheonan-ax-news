@@ -813,8 +813,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 산업통상부 주관 'AX 실증산단 구축사업' 공모에 최종 선정돼 국비 140억 원을 확보했다고 26일 밝혔다. 천안스마트그린산단을 AI 제조혁신 거점으로 육성한다.",
-    "subtitle": "국비 140억 확보…2028년까지 228억 투입",
+    "snippet": "천안시가 천안스마트그린산단을 인공지능(AI) 기술을 접목한 첨단 제조혁신 거점으로 육성한다.",
+    "subtitle": "",
     "tier": "tier1",
     "matched": [
       "AX"
@@ -825,7 +825,7 @@
     "topics": [
       "industry",
       "infra",
-      "data"
+      "startup"
     ],
     "primary_topic": "industry",
     "dept": "스마트도시산업팀",
@@ -2683,8 +2683,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 '2025 천안시 데이터 분석 아이디어 경진대회' 대상에 '군집분석을 활용한 지역별 맞춤형 아동범죄 정책 제안'이 선정됐다고 10일 밝혔다. 56개 팀이 참가했다.",
-    "subtitle": "'군집분석 활용 아동범죄 정책 제안' 대상 수상",
+    "snippet": "천안시는 ‘2025 천안시 데이터 분석 아이디어 경진대회’ 대상에 ‘군집분석을 활용한 지역별 맞춤형 아동범죄 정책 제안’이 선정됐다고 10일 밝혔다.",
+    "subtitle": "‘군집분석을 활용한 지역별 맞춤형 아동범죄 정책 제안’대상",
     "tier": "accepted",
     "matched": [
       "데이터"
@@ -2693,10 +2693,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "data",
-      "public"
+      "talent",
+      "security",
+      "data"
     ],
-    "primary_topic": "data",
+    "primary_topic": "talent",
     "dept": "빅데이터팀",
     "nttId": "B00000403031VLL4iUwS"
   },
@@ -2934,8 +2935,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 4~6일 스페인 바르셀로나에서 열린 '2025 스마트시티 엑스포 월드 콩그레스(SCEWC)'에 참가해 지역 혁신기업 8개 사와 천안관을 운영하고 AI·스마트 인프라 기술을 선보였다.",
-    "subtitle": "바르셀로나 SCEWC 천안관 운영…글로벌 네트워크 확장",
+    "snippet": "천안시는 4~6일(현지시각) 스페인 바르셀로나에서 열린 ‘2025 스마트시티 엑스포 월드 콩그레스(SCEWC)’에 참가해 천안형 스마트도시 비전과 기술력을 성공적으로 선보였다.",
+    "subtitle": "‘스마트도시 천안’비전 전파 및 글로벌 네트워크 확장",
     "tier": "accepted",
     "matched": [
       "스마트도시"
@@ -2944,11 +2945,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "diplomacy",
-      "public",
-      "data"
+      "industry",
+      "infra",
+      "startup"
     ],
-    "primary_topic": "diplomacy",
+    "primary_topic": "industry",
     "dept": "스마트도시정책팀",
     "nttId": "B00000402948gEhWnzFi"
   },
@@ -3064,8 +3065,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 지난 5일 스페인 바르셀로나 SCEWC 천안관에서 미국 라이다 전문기업 Ouster, 국내 어반테크기업 ㈜그린에이아이와 글로벌 스마트도시 구축을 위한 업무협약을 맺었다.",
-    "subtitle": "Ouster·그린에이아이와 AI-LiDAR 스마트도시 협약",
+    "snippet": "천안시는 지난 5일(현지시간) 스페인 바로셀로나에서 미국 라이다(LiDAR) 전문기업 Ouster, 국내 어반테크기업 ㈜그린에이아이와 글로벌 스마트도시 구축을 위한 업무협약을 맺었다.",
+    "subtitle": "",
     "tier": "accepted",
     "matched": [
       "스마트도시"
@@ -3074,11 +3075,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "diplomacy",
-      "data",
-      "physical"
+      "physical",
+      "industry",
+      "infra"
     ],
-    "primary_topic": "diplomacy",
+    "primary_topic": "physical",
     "dept": "스마트도시정책팀",
     "nttId": "B00000402902Lp1xOzbO"
   },

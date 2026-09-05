@@ -835,8 +835,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 챗GPT와 제미나이 등 생성형 인공지능(AI)을 행정에 도입해 '스마트 행정' 구현에 속도를 내고 있다. 지난 16일부터 27일까지 서북구청에서 공무원 250여 명 대상 실습 교육을 실시했다.",
-    "subtitle": "문서 작성부터 데이터 분석까지 실습…공무원 250여 명 참여",
+    "snippet": "천안시가 챗GPT와 제미나이 등 생성형 인공지능(AI)을 행정에 도입해 ‘스마트 행정’ 구현에 속도를 내고 있다.",
+    "subtitle": "문서 작성부터 데이터 분석까지 실습",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -846,11 +846,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "talent",
       "genai",
-      "public"
+      "talent",
+      "data"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "정보정책팀",
     "nttId": "B000000505035Pl9iX0"
   },
@@ -966,8 +966,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 시민들이 직접 스마트도시 서비스를 검증하고 개선안을 제안하는 '시민 참여형 실증 모델' 구축에 나선다. 27일 단국대 천안캠퍼스 산학협력단과 '스마트도시 시민 리빙랩' 발대식을 열었다.",
-    "subtitle": "단국대와 협력해 7개월간 운영…가상 시나리오로 서비스 검증",
+    "snippet": "천안시가 시민들이 직접 스마트도시 서비스를 검증하고 개선안을 제안하는 ‘시민 참여형 실증 모델’ 구축에 나선다.",
+    "subtitle": "단국대와 협력해 7개월간 운영…가상 시나리오로 서비스 테스트",
     "tier": "accepted",
     "matched": [
       "스마트도시"
@@ -976,11 +976,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
       "genai",
-      "data"
+      "talent",
+      "industry"
     ],
-    "primary_topic": "public",
+    "primary_topic": "genai",
     "dept": "스마트도시TF팀",
     "nttId": "B000000505038Ir2zY6"
   },
@@ -1251,8 +1251,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시도서관본부는 26일 인공지능(AI) 기술 확산에 대응하기 위해 사서직 공무원을 대상으로 직무교육을 진행했다고 밝혔다. '인공지능 시대, 독서국가로 가는 길'을 주제로 열렸다.",
-    "subtitle": "'인공지능 시대, 독서국가로 가는 길' 주제로 사서 역량 강화",
+    "snippet": "천안시도서관본부는 26일 인공지능(AI) 기술 확산에 대응하기 위해 사서직 공무원을 대상으로 직무교육을 진행했다고 밝혔다.",
+    "subtitle": "‘인공지능 시대, 독서국가로 가는 길’ 주제로 역량강화",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -4247,8 +4247,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 아산시와 손잡고 국토교통부 주관 'K-인공지능(AI) 특화시범도시' 조성사업 유치에 본격 나선다. 지난 5일 천안아산상생협력센터에서 공동 추진 업무협약을 체결했다.",
-    "subtitle": "'인공지능(AI) 특화 시범도시 공동 추진 업무협약' 체결",
+    "snippet": "천안시가 아산시와 손잡고 국토교통부 주관 ‘K-인공지능(AI) 특화시범도시’ 조성사업 유치에 본격적으로 나선다.",
+    "subtitle": "‘인공지능(AI) 특화 시범도시 공동 추진 업무협약’ 체결",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -4258,10 +4258,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "infra"
+      "infra",
+      "startup",
+      "security"
     ],
-    "primary_topic": "public",
+    "primary_topic": "infra",
     "dept": "스마트도시TF팀",
     "nttId": "B000000503725Fg6vJ1"
   },
@@ -4424,8 +4425,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시농업기술센터는 인공지능(AI)을 활용한 농가 지원 원스톱 서비스를 시범 추진한다고 5일 밝혔다. 신속토양분석과 현미경 진단, 기능성 미생물 클로렐라 처방 등을 추진한다.",
-    "subtitle": "신속토양분석·현미경 진단·클로렐라 처방 원스톱 지원",
+    "snippet": "천안시농업기술센터는 인공지능(AI)을 활용한 농가 지원 원스톱 서비스를 시범 추진한다고 5일 밝혔다.",
+    "subtitle": "",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -4434,10 +4435,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "industry"
+      "industry",
+      "data",
+      "public"
     ],
-    "primary_topic": "public",
+    "primary_topic": "industry",
     "dept": "풍세광덕지소",
     "nttId": "B000000503642My9wD7"
   },

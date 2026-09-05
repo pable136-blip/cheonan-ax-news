@@ -361,8 +361,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "9월부터 천안서 첫 자율주행차가 달린다. 천안시는 28일 시청 대회의실에서 첫 자율주행차 운행을 위한 '자율주행 시범운행지구 운영 용역' 착수보고회를 개최했다.",
-    "subtitle": "2026년 2월까지 5.9km 구간 고정노선형 운행",
+    "snippet": "천안시는 28일 시청 대회의실에서 첫 자율주행차 운행을 위한 ‘자율주행 시범운행지구 운영 용역’ 착수보고회를 개최했다.",
+    "subtitle": "2026년 2월까지 5.9km 구간서 고정노선형 자율주행차 운행",
     "tier": "accepted",
     "matched": [
       "자율주행"
@@ -372,7 +372,8 @@
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
       "physical",
-      "public"
+      "industry",
+      "security"
     ],
     "primary_topic": "physical",
     "dept": "지능형교통팀",
@@ -439,8 +440,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 고령 택시 운수종사자를 대상으로 '인공지능형 페달 오조작 방지장치'를 지원한다고 24일 밝혔다. 가속·감속페달 구분 오류로 발생하는 사고를 막기 위한 보조금 사업이다.",
-    "subtitle": "만 65세 이상 고령 택시 운전자 50명 선정 지원",
+    "snippet": "천안시는 고령 택시 운수종사자를 대상으로 ‘인공지능형 페달 오조작 방지장치’를 지원한다고 24일 밝혔다.",
+    "subtitle": "만 65세 이상 고령 운전자 50명 선정",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -449,10 +450,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "security",
       "public",
-      "security"
+      "law"
     ],
-    "primary_topic": "public",
+    "primary_topic": "security",
     "dept": "택시행정팀장",
     "nttId": "B00000397954lzLMlsqz"
   },

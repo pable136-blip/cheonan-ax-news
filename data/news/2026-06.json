@@ -1464,8 +1464,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시농업기술센터가 전국에서 처음으로 시범 운영 중인 '신속 토양분석 및 인공지능(AI) 처방 시스템'이 과학영농 표준 모델로 주목받으며 벤치마킹 행렬이 이어지고 있다고 24일 밝혔다.",
-    "subtitle": "정밀농업 모범사례…실시간 진단으로 공정 1일 단축",
+    "snippet": "천안시농업기술센터는 전국에서 처음으로 시범 운영 중인 ‘신속 토양분석 및 인공지능(AI) 처방 시스템’이 새로운 농촌지도 사업의 과학영농 표준 모델로 주목받으며 벤치마킹 행렬이 이어지고 있다고 24일 밝혔다.",
+    "subtitle": "정밀농업 생태계 조성 위한 모범사례 평가",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -1474,11 +1474,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "data",
-      "industry"
+      "infra",
+      "startup",
+      "data"
     ],
-    "primary_topic": "public",
+    "primary_topic": "infra",
     "dept": "풍세광덕지소",
     "nttId": "B000000509418Ng5hK8"
   },
@@ -2793,8 +2793,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 아산시와 공동으로 신청한 국토교통부 주관 '인공지능(AI) 특화 시범도시' 공모사업에 충청권 최종 대상지로 선정됐다고 18일 밝혔다. 총사업비는 6,109억 원 규모다.",
-    "subtitle": "국토부 AI 특화 시범도시 선정…2030년까지 5개년",
+    "snippet": "천안시가 아산시와 공동으로 신청한 국토교통부 주관 ‘인공지능(AI) 특화 시범도시’ 공모사업에 충청권 최종 대상지로 선정됐다고 18일 밝혔다.",
+    "subtitle": "교통, 재난, 민원 자율형 인공지능 서비스 실증",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -2803,11 +2803,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "infra",
-      "agent"
+      "agent",
+      "physical",
+      "infra"
     ],
-    "primary_topic": "public",
+    "primary_topic": "agent",
     "dept": "스마트도시TF팀",
     "nttId": "B000000509214Dc3tW0"
   },
@@ -4191,8 +4191,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 지난 8일 시청 봉서홀에서 전 직원을 대상으로 '생성형 인공지능(AI) 활용 전략 및 윤리 특강'을 개최했다고 밝혔다. 정보 왜곡(할루시네이션) 등 기술적 한계 대응이 목적이다.",
-    "subtitle": "전 직원 대상 특강…할루시네이션 등 한계 대응",
+    "snippet": "천안시는 지난 8일 시청 봉서홀에서 전 직원을 대상으로 ‘생성형 인공지능(AI) 활용 전략 및 윤리 특강’을 개최했다고 밝혔다.",
+    "subtitle": "기술적 한계 대응 및 실제 행정 현장 활용 방법 모색",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -4202,11 +4202,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "genai",
       "talent",
-      "security",
-      "genai"
+      "security"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "정보정책팀",
     "nttId": "B000000508764Cj0zQ4"
   },

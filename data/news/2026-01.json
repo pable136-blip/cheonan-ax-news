@@ -212,8 +212,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 29일 충남도청에서 ㈜금강과 1조 2,000억 원 규모 AI 데이터센터 건립 투자협약을 체결했다. 직산읍 군서리 일원 10만 2,642㎡ 부지에 2028년 6월까지 조성된다.",
-    "subtitle": "천안시·충남도·㈜금강 투자협약, 직산읍 10만㎡ 조성",
+    "snippet": "천안시가 1.2조 원 규모의 대규모 민간 자본을 유치하며 미래 디지털 산업의 핵심 거점으로 도약한다.",
+    "subtitle": "천안시-충남도-㈜금강, 투자협약 체결… 직산읍 일대 10만㎡ 부지에 조성",
     "tier": "tier1",
     "matched": [
       "AI",
@@ -223,9 +223,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "infra"
+      "industry",
+      "infra",
+      "startup"
     ],
-    "primary_topic": "infra",
+    "primary_topic": "industry",
     "dept": "스마트도시산업팀",
     "nttId": "B000000501355Mf8yH7"
   },
@@ -238,8 +240,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 지난해 공모사업에 선정돼 추진한 7개 인공지능(AI) 교육 과정이 만족도 조사에서 94점을 기록했다. 대상별로 세분화해 100% 실습 위주로 운영한 점이 호응을 얻었다.",
-    "subtitle": "직장인·어르신 등 475명 참여, 7개 과정 만족도 94점",
+    "snippet": "천안시가 실시한 대상별 맞춤형 인공지능(AI) 교육이 시민들로부터 큰 호응을 얻으며 디지털 격차 해소에 기여하고 있다.",
+    "subtitle": "직장인, 어르신 등 475명 참여",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -249,10 +251,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "genai",
       "talent",
-      "public"
+      "data"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "평생교육정책팀",
     "nttId": "B000000501344Sa5jG6"
   },
@@ -648,8 +651,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시청소년복합커뮤니티센터가 지역 청소년의 디지털 사고력 향상을 위해 '2026 천안 청소년 AI 학교' 참가자를 모집한다. 기초 개념부터 실생활 활용까지 체험형으로 운영된다.",
-    "subtitle": "초등 5~6학년 30명 선착순 모집",
+    "snippet": "(재)천안시청소년재단 천안시청소년복합커뮤니티센터가 지역 청소년의 디지털 사고력 향상을 위해 ‘2026 천안 청소년 AI 학교’ 참가자를 모집한다고 27일 밝혔다.",
+    "subtitle": "초등 5~6학년 30명 선착순",
     "tier": "tier1",
     "matched": [
       "AI"
@@ -659,7 +662,8 @@
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
       "talent",
-      "public"
+      "security",
+      "law"
     ],
     "primary_topic": "talent",
     "dept": "청소년팀",
@@ -722,8 +726,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시청소년복합커뮤니티센터가 겨울방학을 맞아 자율주행버스를 직접 타보고 미래 기술을 배우는 '타보는 미래, 움직이는 교실' 참가자를 모집한다.",
-    "subtitle": "2월 3일까지 초등 5~6학년 20명 선착순 모집",
+    "snippet": "(재)천안시청소년재단 천안시청소년복합커뮤니티센터가 겨울방학을 맞아 자율주행버스를 직접 타보고 미래 기술을 배우는 ‘타보는 미래, 움직이는 교실’ 참가자를 모집한다고 26일 밝혔다.",
+    "subtitle": "2월 3일까지 초등 5~6학년 20명 선착순",
     "tier": "accepted",
     "matched": [
       "자율주행"
@@ -732,10 +736,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "physical",
       "talent",
-      "physical"
+      "public"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "physical",
     "dept": "청소년팀",
     "nttId": "B000000500970Cf4zA0"
   },
@@ -1437,8 +1442,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 인공지능 기술을 시정 전반에 접목하는 '인공지능 전환(AX)' 사업에 속도를 낸다. 2026년까지 거점형 스마트도시를 완성하고 중부권 AI 데이터센터 구축을 추진한다.",
-    "subtitle": "M-AX 클러스터·강소형 데이터센터 등 국책사업 선제 대응",
+    "snippet": "천안시가 인공지능(AI) 기술을 시정 전반에 접목하는 ‘인공지능 전환(AX, AI Transformation)’ 사업에 속도를 낸다.",
+    "subtitle": "M-AX 클러스터, 강소형 데이터센터 등 국책사업 선제 대응",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -1448,11 +1453,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "infra",
+      "talent",
       "industry",
-      "public"
+      "infra"
     ],
-    "primary_topic": "infra",
+    "primary_topic": "talent",
     "dept": "스마트도시정책팀",
     "nttId": "B00000405828hesz5KiY"
   },

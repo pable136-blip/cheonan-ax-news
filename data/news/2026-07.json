@@ -208,8 +208,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 향토기업 ㈜학화1934(할머니학화호두과자 본점)가 농림축산식품부의 농식품 분야 '인공지능 응용제품 신속상용화 지원사업'에 최종 선정됐다고 30일 밝혔다. 총 사업비는 30억 원 규모다.",
-    "subtitle": "농식품 AI 신속상용화 사업 선정…총 30억원 규모",
+    "snippet": "천안시는 지역 향토기업인 ㈜학화1934(할머니학화호두과자 본점)가 농림축산식품부의 농식품 분야 ‘인공지능 응용제품 신속상용화 지원사업’에 최종 선정됐다고 30일 밝혔다.",
+    "subtitle": "한국농업기술진흥원 ‘인공지능 응용제품 신속상용화 지원사업’ 최종 선정",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -219,8 +219,8 @@
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
       "industry",
-      "data",
-      "startup"
+      "infra",
+      "data"
     ],
     "primary_topic": "industry",
     "dept": "기업지원팀",
@@ -1234,8 +1234,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "급변하는 인공지능 전환(AX) 시대를 맞아 지역 기업의 성장 전략을 모색하고 현장 애로사항을 청취하는 소통의 장이 천안에서 마련됐다. 나사렛대 제2창학관에서 기업 소통 간담회가 열렸다.",
-    "subtitle": "기업성장전략세미나 연계…AX 시대 현장 애로 청취",
+    "snippet": "급변하는 인공지능 전환(AX) 시대를 맞아 지역 기업의 성장 전략을 모색하고 현장 애로사항을 청취하는 소통의 장이 천안에서 마련됐다.",
+    "subtitle": "‘2026 기업성장전략세미나’ 연계…현장 애로 청취 및 지원책 공유",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -1244,11 +1244,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "industry",
       "talent",
-      "other"
+      "industry",
+      "diplomacy"
     ],
-    "primary_topic": "industry",
+    "primary_topic": "talent",
     "dept": "기업지원팀",
     "nttId": "B000000511077Dj0xD6"
   },

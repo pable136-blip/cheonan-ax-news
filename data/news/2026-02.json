@@ -206,8 +206,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 제107주년 3.1절을 맞아 유관순 열사의 숭고한 헌신을 기리는 인공지능(AI) 특별 뮤직비디오 '눈앞에서'를 공개한다고 26일 밝혔다. 내달 1일 오전 9시 공식 유튜브 채널에 공개된다.",
-    "subtitle": "유관순 열사의 시선으로 바라본 '완전한 해방과 자유'",
+    "snippet": "천안시가 제107주년 3.1절을 맞아 유관순 열사의 숭고한 헌신을 기리는 인공지능(AI) 특별 뮤직비디오 ‘눈앞에서’를 공개한다고 26일 밝혔다.",
+    "subtitle": "유관순 열사의 시선으로 바라본 ‘완전한 해방과 자유’",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -217,8 +217,7 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "genai",
-      "public"
+      "genai"
     ],
     "primary_topic": "genai",
     "dept": "미디어홍보팀",
@@ -1088,8 +1087,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 정보취약계층의 디지털 격차 해소를 위해 올해부터 생성형 인공지능(AI) 교육을 신규 도입하는 등 정보화 교육을 확대 운영한다고 23일 밝혔다. 교육은 11월까지 진행된다.",
-    "subtitle": "2월부터 11월까지 운영…'Gemini 활용' 과정 등 신설",
+    "snippet": "천안시가 정보취약계층의 디지털 격차 해소를 위해 올해부터 생성형 인공지능(AI) 교육을 신규 도입하는 등 정보화 교육을 확대 운영한다고 23일 밝혔다.",
+    "subtitle": "2월부터 11월까지 운영…기존 실무 교육에 ‘Gemini 활용’ 등 신설",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -1100,11 +1099,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "talent",
       "genai",
-      "public"
+      "physical",
+      "talent"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "정보정책팀",
     "nttId": "B000000502916Ef8pU2"
   },
@@ -2693,8 +2692,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 제조업 중심 산업 구조를 인공지능(AI) 기반으로 혁신하고 중부권 AI 산업의 핵심 거점으로 도약하기 위한 청사진을 내놨다. 5일 시청 재난상황실에서 산업 육성계획 중간보고회를 열었다.",
-    "subtitle": "4대 추진전략 선정…제조업 AX 고도화·시민 체감 서비스 확산",
+    "snippet": "천안시가 제조업 중심의 산업 구조를 인공지능(AI) 기반으로 혁신하고, 중부권 AI 산업의 핵심 거점으로 도약하기 위한 구체적인 청사진을 내놨다.",
+    "subtitle": "5일 ‘천안형 인공지능(AI) 산업 육성 및 지원계획 수립용역’ 중간보고회 개최",
     "tier": "tier1",
     "matched": [
       "AI"
@@ -2703,11 +2702,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "talent",
       "industry",
-      "infra",
-      "talent"
+      "infra"
     ],
-    "primary_topic": "industry",
+    "primary_topic": "talent",
     "dept": "스마트도시추진과 스마트도시산업팀",
     "nttId": "B000000501815Fy5kD0"
   },
@@ -2915,8 +2914,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 3일 시청 제1소회의실에서 한국기술교육대학교, 천안제일고, 천안공고와 직업계고 재학생 인공지능(AI)·디지털 역량 강화를 위한 업무협약을 체결하고 미래 인재 양성에 나섰다.",
-    "subtitle": "천안제일고·천안공고 재학생 AI·디지털 역량 강화 협력",
+    "snippet": "천안시가 지역 대학 및 직업계고등학교와 손잡고 4차 산업혁명 시대를 이끌 미래 인재 양성에 박차를 가한다.",
+    "subtitle": "천안제일고, 천안공고 재학생 대상 인공지능(AI) 및 디지털 역량 강화 교육 협력",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -2926,10 +2925,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "genai",
       "talent",
-      "public"
+      "startup"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "스마트도시TF팀",
     "nttId": "B000000501591Vz2tA2"
   },
@@ -3039,8 +3039,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 인공지능 기술을 접목한 선별관제시스템을 통해 '안전 사각지대 제로화'에 박차를 가하고 있다고 3일 밝혔다. 천안아산 도시통합운영센터를 중심으로 365일 24시간 관제를 운영한다.",
-    "subtitle": "3년간 27억 원 투입해 CCTV 4,770대 인공지능화",
+    "snippet": "천안시는 인공지능(AI) 기술을 접목한 선별관제시스템을 통해 ‘안전 사각지대 제로(Zero)화’에 박차를 가하고 있다고 3일 밝혔다.",
+    "subtitle": "3년간 27억 원 투입해 폐쇄회로(CC)TV 4,770대 인공지능화",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -3050,10 +3050,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "security"
+      "security",
+      "data",
+      "public"
     ],
-    "primary_topic": "public",
+    "primary_topic": "security",
     "dept": "영상관제팀",
     "nttId": "B000000501571Ka8hY1"
   },
@@ -3090,8 +3091,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 지반이 약해지는 해빙기를 맞아 안전사고 예방을 위해 공공건축 현장에 사물인터넷(IoT)과 인공지능(AI) 기술을 도입하고 실시간 모니터링 체계를 가동한다.",
-    "subtitle": "공공건축 현장에 스마트 안전관리 체계 본격 가동",
+    "snippet": "천안시가 지반이 약해지는 해빙기를 맞아 안전사고 예방을 위해 공공건축 현장에 사물인터넷(IoT)과 인공지능(AI) 기술을 도입한다.",
+    "subtitle": "공공건축 현장에 ‘스마트 안전관리 체계’ 본격 가동",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -3101,10 +3102,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "security"
+      "physical",
+      "security",
+      "public"
     ],
-    "primary_topic": "public",
+    "primary_topic": "physical",
     "dept": "시설지원팀",
     "nttId": "B000000501573Mt0eO5"
   },

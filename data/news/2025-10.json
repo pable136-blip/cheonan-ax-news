@@ -157,8 +157,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 천안역사거리 등 교차로 4곳에서 '예지형 보행자 안전 인공지능(AI) 서비스'를 실증 운용해 보행자 안전 서비스화 가능성을 입증했다고 30일 밝혔다. 지난 4월 ETRI와 협약을 맺고 8월부터 원천기술을 적용했다.",
-    "subtitle": "천안역·터미널사거리 등 교차로 4곳서 실증 운용",
+    "snippet": "천안시는 천안역사거리 등 교차로 4곳에서 ‘예지형 보행자 안전 인공지능(AI) 서비스’를 실증 운용해 보행자 안전 서비스화 가능성을 입증했다고 30일 밝혔다.",
+    "subtitle": "천안역사거리, 터미널사거리 등 교차로 4곳서 운용",
     "tier": "tier1",
     "matched": [
       "AI"
@@ -167,11 +167,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
       "security",
-      "data"
+      "public",
+      "diplomacy"
     ],
-    "primary_topic": "public",
+    "primary_topic": "security",
     "dept": "지능형교통팀",
     "nttId": "B00000402553XYv4BwiZ"
   },
@@ -1199,8 +1199,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 산업단지와 고속열차역 등 도심 주요 생활권을 잇는 자율주행버스 '501번'의 시범 운행을 시작했다고 22일 밝혔다. 이날 시청 시민의종 앞에서 개통식을 열고 운영구간을 시승했다.",
-    "subtitle": "KTX천안아산역~3산단 5.9km 구간 하루 6회 운행",
+    "snippet": "천안시는 산업단지와 고속열차역 등 도심 주요 생활권을 잇는 자율주행버스 ‘501번’의 시범 운행을 시작했다고 22일 밝혔다.",
+    "subtitle": "KTX천안아산역, 천안시청, 3산단 총 5.9km 구간 총 6회 운행",
     "tier": "accepted",
     "matched": [
       "자율주행"
@@ -1210,7 +1210,8 @@
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
       "physical",
-      "public"
+      "industry",
+      "security"
     ],
     "primary_topic": "physical",
     "dept": "지능형교통팀",
@@ -2106,8 +2107,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 인공지능(AI) 산업 육성을 위한 구체적인 전략 수립에 나섰다. 지난 22일 시청 중회의실에서 '천안형 인공지능산업 육성 및 지원계획 수립 용역' 착수보고회를 개최했다.",
-    "subtitle": "'천안형 인공지능산업 육성·지원계획 수립 용역' 착수보고회",
+    "snippet": "천안시가 인공지능(AI) 산업 육성을 위한 구체적인 전략 수립에 나섰다.",
+    "subtitle": "",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -2116,11 +2117,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "industry",
-      "infra",
-      "other"
+      "physical",
+      "talent",
+      "industry"
     ],
-    "primary_topic": "industry",
+    "primary_topic": "physical",
     "dept": "스마트도시산업팀",
     "nttId": "B00000401693FE7jHR4p"
   },
@@ -2156,8 +2157,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시는 과학기술정보통신부 주관 스마트빌리지 보급 및 확산 사업에 최종 선정돼 '인공지능(AI) 기반의 주차장 자동차 화재 대응 시스템'을 마련한다고 29일 밝혔다.",
-    "subtitle": "과기정통부 스마트빌리지 사업 선정…공공시설 주차장 우선 적용",
+    "snippet": "천안시는 과학기술정보통신부 주관 스마트빌리지 보급 및 확산 사업에 최종 선정돼 ‘인공지능(AI) 기반의 주차장 자동차 화재 대응 시스템’을 마련한다고 29일 밝혔다.",
+    "subtitle": "공공시설 주차장 자동차 화재 선제적 대응 및 확산계획",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -2166,10 +2167,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "public",
-      "security"
+      "infra",
+      "security",
+      "public"
     ],
-    "primary_topic": "public",
+    "primary_topic": "infra",
     "dept": "스마트도시TF팀",
     "nttId": "B00000401735euyQEmBu"
   },

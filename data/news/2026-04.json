@@ -85,8 +85,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 친환경 전기 기반 자율주행버스 시범운영을 성공적으로 마쳤다. 29일 완료보고회를 열고 6개월간의 운행 데이터와 향후 단계별 운영 방안을 공유하며 상용화 기반 마련에 나섰다.",
-    "subtitle": "6개월 시범운행 1,591명 탑승, 무사고로 신뢰성 확인",
+    "snippet": "천안시가 친환경 전기 기반 자율주행버스의 시범운영을 성공적으로 마치며 미래 모빌리티 선도 도시로의 도약을 본격화했다.",
+    "subtitle": "6개월간 시민 1,591명 탑승…도심 혼합 교통환경서 기술 신뢰성 확인",
     "tier": "accepted",
     "matched": [
       "자율주행"
@@ -96,8 +96,8 @@
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
       "physical",
-      "public",
-      "data"
+      "industry",
+      "security"
     ],
     "primary_topic": "physical",
     "dept": "지능형교통팀",
@@ -1722,8 +1722,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 지역 창업 생태계를 선도할 혁신 기업 '천안미래유니콘 C-STAR' 4기 7개 사를 최종 선정했다. 로봇·모빌리티·반도체·인공지능 등 첨단 기술 분야 42개 사가 지원해 6대 1 경쟁률을 기록했다.",
-    "subtitle": "42개사 지원 6대 1 경쟁…로봇·AI 등 신산업 집중",
+    "snippet": "천안시가 지역 창업 생태계를 선도할 혁신 기업인 ‘천안미래유니콘 C-STAR’ 4기 7개 사를 최종 선정했다고 23일 밝혔다.",
+    "subtitle": "42개사 신청해 6대 1 경쟁률 기록…로봇, 인공지능 등 신산업 분야 집중",
     "tier": "accepted",
     "matched": [
       "로봇"
@@ -1732,11 +1732,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "startup",
       "physical",
-      "industry"
+      "industry",
+      "infra"
     ],
-    "primary_topic": "startup",
+    "primary_topic": "physical",
     "dept": "스타트업지원팀",
     "nttId": "B000000506454Pl0gV9"
   },
@@ -2150,8 +2150,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 산업단지 제조기업 CEO·임원을 대상으로 현장 맞춤형 인공지능 전략을 전수하는 '충남 및 천안 AX얼라이언스 CAIO 과정 기업대표교육'을 운영한다. 29일부터 7월 8일까지 총 10회 진행된다.",
-    "subtitle": "29일부터 10회…제조업 본질과 최신 AI 결합 커리큘럼",
+    "snippet": "천안시가 지역 제조기업 경영진의 인공지능(AI) 이해도와 활용 역량을 높여 기업 경쟁력을 강화하기 위한 전문 교육 과정 운영에 본격적으로 나선다.",
+    "subtitle": "29일부터 10회간 운영…제조업 본질과 최신 인공지능 기술 결합 커리큘럼 제공",
     "tier": "tier1",
     "matched": [
       "AI",
@@ -2161,11 +2161,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "genai",
       "talent",
-      "industry",
-      "physical"
+      "industry"
     ],
-    "primary_topic": "talent",
+    "primary_topic": "genai",
     "dept": "스마트도시산업팀",
     "nttId": "B000000506358Io4tN1"
   },
@@ -2594,8 +2594,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시농업기술센터가 16~17일 풍세광덕지소에서 과학영농전문지도연구회와 정밀농업 기술교류 세미나를 열고, AI 기반 신속 토양분석 시스템과 농업용 클로렐라 보급 우수사례를 공유했다.",
-    "subtitle": "과학영농전문지도연구회와 정밀농업 기술교류 세미나",
+    "snippet": "천안시농업기술센터는 16~ 17일 풍세광덕지소에서 과학영농전문지도연구회와 함께 정밀농업 기술교류를 위한 세미나를 실시했다고 밝혔다.",
+    "subtitle": "과학영농전문지도연구회 세미나 개최",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -3362,8 +3362,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 제조업 중심 산업 구조를 인공지능 중심으로 재편하는 청사진을 내놨다. 13일 '천안형 AI 산업 육성 및 지원계획 수립용역' 최종보고회에서 중부권 AI 산업 거점 도약 4대 전략을 발표했다.",
-    "subtitle": "제2·3·4산단 AX 실증산단 조성, AI 데이터센터 추진",
+    "snippet": "천안시가 제조업 중심의 산업 구조를 인공지능(AI) 중심으로 재편하기 위한 청사진을 내놨다.",
+    "subtitle": "제2, 3, 4산단 ‘AX 실증산단’ 조성…인공지능 데이터센터 및 실증 인프라 구축",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -3372,11 +3372,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "talent",
       "industry",
-      "infra",
-      "talent"
+      "infra"
     ],
-    "primary_topic": "industry",
+    "primary_topic": "talent",
     "dept": "스마트도시산업팀",
     "nttId": "B000000505961Er2yH1"
   },
@@ -3610,7 +3610,7 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시 서북구보건소가 내달 27일까지 정신재활시설 이용자를 위한 '힘찬 발걸음-로보워크'를 운영한다. 웨어러블 로봇 보행 보조 기술로 신체활동과 정신사회적 회복을 통합 지원한다.",
+    "snippet": "천안시 서북구보건소는 내달 27일까지 정신재활시설 이용자를 위한 ‘힘찬 발걸음-로보워크’ 프로그램을 운영한다고 10일 밝혔다.",
     "subtitle": "정신재활시설 이용자 지역사회 복귀 역량 강화",
     "tier": "accepted",
     "matched": [
@@ -3621,7 +3621,8 @@
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
       "physical",
-      "public"
+      "talent",
+      "security"
     ],
     "primary_topic": "physical",
     "dept": "건강생활팀",
@@ -3811,8 +3812,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 데이터 기반의 과학적 행정을 구현하기 위해 '공직자 데이터 활용 역량 강화 교육'을 실시했다. 빅데이터와 AI 기술 동향, 공공부문 데이터 활용 사례 등을 실무 중심으로 다뤘다.",
-    "subtitle": "전 직원 대상 빅데이터·AI 동향과 실무 사례 교육",
+    "snippet": "천안시는 데이터 기반의 과학적 행정을 구현하기 위해 ‘공직자 데이터 활용 역량 강화 교육’을 실시했다고 9일 밝혔다.",
+    "subtitle": "9일 시청 대회의실서 전 직원 대상 빅데이터 및 인공지능 기술 동향 및 실무 사례 중심",
     "tier": "accepted",
     "matched": [
       "데이터"
@@ -3821,11 +3822,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "data",
       "talent",
+      "data",
       "public"
     ],
-    "primary_topic": "data",
+    "primary_topic": "talent",
     "dept": "빅데이터팀",
     "nttId": "B000000505751Bl6aO4"
   },
@@ -4464,8 +4465,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 행정안전부 주관 '2025년 공공데이터 제공 운영실태 평가'에서 2년 연속 우수기관으로 선정됐다. 전국 684개 기관을 대상으로 데이터 개방·활용, 품질관리 등 10개 지표를 평가했다.",
-    "subtitle": "684개 기관 평가서 2년 연속 우수기관 선정",
+    "snippet": "천안시는 행정안전부 주관 ‘2025년 공공데이터 제공 운영실태 평가’에서 지난해에 이어 2년 연속 우수기관으로 선정됐다고 2일 밝혔다.",
+    "subtitle": "전국 684개 기관 대상 데이터 개방, 활용, 품질 등 10개 지표 종합 평가",
     "tier": "accepted",
     "matched": [
       "데이터"
@@ -4474,10 +4475,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "data",
-      "public"
+      "industry",
+      "security",
+      "data"
     ],
-    "primary_topic": "data",
+    "primary_topic": "industry",
     "dept": "빅데이터팀",
     "nttId": "B000000505351Un6xU1"
   },
@@ -4590,8 +4592,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 국립공주대학교, 한국과학기술원(KAIST)과 인공지능(AI)을 활용한 지역 혁신과 미래 모빌리티 산업 생태계 구축에 나섰다. 1일 시청 제1소회의실에서 업무협약을 체결했다.",
-    "subtitle": "인공지능 지식 생태계·미래 모빌리티 실현 업무협약 체결",
+    "snippet": "천안시가 국립공주대학교, 한국과학기술원(KAIST)과 인공지능(AI)을 활용한 지역 혁신과 미래 모빌리티 산업 생태계 구축에 나섰다.",
+    "subtitle": "인공지능 지식 생태계 구축과 미래 모빌리티 실현을 위한 업무협약 체결",
     "tier": "tier1",
     "matched": [
       "인공지능",
@@ -4601,10 +4603,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
+      "talent",
       "industry",
-      "talent"
+      "infra"
     ],
-    "primary_topic": "industry",
+    "primary_topic": "talent",
     "dept": "스마트도시정책팀",
     "nttId": "B000000505307Rm7tF9"
   },
@@ -4826,8 +4829,8 @@
     "source": "천안시 보도자료",
     "collector": "cheonan",
     "source_domain": "www.cheonan.go.kr",
-    "snippet": "천안시가 '지역주도형 인공지능 대전환' 공모사업에 선정돼 국비 140억 원을 확보했다. 아산시·충남도와 함께 2027년까지 총 298억 2,000만 원을 투입해 중부권 제조 AI 혁신 모델을 만든다.",
-    "subtitle": "국비 140억 확보…2027년까지 총 298억 원 투입",
+    "snippet": "천안시는 아산시, 충남도와 협력해 2027년까지 국비와 지방비, 민자 등 총 298억 2,000만 원을 투입한다. 지방비 120억 원은 충남도와 천안시, 아산시가 40억 원씩 균등 분담한다.",
+    "subtitle": "2027년까지 총 298억 원 투입",
     "tier": "tier1",
     "matched": [
       "인공지능"
@@ -4836,11 +4839,11 @@
     "ai_confirmed": true,
     "first_seen": "2026-09-04T17:19:44+09:00",
     "topics": [
-      "industry",
       "talent",
+      "industry",
       "infra"
     ],
-    "primary_topic": "industry",
+    "primary_topic": "talent",
     "dept": "스마트도시산업팀",
     "nttId": "B000000505308Fd3bK9"
   },
