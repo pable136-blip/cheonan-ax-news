@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T00:27:19+00:00",
+  "updated": "2026-09-12T13:26:53+00:00",
   "topics": [
     {
       "id": "genai",
@@ -124,14 +124,14 @@
   ],
   "matrix": {
     "cheonan": {
-      "genai": 14,
+      "genai": 15,
       "agent": 2,
       "physical": 11,
-      "industry": 7,
-      "data": 0,
+      "industry": 8,
+      "data": 1,
       "infra": 3,
       "startup": 1,
-      "talent": 14,
+      "talent": 15,
       "law": 0,
       "security": 8,
       "public": 1,
@@ -151,22 +151,22 @@
       "security": 6,
       "public": 8,
       "diplomacy": 10,
-      "other": 1
+      "other": 3
     },
     "msit": {
       "genai": 15,
       "agent": 11,
-      "physical": 24,
-      "industry": 30,
+      "physical": 25,
+      "industry": 32,
       "data": 28,
-      "infra": 63,
+      "infra": 64,
       "startup": 64,
-      "talent": 67,
+      "talent": 68,
       "law": 44,
       "security": 26,
       "public": 31,
       "diplomacy": 36,
-      "other": 7
+      "other": 10
     },
     "mois": {
       "genai": 0,
@@ -176,9 +176,9 @@
       "data": 11,
       "infra": 4,
       "startup": 11,
-      "talent": 9,
+      "talent": 10,
       "law": 5,
-      "security": 5,
+      "security": 7,
       "public": 47,
       "diplomacy": 15,
       "other": 1
@@ -203,10 +203,10 @@
       "agent": 0,
       "physical": 0,
       "industry": 0,
-      "data": 6,
+      "data": 8,
       "infra": 0,
       "startup": 0,
-      "talent": 2,
+      "talent": 3,
       "law": 0,
       "security": 0,
       "public": 1,
@@ -217,11 +217,11 @@
       "genai": 1,
       "agent": 0,
       "physical": 23,
-      "industry": 47,
+      "industry": 48,
       "data": 5,
       "infra": 12,
       "startup": 6,
-      "talent": 5,
+      "talent": 6,
       "law": 12,
       "security": 1,
       "public": 2,
@@ -232,11 +232,11 @@
       "genai": 0,
       "agent": 0,
       "physical": 0,
-      "industry": 24,
+      "industry": 26,
       "data": 1,
       "infra": 1,
       "startup": 35,
-      "talent": 2,
+      "talent": 3,
       "law": 2,
       "security": 0,
       "public": 2,
@@ -244,19 +244,19 @@
       "other": 0
     },
     "moel": {
-      "genai": 0,
+      "genai": 1,
       "agent": 2,
       "physical": 5,
-      "industry": 1,
+      "industry": 2,
       "data": 8,
       "infra": 0,
       "startup": 4,
-      "talent": 66,
+      "talent": 68,
       "law": 6,
       "security": 0,
       "public": 9,
       "diplomacy": 10,
-      "other": 2
+      "other": 4
     },
     "moe": {
       "genai": 0,
@@ -266,12 +266,12 @@
       "data": 0,
       "infra": 0,
       "startup": 1,
-      "talent": 51,
+      "talent": 52,
       "law": 3,
       "security": 1,
       "public": 1,
       "diplomacy": 1,
-      "other": 1
+      "other": 2
     },
     "opc": {
       "genai": 0,
@@ -296,7 +296,7 @@
       "data": 5,
       "infra": 4,
       "startup": 3,
-      "talent": 3,
+      "talent": 4,
       "law": 2,
       "security": 0,
       "public": 1,
@@ -306,7 +306,7 @@
     "molit": {
       "genai": 0,
       "agent": 0,
-      "physical": 4,
+      "physical": 5,
       "industry": 8,
       "data": 5,
       "infra": 4,
@@ -314,9 +314,9 @@
       "talent": 0,
       "law": 8,
       "security": 2,
-      "public": 3,
+      "public": 4,
       "diplomacy": 3,
-      "other": 3
+      "other": 6
     },
     "mafra": {
       "genai": 0,
@@ -342,18 +342,18 @@
       "infra": 0,
       "startup": 3,
       "talent": 6,
-      "law": 5,
+      "law": 6,
       "security": 1,
       "public": 2,
       "diplomacy": 3,
-      "other": 1
+      "other": 2
     },
     "moj": {
       "genai": 0,
       "agent": 0,
       "physical": 0,
       "industry": 0,
-      "data": 1,
+      "data": 2,
       "infra": 0,
       "startup": 0,
       "talent": 2,
@@ -386,11 +386,11 @@
       "data": 11,
       "infra": 0,
       "startup": 2,
-      "talent": 12,
+      "talent": 13,
       "law": 5,
       "security": 0,
-      "public": 25,
-      "diplomacy": 2,
+      "public": 27,
+      "diplomacy": 3,
       "other": 3
     },
     "mogef": {
@@ -401,7 +401,7 @@
       "data": 1,
       "infra": 0,
       "startup": 0,
-      "talent": 5,
+      "talent": 6,
       "law": 2,
       "security": 2,
       "public": 0,
@@ -421,7 +421,7 @@
       "security": 0,
       "public": 0,
       "diplomacy": 29,
-      "other": 0
+      "other": 1
     },
     "mou": {
       "genai": 1,
@@ -450,8 +450,8 @@
       "law": 4,
       "security": 0,
       "public": 6,
-      "diplomacy": 7,
-      "other": 4
+      "diplomacy": 8,
+      "other": 5
     },
     "mof": {
       "genai": 0,
@@ -532,16 +532,16 @@
       "genai": 0,
       "agent": 1,
       "physical": 5,
-      "industry": 2,
+      "industry": 3,
       "data": 1,
       "infra": 2,
       "startup": 2,
       "talent": 14,
       "law": 2,
       "security": 0,
-      "public": 12,
-      "diplomacy": 7,
-      "other": 0
+      "public": 13,
+      "diplomacy": 8,
+      "other": 1
     },
     "npa": {
       "genai": 0,
@@ -596,7 +596,7 @@
       "data": 1,
       "infra": 3,
       "startup": 2,
-      "talent": 1,
+      "talent": 2,
       "law": 0,
       "security": 0,
       "public": 1,
@@ -606,9 +606,9 @@
     "rda": {
       "genai": 1,
       "agent": 1,
-      "physical": 4,
+      "physical": 5,
       "industry": 5,
-      "data": 11,
+      "data": 12,
       "infra": 2,
       "startup": 5,
       "talent": 5,
@@ -653,10 +653,10 @@
       "agent": 0,
       "physical": 0,
       "industry": 1,
-      "data": 9,
+      "data": 10,
       "infra": 0,
       "startup": 4,
-      "talent": 2,
+      "talent": 3,
       "law": 2,
       "security": 1,
       "public": 1,
@@ -667,14 +667,14 @@
       "genai": 1,
       "agent": 1,
       "physical": 3,
-      "industry": 4,
+      "industry": 5,
       "data": 2,
       "infra": 0,
       "startup": 3,
       "talent": 5,
       "law": 3,
       "security": 0,
-      "public": 21,
+      "public": 22,
       "diplomacy": 1,
       "other": 1
     },
@@ -716,7 +716,7 @@
       "data": 1,
       "infra": 1,
       "startup": 1,
-      "talent": 2,
+      "talent": 3,
       "law": 0,
       "security": 0,
       "public": 4,
@@ -742,7 +742,7 @@
       "genai": 1,
       "agent": 0,
       "physical": 0,
-      "industry": 0,
+      "industry": 1,
       "data": 7,
       "infra": 0,
       "startup": 2,
@@ -771,7 +771,7 @@
     "kasa": {
       "genai": 0,
       "agent": 0,
-      "physical": 1,
+      "physical": 2,
       "industry": 1,
       "data": 2,
       "infra": 2,
@@ -836,7 +836,7 @@
       "data": 2,
       "infra": 0,
       "startup": 1,
-      "talent": 6,
+      "talent": 7,
       "law": 9,
       "security": 4,
       "public": 1,
@@ -850,7 +850,7 @@
       "industry": 0,
       "data": 3,
       "infra": 1,
-      "startup": 0,
+      "startup": 1,
       "talent": 0,
       "law": 1,
       "security": 33,
@@ -920,19 +920,19 @@
     }
   },
   "totals": {
-    "genai": 49,
+    "genai": 51,
     "agent": 34,
-    "physical": 118,
-    "industry": 168,
-    "data": 178,
-    "infra": 137,
-    "startup": 195,
-    "talent": 348,
-    "law": 198,
-    "security": 115,
-    "public": 254,
-    "diplomacy": 193,
-    "other": 53
+    "physical": 122,
+    "industry": 178,
+    "data": 184,
+    "infra": 138,
+    "startup": 196,
+    "talent": 364,
+    "law": 199,
+    "security": 117,
+    "public": 259,
+    "diplomacy": 196,
+    "other": 68
   },
   "quarters": {
     "2025-Q3": {
@@ -996,25 +996,25 @@
       "other": 12
     },
     "2026-Q3": {
-      "public": 41,
-      "data": 39,
-      "diplomacy": 31,
-      "startup": 33,
-      "talent": 49,
+      "public": 46,
+      "data": 45,
+      "diplomacy": 34,
+      "startup": 34,
+      "talent": 65,
       "agent": 16,
-      "industry": 24,
-      "security": 21,
-      "infra": 24,
-      "physical": 28,
-      "other": 17,
-      "law": 30,
-      "genai": 11
+      "industry": 34,
+      "security": 23,
+      "infra": 25,
+      "physical": 32,
+      "other": 32,
+      "law": 31,
+      "genai": 13
     }
   },
-  "newsTotal": 2040,
+  "newsTotal": 2106,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
-    "count": 348
+    "count": 364
   }
 }
