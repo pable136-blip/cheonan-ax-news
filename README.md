@@ -37,24 +37,35 @@ data/
   milestones.json       정책 마일스톤 타임라인
   reports/              AI 동향보고서(md/html/pdf) + 하이라이트
 scripts/
-  collect_cheonan.py    천안시 보도자료 수집기
+  _common.py            두 수집기가 공유하는 키워드·주제분류·파일 IO·AI 요약 로직
+  collect_korea.py      정부 부처 보도자료 수집기 (korea.kr)
+  collect_cheonan.py    천안시 보도자료 수집기 (cheonan.go.kr)
   serve.ps1             로컬 미리보기 서버
-.github/workflows/collect.yml   매일 07:20 KST 자동 수집·커밋
+.github/workflows/collect.yml   매일 07:20 KST 정부 부처+천안시 자동 수집·커밋
 ```
 
-## 천안시 보도자료 수집기
+## 보도자료 수집기
 
-정책브리핑은 지자체 보도자료를 다루지 않기 때문에 천안시는 시 누리집에서 직접 수집합니다.
+정책브리핑(korea.kr)은 정부 부처만 다루고 지자체 보도자료는 없기 때문에, 정부 부처와
+천안시를 서로 다른 수집기로 나눠 각자의 출처에서 직접 수집합니다. 둘 다 `scripts/_common.py`의
+같은 키워드·주제분류 규칙과 파일 병합/재계산 로직을 공유합니다.
 
 ```bash
-python scripts/collect_cheonan.py              # 수집 + AI 요약 + 파생데이터 재계산
-python scripts/collect_cheonan.py --no-summary # AI 요약 생략
-python scripts/collect_cheonan.py --dry-run    # 파일을 쓰지 않고 결과만 출력
+python scripts/collect_korea.py                    # 정부 부처(46곳) 수집
+python scripts/collect_korea.py --lookback-days 30  # 조회 기간 조정(기본 10일, 겹쳐서 조회)
+python scripts/collect_cheonan.py                   # 천안시 수집
+python scripts/collect_cheonan.py --no-summary      # AI 요약 생략(두 스크립트 공통 옵션)
+python scripts/collect_cheonan.py --dry-run         # 파일을 쓰지 않고 결과만 출력(두 스크립트 공통)
 ```
 
-- **판정**: 제목에 `인공지능·AI·AX·생성형·LLM` 등이 있으면 `tier1`, `스마트도시·빅데이터·자율주행·로봇·데이터`
+- **판정**: 제목에 `인공지능·AI·AX·생성형·LLM` 등이 있으면 `tier1`, `스마트도시·스마트시티·빅데이터·자율주행·로봇·데이터`
   등 인접 키워드로만 걸리면 `accepted`. 축산 방역 맥락의 `AI`(조류인플루엔자)는 제외합니다.
-- **id**: `sha256("cheonan:" + nttId)[:16]` — 재수집해도 값이 변하지 않아 중복이 생기지 않습니다.
+- **id**: `sha256("koreakr:" + newsId)[:16]` / `sha256("cheonan:" + nttId)[:16]` — 재수집해도 값이
+  변하지 않아 중복이 생기지 않습니다. `collect_korea.py`는 추가로 기존 기사 `url`에서 `newsId`를
+  직접 뽑아 대조하므로, 이식 시점에 들어온 과거분과도 절대 겹치지 않습니다.
+- `collect_korea.py`는 상세 페이지를 열지 않고 목록 페이지의 리드문(lead)·발행일·기관명만으로
+  기사를 구성합니다 — 상세 페이지 본문은 PDF/한글 파일을 변환한 iframe 뷰어라 텍스트 추출이
+  불안정합니다.
 - **AI 요약**: 환경변수 `ANTHROPIC_API_KEY` 가 있을 때만 수행하고, 없으면 조용히 건너뜁니다.
   요약이 없는 기사도 화면에는 정상 표시됩니다(제목 클릭 시 원문으로 이동).
 - 수집 후 `news/index.json` · `topics.json` · `agencies.json[].newsCount` 를 **월별 파일에서 통째로
@@ -85,7 +96,8 @@ python scripts/collect_cheonan.py --dry-run    # 파일을 쓰지 않고 결과�
 
 ## 자동 갱신
 
-`.github/workflows/collect.yml` 이 매일 07:20 KST 에 수집기를 돌리고 변경분이 있으면 커밋합니다.
+`.github/workflows/collect.yml` 이 매일 07:20 KST 에 `collect_korea.py`(정부 부처) →
+`collect_cheonan.py`(천안시) 순서로 돌리고, 변경분이 있으면 커밋합니다.
 GitHub Pages 로 배포하려면 저장소를 만들고 Pages 를 `main` 브랜치 루트로 지정하면 됩니다.
 
 ---

@@ -1,6 +1,6 @@
-name: 천안시 보도자료 수집
+name: 보도자료 수집
 
-# 매일 07:20 KST(22:20 UTC 전날)에 천안시 누리집 보도자료를 훑어
+# 매일 07:20 KST(22:20 UTC 전날)에 정부 부처(korea.kr)·천안시 누리집 보도자료를 훑어
 # AI/AX 관련 기사를 data/ 에 누적하고, 바뀐 게 있으면 커밋한다.
 on:
   schedule:
@@ -35,7 +35,17 @@ jobs:
       - name: 의존성 설치
         run: pip install anthropic
 
-      - name: 수집 실행
+      - name: 정부 부처 수집 (korea.kr)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ inputs.no_summary }}" = "true" ]; then
+            python scripts/collect_korea.py --no-summary
+          else
+            python scripts/collect_korea.py
+          fi
+
+      - name: 천안시 수집 (cheonan.go.kr)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -54,5 +64,5 @@ jobs:
             exit 0
           fi
           git add data
-          git commit -m "천안시 보도자료 자동 수집 ($(TZ=Asia/Seoul date '+%Y-%m-%d'))"
+          git commit -m "보도자료 자동 수집 ($(TZ=Asia/Seoul date '+%Y-%m-%d'))"
           git push
