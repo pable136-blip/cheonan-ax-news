@@ -150,8 +150,6 @@ a { color: var(--primary); }
 
 /* AX 하위주제 필터 — 주제 수가 늘면(12종) 한 줄에 다 안 들어가므로 자연스럽게
    여러 줄로 흐르게 하고(가로 스크롤 금지), 각 칩 내부 텍스트는 줄바꿈되지 않게 고정 */
-.collect-keywords { margin: 0 0 12px; font-size: 12px; color: var(--text-dim); line-height: 1.6; }
-.collect-keywords code { background: var(--surface-2); padding: 1px 6px; border-radius: 5px; font-size: 11px; }
 .topicbar { margin-bottom: 12px; }
 .tchip { display: inline-flex; align-items: center; gap: 6px; }
 /* 비활성 상태는 무채색(.chip 기본값)으로 두고, 선택(active)했을 때만 주제색을 꽉 채운다 —
