@@ -1,5 +1,77 @@
 [
   {
+    "id": "dab0d7ec8f13cfe9",
+    "agency_id": "molit",
+    "title": "'제6회 디지털 지적의 날' 개최, AI 등 신기술을 활용한 디지털 지적의 미래 모색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781433",
+    "published": "2026-09-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "'제6회 디지털 지적의 날' 개최, AI 등 신기술을 활용한 디지털 지적의 미래 모색 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-09-14 국토교통부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-14T09:24:23+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156781433"
+  },
+  {
+    "id": "cb854a7ad1f455f8",
+    "agency_id": "mfds",
+    "title": "[보도참고] 긴급도입 의료기기 공급은 안정적으로, AI 허위광고 제재는 엄격하게",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781443",
+    "published": "2026-09-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "[보도참고] 긴급도입 의료기기 공급은 안정적으로, AI 허위광고 제재는 엄격하게 2026-09-14 식품의약품안전처",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-14T09:24:23+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "newsId": "156781443"
+  },
+  {
+    "id": "861dc22827e26588",
+    "agency_id": "mnd",
+    "title": "국방부-LG유플러스, 「아이드림 챌린지 AI Plus 캠프」 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781472",
+    "published": "2026-09-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국방부-LG유플러스, 「아이드림 챌린지 AI Plus 캠프」 개최  □ 국방부는 9월 14일(월) 경기 광주시 곤지암리조트에서 LG유플러스와 공동으로 「아이드림 챌린지 LG U+ AI Plus 캠프」를 개최합니다.  ㅇ'아이드림 챌린지'는 국방부와 LG유플러스가 '21년 업무협약을 토... 2026-09-14 국방부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-14T09:24:23+09:00",
+    "topics": [
+      "diplomacy"
+    ],
+    "primary_topic": "diplomacy",
+    "newsId": "156781472"
+  },
+  {
     "id": "dcdfb5cd8e00aeac",
     "agency_id": "msit",
     "title": "우리가 바로 데이터사이언스의 미래! - ｢2026 K-DATA SCIENCE 컨퍼런스&해커톤 대회｣ 개최 -",
@@ -567,7 +639,8 @@
     "first_seen": "2026-09-12T22:23:06+09:00",
     "topics": [
       "smartcity",
-      "data"
+      "industry",
+      "infra"
     ],
     "primary_topic": "smartcity",
     "dept": "스마트도시정책팀",
