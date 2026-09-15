@@ -1,5 +1,31 @@
 [
   {
+    "id": "f9207e90b396a748",
+    "agency_id": "mss",
+    "title": "공공서비스 혁신 과제 해결할 스타트업 찾는다! - 「공공데이터 활용 오픈이노베이션」 스타트업 모집 -",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781589",
+    "published": "2026-09-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "중소벤처기업부(장관 직무대행 제1차관 노용석, 이하 중기부)는 공공데이터를 활용하여 스타트업의 기술검증(PoC)과 사업화를 지원하는 '공공데이터 활용 지원' 사업에 참여할 스타트업을 9월 15일(화)부터 10월 6일(화)까지 모집한다고 밝혔다.  정부는 지난 4월「국가창업시대 스타트업 열풍 조성방안」을 ... 2026-09-14 중소벤처기업부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-15T09:48:17+09:00",
+    "topics": [
+      "industry",
+      "startup",
+      "data"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156781589"
+  },
+  {
     "id": "dab0d7ec8f13cfe9",
     "agency_id": "molit",
     "title": "'제6회 디지털 지적의 날' 개최, AI 등 신기술을 활용한 디지털 지적의 미래 모색",
@@ -48,6 +74,32 @@
     "newsId": "156781443"
   },
   {
+    "id": "a17aba2ad2678b49",
+    "agency_id": "pipc",
+    "title": "로봇청소기 영상·음성 등 개인정보 전반적으로 안전하게 관리, 일부 미흡 사항 시정 권고",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781496",
+    "published": "2026-09-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 개인정보위, 주요 5개 브랜드 로봇청소기 개인정보 처리실태 점검  - 영상·음성·지도정보 등 처리 실태 확인, 개인정보 보호법상 일부 미흡사항은 시정권고  개인정보보호위원회(위원장 송경희, 이하 '개인정보위')는 국내에서 판매되는 주요 로봇청소기의 개인정보 처리실태를 점검*한... 2026-09-14 개인정보보호위원회",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "로봇"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-15T09:48:17+09:00",
+    "topics": [
+      "physical",
+      "security",
+      "law"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156781496"
+  },
+  {
     "id": "861dc22827e26588",
     "agency_id": "mnd",
     "title": "국방부-LG유플러스, 「아이드림 챌린지 AI Plus 캠프」 개최",
@@ -70,6 +122,30 @@
     ],
     "primary_topic": "diplomacy",
     "newsId": "156781472"
+  },
+  {
+    "id": "4f9d2a6c1f3ae3ba",
+    "agency_id": "msit",
+    "title": "한-중앙아시아 미래 인공지능·과학기술 동반관계((파트너십) 장관회의 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156781556",
+    "published": "2026-09-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "한-중앙아시아 미래 인공지능·과학기술 동반관계((파트너십) 장관회의 개최 관련 보도자료 내용입니다.  자세한 내용은 첨부파일을 참고하시기 바랍니다.  ※ 대용량 첨부파일은 바로보기가 지원되지 않으니, 첨부파일명을 클릭하여 확인하시기 바랍니다. 2026-09-14 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-15T09:48:17+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156781556"
   },
   {
     "id": "dcdfb5cd8e00aeac",
