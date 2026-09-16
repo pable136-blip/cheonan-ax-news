@@ -410,6 +410,21 @@ def summarize(records: list, bodies: dict, dry: bool, source_label: str,
     return done
 
 
+def summarized_ids() -> set:
+    """AI 요약이 이미 붙어 있는 기사 id 집합."""
+    have = set()
+    for path in (DATA / "summaries").glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].json"):
+        for nid, s in load_json(path, {}).items():
+            if s.get("summary"):
+                have.add(nid)
+    return have
+
+
+def stored_ids(collector: str) -> set:
+    """해당 수집기가 이미 저장해 둔 기사 id 집합."""
+    return {n["id"] for n in all_news() if n.get("collector") == collector}
+
+
 def pending_summary_records(collector: str) -> tuple[list, dict]:
     """이미 저장돼 있지만 요약이 아직 없는 기사를 모아 온다(요약 보충 패스용).
 
@@ -418,11 +433,7 @@ def pending_summary_records(collector: str) -> tuple[list, dict]:
     본문은 수집 때 기사에 저장해 둔 snippet 을 그대로 쓴다(상세 페이지를 다시
     긁지 않아도 되는 수집기에만 해당).
     """
-    have = set()
-    for path in (DATA / "summaries").glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].json"):
-        for nid, s in load_json(path, {}).items():
-            if s.get("summary"):
-                have.add(nid)
+    have = summarized_ids()
 
     records, bodies = [], {}
     for n in all_news():

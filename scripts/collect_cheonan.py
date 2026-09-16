@@ -9,6 +9,11 @@
   python scripts/collect_cheonan.py            # 수집 + 파생데이터 재계산
   python scripts/collect_cheonan.py --no-summary   # AI 요약 생략
   python scripts/collect_cheonan.py --dry-run      # 파일을 쓰지 않고 결과만 출력
+  python scripts/collect_cheonan.py --refresh      # 저장된 기사 본문까지 전부 다시 읽기
+
+목록은 매번 전체를 훑지만 상세 페이지(본문)는 신규 기사와 아직 요약이 없는
+기사만 읽는다. 저장된 기사의 snippet·부제·주제를 최신 본문으로 다시 만들려면
+--refresh 를 준다.
 
 AI 요약은 ANTHROPIC_API_KEY 가 있을 때만 수행한다(없으면 조용히 건너뛴다).
 요약이 없는 기사도 화면에서는 정상 표시되며, 제목 클릭 시 원문으로 바로 간다.
@@ -40,8 +45,10 @@ from _common import (
     merge_month_files,
     rebuild_index,
     rebuild_topics,
+    stored_ids,
     strip_html,
     summarize,
+    summarized_ids,
     sync_agency_counts,
     tier_of,
 )
@@ -49,6 +56,7 @@ from _common import (
 BOARD = "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030"
 
 AGENCY_ID = "cheonan"
+COLLECTOR = "cheonan"  # 기사의 collector 필드 값 — 재수집 생략 판정에 쓴다.
 AGENCY_NAME = "천안시"
 SOURCE_NAME = "천안시 보도자료"
 SOURCE_DOMAIN = "www.cheonan.go.kr"
@@ -143,7 +151,7 @@ def build_record(item: dict, body: str, now_iso: str) -> dict:
         "url": f"{BOARD}/view.do?nttId={item['nttId']}",
         "published": item["published"],
         "source": SOURCE_NAME,
-        "collector": "cheonan",
+        "collector": COLLECTOR,
         "source_domain": SOURCE_DOMAIN,
         "snippet": make_snippet(body),
         "subtitle": make_subtitle(body),
@@ -167,6 +175,9 @@ def main() -> int:
     ap.add_argument("--no-summary", action="store_true", help="AI 요약을 건너뛴다")
     ap.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않는다")
     ap.add_argument("--limit", type=int, default=0, help="상세 수집 건수 제한(테스트용)")
+    ap.add_argument("--refresh", action="store_true",
+                    help="이미 저장·요약된 기사도 상세 페이지를 다시 읽어 "
+                         "snippet·부제·주제를 최신 본문으로 갱신한다(기본은 생략)")
     ap.add_argument("--budget-min", type=float, default=DEFAULT_BUDGET_MIN,
                     help=f"실행 시간 예산(분, 기본 {DEFAULT_BUDGET_MIN}분, 0이면 무제한). "
                          "초과하면 남은 작업을 다음 실행으로 넘기고 수집분은 저장한다")
@@ -177,15 +188,36 @@ def main() -> int:
     candidates = scrape_list()
     wanted = [c for c in candidates.values() if keep(c)]
     wanted.sort(key=lambda c: c["published"], reverse=True)
+    print(f"\n후보 {len(candidates)}건 → 대상 {len(wanted)}건")
+
+    # 이미 저장돼 있고 요약까지 붙은 기사는 상세 페이지를 다시 열지 않는다.
+    # 매 실행 전체 본문을 다시 긁으면 실행시간이 누적 기사 수에 비례해 늘어나고,
+    # 그만큼 시간 예산을 정작 필요한 신규 기사 요약에 못 쓴다.
+    # 요약이 아직 없는 기사는 다음 시도에 본문이 필요하므로 계속 받아온다.
+    if not args.refresh:
+        stored, summarized = stored_ids(COLLECTOR), summarized_ids()
+
+        def needs_body(item: dict) -> bool:
+            rid = news_id(item["nttId"])
+            if rid not in stored:
+                return True  # 신규 기사
+            return not (args.no_summary or rid in summarized)
+
+        fresh = [c for c in wanted if needs_body(c)]
+        if len(fresh) < len(wanted):
+            print(f"  이미 저장·요약된 {len(wanted) - len(fresh)}건은 본문 재수집 생략"
+                  f" (--refresh 로 전체 재수집)")
+        wanted = fresh
+
     if args.limit:
         wanted = wanted[:args.limit]
-    print(f"\n후보 {len(candidates)}건 → 대상 {len(wanted)}건")
 
     now_iso = datetime.now(KST).replace(microsecond=0).isoformat()
     records, bodies = [], {}
     for i, item in enumerate(wanted, 1):
         # 본문 수집 단계에서 예산이 끝나면 여기까지 모은 걸 저장하고 끝낸다.
-        # 이 수집기는 매 실행마다 게시판 전체를 다시 훑으므로 남은 건 다음에 잡힌다.
+        # 목록은 매 실행 전체를 다시 훑고, 여기서 건너뛴 기사는 저장이 안 됐거나
+        # 요약이 없는 상태라 위 needs_body() 에 다시 걸리므로 다음 실행에 잡힌다.
         if budget.expired:
             print(f"  ⏱ 본문 수집 시간 예산 초과 — 남은 {len(wanted) - i + 1}건은 다음 실행으로 넘깁니다.")
             break

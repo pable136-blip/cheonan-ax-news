@@ -57,6 +57,7 @@ python scripts/collect_cheonan.py                   # 천안시 수집
 python scripts/collect_cheonan.py --no-summary      # AI 요약 생략(두 스크립트 공통 옵션)
 python scripts/collect_cheonan.py --dry-run         # 파일을 쓰지 않고 결과만 출력(두 스크립트 공통)
 python scripts/collect_korea.py --budget-min 0      # 시간 예산 해제(기본 부처 25분 / 천안시 10분)
+python scripts/collect_cheonan.py --refresh         # 저장된 기사 본문까지 전부 다시 읽기
 ```
 
 - **판정**: 제목에 `인공지능·AI·AX·생성형·LLM` 등이 있으면 `tier1`, `스마트도시·스마트시티·빅데이터·자율주행·로봇·데이터`
@@ -67,6 +68,10 @@ python scripts/collect_korea.py --budget-min 0      # 시간 예산 해제(기�
 - `collect_korea.py`는 상세 페이지를 열지 않고 목록 페이지의 리드문(lead)·발행일·기관명만으로
   기사를 구성합니다 — 상세 페이지 본문은 PDF/한글 파일을 변환한 iframe 뷰어라 텍스트 추출이
   불안정합니다.
+- `collect_cheonan.py`는 목록은 매번 전체를 훑되, 상세 페이지(본문)는 **신규 기사와 아직 요약이
+  없는 기사만** 읽습니다. 누적 기사가 늘수록 실행시간이 같이 늘어나 시간 예산을 정작 신규 기사
+  요약에 못 쓰기 때문입니다(65건 기준 67초 → 28초). 저장된 기사의 snippet·부제·주제를 최신
+  본문으로 다시 만들려면 `--refresh` 를 줍니다.
 - **AI 요약**: 환경변수 `ANTHROPIC_API_KEY` 가 있을 때만 수행하고, 없으면 조용히 건너뜁니다.
   요약이 없는 기사도 화면에는 정상 표시됩니다(제목 클릭 시 원문으로 이동).
 - **시간 예산**(`--budget-min`): 요약 시간은 그날 기사 수에 따라 크게 출렁입니다. 예산을 넘기면
