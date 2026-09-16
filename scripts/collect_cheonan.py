@@ -72,10 +72,17 @@ DEFAULT_BUDGET_MIN = 10
 # ---------------------------------------------------------------- 수집
 
 
-def scrape_list() -> dict:
+def scrape_list(budget: Budget | None = None) -> dict:
     """제목 키워드로 게시판을 훑어 후보 글의 id·제목·팀명·등록일을 모은다."""
     found: dict[str, dict] = {}
-    for kw in SEARCH_KEYWORDS:
+    for i, kw in enumerate(SEARCH_KEYWORDS, 1):
+        # 키워드 20종 × 페이지를 도는 동안에도 예산을 본다. 여기서 막히면
+        # main() 의 예산 검사까지 가지도 못한다(korea.kr 수집기가 같은 이유로
+        # 잡을 45분 태웠다).
+        if budget is not None and budget.expired:
+            print(f"  ⏱ 목록 조회 시간 예산 초과 — 남은 키워드 "
+                  f"{len(SEARCH_KEYWORDS) - i + 1}종은 다음 실행으로 넘깁니다.")
+            break
         first = http_get(f"{BOARD}/list.do?searchCondition=subject"
                          f"&searchKeyword={quote(kw)}&pageIndex=1&pageUnit=21")
         m = re.search(r"총 게시물<strong>([\d,]+)</strong>", first)
@@ -86,6 +93,8 @@ def scrape_list() -> dict:
         pages = (total + 20) // 21
         new = 0
         for p in range(1, pages + 1):
+            if budget is not None and budget.expired:
+                break
             page = first if p == 1 else http_get(
                 f"{BOARD}/list.do?searchCondition=subject"
                 f"&searchKeyword={quote(kw)}&pageIndex={p}&pageUnit=21")
@@ -185,7 +194,7 @@ def main() -> int:
 
     budget = Budget(args.budget_min)
     print(f"천안시 보도자료 수집 — {START_MONTH} 이후, 키워드 {len(SEARCH_KEYWORDS)}종 · {budget}")
-    candidates = scrape_list()
+    candidates = scrape_list(budget)
     wanted = [c for c in candidates.values() if keep(c)]
     wanted.sort(key=lambda c: c["published"], reverse=True)
     print(f"\n후보 {len(candidates)}건 → 대상 {len(wanted)}건")

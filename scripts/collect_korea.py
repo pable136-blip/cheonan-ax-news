@@ -85,11 +85,17 @@ def load_agencies() -> list[dict]:
             if a.get("koreaKrOrgCode") and a.get("id") != "cheonan"]
 
 
-def scrape_agency(agency_id: str, rep_code: str, start_date: str, end_date: str) -> list[dict]:
+def scrape_agency(agency_id: str, rep_code: str, start_date: str, end_date: str,
+                  budget: Budget | None = None) -> list[dict]:
     """한 기관의 지정 기간 보도자료를 전부 긁어와 후보 목록으로 반환한다."""
     items: list[dict] = []
     page = 1
     while True:
+        # 예산 검사를 페이지 단위로도 건다. 기관 사이에서만 보면, 한 기관이
+        # 페이지마다 응답을 못 받을 때 http_get 의 90초 타임아웃 × 3회 재시도에
+        # 갇혀 예산을 한참 넘겨서야 빠져나온다(잡을 45분 태운 게 이 경로다).
+        if budget is not None and budget.expired:
+            break
         html = http_get(
             f"{LIST_URL}?repCodeType=&repCode={rep_code}&srchWord="
             f"&pageIndex={page}&startDate={start_date}&endDate={end_date}&period=")
@@ -206,7 +212,7 @@ def main() -> int:
             print(f"  ⏱ 조회 시간 예산 초과 — 남은 기관 {len(agencies) - n + 1}곳은 다음 실행으로 넘깁니다.")
             break
         try:
-            found = scrape_agency(a["id"], a["koreaKrOrgCode"], str(start), str(end))
+            found = scrape_agency(a["id"], a["koreaKrOrgCode"], str(start), str(end), budget)
         except RuntimeError as e:
             print(f"  {a['id']:<12} 조회 실패: {e}")
             continue
