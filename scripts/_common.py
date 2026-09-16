@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import html as html_mod
 import json
+import os
 import re
 import time
 from collections import defaultdict
@@ -114,6 +115,19 @@ class Budget:
         if self.seconds <= 0:
             return "시간 예산 없음(무제한)"
         return f"{self.seconds / 60:.0f}분 예산 중 {max(0.0, self.remaining) / 60:.1f}분 남음"
+
+
+def warn(msg: str) -> None:
+    """실패는 아니지만 눈에 띄어야 하는 상황을 알린다.
+
+    예산 초과는 잡을 실패시키지 않는다(그게 이 장치의 목적이다). 그래서
+    그냥 두면 수집원이 계속 느려 매일 절반만 긁어와도 실행은 초록불로 남고
+    아무도 모른다. GitHub Actions 에서는 워크플로 주석으로 올려 실행 목록과
+    요약 화면에 바로 보이게 한다.
+    """
+    print(f"  ⏱ {msg}")
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        print(f"::warning::{msg}")
 
 
 # ---------------------------------------------------------------- HTTP
@@ -406,7 +420,8 @@ def summarize(records: list, bodies: dict, dry: bool, source_label: str,
             save_json(path, store)
 
     if out_of_budget:
-        print(f"  ⏱ 요약 시간 예산 초과 — {done}건 완료, 남은 {deferred}건은 다음 실행으로 넘깁니다.")
+        warn(f"{source_label} 요약 시간 예산 초과 — {done}건 완료, "
+             f"남은 {deferred}건은 다음 실행으로 넘깁니다.")
     return done
 
 

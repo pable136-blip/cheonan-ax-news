@@ -38,6 +38,7 @@ from _common import (
     load_json,
     merge_month_files,
     pending_summary_records,
+    warn,
     rebuild_index,
     rebuild_topics,
     summarize,
@@ -209,7 +210,8 @@ def main() -> int:
         # 조회 단계에서 예산이 끝나면 남은 기관은 다음 실행에 맡긴다. 조회기간을
         # 10일씩 겹쳐 잡으므로 여기서 건너뛴 기관도 놓치지 않는다.
         if budget.expired:
-            print(f"  ⏱ 조회 시간 예산 초과 — 남은 기관 {len(agencies) - n + 1}곳은 다음 실행으로 넘깁니다.")
+            warn(f"korea.kr 조회 시간 예산 초과 — 기관 {len(agencies)}곳 중 "
+                 f"{len(agencies) - n + 1}곳을 다음 실행으로 넘깁니다.")
             break
         try:
             found = scrape_agency(a["id"], a["koreaKrOrgCode"], str(start), str(end), budget)

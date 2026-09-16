@@ -51,6 +51,7 @@ from _common import (
     summarized_ids,
     sync_agency_counts,
     tier_of,
+    warn,
 )
 
 BOARD = "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030"
@@ -80,8 +81,8 @@ def scrape_list(budget: Budget | None = None) -> dict:
         # main() 의 예산 검사까지 가지도 못한다(korea.kr 수집기가 같은 이유로
         # 잡을 45분 태웠다).
         if budget is not None and budget.expired:
-            print(f"  ⏱ 목록 조회 시간 예산 초과 — 남은 키워드 "
-                  f"{len(SEARCH_KEYWORDS) - i + 1}종은 다음 실행으로 넘깁니다.")
+            warn(f"천안시 목록 조회 시간 예산 초과 — 키워드 {len(SEARCH_KEYWORDS)}종 중 "
+                 f"{len(SEARCH_KEYWORDS) - i + 1}종을 다음 실행으로 넘깁니다.")
             break
         first = http_get(f"{BOARD}/list.do?searchCondition=subject"
                          f"&searchKeyword={quote(kw)}&pageIndex=1&pageUnit=21")
@@ -228,7 +229,8 @@ def main() -> int:
         # 목록은 매 실행 전체를 다시 훑고, 여기서 건너뛴 기사는 저장이 안 됐거나
         # 요약이 없는 상태라 위 needs_body() 에 다시 걸리므로 다음 실행에 잡힌다.
         if budget.expired:
-            print(f"  ⏱ 본문 수집 시간 예산 초과 — 남은 {len(wanted) - i + 1}건은 다음 실행으로 넘깁니다.")
+            warn(f"천안시 본문 수집 시간 예산 초과 — 대상 {len(wanted)}건 중 "
+                 f"{len(wanted) - i + 1}건을 다음 실행으로 넘깁니다.")
             break
         body = fetch_body(item["nttId"])
         record = build_record(item, body, now_iso)
