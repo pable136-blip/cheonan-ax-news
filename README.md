@@ -56,6 +56,7 @@ python scripts/collect_korea.py --lookback-days 30  # 조회 기간 조정(기�
 python scripts/collect_cheonan.py                   # 천안시 수집
 python scripts/collect_cheonan.py --no-summary      # AI 요약 생략(두 스크립트 공통 옵션)
 python scripts/collect_cheonan.py --dry-run         # 파일을 쓰지 않고 결과만 출력(두 스크립트 공통)
+python scripts/collect_korea.py --budget-min 0      # 시간 예산 해제(기본 부처 25분 / 천안시 10분)
 ```
 
 - **판정**: 제목에 `인공지능·AI·AX·생성형·LLM` 등이 있으면 `tier1`, `스마트도시·스마트시티·빅데이터·자율주행·로봇·데이터`
@@ -68,6 +69,11 @@ python scripts/collect_cheonan.py --dry-run         # 파일을 쓰지 않고 �
   불안정합니다.
 - **AI 요약**: 환경변수 `ANTHROPIC_API_KEY` 가 있을 때만 수행하고, 없으면 조용히 건너뜁니다.
   요약이 없는 기사도 화면에는 정상 표시됩니다(제목 클릭 시 원문으로 이동).
+- **시간 예산**(`--budget-min`): 요약 시간은 그날 기사 수에 따라 크게 출렁입니다. 예산을 넘기면
+  남은 작업을 다음 실행으로 넘기고, **그때까지 수집한 건 반드시 저장·커밋**합니다. 워크플로
+  `timeout-minutes` 에 걸려 잡이 강제 종료되면 요약이 병합보다 앞에 있어서 그날치가 통째로
+  날아가기 때문입니다. 조회기간을 10일씩 겹쳐 잡고, `collect_korea.py` 는 남은 시간에 지난 실행에서
+  밀린 요약을 보충하므로 넘긴 작업은 다음 실행에서 이어집니다.
 - 수집 후 `news/index.json` · `topics.json` · `agencies.json[].newsCount` 를 **월별 파일에서 통째로
   다시 계산**하므로 합계가 어긋나지 않습니다.
 

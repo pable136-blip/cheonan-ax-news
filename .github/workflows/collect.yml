@@ -2,6 +2,11 @@ name: 보도자료 수집
 
 # 매일 07:20 KST(22:20 UTC 전날)에 정부 부처(korea.kr)·천안시 누리집 보도자료를 훑어
 # AI/AX 관련 기사를 data/ 에 누적하고, 바뀐 게 있으면 커밋한다.
+#
+# 수집기는 각자 시간 예산(--budget-min)을 갖고 있어서 아래 timeout-minutes 에
+# 걸리기 전에 스스로 멈추고 그때까지 모은 걸 저장한다. 그래도 한 단계가 실패하면
+# 다음 단계와 커밋이 건너뛰어지지 않도록 뒤 단계에 조건을 걸어둔다 — 요약이 밀려도
+# 수집분은 반드시 커밋돼야 사이트가 그날치로 갱신된다.
 on:
   schedule:
     - cron: "20 22 * * *"
@@ -22,7 +27,8 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # 수집기 예산(25분 + 10분)보다 넉넉히 위 — 여기 걸리는 건 비정상 상황이라는 뜻.
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
 
@@ -45,7 +51,9 @@ jobs:
             python scripts/collect_korea.py
           fi
 
+      # 부처 수집이 실패해도 천안시 수집은 독립적으로 시도한다(출처가 다르다).
       - name: 천안시 수집 (cheonan.go.kr)
+        if: ${{ !cancelled() }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -55,7 +63,10 @@ jobs:
             python scripts/collect_cheonan.py
           fi
 
+      # 앞 단계가 실패해도 디스크에 쓰인 수집분은 반드시 커밋한다.
+      # (잡 자체는 실패로 남아 알림이 가므로 문제를 놓치지는 않는다)
       - name: 변경사항 커밋
+        if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

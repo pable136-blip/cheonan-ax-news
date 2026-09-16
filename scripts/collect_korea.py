@@ -32,10 +32,12 @@ from _common import (
     KST,
     TIER1_KEYWORDS,
     ADJACENT_KEYWORDS,
+    Budget,
     guess_topics,
     http_get,
     load_json,
     merge_month_files,
+    pending_summary_records,
     rebuild_index,
     rebuild_topics,
     summarize,
@@ -51,6 +53,10 @@ SOURCE_DOMAIN = "www.korea.kr"
 # 이 조회기간보다 예전 기사만 새로 나타나는 경우는 없다고 보고, 매일 실행되는
 # 워크플로에서도 실행이 며칠 건너뛰어도 놓치지 않게 여유 있게 겹쳐서 조회한다.
 DEFAULT_LOOKBACK_DAYS = 10
+
+# 부처 수가 50곳이 넘어 조회·요약 시간이 날마다 크게 출렁인다. 워크플로의
+# timeout-minutes 에 걸려 통째로 날아가기 전에 스스로 멈추도록 예산을 둔다.
+DEFAULT_BUDGET_MIN = 25
 
 KEYWORD_PATTERN = re.compile(
     "|".join(re.escape(k) for k in TIER1_KEYWORDS + ADJACENT_KEYWORDS), re.IGNORECASE)
@@ -180,16 +186,25 @@ def main() -> int:
     ap.add_argument("--lookback-days", type=int, default=DEFAULT_LOOKBACK_DAYS,
                      help="오늘부터 며칠 전까지 조회할지(기본 10일, 여유 있게 겹쳐 조회)")
     ap.add_argument("--limit", type=int, default=0, help="대상 건수 제한(테스트용)")
+    ap.add_argument("--budget-min", type=float, default=DEFAULT_BUDGET_MIN,
+                    help=f"실행 시간 예산(분, 기본 {DEFAULT_BUDGET_MIN}분, 0이면 무제한). "
+                         "초과하면 남은 작업을 다음 실행으로 넘기고 수집분은 저장한다")
     args = ap.parse_args()
 
+    budget = Budget(args.budget_min)
     end = datetime.now(KST).date()
     start = end - timedelta(days=args.lookback_days)
     agencies = load_agencies()
-    print(f"정부 부처 보도자료 수집 — {start}~{end}, 기관 {len(agencies)}곳")
+    print(f"정부 부처 보도자료 수집 — {start}~{end}, 기관 {len(agencies)}곳 · {budget}")
 
     seen_ids = known_news_ids()
     candidates: dict[str, dict] = {}
-    for a in agencies:
+    for n, a in enumerate(agencies, 1):
+        # 조회 단계에서 예산이 끝나면 남은 기관은 다음 실행에 맡긴다. 조회기간을
+        # 10일씩 겹쳐 잡으므로 여기서 건너뛴 기관도 놓치지 않는다.
+        if budget.expired:
+            print(f"  ⏱ 조회 시간 예산 초과 — 남은 기관 {len(agencies) - n + 1}곳은 다음 실행으로 넘깁니다.")
+            break
         try:
             found = scrape_agency(a["id"], a["koreaKrOrgCode"], str(start), str(end))
         except RuntimeError as e:
@@ -210,16 +225,23 @@ def main() -> int:
     records = [build_record(it, now_iso) for it in wanted]
     bodies = {r["id"]: r["snippet"] for r in records}
 
+    backfilled: list = []
     if not args.no_summary:
         print("\nAI 요약")
-        summarize(records, bodies, args.dry_run, SOURCE_NAME)
+        summarize(records, bodies, args.dry_run, SOURCE_NAME, budget)
+        # 예산이 남았으면 지난 실행에서 밀린 기사를 이어서 요약한다.
+        if not budget.expired:
+            backfilled, old_bodies = pending_summary_records("koreakr")
+            if backfilled:
+                print(f"\n지난 실행에서 밀린 요약 {len(backfilled)}건 보충 · {budget}")
+                summarize(backfilled, old_bodies, args.dry_run, SOURCE_NAME, budget)
 
-    added, updated = merge_month_files(records, args.dry_run)
+    added, updated = merge_month_files(records + backfilled, args.dry_run)
     sync_agency_counts(args.dry_run)
     idx = rebuild_index(args.dry_run)
     rebuild_topics(args.dry_run)
 
-    print(f"\n신규 {added}건 · 갱신 {updated}건")
+    print(f"\n신규 {added}건 · 갱신 {updated}건 · {budget}")
     print(f"전체 누적 {idx.get('total', 0)}건")
     if args.dry_run:
         print("(--dry-run: 파일을 쓰지 않았습니다)")

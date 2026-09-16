@@ -32,6 +32,7 @@ from _common import (
     KST,
     SEARCH_KEYWORDS,
     TIER1_KEYWORDS,
+    Budget,
     guess_topics,
     http_get,
     make_snippet,
@@ -54,6 +55,10 @@ SOURCE_DOMAIN = "www.cheonan.go.kr"
 
 # 정부 부처 데이터와 같은 기간을 공유해야 월별 추이 비교가 성립한다.
 START_MONTH = os.environ.get("CHEONAN_START_MONTH", "2025-07")
+
+# 워크플로의 timeout-minutes 에 걸려 수집분까지 통째로 날아가는 걸 막는 예산.
+# 부처 수집기(collect_korea.py)가 먼저 돌고 남은 시간에 실행되므로 짧게 잡는다.
+DEFAULT_BUDGET_MIN = 10
 
 
 # ---------------------------------------------------------------- 수집
@@ -162,9 +167,13 @@ def main() -> int:
     ap.add_argument("--no-summary", action="store_true", help="AI 요약을 건너뛴다")
     ap.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않는다")
     ap.add_argument("--limit", type=int, default=0, help="상세 수집 건수 제한(테스트용)")
+    ap.add_argument("--budget-min", type=float, default=DEFAULT_BUDGET_MIN,
+                    help=f"실행 시간 예산(분, 기본 {DEFAULT_BUDGET_MIN}분, 0이면 무제한). "
+                         "초과하면 남은 작업을 다음 실행으로 넘기고 수집분은 저장한다")
     args = ap.parse_args()
 
-    print(f"천안시 보도자료 수집 — {START_MONTH} 이후, 키워드 {len(SEARCH_KEYWORDS)}종")
+    budget = Budget(args.budget_min)
+    print(f"천안시 보도자료 수집 — {START_MONTH} 이후, 키워드 {len(SEARCH_KEYWORDS)}종 · {budget}")
     candidates = scrape_list()
     wanted = [c for c in candidates.values() if keep(c)]
     wanted.sort(key=lambda c: c["published"], reverse=True)
@@ -175,6 +184,11 @@ def main() -> int:
     now_iso = datetime.now(KST).replace(microsecond=0).isoformat()
     records, bodies = [], {}
     for i, item in enumerate(wanted, 1):
+        # 본문 수집 단계에서 예산이 끝나면 여기까지 모은 걸 저장하고 끝낸다.
+        # 이 수집기는 매 실행마다 게시판 전체를 다시 훑으므로 남은 건 다음에 잡힌다.
+        if budget.expired:
+            print(f"  ⏱ 본문 수집 시간 예산 초과 — 남은 {len(wanted) - i + 1}건은 다음 실행으로 넘깁니다.")
+            break
         body = fetch_body(item["nttId"])
         record = build_record(item, body, now_iso)
         bodies[record["id"]] = body
@@ -183,14 +197,14 @@ def main() -> int:
 
     if not args.no_summary:
         print("\nAI 요약")
-        summarize(records, bodies, args.dry_run, SOURCE_NAME)
+        summarize(records, bodies, args.dry_run, SOURCE_NAME, budget)
 
     added, updated = merge_month_files(records, args.dry_run)
     sync_agency_counts(args.dry_run)
     idx = rebuild_index(args.dry_run)
     rebuild_topics(args.dry_run, pinned_agency_id=AGENCY_ID)
 
-    print(f"\n신규 {added}건 · 갱신 {updated}건")
+    print(f"\n신규 {added}건 · 갱신 {updated}건 · {budget}")
     print(f"전체 누적 {idx.get('total', 0)}건 · 천안시 {idx.get('byAgency', {}).get(AGENCY_ID, 0)}건")
     if args.dry_run:
         print("(--dry-run: 파일을 쓰지 않았습니다)")

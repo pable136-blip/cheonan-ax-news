@@ -85,6 +85,37 @@ def summary_system(source_label: str) -> str:
     )
 
 
+# ---------------------------------------------------------------- 시간 예산
+
+
+class Budget:
+    """실행 시간 예산. 초과하면 남은 작업을 다음 실행으로 넘긴다.
+
+    워크플로의 timeout-minutes 에 걸려 잡이 강제 종료되면 수집분까지 통째로
+    날아간다(요약이 merge_month_files 앞에 있어서 파일에 아무것도 안 쓰인 상태).
+    그래서 잡 타임아웃보다 먼저 스스로 멈추고, 그때까지 모은 건 반드시 저장한다.
+    수집기는 며칠치를 겹쳐 조회하고 요약도 보충 패스가 있으니, 넘긴 작업은
+    다음 실행에서 이어서 처리된다.
+    """
+
+    def __init__(self, minutes: float):
+        self.seconds = max(0.0, minutes * 60)
+        self.started = time.monotonic()
+
+    @property
+    def remaining(self) -> float:
+        return self.seconds - (time.monotonic() - self.started)
+
+    @property
+    def expired(self) -> bool:
+        return self.seconds > 0 and self.remaining <= 0
+
+    def __str__(self) -> str:
+        if self.seconds <= 0:
+            return "시간 예산 없음(무제한)"
+        return f"{self.seconds / 60:.0f}분 예산 중 {max(0.0, self.remaining) / 60:.1f}분 남음"
+
+
 # ---------------------------------------------------------------- HTTP
 
 
@@ -295,7 +326,8 @@ def sync_agency_counts(dry: bool) -> None:
 # ---------------------------------------------------------------- AI 요약
 
 
-def summarize(records: list, bodies: dict, dry: bool, source_label: str) -> int:
+def summarize(records: list, bodies: dict, dry: bool, source_label: str,
+              budget: "Budget | None" = None) -> int:
     import os
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -310,7 +342,8 @@ def summarize(records: list, bodies: dict, dry: bool, source_label: str) -> int:
 
     client = anthropic.Anthropic(api_key=api_key)
     system = summary_system(source_label)
-    done = 0
+    done = deferred = 0
+    out_of_budget = False
     by_month = defaultdict(list)
     for r in records:
         by_month[r["published"][:7]].append(r)
@@ -324,6 +357,12 @@ def summarize(records: list, bodies: dict, dry: bool, source_label: str) -> int:
                 continue
             body = bodies.get(r["id"], "")
             if len(body) < 80:
+                continue
+            # 예산이 끝나도 break 하지 않고 끝까지 훑는다 — 남은 건수를 정확히
+            # 세고, 이미 요약한 달의 store 를 빠짐없이 저장하기 위해서다.
+            if out_of_budget or (budget is not None and budget.expired):
+                out_of_budget = True
+                deferred += 1
                 continue
             prompt = (f"다음은 {source_label}다.\n\n"
                       f"제목: {r['title']}\n담당: {r.get('dept', '')}\n"
@@ -360,6 +399,39 @@ def summarize(records: list, bodies: dict, dry: bool, source_label: str) -> int:
             changed = True
             done += 1
             print(f"  요약 {done}건째 · {r['title'][:36]}")
+            # 잡이 강제 종료돼도 여기까지는 남도록 주기적으로 flush 한다.
+            if done % 10 == 0 and not dry:
+                save_json(path, store)
         if changed and not dry:
             save_json(path, store)
+
+    if out_of_budget:
+        print(f"  ⏱ 요약 시간 예산 초과 — {done}건 완료, 남은 {deferred}건은 다음 실행으로 넘깁니다.")
     return done
+
+
+def pending_summary_records(collector: str) -> tuple[list, dict]:
+    """이미 저장돼 있지만 요약이 아직 없는 기사를 모아 온다(요약 보충 패스용).
+
+    korea.kr 수집기는 저장된 newsId 를 재수집 대상에서 빼기 때문에, 시간 예산이나
+    API 오류로 한 번 요약이 밀린 기사는 이 패스가 없으면 영영 요약되지 않는다.
+    본문은 수집 때 기사에 저장해 둔 snippet 을 그대로 쓴다(상세 페이지를 다시
+    긁지 않아도 되는 수집기에만 해당).
+    """
+    have = set()
+    for path in (DATA / "summaries").glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].json"):
+        for nid, s in load_json(path, {}).items():
+            if s.get("summary"):
+                have.add(nid)
+
+    records, bodies = [], {}
+    for n in all_news():
+        if n.get("collector") != collector or n["id"] in have:
+            continue
+        body = n.get("snippet", "")
+        if len(body) < 80:  # summarize() 가 어차피 건너뛴다.
+            continue
+        records.append(n)
+        bodies[n["id"]] = body
+    records.sort(key=lambda n: n.get("published", ""), reverse=True)
+    return records, bodies
