@@ -1,5 +1,56 @@
 [
   {
+    "id": "8f816da84094802d",
+    "agency_id": "nfa",
+    "title": "소방 자료(데이터)로 그리는 더 안전한 일상… 국민안전 참신한 생각(아이디어) 한자리에",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782047",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "﻿  ﻿  소방 자료(데이터)로 그리는 더 안전한 일상  …  국민안전 참신한 생각(아이디어) 한자리에  -  제  6  회 소방안전 빅데이터 활용 및 아이디어 경진대회 시상식 개최  -  역대 최다  303  건 접수  …  국민  ·  소방공무원이 함께 만든 참신한 생각  (  아이디어  )  -  ... 2026-09-17 소방청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-17T09:46:33+09:00",
+    "topics": [
+      "talent",
+      "security",
+      "data"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156782047"
+  },
+  {
+    "id": "e53a9e982c3dab4c",
+    "agency_id": "msit",
+    "title": "[보도참고] 과기정통부, 중앙아시아와 AI·과학기술 분야 미래 협력 기반 구축",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782031",
+    "published": "2026-09-16",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  중앙아시아  5  개국과  \"  한  -  중앙아시아 미래  AI·  과학기술 파트너십  이니셔티브  \"  공동채택  -  공공서비스  AI  혁신  , AI  전환  , AI  격차 해소 협력 강화  -  기후  ,  우주  ,  에너지 전환  ,  자원 공급망 분야 인력교류  ,  ... 2026-09-16 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-17T09:46:33+09:00",
+    "topics": [
+      "public",
+      "diplomacy"
+    ],
+    "primary_topic": "public",
+    "newsId": "156782031"
+  },
+  {
     "id": "e3dae9a8cd8ddbc2",
     "agency_id": "mohw",
     "title": "돌봄로봇, 병원에서 지역사회 가정까지 2026 돌봄로봇 네트워크 포럼 개최",
@@ -95,6 +146,33 @@
     ],
     "primary_topic": "other",
     "newsId": "156781920"
+  },
+  {
+    "id": "5d4aa6b1f6695194",
+    "agency_id": "mofa",
+    "title": "외교 공공데이터와 AI의 만남, 국민의 아이디어로 혁신의 결실을 맺다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782032",
+    "published": "2026-09-16",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "외교부는 9.16.(수) 「2026년 외교 공공데이터 · AI 활용 경진대회」 수상작에 대한 시상식을 개최하였다.  2023년부터 시작되어 올해로 4회차를 맞은 외교 공공데이터 활용 경진대회는 외교 분야의 공공데이터를 활용한 아이디어 및 서비스 발굴을 통한 신규 창업 촉진과 공공데이터 활용&... 2026-09-16 외교부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-17T09:46:33+09:00",
+    "topics": [
+      "talent",
+      "startup",
+      "data"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156782032"
   },
   {
     "id": "4772ea8d4a2ccbe4",
