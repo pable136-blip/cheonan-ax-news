@@ -50,7 +50,8 @@ MIN_QUARTER_NEWS = 40      # 이보다 적으면 분기 보고서를 만들지 �
 DEFAULT_BUDGET_MIN = 100   # 워크플로 timeout-minutes(120)보다 작게
 CALL_RESERVE_MIN = 15      # 보고서 1건에 이 정도는 걸린다고 보고, 남은 예산이 이보다 적으면 새로 시작하지 않는다
 
-QUARTER_RE = re.compile(r"^\d{4}-Q[1-4]$")
+# Actions 입력칸에 손으로 치는 값이라 너그럽게 받는다: 2026-Q3, 2026q3, 2026 Q3, 2026년 3분기.
+QUARTER_RE = re.compile(r"^(\d{4})\D*([1-4])\s*(?:분기)?$", re.IGNORECASE)
 REPORT_TOPICS = [t for t in TOPIC_IDS if t != "other"]
 
 
@@ -790,6 +791,13 @@ def dry_run(c: Corpus, todo: list[str], want_overall: bool, today: date) -> None
         print("  (ANTHROPIC_API_KEY 가 있으면 토큰 수와 입력 비용도 보여 줍니다)")
 
 
+def fail(msg: str, code: int = 1) -> int:
+    """중단 사유를 알리고 종료 코드를 돌려준다. Actions 에서는 ::error:: 로 올려, 로그를
+    열지 않아도(로그 열람은 관리자 권한이 필요하다) 실행 요약 화면에서 바로 보이게 한다."""
+    print(f"::error::{msg}" if os.environ.get("GITHUB_ACTIONS") == "true" else msg)
+    return code
+
+
 def main() -> int:
     # 콘솔이 아닌 곳(파이프·리디렉션)으로 출력할 때 윈도우 기본 인코딩(cp949)에 없는
     # 문자('—' 등) 때문에 죽지 않게 한다.
@@ -806,9 +814,11 @@ def main() -> int:
                     help=f"실행 시간 예산(분, 기본 {DEFAULT_BUDGET_MIN}분, 0이면 무제한). 남은 "
                          f"예산이 {CALL_RESERVE_MIN}분 아래면 새 보고서를 시작하지 않는다")
     args = ap.parse_args()
-    if args.quarter and not QUARTER_RE.match(args.quarter):
-        print(f"--quarter 형식이 잘못됐습니다: {args.quarter!r} (예: 2026-Q3)")
-        return 2
+    if args.quarter:
+        m = QUARTER_RE.match(args.quarter.strip())
+        if not m:
+            return fail(f"분기 형식이 잘못됐습니다: {args.quarter!r} (예: 2026-Q3)", 2)
+        args.quarter = f"{m.group(1)}-Q{m.group(2)}"
 
     today = datetime.now(KST).date()
     c = Corpus()
@@ -824,9 +834,8 @@ def main() -> int:
 
     todo, eligible = plan(c, args)
     if args.quarter and args.quarter not in eligible:
-        print(f"{args.quarter} 은 기사가 {MIN_QUARTER_NEWS}건 미만이거나 없는 분기입니다. "
-              f"대상 분기: {', '.join(sorted(eligible))}")
-        return 2
+        return fail(f"{args.quarter} 은 기사가 {MIN_QUARTER_NEWS}건 미만이거나 없는 분기입니다. "
+                    f"대상 분기: {', '.join(sorted(eligible))}", 2)
     want_overall = not args.quarter and (args.force or bool(todo) or latest_overall() is None)
     print(f"AX 동향보고서 — 분기 {len(todo)}건({', '.join(todo) or '없음'})"
           f" · 전체 {'생성' if want_overall else '생략'} · 모델 {REPORT_MODEL}")
@@ -836,10 +845,8 @@ def main() -> int:
         return 0
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
-        msg = ("ANTHROPIC_API_KEY 가 없습니다. 보고서는 AI 없이 만들 수 없어 중단합니다. "
-               "GitHub 에서는 저장소 Settings > Secrets and variables > Actions 에 등록하세요.")
-        print(f"::error::{msg}" if os.environ.get("GITHUB_ACTIONS") == "true" else msg)
-        return 1
+        return fail("ANTHROPIC_API_KEY 가 없습니다. 보고서는 AI 없이 만들 수 없어 중단합니다. "
+                    "GitHub 에서는 저장소 Settings > Secrets and variables > Actions 에 등록하세요.")
     import anthropic
 
     client = anthropic.Anthropic()
@@ -887,9 +894,7 @@ def main() -> int:
     write_highlights(c)
 
     if fatal is not None:
-        msg = f"보고서 생성 중단 — {fatal}"
-        print(f"::error::{msg}" if os.environ.get("GITHUB_ACTIONS") == "true" else msg)
-        return 1
+        return fail(f"보고서 생성 중단 — {fatal}")
     if failed:
         # 예약 실행은 한 달에 한 번이라 '다음 실행'이 멀다. 실패로 끝내 알림이 가게 한다.
         print(f"\n만들지 못한 보고서: {', '.join(failed)} — 다음 실행에서 이어서 만듭니다"
