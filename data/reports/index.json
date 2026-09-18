@@ -1,7 +1,7 @@
 {
-  "_comment": "지식재산처 관점으로 작성된 원본 보고서다. 천안시 포털에서는 화면에 노출하지 않고 보관만 한다(사실·출처는 유효하나 시사점이 다른 기관 기준이라 오해를 부른다). 되살리려면 archived 를 reports 로 되돌리면 된다.",
-  "archivedAt": "2026-09-04T09:54:38+00:00",
+  "_comment": "reports 는 scripts/build_reports.py 가 만든 천안시 관점 보고서(data/reports/cheonan/)다. archived 는 지식재산처 관점 원본 보관본으로 화면에 노출하지 않는다.",
   "reports": [],
+  "archivedAt": "2026-09-04T09:54:38+00:00",
   "archived": [
     {
       "id": "overall-2026-07-27",
