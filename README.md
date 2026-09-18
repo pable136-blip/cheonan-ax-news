@@ -35,13 +35,18 @@ data/
   topics.json           13개 AX 주제 × 기관 매트릭스(히트맵 원본)
   keywords.json         키워드 관계망(사전 계산된 좌표 포함)
   milestones.json       정책 마일스톤 타임라인
-  reports/              AI 동향보고서(md/html/pdf) + 하이라이트
+  reports/index.json    리포트 탭 보고서 목록(reports) + 지식재산처 관점 원본 보관 목록(archived)
+  reports/highlights.json  리포트 탭 「AX 주요 동향」(최신 전체 보고서의 한눈에 보기)
+  reports/cheonan/      천안시 관점 AI 동향보고서(json/md/html) — build_reports.py 가 생성
+  reports/*.md|html|pdf 지식재산처 관점 원본 보고서 보관본(화면 비노출)
 scripts/
   _common.py            두 수집기가 공유하는 키워드·주제분류·파일 IO·AI 요약 로직
   collect_korea.py      정부 부처 보도자료 수집기 (korea.kr)
   collect_cheonan.py    천안시 보도자료 수집기 (cheonan.go.kr)
+  build_reports.py      천안시 관점 AI 동향보고서(분기·전체) 생성기
   serve.ps1             로컬 미리보기 서버
 .github/workflows/collect.yml   매일 07:20 KST 정부 부처+천안시 자동 수집·커밋
+.github/workflows/reports.yml   매월 1일 12:00 KST AI 동향보고서 생성·커밋(수동 실행 가능)
 ```
 
 ## 보도자료 수집기
@@ -82,6 +87,33 @@ python scripts/collect_cheonan.py --refresh         # 저장된 기사 본문까
 - 수집 후 `news/index.json` · `topics.json` · `agencies.json[].newsCount` 를 **월별 파일에서 통째로
   다시 계산**하므로 합계가 어긋나지 않습니다.
 
+## AI 동향보고서
+
+`scripts/build_reports.py` 가 수집된 보도자료와 AI 요약을 근거로 **천안시 관점** 동향보고서를
+Claude(`claude-opus-5`)로 만듭니다. `ANTHROPIC_API_KEY` 가 없으면 아무것도 쓰지 않고 오류로 끝납니다.
+
+```bash
+python scripts/build_reports.py --dry-run          # API 호출 없이 무엇을 만들지와 입력 크기만 출력
+python scripts/build_reports.py --quarter 2025-Q3  # 분기 하나만 생성(가장 작은 분기 — 첫 시험용)
+python scripts/build_reports.py                    # 필요한 것만 생성
+python scripts/build_reports.py --force            # 확정된 분기까지 전부 다시 생성
+python scripts/build_reports.py --render-only      # 저장된 json 으로 md/html·목록만 다시 그림(무료)
+```
+
+- **분기 보고서**: 진행 중인 분기는 실행마다 다시 만들고, 끝난 분기는 끝난 뒤 한 번 더 만들어
+  확정(`complete`)한 다음부터는 건드리지 않습니다. 기사 40건 미만인 분기(분기 첫날 등)는 건너뜁니다.
+- **전체 보고서**: 기사 2천여 건을 한 번에 넣으면 컨텍스트 한도에 가깝고 비싸서, 분기 보고서들과
+  천안시 보도자료 전체를 입력으로 종합합니다. 최신 전체 보고서의 「한눈에 보기」가 리포트 탭
+  하단 「AX 주요 동향」(`highlights.json`)으로 들어갑니다.
+- **출처 검증**: 모델에는 기사마다 id 를 붙여 넘기고 근거를 id 로만 돌려받습니다. 링크는 스크립트가
+  `data/news` 에서 찾아 붙이므로 모델이 URL 을 지어낼 수 없고, 입력에 없는 id 는 버리며 근거가
+  하나도 남지 않은 항목은 뺍니다(버린 수는 보고서 json 의 `validation` 과 로그 경고로 남습니다).
+  건수·통계도 모델이 아니라 스크립트가 계산합니다.
+- **비용**(Opus 5 기준 추정): 분기 보고서 1건 약 $1~2, 전체 약 $1. 첫 실행(분기 5건 + 전체)은
+  약 $10, 이후 매월 실행은 약 $3. 실행 로그에 보고서별 토큰 수와 추정 비용이 찍힙니다.
+- 새 보고서는 `data/reports/cheonan/` 에 둡니다. `data/reports/` 바로 아래 지식재산처 관점 원본과
+  파일명(`quarter-2026-Q3.md` 등)이 겹치기 때문입니다.
+
 ## 천안시 관점으로 바꾼 부분
 
 | 영역 | 내용 |
@@ -95,10 +127,9 @@ python scripts/collect_cheonan.py --refresh         # 저장된 기사 본문까
 
 ## 알려진 제약
 
-1. **AI 동향보고서(`data/reports/`)는 지식재산처 관점으로 작성된 원본**입니다. 사실과 출처는 그대로
-   유효하지만 시사점 일부가 그 기관 기준이며, 「AX 정부 보도자료 주요 동향」은 그 보고서의 발췌라
-   문구를 고칠 수 없습니다(고치면 '발췌'가 성립하지 않음). 화면에 이 점을 명시해 두었고,
-   천안시 관점 보고서를 새로 생성하면 교체하면 됩니다.
+1. **`data/reports/` 바로 아래 보고서 10건과 하이라이트 8건은 지식재산처 관점 원본**이라 화면에서
+   내리고 `archived`/`archivedItems` 로 보관만 합니다. 리포트 탭에는 `build_reports.py` 가 만든
+   천안시 관점 보고서만 나옵니다.
 2. **키워드 관계망(`data/keywords.json`)은 정부 부처 940건 기준**입니다. 천안시는 최근 6개월 구간에
    28건뿐이라 상위 90개 커트라인(28건)에 드는 천안시 전용 키워드가 없어, 다시 계산해도 그림이
    사실상 바뀌지 않습니다. 원본 생성 스크립트(`build_keywords.py`)가 없어 재구현 시 기존 어휘 품질이
@@ -109,6 +140,10 @@ python scripts/collect_cheonan.py --refresh         # 저장된 기사 본문까
 
 `.github/workflows/collect.yml` 이 매일 07:20 KST 에 `collect_korea.py`(정부 부처) →
 `collect_cheonan.py`(천안시) 순서로 돌리고, 변경분이 있으면 커밋합니다.
+`.github/workflows/reports.yml` 은 매월 1일 12:00 KST 에 `build_reports.py` 를 돌려 보고서를
+갱신합니다. Actions 화면의 **Run workflow** 버튼으로 언제든 수동 실행할 수 있고, 분기 하나만
+만들거나(`quarter`) 전부 다시 만들 수(`force`) 있습니다. 두 워크플로 모두 저장소 시크릿
+`ANTHROPIC_API_KEY` 를 씁니다 — 등록하면 매일 수집의 AI 요약도 함께 켜집니다.
 GitHub Pages 로 배포하려면 저장소를 만들고 Pages 를 `main` 브랜치 루트로 지정하면 됩니다.
 
 ---
