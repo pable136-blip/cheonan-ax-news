@@ -1,5 +1,208 @@
 [
   {
+    "id": "9105828744e6d8c6",
+    "agency_id": "mofa",
+    "title": "AI를 활용한 포용적이고 지속 가능한 개발협력 방안 모색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782446",
+    "published": "2026-09-18",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "외교부와 코이카(KOICA·한국국제협력단)는 9월 18일(금) 여의도 콘래드 서울 호텔에서 '제19회 서울 ODA(공적개발원조)* 국제회의'를 공동 개최했다. 서울 ODA 국제회의는 공적개발원조와 관련한 국내 최대규모의 연례 회의로, 올해는 '포용적이고 지속가능한 개발을 위한 인공지능(AI)... 2026-09-18 외교부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "diplomacy"
+    ],
+    "primary_topic": "diplomacy",
+    "newsId": "156782446"
+  },
+  {
+    "id": "3cc616554097b842",
+    "agency_id": "moip",
+    "title": "지식재산처, 산업용 인공지능 기업의 해외 지식재산 확보 역량 강화를 위해 현장 소통 나서",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782466",
+    "published": "2026-09-18",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "지식재산처, 산업용 인공지능 기업의 해외 지식재산  확보 역량 강화를 위해 현장 소통 나서  - 에이아이비즈 현장 방문 및 간담회 개최(9.18.) -  지식재산처(처장 김용선)는 9. 18.(금) 13시, 산업용 인공지능(AI) 기업인 에이아이비즈(충남 천안시)를 방문하여 지식재산 관련 현장 소통 간담... 2026-09-18 지식재산처",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "industry",
+      "diplomacy"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156782466"
+  },
+  {
+    "id": "3632873667a10139",
+    "agency_id": "mois",
+    "title": "일일이 누리집 안 찾아도 된다 국가 기록·역사 자료, 인공지능으로 한곳에서 검색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782460",
+    "published": "2026-09-18",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 국가기록원-국사편찬위원회, 기록정보·역사 자료 연계·공동 활용 업무협약 체결  - 인공지능(AI) 에이전트 기반 '범국가 기록정보 통합활용체계' 첫 시범 검증 착수  - 실증 결과 바탕으로 다양한 공공·민간 기관으로 연계망 확대 예정  행정안전부 국가기록원  ( ... 2026-09-18 행정안전부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "agent",
+      "security",
+      "public"
+    ],
+    "primary_topic": "agent",
+    "newsId": "156782460"
+  },
+  {
+    "id": "f390dd4cc78014d8",
+    "agency_id": "nda",
+    "title": "「국가데이터기본법」 제정 본격 추진",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782274",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "「국가데이터기본법」 제정 본격 추진  - 17일 「국가데이터기본법」 제정안 공청회 개최  ※ 자세한 내용은 첨부파일을 참고 바랍니다. 2026-09-17 국가데이터처",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "data",
+      "law"
+    ],
+    "primary_topic": "data",
+    "newsId": "156782274"
+  },
+  {
+    "id": "cc95cc1dacb47cd1",
+    "agency_id": "msit",
+    "title": "\"과기정통부, 지역 맞춤형 AI융합 인재양성에 나선다\" 원주 ｢AI융합혁신교육원｣ 개소",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782121",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  디지털헬스케어 기반  AI  융합형 인재양성 거점  ,  ｢  AI  융합혁신교육원  ｣  개소식  (9.17.(  목  ))  개최  -  실전형 의료데이터  ･  피지컬  AI  등 특화 교육과정 신설  ,  올해  160  명 양성 목표 2026-09-17 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "talent",
+      "data",
+      "public"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156782121"
+  },
+  {
+    "id": "c7165ca6d576718d",
+    "agency_id": "mois",
+    "title": "부처 간 칸막이는 허물고, 데이터는 막힘없이 「범정부 데이터 파이프라인」 개통",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782140",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 9월 18일(금)부터 중앙부처·지방정부·공공기관 데이터 통합 연계 및 시범운영  - 단일 부처 처리 한계 넘는 '복합데이터' 분석 체계 구축해 사회 현안 대응 기반 마련  - 공공데이터의 생성과 분석·활용 등 선순환으로 'AI 민주정부' 뒷받침  행정안전부  ( ... 2026-09-17 행정안전부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "security",
+      "data",
+      "public"
+    ],
+    "primary_topic": "security",
+    "newsId": "156782140"
+  },
+  {
+    "id": "aeeed3572d329f15",
+    "agency_id": "msit",
+    "title": "과기정통부, 한양대에 'AI반도체 혁신연구소' 개소... 'K-AI 반도체 풀패키지' 인재 양성 박차",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782078",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "과기정통부, 한양대에 'AI반도체 혁신연구소' 개소... 'K-AI 반도체 풀패키지' 인재 양성 박차 관련 보도자료 내용입니다.  자세한 내용은 첨부파일을 참고하시기 바랍니다.  ※ 대용량 첨부파일은 바로보기가 지원되지 않으니, 첨부파일명을 클릭하여 확인하시기 바랍니다. 2026-09-17 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "talent",
+      "industry"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156782078"
+  },
+  {
+    "id": "ac53b5410e9bf152",
+    "agency_id": "mafra",
+    "title": "농식품부, AI가 민원 분석부터 답변까지 돕는다. '농식품 AI민원365' 9월 본격 가동",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782106",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농림축산식품부  (  장관 송미령  ,  이하  '  농식품부  ')  는  생성형 인공지능  (AI,  이하  'AI')  이 민원 내용을 실시간으로 분석해 답변 초안을 지원하는  '  농식품  AI  민원  365'  를 구축하고  ,  시범 운영을 거쳐  9  월부터 정식 운영에 들어간다고 밝혔다 ... 2026-09-17 농림축산식품부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "genai",
+      "data",
+      "public"
+    ],
+    "primary_topic": "genai",
+    "newsId": "156782106"
+  },
+  {
     "id": "8f816da84094802d",
     "agency_id": "nfa",
     "title": "소방 자료(데이터)로 그리는 더 안전한 일상… 국민안전 참신한 생각(아이디어) 한자리에",
@@ -24,6 +227,275 @@
     ],
     "primary_topic": "talent",
     "newsId": "156782047"
+  },
+  {
+    "id": "8e29c9a26d696576",
+    "agency_id": "msit",
+    "title": "「AI를 일상에서 한글·산수처럼」 전국민 AI 역량 강화 정책, 국민이 직접 이름 짓는다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782130",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  과기정통부  ,  ｢  전국민  AI  역량 강화 정책 브랜드 공모전  ｣  9.17.~9.30.  개최  -  전문가 심사로  5  개 후보 압축 후  ,  최종 당선작은  대국민 투표로 결정  -  선정 브랜드는 범부처  AI  역량 강화 정책의  통합 브랜드로 활용 2026-09-17 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156782130"
+  },
+  {
+    "id": "6b78fda73443000f",
+    "agency_id": "mss",
+    "title": "경남 제조 AI 센터 개소,지역 제조기업의 AI 전환 본격화",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782332",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "중소벤처기업부(장관 직무대행 제1차관 노용석, 이하 중기부)는 경남 지역 제조기업의 인공지능(이하 AI) 도입과 활용을 지원하기 위한 '경남 제조 AI 센터'가 본격적인 운영을 시작한다고 9월 17일(목) 밝혔다.  이날 개소식에는 중기부를 비롯해 경상남도, 중소벤처기업진흥공단, 경남테크노파크와 참여기관... 2026-09-17 중소벤처기업부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "industry",
+      "startup"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156782332"
+  },
+  {
+    "id": "6aebe2c3e9171ee7",
+    "agency_id": "eslc",
+    "title": "[보도자료] 경사노위 「보건의료 지속가능 정책 연구회」 발족 - 보건의료인력 정책의 효율적 적용 사례 검토- AI 도입에 따른 보건의료 환경 변화 등 논의",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782178",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "경사노위 「보건의료 지속가능 정책 연구회」 발족 - 보건의료인력 정책의 효율적 적용 사례 검토- AI 도입에 따른 보건의료 환경 변화 등 논의 경제사회노동위원회(위원장 김지형, 이하 '경사노위')는 9월 17일(목) 10:00, 경사노위 7층 대회의실에서 「보건의료 지속가능 정책 연구회(이하 '연구회')... 2026-09-17 경제사회노동위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "newsId": "156782178"
+  },
+  {
+    "id": "5094da3c891cf728",
+    "agency_id": "mois",
+    "title": "내 국민연금, 이제 'AI 국민비서'에게 물어보세요",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782086",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- AI 기반 디지털 공공서비스 확산으로 국민 중심의 'AI 민주정부' 구현  - \"내 국민연금 가입내역은\", 카카오톡 대화로 국민연금 조회부터 '임의가입' 신청 가능  평소 연금에 관심이 많았던 경력 단절 여성 김모 씨는 과거 직장 생활을 하며 납부했던 국민연금이 얼마나 되는지 궁금했다  .  김 씨... 2026-09-17 행정안전부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "newsId": "156782086"
+  },
+  {
+    "id": "4b53eb4a33110efc",
+    "agency_id": "kcc",
+    "title": "방송미디어 인공지능 연구개발 현장 방문",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782082",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "방송미디어 인공지능 연구개발 현장 방문  - ㈜제머나이소프트 찾아 기술개발 현황 살펴보고 애로사항 등 청취 -  정부가 방송미디어 분야 인공지능 핵심 연구개발(R&D) 현장을 찾아 진행 상황을 살펴보고 애로사항 등을 청취했다.  방송미디어통신위원회(위원장 김종철)와 정보통신기획평가원(IITP)은 17일 ... 2026-09-17 방송미디어통신위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156782082"
+  },
+  {
+    "id": "3c77930ff205d940",
+    "agency_id": "rda",
+    "title": "케이지별 산란량 한눈에…인공지능 정밀관리 기술 현장 점검",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782281",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농촌진흥청  (  청장 이승돈  )  국립축산과학원 조용민 원장은  9  월  16  일 충북 충주시 소태면의 산란계 현장 실증 농가  (  무지개농장  )  를 찾아  '  인공지능 활용 비산란계  ·  과산계 케이지 검출 시스템  '  작동 상태와 산란 데이터 수집  ·  분... 2026-09-17 농촌진흥청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "data"
+    ],
+    "primary_topic": "data",
+    "newsId": "156782281"
+  },
+  {
+    "id": "32697883b6136867",
+    "agency_id": "motie",
+    "title": "교실부터 일터까지… 에듀테크가 그리는 \"평생의 AX 파트너\"",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782093",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "교실부터 일터까지  …  에듀테크가 그리는  \"  평생의  AX  파트너  \"  - 9.17.~19.  서울 코엑스서  '2026  에듀테크 코리아 페어  '  개최  -  산업통상부  (  장관 김정관  )  와 교육부  (  장관 최교진  )  는  9  월  17  일  (  목  )  부터  19... 2026-09-17 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "talent"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156782093"
+  },
+  {
+    "id": "31fc60f8cb19a3dc",
+    "agency_id": "mafra",
+    "title": "'요리하는 로봇' 시대 연다… 농식품부, 전국 1호 '식품로봇 푸드테크 연구지원센터' 포항서 준공",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782213",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농림축산식품부  (  장관 송미령  ,  이하  '  농식품부  ')  는  9  월  17  일  (  목  ),  경북 포항시  (  포항융합기술산업지구 내  )  에서 전국 최초의 푸드테크 거점 시설인  '  식품로봇  분야 푸드테크 연구지원센터  (  이하  '  포항센터  ')'  준공식을 개최... 2026-09-17 농림축산식품부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "로봇"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "physical"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156782213"
+  },
+  {
+    "id": "0af359673a57ce3c",
+    "agency_id": "rda",
+    "title": "분야별 유기적 협력으로, 농업 인공지능 플랫폼 구축 앞당긴다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782287",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농촌진흥청  (  청장 이승돈  )  은  9  월  17  일부터  18  일까지 대전광역시에서  '  스  마트농업 인공지능  (AI)  실무협의회  (  워킹그룹  )  에이아이라이즈  (AIRISE)  공동  연수회  '  를 열고  ,  농업 인공지능 플랫폼 구축을 위한 과제 간 협력 방안을 논... 2026-09-17 농촌진흥청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "talent",
+      "public"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156782287"
+  },
+  {
+    "id": "0ada1e8ee7c822ac",
+    "agency_id": "rda",
+    "title": "똑똑한 '농생명 데이터 관리'로 연구 효율 높인다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782265",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농촌진흥청  (  청장 이승돈  )  은 농업의 인공지능 대전환  (AX)  을 뒷받침하기 위해  '  농생명 연구 자료 품질관리 자동화 기술  '  을 개발했다  .  유전체  ·  전사체  (  생명체 내 유전 정보 및 발현 정보  )  연구 등에서 생산된 농생명 데이터는 그동안 농촌진흥... 2026-09-17 농촌진흥청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "industry",
+      "data",
+      "public"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156782265"
+  },
+  {
+    "id": "05f7f44caf51c314",
+    "agency_id": "motie",
+    "title": "한-중앙아 5개국, 핵심광물 공급망·제조 AI 협력 기반 다졌다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782094",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "한  -  중앙아  5  개국  ,  핵심광물 공급망  ·  제조  AI  협력 기반 다졌다  ➊  [  정부  G2G]  한  -  중앙아 산업장관회의 신설  ,  핵심광물  ·  원유 등 양  ·  다자  MOU 9  건 체결  ➋  [  민간  B2B]  비즈 ... 2026-09-17 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-19T09:31:19+09:00",
+    "topics": [
+      "industry",
+      "diplomacy"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156782094"
   },
   {
     "id": "e53a9e982c3dab4c",
