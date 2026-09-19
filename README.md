@@ -46,7 +46,7 @@ scripts/
   build_reports.py      천안시 관점 AI 동향보고서(분기·전체) 생성기
   serve.ps1             로컬 미리보기 서버
 .github/workflows/collect.yml   매일 07:20 KST 정부 부처+천안시 자동 수집·커밋
-.github/workflows/reports.yml   매월 1일 12:00 KST AI 동향보고서 생성·커밋(수동 실행 가능)
+.github/workflows/reports.yml   AI 동향보고서 생성·커밋(현재 수동 실행만 — 예약 실행은 꺼 둠)
 ```
 
 ## 보도자료 수집기
@@ -110,7 +110,7 @@ python scripts/build_reports.py --render-only      # 저장된 json 으로 md/ht
   하나도 남지 않은 항목은 뺍니다(버린 수는 보고서 json 의 `validation` 과 로그 경고로 남습니다).
   건수·통계도 모델이 아니라 스크립트가 계산합니다.
 - **비용**(Opus 5 기준 추정): 분기 보고서 1건 약 $1~2, 전체 약 $1. 첫 실행(분기 5건 + 전체)은
-  약 $10, 이후 매월 실행은 약 $3. 실행 로그에 보고서별 토큰 수와 추정 비용이 찍힙니다.
+  약 $10, 이후 1회 갱신(진행 중 분기 + 전체)은 약 $3. 실행 로그에 보고서별 토큰 수와 추정 비용이 찍힙니다.
 - 새 보고서는 `data/reports/cheonan/` 에 둡니다. `data/reports/` 바로 아래 지식재산처 관점 원본과
   파일명(`quarter-2026-Q3.md` 등)이 겹치기 때문입니다.
 
@@ -140,10 +140,13 @@ python scripts/build_reports.py --render-only      # 저장된 json 으로 md/ht
 
 `.github/workflows/collect.yml` 이 매일 07:20 KST 에 `collect_korea.py`(정부 부처) →
 `collect_cheonan.py`(천안시) 순서로 돌리고, 변경분이 있으면 커밋합니다.
-`.github/workflows/reports.yml` 은 매월 1일 12:00 KST 에 `build_reports.py` 를 돌려 보고서를
-갱신합니다. Actions 화면의 **Run workflow** 버튼으로 언제든 수동 실행할 수 있고, 분기 하나만
-만들거나(`quarter`) 전부 다시 만들 수(`force`) 있습니다. 두 워크플로 모두 저장소 시크릿
+`.github/workflows/reports.yml` 은 `build_reports.py` 를 돌려 보고서를 갱신합니다. 지금은
+저장소에 쓸 수 있는 Anthropic API 키가 없어 **예약 실행을 꺼 두었고**, Actions 화면의 **Run workflow**
+버튼으로만 실행합니다(분기 하나만 `quarter`, 전부 다시 `force`). 키를 등록한 뒤 매월 1일 12:00 KST
+자동 실행을 원하면 워크플로의 `schedule` 주석을 풀면 됩니다. 두 워크플로 모두 저장소 시크릿
 `ANTHROPIC_API_KEY` 를 씁니다 — 등록하면 매일 수집의 AI 요약도 함께 켜집니다.
+
+보고서가 하나도 없으면 리포트 탭에는 빈 목록 대신 '준비 중' 안내가 뜹니다(`#reports-pending`).
 GitHub Pages 로 배포하려면 저장소를 만들고 Pages 를 `main` 브랜치 루트로 지정하면 됩니다.
 
 ---

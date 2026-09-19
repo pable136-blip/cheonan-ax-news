@@ -23,6 +23,12 @@ archived). 파일명(quarter-2026-Q3.md 등)이 겹치므로 새 보고서는 ch
   python scripts/build_reports.py --force            # 확정된 분기까지 전부 다시 생성
   python scripts/build_reports.py --dry-run          # API 호출 없이 계획과 입력 크기만 출력
   python scripts/build_reports.py --render-only      # 저장된 json 으로 md/html/목록만 다시 그림
+
+API 를 부를 수 없는 환경(내부망 등)에서는 모델 호출만 손으로 대신한다. 프롬프트를 파일로
+받아 모델에 넣고, 받은 JSON 을 도로 넣으면 검증·렌더링은 똑같이 거친다.
+
+  python scripts/build_reports.py --quarter 2026-Q3 --prompt-out q3.txt
+  python scripts/build_reports.py --quarter 2026-Q3 --from-json q3.json --label "claude-opus-5"
 """
 from __future__ import annotations
 
@@ -34,6 +40,7 @@ import sys
 import time
 from collections import Counter
 from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
 
 from _common import DATA, KST, TOPIC_IDS, Budget, all_news, load_json, save_json, warn
 
@@ -410,60 +417,73 @@ def sort_milestones(c: Corpus, report: dict) -> None:
     report["milestones"].sort(key=first_day)
 
 
-def build_quarter(client, c: Corpus, q: str, today: date) -> dict:
+def quarter_job(c: Corpus, q: str, today: date) -> dict:
+    """보고서 1건의 재료 — 프롬프트, 응답 형식, 허용 근거 id, 문서 뼈대.
+
+    모델을 부르는 일과 떼어 둔다. API 로 부를 때(generate)와 손으로 받아올 때
+    (--prompt-out/--from-json)가 같은 검증·렌더링 경로를 타게 하기 위해서다.
+    """
     rows = [n for n in c.news if quarter_of(n["published"]) == q]
     st = compute_stats(rows, lambda d: d[:7])
     order = top_agencies(st)
-    prompt = quarter_prompt(c, q, rows, st, order, today)
-    data, usage = generate(client, prompt, report_schema(order), f"{q} 분기 보고서")
-    report, dropped = clean_report(data, {n["id"] for n in rows}, order)
-    sort_milestones(c, report)
     start, end = quarter_bounds(q)
-    doc = {
-        "perspective": "cheonan",
-        "kind": "quarter",
-        "id": f"quarter-{q}",
-        "title": f"{q} AX 동향보고서",
-        "period": {"quarter": q, "start": str(start), "end": str(end)},
-        "generated": str(today),
-        "generatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
-        # 분기가 끝난 뒤에 만든 보고서만 확정본이다 — 이후 실행에서는 다시 만들지 않는다.
-        "complete": today > end,
-        "stats": st,
-        "usage": usage,
-        "validation": dropped,
-        "report": report,
+    return {
+        "label": f"{q} 분기 보고서",
+        "prompt": quarter_prompt(c, q, rows, st, order, today),
+        "schema": report_schema(order),
+        "allowed": {n["id"] for n in rows},
+        "order": order,
+        "meta": {
+            "perspective": "cheonan",
+            "kind": "quarter",
+            "id": f"quarter-{q}",
+            "title": f"{q} AX 동향보고서",
+            "period": {"quarter": q, "start": str(start), "end": str(end)},
+            "generated": str(today),
+            "generatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+            # 분기가 끝난 뒤에 만든 보고서만 확정본이다 — 이후 실행에서는 다시 만들지 않는다.
+            "complete": today > end,
+            "stats": st,
+        },
     }
-    note_dropped(q, dropped)
-    return doc
 
 
-def build_overall(client, c: Corpus, qdocs: list[dict], today: date) -> dict:
+def overall_job(c: Corpus, qdocs: list[dict], today: date) -> dict:
     st = compute_stats(c.news, quarter_of)
     order = top_agencies(st)
-    prompt = overall_prompt(c, qdocs, st, order)
-    data, usage = generate(client, prompt, report_schema(order), "전체 보고서")
     allowed = {i for d in qdocs for i in cited_ids(d)}
     allowed |= {n["id"] for n in c.news if n.get("agency_id") == HOME}
-    report, dropped = clean_report(data, allowed, order)
-    sort_milestones(c, report)
     days = sorted(n["published"] for n in c.news)
-    doc = {
-        "perspective": "cheonan",
-        "kind": "overall",
-        "id": f"overall-{today}",
-        "title": f"전체 AX 동향보고서 ({today})",
-        "period": {"start": days[0], "end": days[-1],
-                   "quarters": [d["period"]["quarter"] for d in qdocs]},
-        "generated": str(today),
-        "generatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
-        "stats": st,
-        "usage": usage,
-        "validation": dropped,
-        "report": report,
+    return {
+        "label": "전체 보고서",
+        "prompt": overall_prompt(c, qdocs, st, order),
+        "schema": report_schema(order),
+        "allowed": allowed,
+        "order": order,
+        "meta": {
+            "perspective": "cheonan",
+            "kind": "overall",
+            "id": f"overall-{today}",
+            "title": f"전체 AX 동향보고서 ({today})",
+            "period": {"start": days[0], "end": days[-1],
+                       "quarters": [d["period"]["quarter"] for d in qdocs]},
+            "generated": str(today),
+            "generatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+            "stats": st,
+        },
     }
-    note_dropped("전체", dropped)
-    return doc
+
+
+def assemble(c: Corpus, job: dict, data: dict, usage: dict) -> dict:
+    report, dropped = clean_report(data, job["allowed"], job["order"])
+    sort_milestones(c, report)
+    note_dropped(job["label"], dropped)
+    return {**job["meta"], "usage": usage, "validation": dropped, "report": report}
+
+
+def build_from_api(client, c: Corpus, job: dict) -> dict:
+    data, usage = generate(client, job["prompt"], job["schema"], job["label"])
+    return assemble(c, job, data, usage)
 
 
 def note_dropped(label: str, dropped: dict) -> None:
@@ -791,6 +811,16 @@ def dry_run(c: Corpus, todo: list[str], want_overall: bool, today: date) -> None
         print("  (ANTHROPIC_API_KEY 가 있으면 토큰 수와 입력 비용도 보여 줍니다)")
 
 
+def prompt_file(job: dict) -> str:
+    """손으로 모델에 넣을 수 있게 프롬프트와 응답 형식을 한 파일에 담는다."""
+    return "\n\n".join([
+        SYSTEM,
+        job["prompt"],
+        "응답은 아래 JSON 스키마에 맞는 JSON 하나로만 쓴다. 설명 문장이나 코드펜스는 붙이지 않는다.",
+        json.dumps(job["schema"], ensure_ascii=False, indent=2),
+    ])
+
+
 def fail(msg: str, code: int = 1) -> int:
     """중단 사유를 알리고 종료 코드를 돌려준다. Actions 에서는 ::error:: 로 올려, 로그를
     열지 않아도(로그 열람은 관리자 권한이 필요하다) 실행 요약 화면에서 바로 보이게 한다."""
@@ -808,6 +838,13 @@ def main() -> int:
     ap.add_argument("--quarter", help="이 분기 하나만 생성(예: 2026-Q3). 전체 보고서는 건너뜀")
     ap.add_argument("--force", action="store_true", help="확정된 분기까지 전부 다시 생성")
     ap.add_argument("--dry-run", action="store_true", help="API 호출 없이 계획과 입력 크기만 출력")
+    ap.add_argument("--prompt-out", metavar="파일",
+                    help="모델에 보낼 프롬프트와 응답 형식을 파일로 저장하고 끝낸다(API 를 쓸 수 "
+                         "없는 환경용). --quarter 를 주면 그 분기, 없으면 전체 보고서")
+    ap.add_argument("--from-json", metavar="파일",
+                    help="모델이 돌려준 JSON 을 읽어 검증·생성한다(--prompt-out 의 짝)")
+    ap.add_argument("--label", default="수동 입력",
+                    help="--from-json 으로 만든 보고서에 남길 작성 주체(기본: 수동 입력)")
     ap.add_argument("--render-only", action="store_true",
                     help="저장된 json 으로 md/html·목록·한눈에 보기만 다시 만든다(API 호출 없음)")
     ap.add_argument("--budget-min", type=float, default=DEFAULT_BUDGET_MIN,
@@ -844,6 +881,34 @@ def main() -> int:
         dry_run(c, todo, want_overall, today)
         return 0
 
+    # API 없이 모델 호출만 손으로 대신하는 경로. 대상은 1건이다.
+    if args.prompt_out or args.from_json:
+        if args.quarter:
+            job = quarter_job(c, args.quarter, today)
+        else:
+            qdocs = {d["period"]["quarter"]: d for d in saved_docs() if d["kind"] == "quarter"}
+            missing = [q for q in eligible if q not in qdocs]
+            if missing:
+                return fail("전체 보고서는 분기 보고서가 모두 있어야 만듭니다. "
+                            f"빠진 분기: {', '.join(missing)}", 2)
+            job = overall_job(c, [qdocs[q] for q in sorted(qdocs)], today)
+        if args.prompt_out:
+            text = prompt_file(job)
+            Path(args.prompt_out).write_text(text, encoding="utf-8", newline="\n")
+            print(f"{job['label']} 프롬프트를 {args.prompt_out} 에 썼습니다 ({len(text):,}자).")
+            return 0
+        try:
+            data = json.loads(Path(args.from_json).read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as e:
+            return fail(f"{args.from_json} 를 읽지 못했습니다: {e}", 2)
+        doc = assemble(c, job, data, {"model": args.label, "inputTokens": 0,
+                                      "outputTokens": 0, "seconds": 0})
+        write_report(c, doc)
+        write_index()
+        write_highlights(c)
+        print(f"{job['label']} 생성 완료 — {OUT_REL}/{doc['id']}.html")
+        return 0
+
     if not os.environ.get("ANTHROPIC_API_KEY"):
         return fail("ANTHROPIC_API_KEY 가 없습니다. 보고서는 AI 없이 만들 수 없어 중단합니다. "
                     "GitHub 에서는 저장소 Settings > Secrets and variables > Actions 에 등록하세요.")
@@ -865,7 +930,7 @@ def main() -> int:
             failed.append(q)
             continue
         try:
-            write_report(c, build_quarter(client, c, q, today))
+            write_report(c, build_from_api(client, c, quarter_job(c, q, today)))
         except ReportError as e:
             warn(f"{q} 분기 보고서 실패 — {e}")
             failed.append(q)
@@ -880,7 +945,8 @@ def main() -> int:
             warn(f"분기 보고서가 빠져 있어({', '.join(missing)}) 전체 보고서는 다음 실행으로 넘깁니다.")
         elif has_time("전체 보고서"):
             try:
-                write_report(c, build_overall(client, c, [qdocs[q] for q in sorted(qdocs)], today))
+                job = overall_job(c, [qdocs[q] for q in sorted(qdocs)], today)
+                write_report(c, build_from_api(client, c, job))
             except ReportError as e:
                 warn(f"전체 보고서 실패 — {e}")
                 failed.append("전체")

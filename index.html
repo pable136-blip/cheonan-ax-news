@@ -91,13 +91,24 @@
     <section id="tab-reports" class="tab-panel">
       <div class="panel-intro">
         <h2>AX 동향보고서(AI 자동작성)</h2>
-        <p>수집된 정부 부처·천안시 보도자료를 근거로 AI가 <strong>천안시 관점</strong>에서 자동 작성하는
-           <strong>전체·분기 동향보고서</strong>입니다. 매월 1일 갱신되며, 참고용으로만 활용하시기 바랍니다.<br />
+        <p>수집된 정부 부처·천안시 보도자료를 근거로 AI가 <strong>천안시 관점</strong>에서 작성하는
+           <strong>전체·분기 동향보고서</strong>입니다. 참고용으로만 활용하시기 바랍니다.<br />
            <small>※ 시사점과 실행 아이디어는 AI의 제안이며 천안시의 공식 입장이 아닙니다. 사실은 각 항목의 출처 링크로 확인하세요.</small></p>
       </div>
 
       <!-- 보고서와 아래 「한눈에 보기」는 scripts/build_reports.py 가 만든다(data/reports/cheonan/).
            지식재산처 관점 원본 보고서는 index.json·highlights.json 의 archived 로 보관만 한다. -->
+
+      <!-- 보고서가 하나도 없을 때만 보인다(app.js loadReports 가 토글). 빈 목록 세 개가
+           나란히 뜨면 고장 난 화면처럼 보여서, 그 대신 '왜 없는지'와 '어디를 보면 되는지'를 알린다. -->
+      <div id="reports-pending" class="report-pending" hidden>
+        <h3>천안시 관점 동향보고서를 준비하고 있습니다</h3>
+        <p>수집된 보도자료를 근거로 AI가 작성하는 <strong>전체·분기 동향보고서</strong>가 생성되는 대로 이 자리에 게시됩니다.</p>
+        <p>그동안 다른 탭은 모두 정상 이용하실 수 있습니다.
+           <strong>뉴스</strong>에서 정부 부처·천안시 보도자료를,
+           <strong>히트맵</strong>에서 기관별 AX 활동을,
+           <strong>월별추이</strong>에서 주제별 흐름을 보실 수 있습니다.</p>
+      </div>
       <div class="report-group">
         <h3 class="report-group-h">전체 동향보고서</h3>
         <div id="reports-overall" class="reports-list"></div>
@@ -409,7 +420,7 @@
         <p class="foot-src">출처: 대한민국 정책브리핑 · 각 정부기관 공식 채널 · 천안시 누리집 보도자료 · <span id="last-updated">갱신: —</span></p>
         <p class="foot-org"><strong>천안 AX 인사이트</strong> / 원본 Gov.AX Insight — Designed by Buyong JEONG(2026-07-26)</p>
         <p class="foot-note">이 서비스는 천안시 공식 누리집이 아니며, 시범 운영 중입니다. AI가 매일 자동검색한 새로운 정부 부처·천안시 보도자료를 누적 보관합니다.</p>
-        <p class="foot-note">보관된 전체 뉴스를 기반으로 AI가 매월 천안시 관점의 AX 동향보고서를 자동 업데이트하여 제공합니다.</p>
+        <p class="foot-note">보관된 전체 뉴스를 기반으로 AI가 작성한 천안시 관점의 AX 동향보고서를 AI 리포트 탭에서 제공합니다.</p>
       </div>
       <a class="portfolio-link" href="https://www.cheonan.go.kr/kor.do" target="_blank" rel="noopener">천안시 누리집 ↗</a>
     </div>
@@ -464,4 +475,3 @@
   <script src="assets/local-news.js"></script>
 </body>
 </html>
-

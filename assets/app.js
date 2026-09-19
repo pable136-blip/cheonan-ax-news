@@ -1516,6 +1516,14 @@ async function loadMilestones() {
 async function loadReports() {
   const idx = await getJSON("data/reports/index.json", { reports: [] });
   const reports = idx.reports || [];
+
+  // 보고서가 하나도 없으면 빈 목록 세 개 대신 '준비 중' 안내만 보여 준다.
+  const pending = $("#reports-pending");
+  if (pending) {
+    const none = reports.length === 0;
+    pending.hidden = !none;
+    document.querySelectorAll("#tab-reports .report-group").forEach((g) => { g.hidden = none; });
+  }
   loadAxHighlights();
 
   // 전체 리포트: 최신 것 1건 표시(생성일 내림차순)

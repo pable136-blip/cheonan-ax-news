@@ -1,6 +1,16 @@
 {
   "_comment": "reports 는 scripts/build_reports.py 가 만든 천안시 관점 보고서(data/reports/cheonan/)다. archived 는 지식재산처 관점 원본 보관본으로 화면에 노출하지 않는다.",
-  "reports": [],
+  "reports": [
+    {
+      "id": "quarter-2026-Q3",
+      "kind": "분기",
+      "date": "2026-09-20",
+      "title": "2026-Q3 AX 동향보고서",
+      "md": "data/reports/cheonan/quarter-2026-Q3.md",
+      "html": "data/reports/cheonan/quarter-2026-Q3.html",
+      "newsCount": 450
+    }
+  ],
   "archivedAt": "2026-09-04T09:54:38+00:00",
   "archived": [
     {
