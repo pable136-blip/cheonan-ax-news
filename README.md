@@ -45,7 +45,7 @@ scripts/
   collect_cheonan.py    천안시 보도자료 수집기 (cheonan.go.kr)
   build_reports.py      천안시 관점 AI 동향보고서(분기·전체) 생성기
   serve.ps1             로컬 미리보기 서버
-.github/workflows/collect.yml   매일 07:20 KST 정부 부처+천안시 자동 수집·커밋
+.github/workflows/collect.yml   매일 07:20·13:20 KST 정부 부처+천안시 자동 수집·커밋
 .github/workflows/reports.yml   AI 동향보고서 생성·커밋(현재 수동 실행만 — 예약 실행은 꺼 둠)
 ```
 
@@ -84,6 +84,9 @@ python scripts/collect_cheonan.py --refresh         # 저장된 기사 본문까
   `timeout-minutes` 에 걸려 잡이 강제 종료되면 요약이 병합보다 앞에 있어서 그날치가 통째로
   날아가기 때문입니다. 조회기간을 10일씩 겹쳐 잡고, `collect_korea.py` 는 남은 시간에 지난 실행에서
   밀린 요약을 보충하므로 넘긴 작업은 다음 실행에서 이어집니다.
+- **장애 복구**: 정책브리핑 접속이 연속 3회 실패하면 빠르게 종료하고 13:20 KST에 다시
+  시도합니다. 결과는 `data/collection-status.json`에 `ok`·`partial`·`failed`로 남아,
+  신규 보도자료가 없는 정상 실행과 외부 사이트 장애를 구분할 수 있습니다.
 - 수집 후 `news/index.json` · `topics.json` · `agencies.json[].newsCount` 를 **월별 파일에서 통째로
   다시 계산**하므로 합계가 어긋나지 않습니다.
 
@@ -138,7 +141,7 @@ python scripts/build_reports.py --render-only      # 저장된 json 으로 md/ht
 
 ## 자동 갱신
 
-`.github/workflows/collect.yml` 이 매일 07:20 KST 에 `collect_korea.py`(정부 부처) →
+`.github/workflows/collect.yml` 이 매일 07:20·13:20 KST 에 `collect_korea.py`(정부 부처) →
 `collect_cheonan.py`(천안시) 순서로 돌리고, 변경분이 있으면 커밋합니다.
 `.github/workflows/reports.yml` 은 `build_reports.py` 를 돌려 보고서를 갱신합니다. 지금은
 저장소에 쓸 수 있는 Anthropic API 키가 없어 **예약 실행을 꺼 두었고**, Actions 화면의 **Run workflow**

@@ -133,13 +133,14 @@ def warn(msg: str) -> None:
 # ---------------------------------------------------------------- HTTP
 
 
-def http_get(url: str, retries: int = 3, pause: float = 0.35) -> str:
+def http_get(url: str, retries: int = 3, pause: float = 0.35,
+             timeout: float = 90) -> str:
     """공공기관 서버는 트래픽이 적다. 재시도 간격을 넉넉히 두고 예의 있게 긁는다."""
     last = None
     for attempt in range(1, retries + 1):
         try:
             req = Request(url, headers={"User-Agent": UA, "Accept-Language": "ko"})
-            with urlopen(req, timeout=90) as r:
+            with urlopen(req, timeout=timeout) as r:
                 raw = r.read()
             time.sleep(pause)
             return raw.decode("utf-8", errors="replace")

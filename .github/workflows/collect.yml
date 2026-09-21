@@ -1,6 +1,6 @@
 name: 보도자료 수집
 
-# 매일 07:20 KST(22:20 UTC 전날)에 정부 부처(korea.kr)·천안시 누리집 보도자료를 훑어
+# 매일 07:20·13:20 KST(22:20 UTC 전날·04:20 UTC)에 정부 부처(korea.kr)·천안시 누리집 보도자료를 훑어
 # AI/AX 관련 기사를 data/ 에 누적하고, 바뀐 게 있으면 커밋한다.
 #
 # 수집기는 각자 시간 예산(--budget-min)을 갖고 있어서 아래 timeout-minutes 에
@@ -10,6 +10,8 @@ name: 보도자료 수집
 on:
   schedule:
     - cron: "20 22 * * *"
+    # 정책브리핑의 일시 장애가 있어도 같은 날 다시 회복할 기회를 둔다(13:20 KST).
+    - cron: "20 4 * * *"
   workflow_dispatch:
     inputs:
       no_summary:
@@ -76,4 +78,5 @@ jobs:
           fi
           git add data
           git commit -m "보도자료 자동 수집 ($(TZ=Asia/Seoul date '+%Y-%m-%d'))"
+          git pull --rebase origin main
           git push

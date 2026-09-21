@@ -36,6 +36,7 @@ from _common import (
     guess_topics,
     http_get,
     load_json,
+    save_json,
     merge_month_files,
     pending_summary_records,
     warn,
@@ -50,6 +51,14 @@ LIST_URL = "https://www.korea.kr/briefing/pressReleaseList.do"
 VIEW_URL = "https://www.korea.kr/briefing/pressReleaseView.do"
 SOURCE_NAME = "대한민국 정책브리핑"
 SOURCE_DOMAIN = "www.korea.kr"
+STATUS_PATH = DATA / "collection-status.json"
+
+# korea.kr 한 기관의 장애가 전체 실행시간을 독점하지 않게 한다. 같은 호스트에
+# 연속 오류가 나면 일시적인 사이트 장애로 보고 빠르게 종료하고 다음 예약 실행에서
+# 다시 시도한다.
+REQUEST_TIMEOUT_SECONDS = 20
+REQUEST_RETRIES = 2
+MAX_CONSECUTIVE_FAILURES = 3
 
 # 이 조회기간보다 예전 기사만 새로 나타나는 경우는 없다고 보고, 매일 실행되는
 # 워크플로에서도 실행이 며칠 건너뛰어도 놓치지 않게 여유 있게 겹쳐서 조회한다.
@@ -99,7 +108,8 @@ def scrape_agency(agency_id: str, rep_code: str, start_date: str, end_date: str,
             break
         html = http_get(
             f"{LIST_URL}?repCodeType=&repCode={rep_code}&srchWord="
-            f"&pageIndex={page}&startDate={start_date}&endDate={end_date}&period=")
+            f"&pageIndex={page}&startDate={start_date}&endDate={end_date}&period=",
+            retries=REQUEST_RETRIES, timeout=REQUEST_TIMEOUT_SECONDS)
         found_this_page = 0
         for m in LIST_ITEM.finditer(html):
             found_this_page += 1
@@ -206,6 +216,9 @@ def main() -> int:
 
     seen_ids = known_news_ids()
     candidates: dict[str, dict] = {}
+    checked = 0
+    failures: list[dict] = []
+    consecutive_failures = 0
     for n, a in enumerate(agencies, 1):
         # 조회 단계에서 예산이 끝나면 남은 기관은 다음 실행에 맡긴다. 조회기간을
         # 10일씩 겹쳐 잡으므로 여기서 건너뛴 기관도 놓치지 않는다.
@@ -217,7 +230,15 @@ def main() -> int:
             found = scrape_agency(a["id"], a["koreaKrOrgCode"], str(start), str(end), budget)
         except RuntimeError as e:
             print(f"  {a['id']:<12} 조회 실패: {e}")
+            failures.append({"agency_id": a["id"], "error": str(e)[:300]})
+            consecutive_failures += 1
+            if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                warn(f"korea.kr 연속 {MAX_CONSECUTIVE_FAILURES}회 접속 실패 — "
+                     "사이트 일시 장애로 보고 조기 종료합니다.")
+                break
             continue
+        checked += 1
+        consecutive_failures = 0
         wanted = [it for it in found if it["newsId"] not in seen_ids and keep(it)]
         for it in wanted:
             candidates[it["newsId"]] = it
@@ -249,11 +270,38 @@ def main() -> int:
     idx = rebuild_index(args.dry_run)
     rebuild_topics(args.dry_run)
 
+    # 신규 기사가 0건이어도 정상 확인인지 외부 사이트 장애인지 구분할 수 있게
+    # 수집 시도 자체의 상태를 별도 기록한다.
+    previous_status = load_json(STATUS_PATH, {})
+    if checked == len(agencies) and not failures:
+        run_status = "ok"
+    elif checked:
+        run_status = "partial"
+    else:
+        run_status = "failed"
+    status_doc = {
+        "koreaKr": {
+            "status": run_status,
+            "lastAttempt": now_iso,
+            "lastSuccess": now_iso if checked else previous_status.get("koreaKr", {}).get("lastSuccess"),
+            "period": {"start": str(start), "end": str(end)},
+            "agenciesTotal": len(agencies),
+            "agenciesChecked": checked,
+            "agenciesFailed": len(failures),
+            "newItems": added,
+            "errors": failures[:10],
+        }
+    }
+    if not args.dry_run:
+        save_json(STATUS_PATH, status_doc)
+
     print(f"\n신규 {added}건 · 갱신 {updated}건 · {budget}")
     print(f"전체 누적 {idx.get('total', 0)}건")
     if args.dry_run:
         print("(--dry-run: 파일을 쓰지 않았습니다)")
-    return 0
+    # 전 기관 접속 실패는 Actions 화면에서도 실패로 표시한다. 뒤의 천안시 수집과
+    # 상태 파일 커밋은 workflow 의 !cancelled()/always() 조건으로 계속 실행된다.
+    return 1 if checked == 0 else 0
 
 
 if __name__ == "__main__":

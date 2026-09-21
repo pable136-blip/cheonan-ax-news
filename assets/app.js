@@ -120,17 +120,30 @@ async function init() {
   const topicsPromise = getJSON("data/topics.json", null);
   const keywordsPromise = getJSON("data/keywords.json", null);
 
-  const [agenciesDoc, index] = await Promise.all([
+  const [agenciesDoc, index, collectionStatus] = await Promise.all([
     getJSON("data/agencies.json", { categories: [], agencies: [] }),
     getJSON("data/news/index.json", { updated: null, months: [], total: 0 }),
+    getJSON("data/collection-status.json", null),
   ]);
   state.categories = agenciesDoc.categories || [];
   state.agencies = agenciesDoc.agencies || [];
   state.agencyById = Object.fromEntries(state.agencies.map((a) => [a.id, a]));
 
-  $("#last-updated").textContent = index.updated
-    ? "갱신: " + new Date(index.updated).toLocaleString("ko-KR")
-    : "아직 수집 전";
+  const koreaStatus = collectionStatus && collectionStatus.koreaKr;
+  if (koreaStatus && koreaStatus.status === "failed") {
+    $("#last-updated").textContent = "정부자료 수집 실패: " +
+      new Date(koreaStatus.lastAttempt).toLocaleString("ko-KR") + " · 자동 재시도 예정";
+  } else if (koreaStatus && koreaStatus.status === "partial") {
+    $("#last-updated").textContent = "정부자료 일부 갱신: " +
+      new Date(koreaStatus.lastAttempt).toLocaleString("ko-KR") +
+      ` (${koreaStatus.agenciesChecked}/${koreaStatus.agenciesTotal}개 기관)`;
+  } else {
+    const updatedAt = koreaStatus && koreaStatus.lastSuccess
+      ? koreaStatus.lastSuccess : index.updated;
+    $("#last-updated").textContent = updatedAt
+      ? "갱신: " + new Date(updatedAt).toLocaleString("ko-KR")
+      : "아직 수집 전";
+  }
 
   const months = index.months || [];
   // 누적 수집 건수는 index.json 의 total 이 정답이므로 여기서 바로 표기한다
