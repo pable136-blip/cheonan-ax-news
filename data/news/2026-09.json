@@ -1,5 +1,279 @@
 [
   {
+    "id": "4c1fd8a8ef557946",
+    "agency_id": "mss",
+    "title": "소상공인 데이터 통합·활용을 위한 「소상공인기본법」 개정안 국무회의 의결",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782825",
+    "published": "2026-09-22",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "중소벤처기업부(장관 직무대행 제1차관 노용석, 이하 중기부)는 소상공인의 분산된 데이터를 통합 구축·활용하기 위한 「소상공인기본법」 일부개정안이 9월 22일(화) 국무회의에서 의결됐다고 밝혔다.  그동안 중기부는 법상 소상공인 정의에 따라 사업자 중심으로 매출액과 상시근로자 수를 확인하고, ... 2026-09-22 중소벤처기업부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "industry",
+      "startup",
+      "data"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156782825"
+  },
+  {
+    "id": "345957fa7df03848",
+    "agency_id": "motie",
+    "title": "AI 시대, 기업과 산업의 미래를 위한 민간의 지혜를 모은다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782801",
+    "published": "2026-09-22",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "AI  시대  ,  기업과 산업의 미래를 위한  민간의 지혜를 모은다  -  산업통상부  ,  ｢  AI  와 기업의 미래 연구회  ｣  공식 발족  -  AI  시대 인재 재교육  ·  양성  ,  노동시장 유연안정성  ,  기업 성과 활용 등  분과  회의 본격 ... 2026-09-22 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "talent",
+      "industry"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156782801"
+  },
+  {
+    "id": "eaee1d92de0b0a0c",
+    "agency_id": "mpb",
+    "title": "AI친화형 '27년 정부예산안 사업설명자료 공개 지침 배포",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782607",
+    "published": "2026-09-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "기획예산처는 '27년 정부예산안 사업설명자료 공개에 앞서,  AI친화형 사업설명자료 작성양식을 마련하여 각 부처에 배포하였습니다.  자세한 내용은 첨부자료를 확인해 주시기 바랍니다. 2026-09-21 기획예산처",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "law"
+    ],
+    "primary_topic": "law",
+    "newsId": "156782607"
+  },
+  {
+    "id": "e2576d0e64a14e1b",
+    "agency_id": "moel",
+    "title": "인공지능(AI) 고용서비스, 아이디어부터 개발까지 국민이 직접 만든다 「고용24 국민참여 인공지능(AI) 고용서비스 발굴 온라인 해커톤」 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782672",
+    "published": "2026-09-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 9.21.(월)~10.13.(화) 참가 접수… 만 19세 이상 국민 누구나 참여 가능  - 인공지능(AI)를 활용한 고용서비스 개발… 총 10팀 시상, 총상금 1,000만 원  고용노동부(장관 김영훈)와 한국고용정보원(원장 이창수)은 국민이 직접 기획한 고용서비스 아이디어를 ... 2026-09-21 고용노동부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "newsId": "156782672"
+  },
+  {
+    "id": "9b0ae69550e71f14",
+    "agency_id": "pipc",
+    "title": "인공지능(AI)시대의 데이터 혁신 활용 거점 '개인정보 이노베이션 존' 추가 지정",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782632",
+    "published": "2026-09-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "인공지능(AI)시대의 데이터 혁신 활용 거점 '개인정보 이노베이션 존' 추가 지정  - 국세청, 조세·재정분야 특화 데이터 분석 지원  - 질병관리청, 감염병 전주기 데이터·국가 건강조사 데이터 특화 분석 지원  개인정보보호위원회(위원장 송경희, 이하 '개인정보위')는 9월 21... 2026-09-21 개인정보보호위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "data",
+      "public"
+    ],
+    "primary_topic": "data",
+    "newsId": "156782632"
+  },
+  {
+    "id": "6a9e46475cbd0ae9",
+    "agency_id": "mohw",
+    "title": "복지·돌봄 AI 대전환 로드맵 수립 위한 관계 전문가 의견수렴",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782753",
+    "published": "2026-09-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "복지·돌봄 AI 대전환 로드맵 수립 위한 관계 전문가 의견수렴  - 정은경 장관, 복지·돌봄 AI 전문가 간담회 개최(9.21.) -  - AI 기반 복지·돌봄 혁신 목표와 추진 과제 담은중장기 로드맵 하반기 발표 예정 -  보건복지부(장관 정은경)는 9월 21일(월... 2026-09-21 보건복지부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "newsId": "156782753"
+  },
+  {
+    "id": "433a17860a1eed10",
+    "agency_id": "motie",
+    "title": "\"우리 공장, 무엇부터 AI로 바꿀까?\" CEO가 먼저 이끄는 제조 현장 M.AX",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782735",
+    "published": "2026-09-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "\"  우리 공장  ,  무엇부터  AI  로 바꿀까  \"  CEO  가 먼저 이끄는 제조 현장  M.AX  산업부  ,  산단 기업  CEO 50  여 명과  ｢  M.AX CEO  해커톤  ｣  개최  설비고장 등 제조 현장 애로를  AX  프로젝트로 구체화     산업통상부... 2026-09-21 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "industry"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156782735"
+  },
+  {
+    "id": "293b32a9772c6e67",
+    "agency_id": "opc",
+    "title": "[보도자료] 한성숙 국무총리, 글로벌 AI 허브 추진위원회 회의 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782686",
+    "published": "2026-09-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "한 총리, 글로벌 AI 허브 추진위원회 '첫 회의' 개최…선언을 넘어 실행으로  - 글로벌 AI 허브 설립 추진 현황을 점검하고 입지선정 계획 논의 -  □ 한성숙 국무총리는 9월 21일(월) 10:00, 정부서울청사에서 ｢글로벌 인공지능(AI) 허브(이하 '허브') 추진위원회&... 2026-09-21 국무조정실",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "diplomacy"
+    ],
+    "primary_topic": "diplomacy",
+    "newsId": "156782686"
+  },
+  {
+    "id": "1eb9a259855f51b8",
+    "agency_id": "mcst",
+    "title": "생성형 인공지능 활용 음악의 저작권 신탁·분배 기준 논의",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782580",
+    "published": "2026-09-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "생성형 인공지능 활용 음악의 저작권 신탁·분배 기준 논의 관련 보도자료 내용입니다.  자세한 사항은 붙임파일([0921]문체부보도자료-인공지능 활용 음악의 신탁 기준 마련을 위한 토론회 개최.pdf)을 참고하시기 바랍니다. 2026-09-21 문화체육관광부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "생성형"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "genai"
+    ],
+    "primary_topic": "genai",
+    "newsId": "156782580"
+  },
+  {
+    "id": "503ec5a8ee3237df",
+    "agency_id": "moe",
+    "title": "데이터로 읽는 우리 교육 제14호 발간 - 학교체육, 수업에서 일상으로",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782571",
+    "published": "2026-09-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "<데이터로 읽는 우리 교육> 제14호 발간 - 학교체육, 수업에서 일상으로 2026-09-20 교육부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "talent",
+      "data"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156782571"
+  },
+  {
+    "id": "35b7b2bd9d3c0abb",
+    "agency_id": "msit",
+    "title": "｢국가연구개발 AI 연구윤리 가이드｣ 마련",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782520",
+    "published": "2026-09-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 인공지능을  활용한 연구개발 결과물에 대한 책임과 권리는 연구자에 귀속  -  사실관계 검증  ,  투명성 확보  ,  결과 신뢰성 관리 등  7  대 권고사항 제시 2026-09-20 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "law"
+    ],
+    "primary_topic": "law",
+    "newsId": "156782520"
+  },
+  {
     "id": "9105828744e6d8c6",
     "agency_id": "mofa",
     "title": "AI를 활용한 포용적이고 지속 가능한 개발협력 방안 모색",
@@ -98,6 +372,30 @@
     ],
     "primary_topic": "data",
     "newsId": "156782274"
+  },
+  {
+    "id": "df8e7650a53e7693",
+    "agency_id": "mafra",
+    "title": "'요리하는 로봇' 시대 연다… 농식품부, 전국 1호 '식품로봇 푸드테크 연구지원센터' 포항서 준공",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156782750",
+    "published": "2026-09-17",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농림축산식품부  (  장관 송미령  ,  이하  '  농식품부  ')  는  9  월  17  일  (  목  ),  경북 포항시  (  포항융합기술산업지구 내  )  에서 전국 최초의 푸드테크 거점 시설인  '  식품로봇  분야 푸드테크 연구지원센터  (  이하  '  포항센터  ')'  준공식을 개최... 2026-09-17 농림축산식품부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "로봇"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-22T10:01:27+09:00",
+    "topics": [
+      "physical"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156782750"
   },
   {
     "id": "cc95cc1dacb47cd1",
