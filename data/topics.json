@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T01:03:55+00:00",
+  "updated": "2026-09-22T09:29:02+00:00",
   "topics": [
     {
       "id": "genai",
@@ -187,7 +187,7 @@
       "startup": 11,
       "talent": 10,
       "law": 5,
-      "security": 9,
+      "security": 10,
       "public": 48,
       "diplomacy": 15,
       "other": 1
@@ -210,7 +210,7 @@
     },
     "nda": {
       "genai": 0,
-      "agent": 0,
+      "agent": 1,
       "physical": 0,
       "industry": 0,
       "data": 11,
@@ -260,7 +260,7 @@
       "genai": 1,
       "agent": 2,
       "physical": 5,
-      "industry": 2,
+      "industry": 3,
       "data": 8,
       "infra": 0,
       "smartcity": 0,
@@ -324,7 +324,7 @@
       "genai": 0,
       "agent": 0,
       "physical": 5,
-      "industry": 8,
+      "industry": 9,
       "data": 5,
       "infra": 3,
       "smartcity": 4,
@@ -597,7 +597,7 @@
       "agent": 0,
       "physical": 1,
       "industry": 1,
-      "data": 3,
+      "data": 4,
       "infra": 1,
       "smartcity": 0,
       "startup": 3,
@@ -756,7 +756,7 @@
       "genai": 0,
       "agent": 0,
       "physical": 6,
-      "industry": 0,
+      "industry": 1,
       "data": 1,
       "infra": 0,
       "smartcity": 2,
@@ -979,16 +979,16 @@
   },
   "totals": {
     "genai": 53,
-    "agent": 35,
+    "agent": 36,
     "physical": 125,
-    "industry": 184,
-    "data": 189,
+    "industry": 187,
+    "data": 190,
     "infra": 135,
     "smartcity": 16,
     "startup": 197,
     "talent": 367,
     "law": 200,
-    "security": 120,
+    "security": 121,
     "public": 264,
     "diplomacy": 201,
     "other": 71
@@ -1060,13 +1060,13 @@
     },
     "2026-Q3": {
       "public": 51,
-      "data": 50,
+      "data": 51,
       "diplomacy": 39,
       "startup": 35,
       "talent": 73,
-      "agent": 17,
-      "industry": 41,
-      "security": 27,
+      "agent": 18,
+      "industry": 44,
+      "security": 28,
       "infra": 24,
       "physical": 36,
       "other": 35,
@@ -1075,7 +1075,7 @@
       "smartcity": 5
     }
   },
-  "newsTotal": 2157,
+  "newsTotal": 2163,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
