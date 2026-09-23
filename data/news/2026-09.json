@@ -1,5 +1,78 @@
 [
   {
+    "id": "ff8b5fcf5ac77317",
+    "agency_id": "pipc",
+    "title": "에이전틱 인공지능(Agentic AI)과 개인정보보호, 민관 협력을 통한 합리적 규율체계 모색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783143",
+    "published": "2026-09-23",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "에이전틱 인공지능(Agentic AI)과 개인정보보호, 민관 협력을 통한 합리적 규율체계 모색  - 「인공지능 프라이버시 민·관 정책협의회(2기)」 제2차 전체회의 개최  - 에이전틱 인공지능 프라이버시 이슈와 개인정보 제도 혁신 방향 논의  개인정보보호위원회(위원장 송경희, 이하 '개인정보... 2026-09-23 개인정보보호위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-23T18:25:57+09:00",
+    "topics": [
+      "law"
+    ],
+    "primary_topic": "law",
+    "newsId": "156783143"
+  },
+  {
+    "id": "78d34dde5ed6473d",
+    "agency_id": "kcc",
+    "title": "인공지능 기반 방송콘텐츠, 글로벌 무대 공략",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783052",
+    "published": "2026-09-23",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "인공지능 기반 방송콘텐츠, 글로벌 무대 공략  - '26년 아시아 최대 미디어·엔터테인먼트 콘텐츠마켓 참가작 11편 선정 -  다양한 장르의 국내 방송콘텐츠 11편이 오는 12월 싱가포르에서 열리는 아시아 최대 미디어·엔터테인먼트 콘텐츠 시장에 진출한다.  방송미디어통신위원회(위... 2026-09-23 방송미디어통신위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-23T18:25:57+09:00",
+    "topics": [
+      "diplomacy"
+    ],
+    "primary_topic": "diplomacy",
+    "newsId": "156783052"
+  },
+  {
+    "id": "66a54e32f543d0dc",
+    "agency_id": "moip",
+    "title": "숙련자의 30년 노하우 AI가 배웠다면 지식재산의 경계는",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783042",
+    "published": "2026-09-23",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "숙련자의 30년 노하우, AI가 배웠다면 지식재산의 경계는  - 지식재산처·한국공학한림원, 9월 23일 제2회 지식재산 전략포럼 개최 -  - 산업 현장의 학습데이터와 AI 모델의 권리 귀속, 기여자 보상 등 논의 -  지식재산처(처장 김용선)와 한국공학한림원(회장 윤의준)은 9월 23일(... 2026-09-23 지식재산처",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-23T18:25:57+09:00",
+    "topics": [
+      "data"
+    ],
+    "primary_topic": "data",
+    "newsId": "156783042"
+  },
+  {
     "id": "07fbb52700f6c5ea",
     "agency_id": "fsc",
     "title": "금융위원장, 「피지컬 AI 지역거점 발전 포럼」 참석, 피지컬 AI 지역거점 지원 의지 강조",
@@ -74,6 +147,31 @@
     ],
     "primary_topic": "data",
     "newsId": "156782924"
+  },
+  {
+    "id": "b52aa6d6e0bc9474",
+    "agency_id": "msit",
+    "title": "「사이버보안 특화 AI 모델 개발」 프로젝트 착수 간담회 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783070",
+    "published": "2026-09-22",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "네이버클라우드 컨소시엄의 사이버보안 특화 모델 개발 계획 발표  보안 특화모델의 경쟁력 확보전략 및 활용  ·  확산을 위한 협력 방안 논의 2026-09-22 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-23T18:25:57+09:00",
+    "topics": [
+      "infra",
+      "security"
+    ],
+    "primary_topic": "infra",
+    "newsId": "156783070"
   },
   {
     "id": "8e26c68943bdc3d9",
@@ -155,6 +253,30 @@
     "newsId": "156782825"
   },
   {
+    "id": "37bba12ad06c961f",
+    "agency_id": "msit",
+    "title": "배경훈 부총리, 피지컬 AI 생태계 조성을 위해 지방정부·금융·산업계와의 협력 강조",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783078",
+    "published": "2026-09-22",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  「  피지컬  AI  지역거점 발전 포럼  」  참석하고 피지컬  AI  기술 시연 참관  기술개발에서 현장실증  ·  사업화  ·  투자로 이어지는 피지컬  AI  생태계 조성 강조 2026-09-22 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-23T18:25:57+09:00",
+    "topics": [
+      "startup"
+    ],
+    "primary_topic": "startup",
+    "newsId": "156783078"
+  },
+  {
     "id": "345957fa7df03848",
     "agency_id": "motie",
     "title": "AI 시대, 기업과 산업의 미래를 위한 민간의 지혜를 모은다",
@@ -203,6 +325,30 @@
     ],
     "primary_topic": "industry",
     "newsId": "156782864"
+  },
+  {
+    "id": "1c3c7e50b71d3e22",
+    "agency_id": "msit",
+    "title": "AI 전환기 속, 플랫폼의 가치와 경쟁력 강화방안",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783071",
+    "published": "2026-09-22",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "AI 전환기 속, 플랫폼의 가치와 경쟁력 강화방안 관련 보도자료 내용입니다.  자세한 내용은 첨부파일을 참고하시기 바랍니다.  ※ 대용량 첨부파일은 바로보기가 지원되지 않으니, 첨부파일명을 클릭하여 확인하시기 바랍니다. 2026-09-22 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-23T18:25:57+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156783071"
   },
   {
     "id": "1b9e7e1a7166ef74",

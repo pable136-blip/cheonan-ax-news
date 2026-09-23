@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T00:52:00+00:00",
+  "updated": "2026-09-23T09:26:11+00:00",
   "topics": [
     {
       "id": "genai",
@@ -149,7 +149,7 @@
       "agent": 4,
       "physical": 0,
       "industry": 3,
-      "data": 7,
+      "data": 8,
       "infra": 6,
       "smartcity": 0,
       "startup": 3,
@@ -166,15 +166,15 @@
       "physical": 25,
       "industry": 33,
       "data": 28,
-      "infra": 64,
+      "infra": 65,
       "smartcity": 0,
-      "startup": 64,
+      "startup": 65,
       "talent": 70,
       "law": 45,
       "security": 27,
       "public": 32,
       "diplomacy": 36,
-      "other": 12
+      "other": 13
     },
     "mois": {
       "genai": 0,
@@ -893,7 +893,7 @@
       "law": 9,
       "security": 4,
       "public": 1,
-      "diplomacy": 0,
+      "diplomacy": 1,
       "other": 2
     },
     "pipc": {
@@ -906,7 +906,7 @@
       "smartcity": 0,
       "startup": 1,
       "talent": 0,
-      "law": 1,
+      "law": 2,
       "security": 33,
       "public": 1,
       "diplomacy": 0,
@@ -982,16 +982,16 @@
     "agent": 36,
     "physical": 125,
     "industry": 188,
-    "data": 190,
-    "infra": 135,
+    "data": 191,
+    "infra": 136,
     "smartcity": 16,
-    "startup": 197,
+    "startup": 198,
     "talent": 367,
-    "law": 200,
+    "law": 201,
     "security": 121,
     "public": 264,
-    "diplomacy": 201,
-    "other": 71
+    "diplomacy": 202,
+    "other": 72
   },
   "quarters": {
     "2025-Q3": {
@@ -1060,22 +1060,22 @@
     },
     "2026-Q3": {
       "public": 51,
-      "data": 51,
-      "diplomacy": 39,
-      "startup": 35,
+      "data": 52,
+      "diplomacy": 40,
+      "startup": 36,
       "talent": 73,
       "agent": 18,
       "industry": 45,
       "security": 28,
-      "infra": 24,
+      "infra": 25,
       "physical": 36,
-      "other": 35,
-      "law": 33,
+      "other": 36,
+      "law": 34,
       "genai": 15,
       "smartcity": 5
     }
   },
-  "newsTotal": 2164,
+  "newsTotal": 2170,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
