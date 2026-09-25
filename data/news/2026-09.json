@@ -73,6 +73,33 @@
     "newsId": "156783042"
   },
   {
+    "id": "2fd9e3e9707bfe0c",
+    "agency_id": "cheonan",
+    "title": "천안시, ‘인공지능 건강 내비게이션’ 참여자 모집… 맞춤형 건강 코칭",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000514172Up6lF0",
+    "published": "2026-09-23",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시는 ‘인공지능(AI) 건강 내비게이션’ 연구 참여자를 모집한다고 23일 밝혔다.",
+    "subtitle": "스마트밴드, 모바일앱 활용해 일상 속 건강정보 확인",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-25T09:44:34+09:00",
+    "topics": [
+      "talent",
+      "security",
+      "public"
+    ],
+    "primary_topic": "talent",
+    "dept": "건강생활팀",
+    "nttId": "B000000514172Up6lF0"
+  },
+  {
     "id": "07fbb52700f6c5ea",
     "agency_id": "fsc",
     "title": "금융위원장, 「피지컬 AI 지역거점 발전 포럼」 참석, 피지컬 AI 지역거점 지원 의지 강조",
@@ -376,6 +403,32 @@
     ],
     "primary_topic": "industry",
     "newsId": "156782932"
+  },
+  {
+    "id": "fc44f6e5170c534a",
+    "agency_id": "cheonan",
+    "title": "천안시, ‘인공지능 교육 전문인력 1기’ 위촉…시민 맞춤형 교육 본격화",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000514149Ln1lW9",
+    "published": "2026-09-21",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시는 21일 시청 중회의실에서 ‘인공지능(AI) 교육 전문인력 1기 위촉식’을 열고 선발된 전문인력에게 위촉장을 전달했다.",
+    "subtitle": "초중고, 소상공인, 공직자 등 5개 분야 투입",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-25T09:44:34+09:00",
+    "topics": [
+      "talent",
+      "public"
+    ],
+    "primary_topic": "talent",
+    "dept": "스마트도시TF팀",
+    "nttId": "B000000514149Ln1lW9"
   },
   {
     "id": "eaee1d92de0b0a0c",
