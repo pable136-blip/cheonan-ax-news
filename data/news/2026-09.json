@@ -25,6 +25,55 @@
     "newsId": "156783408"
   },
   {
+    "id": "f99d65d07b1695da",
+    "agency_id": "rda",
+    "title": "사람 대신 영상과 인공지능(AI)으로 벼 생육 살핀다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783567",
+    "published": "2026-09-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농  촌진흥청  (  청장 이승돈  )  은 벼 생육 조사에 영상과 인공지능  (AI)  을 적용한  '  인공지능 벼 생육 모니터링 시스템  '  을 구축하고  ,  현장 적용성과 효과를 검증하고 있다고 밝혔다  .  벼 생육 상태를 주기적으로 살펴보는 것은 농업인의 재배 관리뿐만 아니라 농업연구와 정... 2026-09-29 농촌진흥청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-29T19:49:36+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "newsId": "156783567"
+  },
+  {
+    "id": "cee6d70f24a3e922",
+    "agency_id": "nda",
+    "title": "국가데이터 이용 확대를 위한 마이크로데이터 활용 세미나 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783505",
+    "published": "2026-09-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국가데이터 이용 확대를 위한 마이크로데이터 활용 세미나 개최  ※ 자세한 내용은 첨부파일을 참고 바랍니다. 2026-09-29 국가데이터처",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-29T19:49:36+09:00",
+    "topics": [
+      "data"
+    ],
+    "primary_topic": "data",
+    "newsId": "156783505"
+  },
+  {
     "id": "bda17cea08881aeb",
     "agency_id": "mcst",
     "title": "멕시코 방송, '케이-컬처의 힘'과 '대체 불가 케이-인공지능' 조명",
@@ -47,6 +96,83 @@
     ],
     "primary_topic": "other",
     "newsId": "156783386"
+  },
+  {
+    "id": "bc9fefea1b6c0da8",
+    "agency_id": "mois",
+    "title": "범정부 AI·데이터행정 협력체계 본격 가동 \"AI·데이터행정을 이끌 책임관 한자리에\"",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783465",
+    "published": "2026-09-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 행안부, 9월 30일, '제1회 AI·데이터행정 책임관 협의회' 개최  - 온AI 확산, 공공데이터 상위 100개 조기 개방 등 주요 현안 공동 대응  행정안전부  (  장관 윤호중  )  는  9  월  30  일  (  수  )  서울청사 별관 국제회의실에서  '  제  1  회  A... 2026-09-29 행정안전부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-29T19:49:36+09:00",
+    "topics": [
+      "security",
+      "data",
+      "public"
+    ],
+    "primary_topic": "security",
+    "newsId": "156783465"
+  },
+  {
+    "id": "aea1c8cae14e9eec",
+    "agency_id": "kasa",
+    "title": "국가위성 표준영상 대규모 공개로 인공지능(AI) 기반 위성정보 활용산업 키운다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783455",
+    "published": "2026-09-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 민간의 인공지능 혁신기술 개발지원을 위한 국가위성 표준영상 대규모 시범공개  - 다목적실용위성 고해상도(0.7m/0.55m) 광학 표준영상 약 67,000장 공개  【관련 국정과제】 28. 세계를 선도할 넥스트(NEXT) 전략기술 육성  우주항공청(청장 오태석)은 9월 30일(수)부터 국내 위성활용기... 2026-09-29 우주항공청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-29T19:49:36+09:00",
+    "topics": [
+      "startup"
+    ],
+    "primary_topic": "startup",
+    "newsId": "156783455"
+  },
+  {
+    "id": "9fb9362261e4d380",
+    "agency_id": "msit",
+    "title": "과기정통부, 대학 교육 AI 중심 전환 본격화 AI중심대학 18개교·AX대학원 15개교 출범",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783488",
+    "published": "2026-09-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "과기정통부, 대학 교육 AI 중심 전환 본격화 AI중심대학 18개교·AX대학원 15개교 출범 관련 보도자료 내용입니다.  자세한 내용은 첨부파일을 참고하시기 바랍니다.  ※ 대용량 첨부파일은 바로보기가 지원되지 않으니, 첨부파일명을 클릭하여 확인하시기 바랍니다. 2026-09-29 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-29T19:49:36+09:00",
+    "topics": [
+      "talent"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156783488"
   },
   {
     "id": "95d336c9fc797965",
@@ -123,6 +249,80 @@
     "newsId": "156783427"
   },
   {
+    "id": "5b39728234f0dafd",
+    "agency_id": "moe",
+    "title": "국가 공인 한국어시험 토픽, 2029년 평가 개편 및 인공지능·디지털 기반 체제로 전환",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783460",
+    "published": "2026-09-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국가 공인 한국어시험 토픽, 2029년 평가 개편 및 인공지능·디지털 기반 체제로 전환 2026-09-29 교육부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-29T19:49:36+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156783460"
+  },
+  {
+    "id": "2f8a23c46825a5cf",
+    "agency_id": "moel",
+    "title": "국가자격시험 인공지능(AI) 활용 부정행위 대응 역량 강화",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783497",
+    "published": "2026-09-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 한국산업인력공단, 첨단기기 활용 부정행위 대응 모의 훈련 실시-  한국산업인력공단(이사장 이병훈)은 스마트안경 등 AI 기반 첨단기기를 활용한 부정행위에 선제적으로 대응하기 위해 9월 29일(화) 울산 국가자격시험장에서 'AI 활용 첨단기기 사용 부정행위 대응 모의 훈련'을 실시했다.  훈련에서는 실... 2026-09-29 고용노동부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-29T19:49:36+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156783497"
+  },
+  {
+    "id": "23ea2c041520df8d",
+    "agency_id": "mois",
+    "title": "소상공인 가게 운영부터 지역 정착까지 맞춤형 AI 서비스가 돕는다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783463",
+    "published": "2026-09-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 강원, 근로계약·노무상담·정책 지원 연결하는 소상공인 안심경영 서비스 구축  - 경북, 주거·돌봄부터 경제활동까지 주민 상황에 맞는 정착 지원정보 통합 안내  행정안전부  (  장관 윤호중  )  는 소상공인의 가게 운영과 주민의 지역 정착에 필요한 정보를 인공지... 2026-09-29 행정안전부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-29T19:49:36+09:00",
+    "topics": [
+      "security",
+      "public"
+    ],
+    "primary_topic": "security",
+    "newsId": "156783463"
+  },
+  {
     "id": "0783d6a6303c2134",
     "agency_id": "mof",
     "title": "해운물류 분야 미래 인재들, 인공지능 기술 활용해 항만 현장 문제 해결",
@@ -145,6 +345,31 @@
     ],
     "primary_topic": "talent",
     "newsId": "156783434"
+  },
+  {
+    "id": "0629c5df40bbff63",
+    "agency_id": "rda",
+    "title": "농촌진흥청 32개 누리집, AI 더 쉽고 빠르게 검색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783561",
+    "published": "2026-09-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농  촌진흥청  (  청장 이승돈  )  은 본청과 소속  ·  산하기관  32  개 누리집에 흩어진 농업  ·  행정정보를 한곳에서 쉽고 빠르게 확인할 수 있도록  ,  생성형 인공지능  (AI)  을 활용한  '  지능형 통합검색 서비스  '  를 시작한다고 밝혔다  .  그... 2026-09-29 농촌진흥청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-09-29T19:49:36+09:00",
+    "topics": [
+      "genai",
+      "public"
+    ],
+    "primary_topic": "genai",
+    "newsId": "156783561"
   },
   {
     "id": "a49c030d5f27a9f7",
