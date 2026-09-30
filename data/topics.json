@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T01:27:38+00:00",
+  "updated": "2026-09-30T10:38:36+00:00",
   "topics": [
     {
       "id": "genai",
@@ -148,7 +148,7 @@
       "genai": 0,
       "agent": 4,
       "physical": 0,
-      "industry": 3,
+      "industry": 4,
       "data": 8,
       "infra": 6,
       "smartcity": 0,
@@ -171,10 +171,10 @@
       "startup": 65,
       "talent": 72,
       "law": 45,
-      "security": 27,
+      "security": 28,
       "public": 32,
-      "diplomacy": 37,
-      "other": 14
+      "diplomacy": 38,
+      "other": 15
     },
     "mois": {
       "genai": 0,
@@ -213,7 +213,7 @@
       "agent": 1,
       "physical": 0,
       "industry": 0,
-      "data": 14,
+      "data": 15,
       "infra": 0,
       "smartcity": 0,
       "startup": 1,
@@ -227,7 +227,7 @@
     "motie": {
       "genai": 1,
       "agent": 0,
-      "physical": 23,
+      "physical": 24,
       "industry": 51,
       "data": 5,
       "infra": 12,
@@ -411,7 +411,7 @@
       "startup": 2,
       "talent": 13,
       "law": 5,
-      "security": 0,
+      "security": 1,
       "public": 28,
       "diplomacy": 3,
       "other": 3
@@ -566,7 +566,7 @@
       "physical": 5,
       "industry": 3,
       "data": 1,
-      "infra": 2,
+      "infra": 3,
       "smartcity": 0,
       "startup": 2,
       "talent": 14,
@@ -643,7 +643,7 @@
     "rda": {
       "genai": 2,
       "agent": 1,
-      "physical": 5,
+      "physical": 6,
       "industry": 6,
       "data": 13,
       "infra": 2,
@@ -681,7 +681,7 @@
       "infra": 1,
       "smartcity": 0,
       "startup": 2,
-      "talent": 0,
+      "talent": 1,
       "law": 0,
       "security": 0,
       "public": 1,
@@ -894,7 +894,7 @@
       "security": 4,
       "public": 1,
       "diplomacy": 1,
-      "other": 2
+      "other": 3
     },
     "pipc": {
       "genai": 0,
@@ -905,7 +905,7 @@
       "infra": 1,
       "smartcity": 0,
       "startup": 1,
-      "talent": 0,
+      "talent": 1,
       "law": 2,
       "security": 33,
       "public": 1,
@@ -980,18 +980,18 @@
   "totals": {
     "genai": 54,
     "agent": 37,
-    "physical": 125,
-    "industry": 189,
-    "data": 195,
-    "infra": 136,
+    "physical": 127,
+    "industry": 190,
+    "data": 196,
+    "infra": 137,
     "smartcity": 16,
     "startup": 199,
-    "talent": 374,
+    "talent": 376,
     "law": 202,
-    "security": 126,
+    "security": 128,
     "public": 266,
-    "diplomacy": 205,
-    "other": 77
+    "diplomacy": 206,
+    "other": 79
   },
   "quarters": {
     "2025-Q3": {
@@ -1060,25 +1060,25 @@
     },
     "2026-Q3": {
       "public": 53,
-      "data": 56,
-      "diplomacy": 43,
+      "data": 57,
+      "diplomacy": 44,
       "startup": 37,
-      "talent": 80,
+      "talent": 82,
       "agent": 19,
-      "industry": 46,
-      "security": 33,
-      "infra": 25,
-      "physical": 36,
-      "other": 41,
+      "industry": 47,
+      "security": 35,
+      "infra": 26,
+      "physical": 38,
+      "other": 43,
       "law": 35,
       "genai": 16,
       "smartcity": 5
     }
   },
-  "newsTotal": 2201,
+  "newsTotal": 2213,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
-    "count": 374
+    "count": 376
   }
 }
