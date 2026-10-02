@@ -1,5 +1,29 @@
 [
   {
+    "id": "b081f546507452c1",
+    "agency_id": "kfs",
+    "title": "산림약용자원 성분과 재배환경 데이터, 한눈에 본다 - 국립산림과학원, 8종 산림약용자원의 천연물 물질지도 담은 간행물 발간",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784091",
+    "published": "2026-10-02",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "산림청 국립산림과학원(원장 김용관)은 주요 산림약용자원의 성분과 재배환경에 관한 연구성과를 담은 「산림약용자원 천연물 물질지도 작성 연구(Ⅱ)」를 발간했다고 밝혔다.  이번 간행물에는 산림약용자원의 재배 지역과 생육 특성, 지표·주요 성분, 토양·기상 환경 등을 조사·... 2026-10-02 산림청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-02T10:52:01+09:00",
+    "topics": [
+      "data"
+    ],
+    "primary_topic": "data",
+    "newsId": "156784091"
+  },
+  {
     "id": "dcfd71c90af97521",
     "agency_id": "mois",
     "title": "'공공부문 AI 윤리기준' 최종 확정, 공공분야 인공지능 신뢰성 확보한다",
@@ -75,6 +99,32 @@
     ],
     "primary_topic": "talent",
     "newsId": "156783987"
+  },
+  {
+    "id": "c8e24ae1e286fce5",
+    "agency_id": "kfs",
+    "title": "숲의 기록이 정책 데이터로... - 국립산림과학원, 가명정보 활용 경진대회 대상·최우수상 동시 석권",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784059",
+    "published": "2026-10-01",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "산림청 국립산림과학원(원장 김용관)은 30일(수) 서울 엘타워에서 열린 '2026년 가명정보 활용 경진대회'에서 산림휴먼서비스과 연구진으로 구성된 '산림치유 정신건강팀'이 대상을, '숲길 데이터 발자국팀'이 최우수상을 각각 수상했다고 밝혔다.  이번 수상은 그동안 보건·금융 분야를 중심으로 ... 2026-10-01 산림청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-02T10:52:01+09:00",
+    "topics": [
+      "talent",
+      "data",
+      "public"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156784059"
   },
   {
     "id": "acbbb42fcc3e6d2a",
