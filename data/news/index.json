@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T11:36:49+00:00",
+  "updated": "2026-10-06T02:29:05+00:00",
   "months": [
     "2025-07",
     "2025-08",
@@ -18,12 +18,12 @@
     "2026-09",
     "2026-10"
   ],
-  "total": 2233,
+  "total": 2241,
   "byAgency": {
-    "mois": 131,
+    "mois": 132,
     "mofe": 54,
-    "motie": 146,
-    "msit": 478,
+    "motie": 147,
+    "msit": 479,
     "mafra": 54,
     "molit": 54,
     "moel": 123,
@@ -35,9 +35,9 @@
     "opc": 32,
     "moee": 47,
     "mofa": 34,
-    "moe": 63,
+    "moe": 64,
     "moleg": 16,
-    "moip": 70,
+    "moip": 71,
     "mfds": 30,
     "kfs": 27,
     "saemangeum": 18,
@@ -52,7 +52,7 @@
     "pipc": 48,
     "ftc": 9,
     "mpm": 13,
-    "pps": 47,
+    "pps": 49,
     "npa": 11,
     "kcc": 31,
     "nfa": 15,
@@ -67,7 +67,7 @@
     "mpb": 11,
     "khs": 3,
     "acrc": 7,
-    "acc": 1,
+    "acc": 2,
     "nuc": 6,
     "mma": 5,
     "mpva": 1,
@@ -75,7 +75,7 @@
     "cheonan": 67
   },
   "byTier": {
-    "tier1": 1935,
-    "accepted": 298
+    "tier1": 1941,
+    "accepted": 300
   }
 }
