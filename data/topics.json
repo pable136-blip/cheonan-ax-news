@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T11:26:50+00:00",
+  "updated": "2026-10-07T01:47:30+00:00",
   "topics": [
     {
       "id": "genai",
@@ -477,7 +477,7 @@
       "law": 4,
       "security": 1,
       "public": 6,
-      "diplomacy": 8,
+      "diplomacy": 9,
       "other": 5
     },
     "mof": {
@@ -990,7 +990,7 @@
     "law": 202,
     "security": 133,
     "public": 270,
-    "diplomacy": 208,
+    "diplomacy": 209,
     "other": 83
   },
   "quarters": {
@@ -1075,18 +1075,18 @@
       "smartcity": 5
     },
     "2026-Q4": {
+      "diplomacy": 3,
       "public": 4,
       "talent": 6,
       "data": 3,
       "physical": 2,
-      "diplomacy": 2,
       "security": 5,
       "other": 4,
       "industry": 1,
       "genai": 1
     }
   },
-  "newsTotal": 2242,
+  "newsTotal": 2243,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
