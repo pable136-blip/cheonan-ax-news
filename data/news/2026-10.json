@@ -1,5 +1,83 @@
 [
   {
+    "id": "e790f266ee14acd0",
+    "agency_id": "mohw",
+    "title": "AI의 위로가 사람을 대신할 수 없습니다 「정신건강 목적 생성형 AI 이용 가이드라인」 발표",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784650",
+    "published": "2026-10-08",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "AI의 위로가 사람을 대신할 수 없습니다 「정신건강 목적 생성형 AI 이용 가이드라인」 발표  - 보건복지부-대한신경정신의학회, 과의존 예방 및 안전한 이용 위한 이용자·보호자 맞춤형 지침 마련 -  - 생성형 AI 이용에 따른 국민정신건강 설문 결과, 생성형 AI 이용 관련 '정부 역할 필... 2026-10-08 보건복지부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "생성형"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-08T20:28:59+09:00",
+    "topics": [
+      "genai",
+      "security",
+      "public"
+    ],
+    "primary_topic": "genai",
+    "newsId": "156784650"
+  },
+  {
+    "id": "e11b51c00ea3274a",
+    "agency_id": "mohw",
+    "title": "2026년 정신건강의 날, 함께하는 회복?안전한 AI를 말하다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784651",
+    "published": "2026-10-08",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "2026년 정신건강의 날, 함께하는 회복안전한 AI를 말하다  - 정신질환 예방·치료 및 인식 개선 기여한 개인·단체에 124점 포장·표창 수여 -  - 정신건강의 날 계기 동료지원 정책포럼 개최 및 「정신건강 목적 생성형 AI 이용 가이드라인」 발표 -  보건복지... 2026-10-08 보건복지부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-08T20:28:59+09:00",
+    "topics": [
+      "genai",
+      "security",
+      "public"
+    ],
+    "primary_topic": "genai",
+    "newsId": "156784651"
+  },
+  {
+    "id": "e0110192f3be8294",
+    "agency_id": "rda",
+    "title": "농촌진흥청, '농생명 분야 전문가 인공지능' 개발",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784699",
+    "published": "2026-10-08",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농촌진흥청  (  청장 이승돈  )  은 농생명 분야 논문과 국가 연구 데이터로 인공  지능 모형  (  모델  )  을 학습시켜  '  농생명 특화 거대언어모델  (LLM  *  )'  을 개발하고  10  월부터 활용한다  .  *  거대언어모델  (LLM):  대용량 인간 언어를 이해하고 생성할 수... 2026-10-08 농촌진흥청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-08T20:28:59+09:00",
+    "topics": [
+      "genai",
+      "data"
+    ],
+    "primary_topic": "genai",
+    "newsId": "156784699"
+  },
+  {
     "id": "897e2eebc2528d4c",
     "agency_id": "msit",
     "title": "반도체가 자라는 '시작점'까지 설계… 고집적·저전력 AI 반도체 구현의 새 길",
@@ -71,6 +149,31 @@
     ],
     "primary_topic": "other",
     "newsId": "156784631"
+  },
+  {
+    "id": "05ec4e91ad08bcc1",
+    "agency_id": "mof",
+    "title": "이제는 어업도 데이터 시대! 자원관리는 과학적으로, 어업 규제는 절반으로",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784636",
+    "published": "2026-10-08",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "이제는 어업도 데이터 시대! 자원관리는 과학적으로, 어업 규제는 절반으로  - 해수부, '데이터 기반 연근해어업 관리 체계 혁신 방안' 발표  - 2031년까지 TAC 전체 업종 확대, 규제 50% 감축, 근해어선 36% 감척  해양수산부(장관 황종우)는 10월 8일(목) 제15회 국가정책조정회의에서 「... 2026-10-08 해양수산부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-08T20:28:59+09:00",
+    "topics": [
+      "data",
+      "law"
+    ],
+    "primary_topic": "data",
+    "newsId": "156784636"
   },
   {
     "id": "e249da8157a6184e",
