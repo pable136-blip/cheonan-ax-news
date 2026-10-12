@@ -1,16 +1,16 @@
 {
   "koreaKr": {
     "status": "ok",
-    "lastAttempt": "2026-10-11T19:56:27+09:00",
-    "lastSuccess": "2026-10-11T19:56:27+09:00",
+    "lastAttempt": "2026-10-12T10:30:54+09:00",
+    "lastSuccess": "2026-10-12T10:30:54+09:00",
     "period": {
-      "start": "2026-10-01",
-      "end": "2026-10-11"
+      "start": "2026-10-02",
+      "end": "2026-10-12"
     },
     "agenciesTotal": 57,
     "agenciesChecked": 57,
     "agenciesFailed": 0,
-    "newItems": 0,
+    "newItems": 5,
     "errors": []
   }
 }
