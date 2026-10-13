@@ -1,5 +1,56 @@
 [
   {
+    "id": "b01e480010be12df",
+    "agency_id": "msit",
+    "title": "국가 AI 데이터의 체계적 관리·활용을 위한 ｢AI기본법｣, ｢데이터산업법｣ 개정안 국무회의 통과",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784979",
+    "published": "2026-10-13",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- ｢  AI  기본법  ｣  개정  으로 정부사업 구축  ·  산출  AI  학습용데이터  의  확보  ·  제공  확대  -  ｢  데이터산업법  ｣  개정  으로 공공  ·  민간  데이터 소재 정보  의  통합... 2026-10-13 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-13T20:54:05+09:00",
+    "topics": [
+      "data",
+      "law"
+    ],
+    "primary_topic": "data",
+    "newsId": "156784979"
+  },
+  {
+    "id": "a28c1493ee928835",
+    "agency_id": "mohw",
+    "title": "어디가 부족한 지 정밀하게 찾았다데이터 기반 지역맞춤형 통합돌봄 본격 가동",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784964",
+    "published": "2026-10-13",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "어디가 부족한 지 정밀하게 찾았다데이터 기반 지역맞춤형 통합돌봄 본격 가동  - 지역사회 통합돌봄 첫 실태조사 결과 발표 -  - 전국 229개 시군구 노인·장애인 돌봄 수요와 16개 서비스 공급 기반 분석 -  - 지역 간 격차 확인, 2030년까지 지역별 고도화 계획 추진-  【관련 국정... 2026-10-13 보건복지부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-13T20:54:05+09:00",
+    "topics": [
+      "data",
+      "public"
+    ],
+    "primary_topic": "data",
+    "newsId": "156784964"
+  },
+  {
     "id": "598797f23309d1ae",
     "agency_id": "motie",
     "title": "「K Connect AI」 출범",
@@ -22,6 +73,31 @@
     ],
     "primary_topic": "industry",
     "newsId": "156784932"
+  },
+  {
+    "id": "4ff4876e44504e41",
+    "agency_id": "moee",
+    "title": "국립공원공단, 인공지능 자동 동정 영상 분석으로 야생동물 17종 판별",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784965",
+    "published": "2026-10-13",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "▷ 반달가슴곰, 산양, 여우 등 포유류 17종 인공지능(AI)으로 90% 이상 정확도 자동 동정 시스템 개발  ▷ 전국 국립공원 내 무인센서카메라 촬영데이터 분석시간 99% 단축 기대  기후에너지환경부 산하 국립공원공단(이사장 주대영)은 업무 인공지능(AI) 전환 사업의 일환으로, 국내 야생동물에 대한 ... 2026-10-13 기후에너지환경부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-13T20:54:05+09:00",
+    "topics": [
+      "physical",
+      "data"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156784965"
   },
   {
     "id": "3f09c95b174d29c1",
@@ -49,6 +125,55 @@
     ],
     "primary_topic": "physical",
     "newsId": "156784948"
+  },
+  {
+    "id": "34d28d162bb4bdc2",
+    "agency_id": "msit",
+    "title": "배경훈 부총리, 피지컬 AI 얼라이언스와 현장 중심의 실질적 성과 창출 가속화",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784992",
+    "published": "2026-10-13",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  피지컬  AI  얼라이언스 간담회를 통해 산업 현장 애로 및 정책 수요 청취  -  K-  피지컬  AI  풀스택  ·  산업별 실증  ·  데이터  ·  표준 등 추진성과 및 실행과제 점검  -  관계부처 사업  ·  정책금융 연계해 현장 실증과 ... 2026-10-13 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-13T20:54:05+09:00",
+    "topics": [
+      "data"
+    ],
+    "primary_topic": "data",
+    "newsId": "156784992"
+  },
+  {
+    "id": "2a2319466a8962b8",
+    "agency_id": "motie",
+    "title": "M.AX 확산 위한 규제 빗장 푼다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784996",
+    "published": "2026-10-13",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "M.AX  확산 위한 규제 빗장 푼다  -  제  6  차 산업융합 규제특례심의위원회  '  개최  -  - AI·  로봇 등 특례부여  , M.AX  확산을 위한 규제  ·  제도 개선 본격 추진  -     산업통상부  (  장관 김정관  ,  이하 산업부  )  는  10 ... 2026-10-13 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-13T20:54:05+09:00",
+    "topics": [
+      "physical",
+      "law"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156784996"
   },
   {
     "id": "c5762acb4cdf8b95",
