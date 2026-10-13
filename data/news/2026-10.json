@@ -1,5 +1,56 @@
 [
   {
+    "id": "598797f23309d1ae",
+    "agency_id": "motie",
+    "title": "「K Connect AI」 출범",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784932",
+    "published": "2026-10-13",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "「  K Connect AI  」  출범  -  한국전자전  ,  반도체대전  ,  로보월드 등  5  개 전시회를  'AI'  주제로 연계  -  「  전자  ·  IT  의 날  」  유공자 포상  …  대덕전자  (  주  )  김영재 회장 금탑 산업훈장 등  -     산업통상부  (... 2026-10-13 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-13T12:09:39+09:00",
+    "topics": [
+      "industry"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156784932"
+  },
+  {
+    "id": "3f09c95b174d29c1",
+    "agency_id": "molit",
+    "title": "인공지능(AI)·자율주행 시대, APEC 스마트 모빌리티 협력 서울서 넓힌다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784948",
+    "published": "2026-10-13",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "인공지능(AI)·자율주행 시대, APEC 스마트 모빌리티 협력 서울서 넓힌다 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-10-13 국토교통부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI",
+      "자율주행"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-13T12:09:39+09:00",
+    "topics": [
+      "physical",
+      "industry"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156784948"
+  },
+  {
     "id": "c5762acb4cdf8b95",
     "agency_id": "moel",
     "title": "건설근로자공제회, 인공지능(AI) 시대 청년 기능인 육성",
@@ -988,6 +1039,33 @@
     ],
     "primary_topic": "public",
     "newsId": "156784116"
+  },
+  {
+    "id": "53aa10a8dd31f813",
+    "agency_id": "cheonan",
+    "title": "천안시, ‘시민 AI 온라인 캠퍼스’ 개방…162개 무료 강좌 개설",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000514931Yc5dA1",
+    "published": "2026-10-02",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시는 시민 누구나 인공지능(AI)을 학습할 수 있는 ‘천안시민 AI 온라인 캠퍼스’를 본격 운영한다고 2일 밝혔다.",
+    "subtitle": "한기대 온라인평생교육원과 협력 구축…24시간 상시 운영",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-13T12:12:02+09:00",
+    "topics": [
+      "genai",
+      "talent",
+      "infra"
+    ],
+    "primary_topic": "genai",
+    "dept": "스마트도시정책팀",
+    "nttId": "B000000514931Yc5dA1"
   },
   {
     "id": "2095e09b3603eaca",
