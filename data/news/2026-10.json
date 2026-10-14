@@ -24,6 +24,60 @@
     "newsId": "156785048"
   },
   {
+    "id": "de9e691b55ea6d72",
+    "agency_id": "mof",
+    "title": "인공지능(AI)과 공공데이터를 활용해 수산업 현장의 위험과 불편을 줄인다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785079",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "인공지능(AI)과 공공데이터를 활용해 수산업 현장의 위험과 불편을 줄인다  - 어선·어선원 사고 예방 서비스, 폐업 지원금 모의 계산기, 수산물 헬스케어 알리미 등 지원 현장 밀착형 서비스 3종 새롭게 출시  해양수산부(장관 황종우)는 어업인의 불편을 줄이고 현장의 안전성을 높이기 위해 인공... 2026-10-14 해양수산부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T18:37:47+09:00",
+    "topics": [
+      "security",
+      "data",
+      "public"
+    ],
+    "primary_topic": "security",
+    "newsId": "156785079"
+  },
+  {
+    "id": "d6c1706528fe7be3",
+    "agency_id": "motie",
+    "title": "제조 AI 대전환(M.AX), K-표준이 완성합니다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785091",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "제조  AI  대전환  (M.AX), K-  표준이 완성합니다  -  「  2026  년 세계 표준의 날  」  기념 표준화 및 기술규제 대응 유공자 포상     산업통상부  (  장관 김정관  )  는  10  월  14  일  (  수  )  대한상공회의소에서  「  2026  년  세계 표준의 날 ... 2026-10-14 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T18:37:47+09:00",
+    "topics": [
+      "industry",
+      "law"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156785091"
+  },
+  {
     "id": "ce503dbf134f74b9",
     "agency_id": "mss",
     "title": "이소영 장관, 스마트제조혁신 현장방문 \"AI 대전환 시대, 중소기업이 당당한 주역돼야\"",
@@ -47,6 +101,82 @@
     ],
     "primary_topic": "industry",
     "newsId": "156785061"
+  },
+  {
+    "id": "9127314b15472651",
+    "agency_id": "mafra",
+    "title": "농식품부 차관, AI 농업로봇 실증 현장 방문",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785187",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "김종구 농림축산식품부  (  이하  '  농식품부  ')  차관은  10  월  14  일  (  수  )  ,  성주참외과  채류연구소를 방문하여 인공지능  (AI)  농업로봇의 기술개발  ·  실증 현황을 점검하고  ,  기업들과 농업로봇의 현장 확산과 산업 성장을 위한 간담회를 가졌다 ... 2026-10-14 농림축산식품부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "로봇"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T18:37:47+09:00",
+    "topics": [
+      "physical",
+      "industry",
+      "public"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156785187"
+  },
+  {
+    "id": "64049488cfe38793",
+    "agency_id": "msit",
+    "title": "170만명이 즐긴 「클릭온 AI」, 시즌2는 더욱 풍성한 프로그램으로 돌아온다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785185",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  국민 누구나 인공지능을 즐길 수 있는  「  2026  클릭온  AI  시즌  2  」  (10.15.~11.25.)  개최  -  지난  6  월에 열린  「  2026  클릭온  AI  시즌  1  」  은  170  만명 참여 2026-10-14 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T18:37:47+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156785185"
+  },
+  {
+    "id": "5b8c25b24b65ec0c",
+    "agency_id": "mohw",
+    "title": "'AI가 불러올 바이오헬스 혁신의 확산', 국제사회 리더들이 한 곳에 모인다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785156",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "'AI가 불러올 바이오헬스 혁신의 확산', 국제사회 리더들이 한 곳에 모인다  - 보건복지부·세계보건기구, 「2026 세계 바이오 서밋」 개최 (10.21.~22.) -  보건복지부(장관 정은경)는 10월 21일(수)부터 22일(목)까지 1박 2일 간 서울 코엑스마곡 컨벤션센터에서 「2026... 2026-10-14 보건복지부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T18:37:47+09:00",
+    "topics": [
+      "public",
+      "diplomacy"
+    ],
+    "primary_topic": "public",
+    "newsId": "156785156"
   },
   {
     "id": "5873c9730d4b8a65",
@@ -73,6 +203,30 @@
     "newsId": "156785068"
   },
   {
+    "id": "4a614027db0b454f",
+    "agency_id": "mafra",
+    "title": "\"비 오기 전에 수확할까?\" AI가 종자 수확시기 알려준다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785076",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국립종자원  (  원장 양주필  )  과 한국전자기술연구원  (  원장 노건기  )  은 기상정보와  벼 생육정보를 활용해 종자의 적정 수확시기를 예측하는  'AI  기반 종자 수  확기 예측 프로그램  '  을 개발하고 정부 보급종 생산현장뿐만 아니라 지방정부와 민간 종자업체에도 제공하여 적극 활용하고... 2026-10-14 농림축산식품부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T18:37:47+09:00",
+    "topics": [
+      "industry"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156785076"
+  },
+  {
     "id": "31f33c15a81f69d8",
     "agency_id": "nfa",
     "title": "국립소방연구원, 알제리 청소년 로봇대표팀 초청...\"미래 인재에게 한국 소방기술 소개\"",
@@ -97,6 +251,59 @@
     ],
     "primary_topic": "physical",
     "newsId": "156785046"
+  },
+  {
+    "id": "0d827e4213937aef",
+    "agency_id": "moel",
+    "title": "한국기술교육대, '인공지능(AI)·로봇부터 고용정책까지' 졸업연구작품 95점 선보인다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785072",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 14~15일 제32회 졸업연구작품전시회…메카트로닉스·화학생명·경영·고용 분야 전시  - 재난 구조 드론·전기차 화재 대응 로봇·스마트 임플란트·AI 창업 입지 추천 등 실생활 문제 해결 '눈길'  한국기술교육대학교... 2026-10-14 고용노동부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI",
+      "로봇"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T18:37:47+09:00",
+    "topics": [
+      "physical",
+      "talent",
+      "startup"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156785072"
+  },
+  {
+    "id": "098225a34b8ff906",
+    "agency_id": "motie",
+    "title": "『5극3특 全권역별 현장행보 ➑』 'AI·청정산업 혁신거점'으로 거듭나는 강원 강원권 3대 성장엔진 본격 가동!",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785128",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "『  5  극  3  특  全  권역별 현장행보  ➑』     'AI·  청정산업 혁신거점  '  으로 거듭나는 강원  강원권  3  대 성장엔진 본격 가동  !  -  산업부장관  ,  춘천에서  8  번째  5  극  3  특 현장행보  -  -  바이오 산업육성 협약  4  건 체결  ... 2026-10-14 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T18:37:47+09:00",
+    "topics": [
+      "startup",
+      "diplomacy"
+    ],
+    "primary_topic": "startup",
+    "newsId": "156785128"
   },
   {
     "id": "b01e480010be12df",
