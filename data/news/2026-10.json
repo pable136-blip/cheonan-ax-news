@@ -1,5 +1,104 @@
 [
   {
+    "id": "e4a71a8900317767",
+    "agency_id": "mofe",
+    "title": "「AI·융복합 K-뷰티 서비스 지원방안」 발표",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785048",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "정부는  '26.10.14(  목  ),  이형일 부총리 겸 재정경제부 장관 주재  로 개최된  경제관계장관회의 겸 서비스산업발전  TF  에서  「  AI·  융복합  K-  뷰티 서비스  지원방안  」  을 발표하였다  .  ※ 자세한 내용은 첨부파일을 참고하여 주시기 바랍니다.  문의.... 2026-10-14 재정경제부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T10:23:24+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "newsId": "156785048"
+  },
+  {
+    "id": "ce503dbf134f74b9",
+    "agency_id": "mss",
+    "title": "이소영 장관, 스마트제조혁신 현장방문 \"AI 대전환 시대, 중소기업이 당당한 주역돼야\"",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785061",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "중소벤처기업부(장관 이소영, 이하 중기부) 이소영 장관은 10월 13일(화) 서울 코엑스에서 열린 '2026 스마트비즈엑스포(Smart Biz Expo)' 개막식에 참석해 상생형 스마트공장의 성과를 확인하고, 곧바로 실제 인공지능(이하 AI)을 활용하고 있는 스마트공장 현장을 연이어 방문하였다. 스마트제... 2026-10-14 중소벤처기업부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T10:23:24+09:00",
+    "topics": [
+      "industry",
+      "startup"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156785061"
+  },
+  {
+    "id": "5873c9730d4b8a65",
+    "agency_id": "msit",
+    "title": "류제명 제2차관, 「피지컬 AI Tech Day」 참석",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785068",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  '  행동하는 두뇌  , Intelligence into Action'  주제로 글로벌 기술 동향과 발전 방향 공유  - \"  우수한 기술이 현장 실증  ·  사업화로 이어지도록 적극 지원  \" 2026-10-14 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T10:23:24+09:00",
+    "topics": [
+      "diplomacy"
+    ],
+    "primary_topic": "diplomacy",
+    "newsId": "156785068"
+  },
+  {
+    "id": "31f33c15a81f69d8",
+    "agency_id": "nfa",
+    "title": "국립소방연구원, 알제리 청소년 로봇대표팀 초청...\"미래 인재에게 한국 소방기술 소개\"",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785046",
+    "published": "2026-10-14",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "﻿  국립소방연구원  , '  알제리 청소년 로봇대표팀 초청  ...\"  미래 인재에게 한국 소방기술 소개  \"  -  12  일 유해가스대응연구동과 가상전술연구동 등 연구용 시험장  (  테스트베드  )  체험  -  중앙소방학교 훈련시설도 견학  ,  한국의 소방 및 재난 대응 기술... 2026-10-14 소방청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "로봇"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-14T10:23:24+09:00",
+    "topics": [
+      "physical",
+      "talent",
+      "security"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156785046"
+  },
+  {
     "id": "b01e480010be12df",
     "agency_id": "msit",
     "title": "국가 AI 데이터의 체계적 관리·활용을 위한 ｢AI기본법｣, ｢데이터산업법｣ 개정안 국무회의 통과",
