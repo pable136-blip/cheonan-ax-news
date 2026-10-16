@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T09:18:07+00:00",
+  "updated": "2026-10-16T00:38:34+00:00",
   "topics": [
     {
       "id": "genai",
@@ -163,7 +163,7 @@
     "msit": {
       "genai": 15,
       "agent": 12,
-      "physical": 26,
+      "physical": 27,
       "industry": 37,
       "data": 31,
       "infra": 65,
@@ -980,7 +980,7 @@
   "totals": {
     "genai": 60,
     "agent": 38,
-    "physical": 136,
+    "physical": 137,
     "industry": 201,
     "data": 206,
     "infra": 137,
@@ -1083,12 +1083,12 @@
       "public": 9,
       "security": 7,
       "industry": 11,
-      "physical": 9,
+      "physical": 10,
       "diplomacy": 5,
       "startup": 3
     }
   },
-  "newsTotal": 2299,
+  "newsTotal": 2300,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
