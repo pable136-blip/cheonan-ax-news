@@ -1,5 +1,55 @@
 [
   {
+    "id": "bd963da974fdb865",
+    "agency_id": "rda",
+    "title": "인공지능(AI) 시대, 도시농업 교육·체험 새 역할 찾는다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785493",
+    "published": "2026-10-16",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농촌진흥청  (  청장 이승돈  )  국립원예특작과학원은  (  사  )  한국도시농업연구회와  함께  10  월  22  일  서울  식물원  (  서울특별시 강서구  )  에서  '2026  도시농업 학술 토론회  (  심포지엄  )'  와  '  제  2  회 반려식물 시화 작품 전시회  '  를 ... 2026-10-16 농촌진흥청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-17T09:42:01+09:00",
+    "topics": [
+      "talent",
+      "public"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156785493"
+  },
+  {
+    "id": "78d4e1c2da98359b",
+    "agency_id": "rda",
+    "title": "인공지능이 중소형 스마트온실 온도 관리한다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785479",
+    "published": "2026-10-16",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농촌진흥청  (  청장 이승돈  )  은  '  중소형 스마트온실 인공지능 온도 조절 기술  (  이하 에이아이  -  템피  , AI-TEMPI)'  을 개발하고  , 10  월  15  일 전북특별자치도 정읍시 토마토 재배 농가에서 현장 연시회를 연다  .  온실에서는 햇빛과 외부 기온이 달라질 때마... 2026-10-16 농촌진흥청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-17T09:42:01+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156785479"
+  },
+  {
     "id": "acdac6f11bf21402",
     "agency_id": "nfa",
     "title": "소방청, 인공지능(AI) 전문역량 갖춘 소방공무원 40명으로 '전문가 인력 자원(인력풀)' 구성 \"현장에 필요한 인공지능(AI), 소방공무원이 직접 만든다\"",
@@ -23,6 +73,32 @@
     ],
     "primary_topic": "other",
     "newsId": "156785229"
+  },
+  {
+    "id": "a9db78dc9bcd6284",
+    "agency_id": "kdca",
+    "title": "[10.15.행사시작(10시)이후] 건강검진 수검자 아니라도 국민 누구나 '국가통합바이오빅데이터' 참여 가능해진다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785407",
+    "published": "2026-10-15",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "건강검진 수검자 아니라도 국민 누구나 '국가통합바이오빅데이터' 참여 가능해진다  - 국가·종합건강검진 수검자에서 국민 누구나 참여 가능하도록 기준 완화  질병관리청(청장 임승관)·보건복지부(장관 정은경)·과학기술정보통신부(부총리 배경훈)·산업통상부(장관 ... 2026-10-15 질병관리청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "빅데이터",
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-17T09:42:01+09:00",
+    "topics": [
+      "data",
+      "public"
+    ],
+    "primary_topic": "data",
+    "newsId": "156785407"
   },
   {
     "id": "85a92e31b28ca0b7",

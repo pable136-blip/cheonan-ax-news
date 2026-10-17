@@ -1,29 +1,16 @@
 {
   "koreaKr": {
-    "status": "failed",
-    "lastAttempt": "2026-10-16T18:03:44+09:00",
-    "lastSuccess": "2026-10-16T09:36:02+09:00",
+    "status": "ok",
+    "lastAttempt": "2026-10-17T09:42:01+09:00",
+    "lastSuccess": "2026-10-17T09:42:01+09:00",
     "period": {
-      "start": "2026-10-06",
-      "end": "2026-10-16"
+      "start": "2026-10-07",
+      "end": "2026-10-17"
     },
     "agenciesTotal": 57,
-    "agenciesChecked": 0,
-    "agenciesFailed": 3,
-    "newItems": 0,
-    "errors": [
-      {
-        "agency_id": "moip",
-        "error": "GET 실패: https://www.korea.kr/briefing/pressReleaseList.do?repCodeType=&repCode=A00039&srchWord=&pageIndex=1&startDate=2026-10-06&endDate=2026-10-16&period= (<urlopen error timed out>)"
-      },
-      {
-        "agency_id": "msit",
-        "error": "GET 실패: https://www.korea.kr/briefing/pressReleaseList.do?repCodeType=&repCode=A00033&srchWord=&pageIndex=1&startDate=2026-10-06&endDate=2026-10-16&period= (<urlopen error timed out>)"
-      },
-      {
-        "agency_id": "mois",
-        "error": "GET 실패: https://www.korea.kr/briefing/pressReleaseList.do?repCodeType=&repCode=A00031&srchWord=&pageIndex=1&startDate=2026-10-06&endDate=2026-10-16&period= (<urlopen error timed out>)"
-      }
-    ]
+    "agenciesChecked": 57,
+    "agenciesFailed": 0,
+    "newItems": 3,
+    "errors": []
   }
 }
