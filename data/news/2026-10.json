@@ -1,5 +1,80 @@
 [
   {
+    "id": "df5fd188681a7eb4",
+    "agency_id": "pps",
+    "title": "조달청, 혁신 실험… AI 직접 개발 등 성과 가시화",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785759",
+    "published": "2026-10-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "조달청, 혁신 실험… AI 직접 개발 등 성과 가시화  - 직원 주도 '인하우스 TF', AI 에이전트 10종·업무 프로그램 12종 개발  - 근무·회의 방식 혁신으로 핵심 업무 집중과 생산성 제고  조달청(청장 백승보)은 성과 중심의 조직 운영을 위해 올해부터 '실... 2026-10-20 조달청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-20T10:12:53+09:00",
+    "topics": [
+      "agent",
+      "industry"
+    ],
+    "primary_topic": "agent",
+    "newsId": "156785759"
+  },
+  {
+    "id": "631b5f2b40fe8b04",
+    "agency_id": "moip",
+    "title": "\"인공지능 앱, 직원이 만들고 함께 쓴다\" 지식재산처, 인공지능 앱 장터 개",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785750",
+    "published": "2026-10-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "\"인공지능 앱, 직원이 만들고 함께 쓴다\"  지식재산처, 인공지능 앱 장터 개통  - \"외주 요청 대신 직접 개발\"... 현장 주도형 인공지능으로 시간·비용 절감 -  - 대화형 코딩으로 제작한 업무용 인공지능 앱 한곳에 모아 공유·확산 -  - 특허심사 도우미부터 심사문서 조회... 2026-10-20 지식재산처",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-20T10:12:53+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156785750"
+  },
+  {
+    "id": "5da747161ed5049a",
+    "agency_id": "nfa",
+    "title": "국립소방연구원, 과학적 분석 기반 화재안전기술기준 마련 추진 \"데이터센터 화재위험, 실물 실험으로 검증한다\"",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785733",
+    "published": "2026-10-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "﻿  국립소방연구원  ,  과학적 분석 기반 화재안전기술기준 마련 추진  \"  데이터센터 화재위험  ,  실물 실험으로 검증한다  \"  -  데이터센터 배터리랙 실물 화재실험을 통해 온도 변화  ,  열방출 등 화재 특성 분석  -  실험 결과와 화재 모의실험  (  시뮬레이션  )  을 연계해 다양한 ... 2026-10-20 소방청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-20T10:12:53+09:00",
+    "topics": [
+      "infra",
+      "security",
+      "data"
+    ],
+    "primary_topic": "infra",
+    "newsId": "156785733"
+  },
+  {
     "id": "b9cc2ed9dc9bc874",
     "agency_id": "mohw",
     "title": "이형훈 제2차관, 의료AI 본격 추진 대비 네이버 데이터센터 '각(GAK) 세종' 방문",
@@ -75,6 +150,33 @@
     ],
     "primary_topic": "data",
     "newsId": "156785697"
+  },
+  {
+    "id": "4f8ff9ca2f882871",
+    "agency_id": "cheonan",
+    "title": "천안시, ‘4족 보행 순찰 로봇’도입나선다… 도시 안전망 강화",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000515419Vc6kP5",
+    "published": "2026-10-19",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시가 인공지능(AI) 기술을 접목한 ‘4족 보행 순찰 로봇’ 도입으로 시민 생활 속 안전망 강화에 나선다고 19일 밝혔다.",
+    "subtitle": "규제 특례 승인을 통해 전국 최초 사례 실증",
+    "tier": "accepted",
+    "matched": [
+      "로봇"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-20T10:15:24+09:00",
+    "topics": [
+      "physical",
+      "industry",
+      "security"
+    ],
+    "primary_topic": "physical",
+    "dept": "스마트도시TF팀",
+    "nttId": "B000000515419Vc6kP5"
   },
   {
     "id": "3259998a5651ac84",
@@ -201,6 +303,33 @@
     ],
     "primary_topic": "talent",
     "newsId": "156785544"
+  },
+  {
+    "id": "d4013fa35debf19c",
+    "agency_id": "cheonan",
+    "title": "천안시 조법수 주무관, 충남도 데이터 업무간소화 공모전 ‘우수상’",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000515401Ml6aA4",
+    "published": "2026-10-16",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시는 토지정보과 조법수 주무관이 ‘2026년 충청남도 데이터 활용 업무 간소화 아이디어 공모전’에서 우수상을 수상했다고 16일 밝혔다.",
+    "subtitle": "‘개별공시지가 일단지 자동 판별 플랫폼’ 제안",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-20T10:15:24+09:00",
+    "topics": [
+      "data",
+      "public",
+      "law"
+    ],
+    "primary_topic": "data",
+    "dept": "공시지가팀",
+    "nttId": "B000000515401Ml6aA4"
   },
   {
     "id": "bd963da974fdb865",
@@ -755,6 +884,60 @@
     ],
     "primary_topic": "diplomacy",
     "newsId": "156785068"
+  },
+  {
+    "id": "516f1958643fb0d1",
+    "agency_id": "cheonan",
+    "title": "천안시, 충남 장애인체전 최종 점검…‘무장애 및 인공지능 중계’ 대회 준비 완료",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000515374Ck2vL9",
+    "published": "2026-10-14",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시는 14일 시청 중회의실에서 ‘제32회 충청남도 장애인체육대회 분담업무 추진현황 최종보고회’를 열고 분야별 준비 상황을 최종 점검했다.",
+    "subtitle": "분담업무 최종보고회 개최, 전 종목 인공지능 생중계 등 4대 차별화 전략 가동",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-20T10:15:24+09:00",
+    "topics": [
+      "security",
+      "public"
+    ],
+    "primary_topic": "security",
+    "dept": "체전TF팀",
+    "nttId": "B000000515374Ck2vL9"
+  },
+  {
+    "id": "4f000e0676687c41",
+    "agency_id": "cheonan",
+    "title": "천안시, 공직자 생성형 인공지능 실습 교육 마무리…올해 500여 명 이수",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000515372Qv2eA2",
+    "published": "2026-10-14",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시가 시 소속 공무원을 대상으로 진행한 ‘생성형 인공지능(AI) 업무활용 실습 교육’을 마치며 올해 총 500여 명의 인공지능(AI) 실무 인력을 배출했다.",
+    "subtitle": "9월 21일부터 10월 13일까지 하반기 기초, 심화 10회차 과정 운영",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "생성형"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-20T10:15:24+09:00",
+    "topics": [
+      "genai",
+      "talent",
+      "data"
+    ],
+    "primary_topic": "genai",
+    "dept": "정보정책팀",
+    "nttId": "B000000515372Qv2eA2"
   },
   {
     "id": "4a614027db0b454f",
