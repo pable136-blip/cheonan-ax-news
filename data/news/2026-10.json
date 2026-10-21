@@ -1,5 +1,105 @@
 [
   {
+    "id": "e493ca02341a445e",
+    "agency_id": "mofa",
+    "title": "제2차 「한일 AI 실무협의」 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786023",
+    "published": "2026-10-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "제2차 「한일 AI 실무협의」가 10.21.(수) 오후 외교부에서 개최되었다. 한일 AI 실무협의는 2025.9월 한일 정상회담 후속조치의 일환으로 같은해 11월 16년만에 개최된 제14차 「한일 과학기술협력위원회」계기 양 외교당국간 협의를 통해 설립한 것으로, 지난 2월 도쿄에서 제1차 실무협의가 개최... 2026-10-21 외교부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-21T18:29:40+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156786023"
+  },
+  {
+    "id": "d13e23e51a249f5a",
+    "agency_id": "mois",
+    "title": "공무원이 만든 AI 도구, 범정부 서비스로 키운다… 행안부 공공 AI 대전환 챌린지",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785970",
+    "published": "2026-10-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 11월 11일까지 참가작 접수… 11월 25일(수) 고양 킨텍스 정부혁신박람회에서 결선 진행  - 'AI 정부 실험실 챔피언십' 및 'AI 미션 부문' 등 3개 세션으로 진행  - 대통령상 등 총 23점 시상 및 수상작의 범정부적 공공재 제도화 추진  공무원이 직접 만든 인공지능  (AI)  도구의 ... 2026-10-21 행정안전부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-21T18:29:40+09:00",
+    "topics": [
+      "public",
+      "law"
+    ],
+    "primary_topic": "public",
+    "newsId": "156785970"
+  },
+  {
+    "id": "98227f9ae7e59fcb",
+    "agency_id": "khs",
+    "title": "아날로그에서 인공지능으로, 신라 기와 연구의 새로운 지평 모색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785930",
+    "published": "2026-10-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국가유산청 국립문화유산연구원 국립경주문화유산연구소(소장 임승경)는 한국고고학회(회장 최종택)와 함께 10월 22일(목) 경주 더케이호텔 거문고A홀에서 「AX시대*의 신라 기와 연구, 어떻게 접근할 것인가」라는 주제로 공동 학술 연수(워크숍)를 개최한다.  * AX (AI Transformation) 시대... 2026-10-21 국가유산청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-21T18:29:40+09:00",
+    "topics": [
+      "talent"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156785930"
+  },
+  {
+    "id": "8532982c2dd28178",
+    "agency_id": "npa",
+    "title": "인공지능(AI)·로봇으로 진화하는 케이(K)-치안,『2026 국제치안산업대전』 개막",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786029",
+    "published": "2026-10-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "인공지능(AI)·로봇으로 진화하는 케이(K)-치안,『2026 국제치안산업대전』 개막 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-10-21 경찰청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI",
+      "로봇"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-21T18:29:40+09:00",
+    "topics": [
+      "physical",
+      "diplomacy"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156786029"
+  },
+  {
     "id": "7e2eaffbeec99317",
     "agency_id": "mohw",
     "title": "AI 혁신 혜택의 공평한 접근 약속... 보건복지부·세계보건기구, ?AI 헬스케어 서울선언문? 공동 발표",
@@ -22,6 +122,80 @@
     ],
     "primary_topic": "public",
     "newsId": "156785925"
+  },
+  {
+    "id": "5fbc5a6958382547",
+    "agency_id": "motie",
+    "title": "M.AX 원팀으로 車반도체 생태계 성장 가속화",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786001",
+    "published": "2026-10-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "M.AX  원팀으로  車  반도체 생태계 성장 가속화  - 2026  차량용 반도체 포럼  (ASK)  특별세션 참석  -  「  차량용 반도체 원팀  TF  」  출범으로 생태계 역량을 하나로 결집  -  중소 팹리스  ,  파운드리  ,  수요기업 간 전력반도체 국산화  MOU  체결     산업통상... 2026-10-21 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-21T18:29:40+09:00",
+    "topics": [
+      "industry",
+      "diplomacy"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156786001"
+  },
+  {
+    "id": "358abca0d8723963",
+    "agency_id": "mofe",
+    "title": "피지컬 AI시대, 중소기업 혁신전략",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785953",
+    "published": "2026-10-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "재정경제부와 중소기업중앙회는 10.21일(수) 10:50 롯데호텔 제주에서 '피지컬 AI시대, 중소기업의 혁신전략은'을 주제로 ｢리더스포럼 정책토론회｣를 공동 개최하였다.  자세한 내용은 첨부파일을 참고하시기 바랍니다.  문의. 재정경제부 전략경제정책관 전략경제분석과 양지연 (... 2026-10-21 재정경제부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-21T18:29:40+09:00",
+    "topics": [
+      "industry",
+      "data"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156785953"
+  },
+  {
+    "id": "1123244b9f7cb732",
+    "agency_id": "rda",
+    "title": "신뢰할 수 있는 '농업 인공지능', 현장과 함께 방향 찾는다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785998",
+    "published": "2026-10-21",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농촌진흥청  (  청장 이승돈  )  은  10  월  21  일 부산 벡스코에서 열리는  '(  사  )  한국  농업기계학회  2026  년 추계학술대회 및  ISMAB  *  2026'  에서  '  신뢰할 수 있는  농업 인공지능  ,  원칙에서 현장까지  '  를 주제로 특별 분과  (  세션 ... 2026-10-21 농촌진흥청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-21T18:29:40+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "newsId": "156785998"
   },
   {
     "id": "df5fd188681a7eb4",
