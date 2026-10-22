@@ -1,5 +1,77 @@
 [
   {
+    "id": "ce05b3e96c5f1ce1",
+    "agency_id": "mnd",
+    "title": "2026 국방인공지능 추진평가 회의",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786154",
+    "published": "2026-10-22",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "2026 국방인공지능 추진평가 회의  □ 국방부는 10월 22일(목) 14시 국방부 대회의실에서 이두희 국방부차관 주관으로「2026 국방인공지능 추진평가 회의」를 개최하였습니다. 이번 회의는 국방 인공지능 분야 전군 관계관이 참여하는 국방 인공지능 추진점검회의로, 올 한해 추진된 성과를 점검하고, 국방 ... 2026-10-22 국방부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-22T18:32:40+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156786154"
+  },
+  {
+    "id": "96c77947d3e7652d",
+    "agency_id": "ftc",
+    "title": "AI관련 표시광고 가이드라인 초안 의견청취 실시",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786092",
+    "published": "2026-10-22",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "공정위, ｢인공지능(AI) 관련 표시·광고 가이드라인｣ (안) 의견청취 실시  - 11월 11일(수)까지 기업･소비자, 전문가 등 제3자 의견 제출 가능  - 인공지능 관련 부당 표시·광고 판단기준과 사례, 자가점검 체크리스트 제시  공정거래... 2026-10-22 공정거래위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-22T18:32:40+09:00",
+    "topics": [
+      "industry"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156786092"
+  },
+  {
+    "id": "19bab76f238639d0",
+    "agency_id": "kfs",
+    "title": "시·공간 데이터로 산림탄소의 현재와 미래를 진단한다 - 국립산림과학원, 지상관측?위성정보 연계한 산림탄소 MRV 발전 방향 모색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786102",
+    "published": "2026-10-22",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "산림청 국립산림과학원(원장 김용관)은 지상관측과 위성정보를 융합한 산림탄소 모니터링 기술을 공유하고, 국가 산림탄소 측정·보고·검증(MRV) 체계의 발전 방향을 논의하는 「지상관측-위성융합 산림탄소 디지털 MRV 학술회의」를 개최했다고 밝혔다.  이번 학술회의는 기후변화 대응과 ... 2026-10-22 산림청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-22T18:32:40+09:00",
+    "topics": [
+      "data"
+    ],
+    "primary_topic": "data",
+    "newsId": "156786102"
+  },
+  {
     "id": "e493ca02341a445e",
     "agency_id": "mofa",
     "title": "제2차 「한일 AI 실무협의」 개최",
