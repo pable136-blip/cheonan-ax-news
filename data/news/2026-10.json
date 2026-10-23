@@ -1,5 +1,85 @@
 [
   {
+    "id": "fefa7847d524a70f",
+    "agency_id": "molit",
+    "title": "자율주행자동차, 이동로봇 상용화 지원, 창업기업 서류 53% 정비",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786278",
+    "published": "2026-10-23",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "자율주행자동차, 이동로봇 상용화 지원, 창업기업 서류 53% 정비 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-10-23 국토교통부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "자율주행",
+      "로봇"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-23T18:27:06+09:00",
+    "topics": [
+      "physical",
+      "industry",
+      "startup"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156786278"
+  },
+  {
+    "id": "e4ec769e51bd44e1",
+    "agency_id": "npa",
+    "title": "경찰대학, 치안데이터와 현장 연구로 '안전한 인천'의 해법 모색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786307",
+    "published": "2026-10-23",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "경찰대학, 치안데이터와 현장 연구로 '안전한 인천'의 해법 모색 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-10-23 경찰청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-23T18:27:06+09:00",
+    "topics": [
+      "security",
+      "data",
+      "law"
+    ],
+    "primary_topic": "security",
+    "newsId": "156786307"
+  },
+  {
+    "id": "b5e03e4ffe785963",
+    "agency_id": "motie",
+    "title": "한-일 AI·로봇 등 미래산업 협력 넓힌다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786244",
+    "published": "2026-10-23",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "한  -  일  AI·  로봇 등 미래산업 협력 넓힌다     -  「  제  22  회 한  ·  일  (  호쿠리쿠  )  경제교류회의  」  대구에서 개최  -  지역 활성화 정책 공유  ,  기업  ·  연구기관 간 미래성장산업 협력 방안 모색     산업통상... 2026-10-23 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "로봇"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-23T18:27:06+09:00",
+    "topics": [
+      "physical",
+      "industry",
+      "diplomacy"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156786244"
+  },
+  {
     "id": "ce05b3e96c5f1ce1",
     "agency_id": "mnd",
     "title": "2026 국방인공지능 추진평가 회의",
