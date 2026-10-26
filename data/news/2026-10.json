@@ -1,5 +1,54 @@
 [
   {
+    "id": "cb8a6b30557553ac",
+    "agency_id": "moe",
+    "title": "인공지능 시대, '인문학은 질문합니다.'",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786342",
+    "published": "2026-10-25",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "인공지능 시대, '인문학은 질문합니다.' 2026-10-25 교육부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-26T09:34:39+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156786342"
+  },
+  {
+    "id": "749e090f381baeac",
+    "agency_id": "mof",
+    "title": "AI시대, 국제해양법의 새로운 과제를 논하다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786345",
+    "published": "2026-10-25",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "AI시대, 국제해양법의 새로운 과제를 논하다  - 해수부, 10월 26~27일 서울에서 '제14회 글로벌 오션 레짐 콘퍼런스' 개최  - AI·디지털 기술 발전에 따른 국제 해양법의 주요 쟁점과 대응 방향 논의  해양수산부(장관 황종우)는 10월 26일(월)부터 27일(화)까지 이틀간 서울에... 2026-10-25 해양수산부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-26T09:34:39+09:00",
+    "topics": [
+      "law",
+      "diplomacy"
+    ],
+    "primary_topic": "law",
+    "newsId": "156786345"
+  },
+  {
     "id": "e9f43150b7cd2331",
     "agency_id": "msit",
     "title": "아이들의 상상력이 인공지능을 만나는 첫 경험! 「전 국민 인공지능 경진대회」, 인공지능 창작대회 본선 개최",
