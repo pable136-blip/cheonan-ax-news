@@ -1,5 +1,57 @@
 [
   {
+    "id": "d3e0c9dea43c7ae5",
+    "agency_id": "motie",
+    "title": "제조데이터로 자라는 M.AX, M.AX 얼라이언스 ｢데이터 분과｣ 출범",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786980",
+    "published": "2026-10-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "제조데이터로 자라는  M.AX,  M.AX  얼라이언스  ｢  데이터 분과  ｣  출범  \"  함께 크는  M.AX  프로젝트  \"  ➌  :  데이터     산업통상부  (  장관  :  김정관  ,  이하 산업부  )  는  10  월  29  일  (  목  )  오전 판교... 2026-10-29 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AX",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-29T10:57:09+09:00",
+    "topics": [
+      "industry",
+      "data"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156786980"
+  },
+  {
+    "id": "6cc80969d91d7f5d",
+    "agency_id": "mois",
+    "title": "인공지능(AI) 행정부터 과학수사, 햇빛소득마을까지, 강원에서 행정안전부 우수정책 세계와 나눈다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787003",
+    "published": "2026-10-29",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 행안부, 10월 29일부터 30일까지 주한 외교사절 초청 정책설명회 개최  - 인공지능(AI) 행정·공공서비스 혁신부터 사회연대경제까지 한국의 정책 우수사례 공유  - 과학수사의 최전선 국과수부터 상생의 모델 '햇빛소득마을'까지, 현장 방문을 통한 정책의 실효성을 직접 확인  행정안전부 ... 2026-10-29 행정안전부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-29T10:57:09+09:00",
+    "topics": [
+      "security",
+      "public"
+    ],
+    "primary_topic": "security",
+    "newsId": "156787003"
+  },
+  {
     "id": "dd6d635da53acf30",
     "agency_id": "molit",
     "title": "대학생이 만든 자율주행차, 실험실을 벗어나 도로 위를 달린다",
@@ -146,6 +198,54 @@
     ],
     "primary_topic": "industry",
     "newsId": "156786811"
+  },
+  {
+    "id": "7ba027f95da65a1d",
+    "agency_id": "mofe",
+    "title": "공공기관 AI 대전환, 우리의 일상을 바꾸다(2026 공공기관 AI 혁신 성과 대회 개최)",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786990",
+    "published": "2026-10-28",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "재정경제부와 과학기술정보통신부는  10  월  28  일  (  수  )  오후  2  시 서울에서  이형일 경제부총리 겸 재정경제부장관  과 류제명 과학기술정보통신부 제  2  차관을  비롯한 공공기관 임직원  ,  민간기업 및  AI  전문가 등  약  3  백여 명이 참석  한  가운데  「  20... 2026-10-28 재정경제부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-29T10:57:09+09:00",
+    "topics": [
+      "industry"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156786990"
+  },
+  {
+    "id": "67287eb003a32b92",
+    "agency_id": "kfs",
+    "title": "아시아 8개국 전문가 한자리에...국립산림과학원, 첨단 기술 융합 '도시숲 연구 연대' 강화 - 위성·AI 기술 기반 아시아 도시숲 공동 모니터링 체계 구축 방향 논의",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786940",
+    "published": "2026-10-28",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "산림청 국립산림과학원(원장 김용관)은 27일(화)부터 28일(수)까지 '제5회 아시아도시숲네트워크(Asia Urban Forests Network, AUFN) 국제 워크숍'을 개최했다고 밝혔다.  이번 워크숍에는 한국, 일본, 인도 , 말레이시아, 베트남, 필리핀, 인도네시아, 태국 등 아시아 8개국의 ... 2026-10-28 산림청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-29T10:57:09+09:00",
+    "topics": [
+      "diplomacy"
+    ],
+    "primary_topic": "diplomacy",
+    "newsId": "156786940"
   },
   {
     "id": "60d12d33719bc547",
