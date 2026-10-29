@@ -1,184 +1,1174 @@
 {
-  "updated": "2026-10-28T09:32:02.593924+09:00",
-  "lastSuccess": "2026-10-28T09:32:02.593924+09:00",
+  "updated": "2026-10-29T09:59:07.073581+09:00",
+  "lastSuccess": "2026-10-29T09:59:07.073581+09:00",
   "method": "Google 뉴스 검색 RSS · 제목에 천안 포함 · 최근 7일 검색 / 30일 보관",
   "sources": [
     {
       "name": "전체 매체 검색",
       "status": "ok",
-      "count": 93,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 98,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "대전일보",
       "status": "ok",
-      "count": 19,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 15,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "충청투데이",
       "status": "ok",
-      "count": 5,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 6,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "중도일보",
       "status": "ok",
-      "count": 47,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 52,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "충청일보",
       "status": "ok",
-      "count": 31,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 35,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "충청신문",
       "status": "ok",
-      "count": 9,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 12,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "충남일보",
       "status": "ok",
-      "count": 47,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 71,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "금강일보",
       "status": "ok",
-      "count": 25,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 27,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "굿모닝충청",
       "status": "ok",
-      "count": 4,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 6,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "시사뉴스24",
       "status": "ok",
       "count": 0,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "뉴스파고",
       "status": "ok",
-      "count": 19,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 14,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "천안신문",
       "status": "ok",
-      "count": 42,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 47,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "천안아산신문",
       "status": "ok",
-      "count": 2,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 0,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "C뉴스041",
       "status": "ok",
-      "count": 8,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 7,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "연합뉴스",
       "status": "ok",
-      "count": 14,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 11,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "뉴시스",
       "status": "ok",
       "count": 27,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "뉴스1",
       "status": "ok",
-      "count": 6,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 5,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "조선일보",
       "status": "ok",
       "count": 0,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "중앙일보",
       "status": "ok",
-      "count": 1,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 2,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "동아일보",
       "status": "ok",
-      "count": 4,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 3,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "한겨레",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "경향신문",
       "status": "ok",
       "count": 0,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "한국일보",
       "status": "ok",
       "count": 2,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "서울신문",
       "status": "ok",
-      "count": 2,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 1,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "국민일보",
       "status": "ok",
-      "count": 2,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 3,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "세계일보",
       "status": "ok",
-      "count": 3,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 5,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "문화일보",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "매일경제",
       "status": "ok",
       "count": 0,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     },
     {
       "name": "한국경제",
       "status": "ok",
-      "count": 4,
-      "checkedAt": "2026-10-28T09:32:02.593924+09:00"
+      "count": 1,
+      "checkedAt": "2026-10-29T09:59:07.073581+09:00"
     }
   ],
   "articles": [
+    {
+      "id": "88358b394266dc89f86c",
+      "title": "천안시 7월 1일 기준 개별공시지가 공시 이의신청 접수",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tRDYweTEtdjBjUlkybkpCM29lMVNyZ3pYTE9aUnRMbk0zNUQtTVc5elZ6YTR1SGg2TUR0czFvWnFJN01FY19JMUNZLXBrZXg3SHNNWVhhTktGUFBrUkhrZU03WEJ3bjlEcmZKUzlpeEc?oc=5",
+      "published": "2026-10-29T09:53:01+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "d346bb20f25439e97376",
+      "title": "천안사랑카드 정부 할인축제 연계 캐시백 15% 상향",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IZmFUZHhhVERxSWJYNzc3VC1PLWUyNzlaRGhrLVFNbWlGaEVsVWZxam5Fa09IN0h0LUVibFBiYWw1eVoyNkkyOW5WTTFrWnU5UWdJT2Y3eWp3RldXRC1Fd2ItQWpiaFRWNTdjajRveEk?oc=5",
+      "published": "2026-10-29T09:49:46+09:00",
+      "topic": "문화·생활",
+      "group": "충청·지역"
+    },
+    {
+      "id": "2f71736cdc74bdac43ae",
+      "title": "천안시, 천안사랑카드 캐시백 내달 15일까지 15%로 상향",
+      "source": "뉴시스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uV1ZSeE5SSnJSLWRheWxHWVlaNTFEamh2VC1ER0d0YWU4VFdRU2M1djVGQThuUUZKQ05EMndPcHNLM01NYXdMd1VuSWcycElLaE95MjdmdzRHdmVTSzNiYdIBeEFVX3lxTE55WUlEbW1NVDRaUUdVUmtrdTM0RGhhTzBvUkRGelRTNzJjcFhncHRRRzFXZGxFbEQ5V0tJT2ZHYklMT24wdjhoLWE0Q1ZNZmZra3o0Sk40MVA3TDRHTTVydlprZHRrRmJFR2I2YjEzRXlCVEhXR1lsWg?oc=5",
+      "published": "2026-10-29T09:42:19+09:00",
+      "topic": "기타",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "5d931d46db5ceca035fd",
+      "title": "[천안-동정 및 행사-10월 29~11월 1일]",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LT3pxSDJCWi1GdldyanBjZzNfWUx3TU0wRmlPbU9oaFE3VEJMWkxlV3RlZGNXWXYzQ0Z2MDE2eGxlT2VIcW1wYVQ1WldZa0ZPZWxOX2J5OTdhcmI0UFJxWHh5SE9rYzJ1aGxaY1NzWG4?oc=5",
+      "published": "2026-10-29T09:35:07+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "708a088c45fcd122724a",
+      "title": "천안 경부고속도로서 다마스·제네시스 추돌…60대 운전자 숨져",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Sc3M0OF9NVmlGazR3cWRVeWJESGRfLUxCczJadEc5QldpbzUtMU1xVTVsZHNGaVc2RGZ3N0FTUUNaeXFrdDVNYlJMVHp3aXNxQ1ZrbnR5Xzh5djdx?oc=5",
+      "published": "2026-10-29T09:35:00+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "e586fa03f6665a65c99b",
+      "title": "“오이 특등급 87%”…천안 아우내영농법인, ‘2026년 최고품질 농산물 생산단지’ 대상",
+      "source": "농민신문",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sZ1UtUkN4YzNxam9UVkl0ODk4eHp3UmxYX0RvdHl0b1pQNDBMQ3NMb3ZkUjRSV2Zya0FHYTlFWVh0RjlqMlhkU1NBNzhVV1paWkx0bFRLdEl5QQ?oc=5",
+      "published": "2026-10-29T09:33:18+09:00",
+      "topic": "경제·개발",
+      "group": "기타 매체"
+    },
+    {
+      "id": "8b028c2779beb860be82",
+      "title": "[동정] 장기수 천안시장, (재)천안사랑장학재단 제60차 이사회 참석",
+      "source": "뉴스파고",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE01Q1AzcjVnaGhNWTEtZnQ4c0FRYVpOMW1pWGtyLTBDQTVQNXA5ZUR3Rm1DX0ZDU3RINDlpSFpyek1RSWVQ?oc=5",
+      "published": "2026-10-29T09:32:00+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
+      "id": "8b308bd6de11ec2339db",
+      "title": "“이건 써야지”…천안사랑카드 사용하면 15% 할인 혜택",
+      "source": "세계일보",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmYlNYcFZsWXV3VWJYeWZxa2lrNlB1cWRyLXU5VF9wb2NRZXZKaV9Tc0k2R1pSOWVubVI0YUdlblViTmczOGRtZmc5SHpjb1dyWmFIZnFwZWt5TFdra3dESlBCNUYyTmU2Vy1R0gFUQVVfeXFMTnRVODNOaHNncHMyY29nQTUwZzZ3OVVXUWpadm10Q1JnelhDcFVhaG5reHVBWlJqV2pBeVRuNUtUMXU4SFppbmkzNlVfdDhZeTZVZmhH?oc=5",
+      "published": "2026-10-29T09:23:21+09:00",
+      "topic": "기타",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "58f9d98e6b8d099777e0",
+      "title": "천안 미나릿길 주점서 불...500여만원 재산 피해",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83eU9RQ1NQem5sYndBMkZjZHhSS21JTU5hWDRhWmkxR241cjBrQlk3MnhiaXJMaWhJYmRjUTRLZXJXZ3JWRm5WaVJpcTJkSDBoajAtd05iM2FyZFdCUmRhdUxycFVjNC1telVCaQ?oc=5",
+      "published": "2026-10-29T08:53:23+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "a1215e13a49b439bf135",
+      "title": "천안 경부고속도서 승합차가 승용차 추돌…1명 숨져",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85Mk1TQlRrMXB6LXhiNFgxM2J6MVVoaVFfSml5cjZEdU5hZUU4ZG1NVWFGTU5jVG5jRFpIRXFlbUp1Njd1Zng1V2RFb0o2QXZwUDVpS0dpcklyV25HNjE0UA?oc=5",
+      "published": "2026-10-29T08:27:15+09:00",
+      "topic": "기타",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "d5c0220c1c1fcc5d9008",
+      "title": "경부고속도로 북천안나들목 인근서 차량 추돌, 1명 숨져",
+      "source": "뉴시스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CNlNUYTU1WHczS2o2TWpGak1FbFRTTmdnUlV2VXFWaVE5c3J4QUJCQzJ4SU1ZNlFIQWtuQzRGVDd3X3Z2OEVHNkRHY3gtdUgzM3N5QU5UcVBRRy12N3h0Y9IBeEFVX3lxTFA4TE1JeHdVbmljX3FJVl9GdUs5WVhEY01TeHl1XzVWUzNSZkxtZU9QeU8zdkZWTWh4bXJ2YVpIZkgxd0djYVN4UWJNTktSN24tWkFZMGF5YnVjQ1ZTNS1INEFaY1VTMklaeUdtUVRiVlhmekV4NG5hNg?oc=5",
+      "published": "2026-10-29T07:48:54+09:00",
+      "topic": "기타",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "57c163349071afd261f2",
+      "title": "28일 천안 영성동 일반주점서 불",
+      "source": "백제뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10bmRULVBreE5FMkE1T1h6WnVMX01uSExOeHFyYTB3Z0c4Q3c4TDZfMUlpZWpIZjM1QzVFTGhpSU8wclhhREczeldsRUNsNkZnRl9BMU1nZ2lIN3V3STJqUXJfazZYM0FwZTVnUw?oc=5",
+      "published": "2026-10-29T06:40:20+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "a319d8fc1412a3853bfc",
+      "title": "경부고속도로 북천안IC 인근서 승합차·승용차 추돌‥60대 운전자 숨져",
+      "source": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4xaHYwcE5EcUt1eGlHZ2dBTldvcTE1cFcyZVVGT1ZRVVBpbFhOaWxOSXJkZmwzYURMSzF4UlBQcGNMTzdrN3ByVmRNVjZKU0wzTkNCMDkwYy0zbnhrZ2ZhQ1NlbmozTjcwc2pJRTNiUDc0MkpGZ2lV0gF3QVVfeXFMUEhkUUdwODV3VXEydWx4WTlORjRYcVRCN2JSS3A2ZnE2SHhLdWpUTEhMVmlOR2duQ094bkw5WnU4NldQYUd0QjNmWGtPZzQ1SDBudkptdlp0UktwWVQ1Smc0X1JXNzE2eVBiZ1FfcHZsSkV2ampfbGM?oc=5",
+      "published": "2026-10-29T01:25:21+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "d2f24dc5ceafafa9d463",
+      "title": "천안 시민체육공원 주차장 지하화 제안…장기수 시장 “재정 부담” > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1HTGpqV2tlZXdKTmdIcE5uaUNjSlNNeTZXV1RGSm1ZNDh2X09jUXowS2ZqUzF5RmdkMWlfOUZjVEl2bXM?oc=5",
+      "published": "2026-10-28T22:13:23+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
+      "id": "58f4f7f41459b165f097",
+      "title": "대우건설, 천안 ‘두정역 푸르지오 그랑피크’ 분양 중… 1438세대 규모",
+      "source": "천지일보",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11YUdVRE1lTjQ5eW5Jb3Y0VU9pQkh4MVJSNUVCUFZYdGVBVGk2V3FYZFVsbzVDVVducWZqUzZ2MTQ4MUlSUWRQUlJJRGxSUXgyNFBvdDhRejNROFpnaFBFQjU0a2RuYnVCLVE?oc=5",
+      "published": "2026-10-28T22:12:21+09:00",
+      "topic": "경제·개발",
+      "group": "기타 매체"
+    },
+    {
+      "id": "7746115623690ca26dd7",
+      "title": "천안시 먹거리 정책 통합 논의…“재단 설립보다 기능 연계부터” > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9pUzdXQktkMVAwRktIeXhOWUU5cFRPaWRjQ1JvNVN2VVFqWmNMaGxjeVZVdUVrcXkxMW1lUzRUR3pqd3M?oc=5",
+      "published": "2026-10-28T20:20:34+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
+      "id": "a54c1a426d01beb2bf62",
+      "title": "[파워인터뷰] 취임 100일 맞은 장기수 천안시장 \"‘천안대전환’으로 시민 일상 바꾸겠다\"",
+      "source": "충청신문",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92dFhNSWdmNlU4UnFEOXBIdU1YaGhPU0cyaGxKVXhYREE2aTdvTjc0dWlqZFZELThvVV9oTjIwUGVGdjVGbHY3UmRBZktPOTBZUUpDb2hNdHE2YnRfNUhGQkctbTNJSzhnbXRMdENn0gFuQVVfeXFMT3Z0WE1JZ2Y2VThScUQ5cEh1TVhoaE9TRzJobEpVeFhEQTZpN29ONzR1aWpkVkQtOG9VX2hOMjBQZUZ2NUZsdjdSZEFmS085MFlRSkNvaE10cTZidF81SEZCRy1tM0lLOGdtdEx0Q2c?oc=5",
+      "published": "2026-10-28T18:41:00+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
+      "id": "984fa0e76f7db2e07460",
+      "title": "천안제일고에 대규모 학교복합시설 조성… 2028년 개관 목표",
+      "source": "전국매일신문",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXV2tEdkQ4NE92dmZKQ3dSWEQ1VWMzYmY1a21QcXZSVWlmczRCdXduaGFJSjc5LXlpNmJrb3BVcmtVbVlwWjFrQVNKWi1tV1FjTS1INE12VkNUYWt3MzJUWGNCcjNBajQ5U1haZ2ZR?oc=5",
+      "published": "2026-10-28T18:40:17+09:00",
+      "topic": "교육·복지",
+      "group": "기타 매체"
+    },
+    {
+      "id": "f2d11c05ffdc4e6ea728",
+      "title": "천안 과수농가 위기 심화… 포도값 폭락·배 폭염 피해 대책 촉구",
+      "source": "전국매일신문",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5NdURTSHBKUk5aMXBGWW81Q3JUaFlUS0U4VWl0TXUtNHRnREdUOVd1Tk1qZHByTjVEMVJERGNONzRVMlZPTTFHMW1uNGV4Q0VLX1pCbEs4X25SSzZuNk1nM1JDNzdERnhINFB5dzN3?oc=5",
+      "published": "2026-10-28T18:13:11+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "7d44a8cf5af7a20b92ac",
+      "title": "충남사랑의열매, '천안시 나눔명문기업 오찬 간담회' 개최",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3cTB3OUVBNkRQdkFrZWdWSFJFYlo2Nkh1OTQ4dC12ZVJJU2hBRl9UV1NnLUgtcFZzbF9NZE5WbUdFUExBckt0NDFQTWx4RExuV2tBQjJ4ZWVCYTZHQzJ1SVFRTHQ?oc=5",
+      "published": "2026-10-28T18:11:30+09:00",
+      "topic": "경제·개발",
+      "group": "충청·지역"
+    },
+    {
+      "id": "0e8d5e6e520c50cc7448",
+      "title": "천안시, '제5회 K-FOOD 천안들깨페스티벌' 31일 삼은공원에서 개최",
+      "source": "매일일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vazJKb0dwY281WGVfMHdiMTU5Y0ZDWEdPOVFmeEdJdTVCWE5SdEJELV9zdk55X2tYMG9FYzF4Q3ZsdTN3eTVWN080NkdnLVVVRlh6alNzM0lDWG9Wa1IwTl8yaXI?oc=5",
+      "published": "2026-10-28T17:30:46+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "0714612d8db97d596a9d",
+      "title": "천안 거산케미칼, 취약계층 지원 성금 1300만원 기탁",
+      "source": "매일일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zTmUxZmhBS0VOVGxzWDRLb2d3RWdGQUdCbGhYWnowamRYRVpiR2lzWk5qUzhkLXgzbmtJNk16aXFMSVFYOFc3YkJ0SE9ydy1wMHlsUEtySHAza2xjSG5pUGg5SEY?oc=5",
+      "published": "2026-10-28T17:29:22+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "c5cb2786a8cb92b42b66",
+      "title": "충남도치과의사회, 국립치의학연구원 입지 ‘천안이 최적’",
+      "source": "충청신문",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zRFU1MENVUk1USnI1cUU3UDdZNVJwaEtmS3VIZnNoR3I3S0NOZ0hyZWNGUzQ3UmZBakY4UzdOanRDRjhrZGxBM1JnQTN1Ym5WZGxIc1JxczMwTnd0dlR5dHEyeXRmODJ3dGfSAW5BVV95cUxNbU5XVGVELUhKVHhMWEhTRER6R3Q0WjhtYWc5TzVjWG5BNndqd3UtNkxoOG9ldjNaRE9rUlAweHNGTnAwMlVVMTNYbXF2UWM2d2JMWWdaMkxETG1OOWZ4dnFkWTRnR2tuTG43ZEppQQ?oc=5",
+      "published": "2026-10-28T17:28:37+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "57f5a06c0aa8e1b41b69",
+      "title": "천안시, 천안제일고 학교복합시설 착공…2028년 하반기 개관",
+      "source": "매일일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsQmZ2eTlBNG5QM3ZjQzhOSVBvc1RpY2hVTndoNHRSeTFOWWdLcjl1MElSc0huamN2dmFjNUNsV2FUVW14WnNLSXBPcDFBWlc1aXZEQm5FU2N5aV9mWlBjVnhDQ24?oc=5",
+      "published": "2026-10-28T17:10:27+09:00",
+      "topic": "교육·복지",
+      "group": "기타 매체"
+    },
+    {
+      "id": "bad92c5e65f4516a71e1",
+      "title": "천안시, 충남장애인체육대회 개막 앞두고 경기장·편의시설 최종 점검",
+      "source": "매일일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpLXZObmE2XzlnQVkyUHpoNXgwcmpBVUpXMDBQdDJMdmJsQUI5Ym9SdnNFVmV4ODduZkxkRGJlSzU5WkpmUEt4cUxBM0R0cGpjVURqUTVrNFFoS2N2Z28xV1loLTA?oc=5",
+      "published": "2026-10-28T17:04:18+09:00",
+      "topic": "문화·생활",
+      "group": "기타 매체"
+    },
+    {
+      "id": "78f7f2f6c2433c082760",
+      "title": "천안, 충남장애인체전 개막 앞두고 경기장 최종 점검",
+      "source": "서울일보",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JWVZVUFJyVDYwLS11UTAxRVJSOF9hbjh1dU4xQVAzSkNiYTJodWMyc1hMQzM1aWpLUmdoNFhwWnRLYU1OVHdsc0ZNVmRSVkZSa0ItcGVVaTl2YmktUURLbkdiYXVBRmZRMTllUDlSc9IBb0FVX3lxTE5JWVZVUFJyVDYwLS11UTAxRVJSOF9hbjh1dU4xQVAzSkNiYTJodWMyc1hMQzM1aWpLUmdoNFhwWnRLYU1OVHdsc0ZNVmRSVkZSa0ItcGVVaTl2YmktUURLbkdiYXVBRmZRMTllUDlScw?oc=5",
+      "published": "2026-10-28T17:04:16+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "e9e14a0b128be4342128",
+      "title": "[포토] 충남 사회복지공동모금회, 천안시 나눔명문기업 오찬 간담회 개최",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Vcm4zQ0tSWmtXUjhGU1JKcnk3SDNUV0wyaDFOaDdpSzd2OGYtZFZSbXBIeGE4N3BxZ0VOSFlKdS03V1F1eWEyVzZ3MzgzdVZDZHQ2aGkzcmdSMHFINDFTbnB4eGxuUi1FR1cyNS1iNWpWRTA?oc=5",
+      "published": "2026-10-28T17:03:05+09:00",
+      "topic": "경제·개발",
+      "group": "충청·지역"
+    },
+    {
+      "id": "38d8d0f2a13a27940c30",
+      "title": "천안제일고, 체육시설·공원 품은 ‘복합시설’ 착공… 2028년 하반기 개관",
+      "source": "중부매일",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qOUdvVHNLLTZ5VEdUTUtIa3NpZjR2WmFwSDBlZGw2clEzcm1DS0N0WFNJM2N2bDdxMURVdS1naHRnQjhmZjFmQW9wOTBweU5nTC1LUTN6Y1BELTBTVGNOdm1DMGpjYk4xRVp2Nl9n0gFuQVVfeXFMT2o5R29Uc0stNnlUR1RNS0hrc2lmNHZaYXBIMGVkbDZyUTNybUNLQ3RYU0kzY3ZsN3ExRFV1LWdodGdCOGZmMWZBb3A5MHB5TmdMLUtRM3pjUEQtMFNUY052bUMwamNiTjFFWnY2X2c?oc=5",
+      "published": "2026-10-28T16:58:21+09:00",
+      "topic": "문화·생활",
+      "group": "기타 매체"
+    },
+    {
+      "id": "3ac1ed315a6a0dfb1c76",
+      "title": "천안제일고에 489억 원 규모 ‘학교복합시설’ 들어선다 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1GZHBKclNfMlJGWTBoRTQ1WGRIY0dQWnIwNW4tZHdVTHVXQmNCTngzaEZaQTZGUjdkOUpRS3RQb1ctN28?oc=5",
+      "published": "2026-10-28T16:51:06+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "1f64218077824a7c7df2",
+      "title": "충남도, 미국서 5,382억 투자 유치…천안·아산에 첨단소재 공장",
+      "source": "티제이비",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBscHJvY2RyUDhRU3ptVUxaa0ktdTJZVTh6aUF3YmFVRHJTY1UtZTZHMHVwY2JlQTZkUGxDbDBFWXNHME9RRW5UeDk3VjFBenVXcGlKemJ5LUo5R05hZ2ZsWGtn?oc=5",
+      "published": "2026-10-28T16:27:17+09:00",
+      "topic": "경제·개발",
+      "group": "기타 매체"
+    },
+    {
+      "id": "c64e11ad26da9645248b",
+      "title": "[천안 24시] ‘용역 실패 관리대장’ 도입 제안…유사사업 반복 근절위한 구조적 개선책 시급",
+      "source": "시사저널",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzeEJ3ekdZYkNDUDBrakJGbU9YRzNEMXZXQ1liTFE5QUxBYXpWRS1pbTdoalN2WnFxdWFXMVJtWnFRX3dQUl92NHplV1hIZTJXNTV6MTV5WHprWGsyVzFIR0hHZ01VSHdoalBQRUxYWC1ueWfSAXNBVV95cUxQc3hCd3pHWWJDQ1Awa2pCRm1PWEczRDF2V0NZYkxROUFMQWF6VkUtaW03aGpTdlpxcXVhVzFSbVpxUV93UFJfdjR6ZVdYSGUyVzU1ejE1eVh6a1hrMlcxSEdIR2dNVUh3aGpQUEVMWFgtbnln?oc=5",
+      "published": "2026-10-28T16:22:19+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "903a209f1f5c74ed74a4",
+      "title": "천안미소신협, ‘온세상 나눔’으로 따뜻한 겨울 선물 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE10ckJKUVNYSE1Qa0VSNjZiaURINWFkMDlzZDNnOWdUa2xlUXZ1MmxlS2JnN05tcHFxbFNCN1ctSUtzT28?oc=5",
+      "published": "2026-10-28T16:16:47+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "a9072dcf80f71796ba5f",
+      "title": "천안제일고에 체육·공원 복합시설 착공…2028년 개관",
+      "source": "C뉴스041",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBtX08tTmVtVzVJQlB2dDNRa1pBZVoySzAyall2TXA5LWdzME9YQkNDejRfT0V4VUt5MVhiejd0bUNuUFFz?oc=5",
+      "published": "2026-10-28T16:03:00+09:00",
+      "topic": "문화·생활",
+      "group": "충청·지역"
+    },
+    {
+      "id": "908cd21e6190b40ecf0b",
+      "title": "李대통령 공약 ‘치의학연구원 천안 설립’…대구 공세에 충남 ‘난감’",
+      "source": "중앙일보",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1dmhfN21DQ2ROR3lTLTI2a2t3OE9tVkR2S3Nuck5CMlF0NTFnT2FhUXNwbFJCYnJ5dnNOZm13WTN3aU1LQUZvV2Q1bS1JVVJTRmV2a3Jn?oc=5",
+      "published": "2026-10-28T15:58:27+09:00",
+      "topic": "기타",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "a8a261b332eaf0eba8eb",
+      "title": "천안의료원·순천향대 앵커사업단 공공보건의료 협력 협약",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZQnJsbUdaOHcwcURmbVgzNFdmMThJaTFzUjFTWnY4S3hkWGRTRlhrZzZRODYxbHJpQXcxejFSYXRUaG10MXRkeFJ2Y0lFNXZrRTdIeWN6WDczd3VZMDBhTXNVaFY2cUUzZEpnRDR2Z3M?oc=5",
+      "published": "2026-10-28T15:40:49+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "40df8f1f48a676590b47",
+      "title": "천안시, 489억 원 규모 투입 천안제일고 내 학교복합시설 착공...2028년 개관 목표",
+      "source": "뉴스파고",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA3cXBhVkFicm9aYXNpbTZlaHRlNkxQSjVOQzRqU1d1SUVsRVhFaVowRXczZGJWSlg3eEJIRTBzQ3M5VWlj?oc=5",
+      "published": "2026-10-28T15:40:00+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "97442834d5c809261085",
+      "title": "천안제일고 '학교복합시설' 착공…2028년 연말 문 연다",
+      "source": "뉴시스",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xS1hmTFUxZjJmRTNXVExHU2R6ckxoTTB3cDJqeG1zU3hneXVqZTR4SXJjZlVsTXE2VTFRLXBSazR5Q3JFWm9GT3ppeUhWTXRWdDUzOUNGazNSX2d4TzdIckZwZ0JCZGNQSjRrUWJldmZOUE4wbUJretIBeEFVX3lxTE9xS1hmTFUxZjJmRTNXVExHU2R6ckxoTTB3cDJqeG1zU3hneXVqZTR4SXJjZlVsTXE2VTFRLXBSazR5Q3JFWm9GT3ppeUhWTXRWdDUzOUNGazNSX2d4TzdIckZwZ0JCZGNQSjRrUWJldmZOUE4wbUJreg?oc=5",
+      "published": "2026-10-28T15:38:57+09:00",
+      "topic": "교육·복지",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "3fca0b1f5169ab086941",
+      "title": "천안시, 민원담당 공무원 스트레스 해소 위한 힐링 프로그램 운영",
+      "source": "뉴스파고",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE15OXJERGZlbV82bXRwNDQwS1NqbFM4ZXdRWTcyZUZXWjZydGwwencxSXhRQnVKcUdhR2dlRDdtSF9ta3c5?oc=5",
+      "published": "2026-10-28T15:36:00+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "c1a0ab576b202849e757",
+      "title": "천안시 민원담당 공무원 힐링 워크숍 개최",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NSUlnRk5ZeG1kN0RXUnI5OXJhZWR2NllnWnpwV3ZxRDdrLUgydmRZNVVfeGJCV3NwQy1ScmpJV1FQX3hEb29kOGUzdDI2VEg2LWMzT3k4Y2xobDFaVktfcW5LYzUwekUzSkM0N3JpLU8?oc=5",
+      "published": "2026-10-28T15:35:48+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "445d7e83c411c01456e4",
+      "title": "“탕정2 집단에너지로 천안·아산 성장 이끌자”",
+      "source": "투데이충남",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0wY3Z1VEIwUmRTMUM4dGxzTFFoU3BxWmI2Z05kZDQ1R182TmRUVjg4MXdmMW9TNEdfdVh5SlV4cFlHUURBbHdRVUlweDNDYzV0NnlYb01XcDVvcFgzbVZOQjVGX0xwQ1AwUnFSVXBPZkhyZw?oc=5",
+      "published": "2026-10-28T15:30:02+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "7e7809f24e8b47a1b125",
+      "title": "천안제일고 학교복합시설 착공⋯2028년 하반기 개관",
+      "source": "국민일보",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00cEVab0xNdTJHWWxiZEVDWkRDc0NIZXRnTFRmcGFBYjZkYXZtenpjRm1Ka0l3ZEtITkNiOXdlQ2w0cUFtWEpoUnV5QWVZRzlDc09oQWpZN3Q?oc=5",
+      "published": "2026-10-28T15:25:25+09:00",
+      "topic": "교육·복지",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "04b2650eb79d927cb044",
+      "title": "천안제일고에 체육·공원 복합시설 착공…2028년 개관",
+      "source": "백제뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0YzVOcmpzdUtybk4xVlU2bmdxeFZZU0ZtT3VHMDRxZVUzaTU4cDZmNlZwbU5vQzlyV2JRU2pIV3hkSWZCWjBhUERSSndDQzdfZHA0b1h0YWhEYnMtRk5HVXRRc1A4MVhQRC1jUw?oc=5",
+      "published": "2026-10-28T15:19:39+09:00",
+      "topic": "문화·생활",
+      "group": "기타 매체"
+    },
+    {
+      "id": "4de5094d94e14bbc7325",
+      "title": "천안시, 천안제일고에 489억 원 투입 학교복합시설 착공",
+      "source": "브레이크뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5hc3ZNTmNlckJPZ0tQakktaS1XclZNQmhPWVR0bXJZZVlCVFk0RVA1b3YtaDNSNDZqNmx3dHN1WFgzWEhPUmx2Vg?oc=5",
+      "published": "2026-10-28T15:14:00+09:00",
+      "topic": "교육·복지",
+      "group": "기타 매체"
+    },
+    {
+      "id": "82a808f339103da6ee0f",
+      "title": "천안시청소년복합커뮤니티센터, 광풍중서 한·중 청소년 민주시민·인권·다문화 교육 운영",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9TdHpOSFFyMGtIeVdMV203dGd2Rk9MSnN4cFZzczQ2Zi1MakdhdUUyUmJjWWgwcW1vTElzb0hXOWJHdkFoSGxmRFY1RVg3VTdpZXZOcHVmc3lQNG9kWUpWSEJIaEpPLV9uV2h3cTVwMU9tQkU?oc=5",
+      "published": "2026-10-28T15:13:29+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "b6a53fc5bd9f3cdd25fa",
+      "title": "천안시복지재단, 아이유·천안다온·해솔어린이집 3년째 이웃 위한 공동나눔 기탁",
+      "source": "엠뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sdW5iSGRnLWlKT1JnMXNLWk5lOUtBTERmVHZaM1NDV0VzYnVVVUNHS0FTMHJuNDREYlZNVDE0QzI5Z183UnhKdWxjcnJwZk9KdjF2M1BUajdvZGxNY3JhSmRLT0o4Zw?oc=5",
+      "published": "2026-10-28T15:11:37+09:00",
+      "topic": "교육·복지",
+      "group": "기타 매체"
+    },
+    {
+      "id": "5f05a1984bf4b82390cf",
+      "title": "'초고층 화재 대응' 충남소방본부 천안서 드론·무인로봇 투입 실전훈련",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Ub2tKMG9mVGpWZUprNjNnYlFYVk12bFdtZndWQmlZblFQaTF1a0RlQi1TdDFjVU92ZlpYaFNMWnFTdllQZkc1SGQyeUhFYmVPOWNZRV9ua2ZMS084dktUVQ?oc=5",
+      "published": "2026-10-28T15:08:00+09:00",
+      "topic": "사건·안전",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "30d75ade6931ecd9218a",
+      "title": "김윤주 바르게살기운동 천안시협의회장, 국민포장 수상 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE14Yk5KUzAtQkQ0YXJUY1IyN1pmS1R4TmFVOFZXQjQyNnBYN0t3aWVLTy02X3c1OEZ0aDlPUjQ2QWxKWUE?oc=5",
+      "published": "2026-10-28T15:07:02+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "352c6bd6061275a06b36",
+      "title": "천안시티FC U15, 창단 최초 우승으로 유스 역사 새로 썼다!",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03ZkFERU85SHlBcmptYncwX1JMc3FlYl9mLVlRcWFadjVKdGExTi1UT2dSazRiSjVqSHhxMnZnY3lfUS15eGxENS1fUnJNSXJaYnM4c09HbHlud1ZGMmRNVkw2Qlc5M3FNS05Zem1MOV92WUE?oc=5",
+      "published": "2026-10-28T14:39:14+09:00",
+      "topic": "문화·생활",
+      "group": "충청·지역"
+    },
+    {
+      "id": "78426f0e2ab4b1792370",
+      "title": "천안시성정종합사회복지관, 어르신 150명과 함께하는 '88(팔팔)청춘 올림픽' 성황리 개최",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fbFl1MG5hUlk0RGlwVGZ4Q2lmRnBqZU1oQWZxXzByZlc4U09NaTRDRTlNX1JEMjRfYUU0aXVUVjYyUWdrQS1FTnFQTXhrYldrMGpXMUplMkRaUm1CQmlFcU84aHNMTjRweE80U0ZocFhYblU?oc=5",
+      "published": "2026-10-28T14:39:03+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "a11181b2b1492250edc9",
+      "title": "천안YWCA, 2026년 회원환영대회 개최",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hQklGblhjZ3NQS0NWTmlYY3hVV1Z2MkZSNnh4VFF6QVBlSVdYX3NzTFJUZVM5aVJkVlU3TmcyZTl3TXlWYWdPVkJHVzFzN0lTZWN1QXBuQkZKejlRa1pFSzdsUzlrRDhnMG5zTkxfaVpBSjQ?oc=5",
+      "published": "2026-10-28T14:38:46+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "037715aea2476f4f3ec5",
+      "title": "천안시, 특수학교 여성 청소년 월경용품 실습 교육",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Dbko3SG1xZnVTOUJiRUhZNzF2MUNjSDJVSU5PRU9OMDlrN0l2STN3akNndkhRUEFIYUVHUW1uV1BVR1FfN3B1WXZxQnhZMXBNVk1rY0ZxVVFNaE1SMlJMNnRQZWFlWkhnNDF4NXFmb1AyY2c?oc=5",
+      "published": "2026-10-28T14:38:30+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "15b5e37b16a18bfc0a15",
+      "title": "천안·아산 발전소 찬성단체 “집단에너지 사업 조속 추진해야” > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1yMldWdmJYWnI0Mi1oUmpzcVpZV29ud1prM19lVDU5TThnd25pUGplLWtMVFFydVJ2Zy14UUl4Q0ZFZ2c?oc=5",
+      "published": "2026-10-28T14:32:33+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "c0eac172adb3b45382e7",
+      "title": "천안시의회 국민의힘 “농지 처분 강화 중단하라”…농식품부 장관 사퇴 촉구 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5OOEVEMzBsVjUzalNwTC14T1FoSEwzVGQxWERrSDA3R2RiV09kVWVGYlVudkZHY2NGdDU3UGsyN3R2amM?oc=5",
+      "published": "2026-10-28T14:23:50+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
+      "id": "2a5aa8ba3e4b64166ade",
+      "title": "천안시티FC U15, 충남학생체육대회 우승… 유스 창단 첫 정상",
+      "source": "중부매일",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83bHFWa0stMVl1Q0tEeDMxdEFmV3ZJTHktTVlUMVBpZENnTDdfSUlZZ1NzUnVhNHIwSFFwajByWmtLbUNkRC1Rem1IXzM4WTctQ1NjR0h6Z0FFY0N2b25rS29XZ2k0WFJwUFhwNHJ30gFuQVVfeXFMTzdscVZrSy0xWXVDS0R4MzF0QWZXdklMeS1NWVQxUGlkQ2dMN19JSVlnU3NSdWE0cjBIUXBqMHJaa0ttQ2RELVF6bUhfMzhZNy1DU2NHSHpnQUVjQ3ZvbmtLb1dnaTRYUnBQWHA0cnc?oc=5",
+      "published": "2026-10-28T14:14:40+09:00",
+      "topic": "교육·복지",
+      "group": "기타 매체"
+    },
+    {
+      "id": "14a607a967c0625f2bca",
+      "title": "거산케미칼, 천안 취약계층 위해 1300만 원 기탁",
+      "source": "금강일보",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52bWd2QkY3TUNnVG1IM2lJc3JuTHl0cVo4cXJSRG03SkVfMENHcHBOWHc0UWYyX3lIYldqZTFsVjhkY2NhRDkzbFhDUTNISi1FNFlQM2tvaGZRZi1nWkIzTGx3RXhGbjZTTXc?oc=5",
+      "published": "2026-10-28T14:09:47+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "64708835c0e7d5c463ac",
+      "title": "장기수 천안시장 “직원들에게 주말 잘 보냈냐는 인사도 못하겠다”",
+      "source": "세계일보",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0a2JwM2Y2eVRqbENLXzZ0eWk3YUFXdTU1RHhaRE16T2tqemZ5U05XTVJjX2ZTbjY5b3l2NDlzSGhfZTEzM0k5R0twd0o2M2xw0gFUQVVfeXFMTkZvTWRhTHhLU2xlam4zSzBYVHdFaFJtVTBtUFpfcWJ1bWkxSEx6MGh2REU2eEFkUW1mTFY2dWNtV2UzOVBWMzBmc2hwOUJibU1tbG5n?oc=5",
+      "published": "2026-10-28T14:04:52+09:00",
+      "topic": "행정·정치",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "b16e74520138e3d44107",
+      "title": "천안 ‘K-FOOD 들깨페스티벌’ 31일 개막… 요리경연·체험 다채",
+      "source": "중부매일",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uTHR6ZWFVQVlhdGFZTExXR0t1Y1N0ZmZHZ1hsc0xVSExXZVhwY0JFLXJ0WXdOb3VpV2kxVXM4X2hNUHNxOE5ibFEtcm8xNTlOaXYycGdzcDlQRzNXN0pEUTB5dW10S1V5a01MMkd30gFuQVVfeXFMT25MdHplYVVBWWF0YVlMTFdHS3VjU3RmZkdnWGxzTFVITFdlWHBjQkUtcnRZd05vdWlXaTFVczhfaE1Qc3E4TmJsUS1ybzE1OU5pdjJwZ3NwOVBHM1c3SkRRMHl1bXRLVXlrTUwyR3c?oc=5",
+      "published": "2026-10-28T14:02:02+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "c9b95a5bb70b75fb77f5",
+      "title": "천안 들깨페스티벌 31일 개막 ··· 요리경연·체험 다채",
+      "source": "금강일보",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43ZUtxZ2hiZmxuZkwtS0d5NG1mZmJKMVFVRzdxR1VFNGhJbzlmTkRkVGY0QW9YX3Z3RUNLdk1taUpveWFqUFI2NlR0YjBfRngyblhfeFVkeHlWZWRuaDdzdlRJdGlaZGVDUkE?oc=5",
+      "published": "2026-10-28T14:00:20+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "644d1ada19d5587ff276",
+      "title": "거산케미칼, 천안시복지재단에 후원금 1300만원 기탁",
+      "source": "충청신문",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGeDgwSkxzT0ZNaF9NQVdKYUtwRl9KZENEbDNJM2hjeE85QkR2SGg1TkJZUWVEUm00Wl9MVHdxSVAzSWtDOFcwNTFSdmpLeGdrNDRqa3NOYk1TNUFXUk1HdFFNQS15bUp2UWfSAW5BVV95cUxQTFFCN1YxdG1sSTZfQk9sQW9wMEx5dzIxcUxqY25tWUtCbEE2bHdfbWhYYlNieUY5WTI0aDhBeTlrQmpOQ2RnbHpGZm0xTTR6TVdHQ1JrUWdPbTI2cG90QmJRc3NqTEE1RnFwZWdnZw?oc=5",
+      "published": "2026-10-28T13:45:38+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "18b4054d32e72d10ed61",
+      "title": "천안농기센터, 오는 11월 ‘알기 쉬운 농지법’ 공개강좌 운영",
+      "source": "엠뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JUzZnOE1Tam9YdHR6dlFnQ0NXOWNBTzZzM3hLZkNRTjlVTkdfb2dYSlNqSXpiUWVsc2RIZmdYSjhRRGkwWEtzYXNQc3NVb2o5UUVPdEJYY0g2N0w4eGdJOXMwVlZLQQ?oc=5",
+      "published": "2026-10-28T12:52:52+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "b88881f4efd516539f89",
+      "title": "충남장애인체전 29일 천안서 개막…5800여 명 참가",
+      "source": "신아일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YaW1UZjU3U0IzWURLSmMxRzQxQUQyVEVjenFtZ3RHNTZIWlhDSDB5TzZkTHpaRi1HbFRsbV9mUGJNYkg0Vy1LR2V1VC1BZjZod01TWjdaTzRYMHhIY3FfQ3lxbXI1a1FYZ0Vfc1BiczM?oc=5",
+      "published": "2026-10-28T12:39:21+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "648260013ff7944677ca",
+      "title": "천안제일고에 학교복합시설 조성…489억원 투입",
+      "source": "신아일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Mcmk4OFF0cmJmWVJqZ19oaGdRanRxc1pMWnFoQzY4UFJWQTl4UFlSRURkSU1nWHNndHpHQlBqby1vWFlSR0NheFQxOUVVaFRPSWJlcFhIVENZbC1KU3V0UXR0VHJ5R1RhTkdBSW96cWs?oc=5",
+      "published": "2026-10-28T12:38:17+09:00",
+      "topic": "교육·복지",
+      "group": "기타 매체"
+    },
+    {
+      "id": "387e4acfa5b190a3e999",
+      "title": "상명대 천안캠 재직동문교수회, 제21회 ‘제자사랑·후배사랑 장학증서 수여식’ 개최",
+      "source": "금강일보",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zcDhNS05mOXR2N0V1R0pJbHp6MnFvbXdYYXh2eTNWWEhXMF9GejhKNDEydV9jTUwyQXdvd1g4dzcydnVSSFlYRUVRbEFSRkFxQ18wdFI1OWFDdVcxT2F3WlYyY1BjbXhVOUE?oc=5",
+      "published": "2026-10-28T11:50:52+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "9335a4a40988bd77aa66",
+      "title": "김철환 천안시의원 “포도값 폭락·배 폭염 피해…농가 보호대책 시급” > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9TcG52SjA3STViU1hsZFhDcVpTcmZ1Wjg2YjczWkhNRURjMjlQRno2NFhYcjJnZzVrOGZld2lTUVRMVms?oc=5",
+      "published": "2026-10-28T11:47:17+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
+      "id": "54e76bb3649e2d75413d",
+      "title": "\"천안배, 포도 농가 졸속 농지법으로 벼랑끝 내몰려…대책마련해야\"",
+      "source": "노컷뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzS19RdXpXcnN2NFpMRUU4bEstU0VoOVA0amRRVDAxaXBTbGJma1h1RG1uV2JzeGNTdTNXaHk2SU9RVHZ5ZEpJMUMtaFhBWm1mcGc?oc=5",
+      "published": "2026-10-28T11:24:16+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "d6ba86b13bce134aa6bc",
+      "title": "[천안 24시] 천안제일고 교육과 휴식 결합된 복합 문화공간으로 탈바꿈",
+      "source": "시사저널",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43eXp6Xzh0TFVnN1M2TEw2Rjd2Zl8yeEVaWnNqUDVPNDBOYlc4SUZDTjZpWV90SVc5Qk1iR1Q1NzlFN1BvUG9MYjlIQjZVOUduRzN1cVNMWmt3NUh5eWltZmUzYk9qY2dqc2RMRGJrcVZoWDDSAXNBVV95cUxON3l6el84dExVZzdTNkxMNkY3dmZfMnhFWlpzalA1TzQwTmJXOElGQ042aVlfdElXOUJNYkdUNTc5RTdQb1BvTGI5SEI2VTlHbkczdXFTTFprdzVIeXlpbWZlM2JPamNnanNkTERia3FWaFgw?oc=5",
+      "published": "2026-10-28T11:20:51+09:00",
+      "topic": "교육·복지",
+      "group": "기타 매체"
+    },
+    {
+      "id": "713233d17d4c9c40c72c",
+      "title": "배민-천안시 손잡고 ‘천안 농특산물 전용 온라인 판로’ 연다",
+      "source": "뉴스로드",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81UXo2LUFMUzh0TDlNSDRuNENmWGJ0YlNVSHRUY1FPdFpQZGNWck95TjR1MzdvVVE0Y2Z6ZEFXYkVieF9VNUF5dkFYbDVwcWtZclFnWHBIdVo0NlpmRVhZVXpYSi16cVROalVr0gFvQVVfeXFMT2o3NHgyX1daeTNuWGFyVlNmMHdqdGdONWpqcnlTMnNOOFIzMktPMnplVG1YdFZyZ1NzSHpFZmJMa2ViYnozMzR3SGFENi1qSkxuQ3J5ckd0TmhKNXpSaUltTUdHdDh4X0FyeXVOdEpz?oc=5",
+      "published": "2026-10-28T11:13:28+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "94040a53d3c87f2d858f",
+      "title": "천안시티FC U15, 충남학생체육대회 우승…창단 첫 정상 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9vZm16aHdxZFY5dHAyVWpkQjZTZWhLS3BxWXNRdlRLS1pnakoyRmJLUVVnQ3hDUGRJNVBfdkN4U2w1Vmc?oc=5",
+      "published": "2026-10-28T11:09:09+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "c496a2e1c2c12de21c96",
+      "title": "충남치과의사회 \"국립치의학연구원 용역 폐기 반대… 천안 경쟁력 검증 받아야\"",
+      "source": "녹색경제신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjOGM0cF9yRTlxM20zckRZTjBBTVZIZ2ZnWWFGamRISl9qaFFKSFBmNm4xeEotUlJJeHVMTW1IUVBlYjI0b2FpeDFXWGEzRV9Va3RMVDA5YTE3YzVPSUZRWDVkM2I2R1V4?oc=5",
+      "published": "2026-10-28T11:04:59+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "0914c08cd60147cabba4",
+      "title": "천안·아산지역상생발전위원회, 아산탕정2집단에너지사업 조속 추진 촉구",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JcEdLbmV5VDlZWDNQOU5LZXZZcmI5Qml3d1hucUh0S1dtS1ZQSTlOS3Q5QzBDSXlfMVlDUW5CaW1xcFRKVGlpVVRkaElXTEg0ZUpsV0ZGZnota3B3cUt5T3dHVWE?oc=5",
+      "published": "2026-10-28T10:56:06+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "b20edc1af55f1ec7b5ea",
+      "title": "천안 거산케미칼, 취약계층 위해 성금 1300만원 기탁",
+      "source": "프레시안",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5SaUZ1VkFEMU96bDRIZVdQekNlSzZya1FNN3ZRUUFjb0k5U1dibXE1WXhaZkZXZGFMWHNQMDI5VUFWME1neDlPMUk2eGQ5dXU1VG1lNGhfVmNxZlFRUEZoand0a0RFTVRzNTB3?oc=5",
+      "published": "2026-10-28T10:47:57+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
+    {
+      "id": "23713f644650361611d3",
+      "title": "천안시, 충남장애인체전 개막 앞두고 경기장·장애인 편의시설 최종점검",
+      "source": "뉴스파고",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1FNHBfU3IybEMwZnJRSTdlQWNQaUdoc1NiQmFvaUJXd2hJNFNvWnhoRVdNTHdOUGpHZ08tdlduM1pjWDc5?oc=5",
+      "published": "2026-10-28T10:47:00+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "0e1337b5a89ccf1421f9",
+      "title": "천안교육지원청, 천안시학교운영위원장협의회 소통마당 선진지 연수 운영",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vYW1YdUFCMkpubnFlM0phZ3VyTE1KSTRiSkJoY24xNjEtV205RVNueWVPOEcxajAwam1lajB5dnFRQTloZGNRNXcybHUxUEUwdFhGc290VE8yYjM0WUpSTW9KcV8?oc=5",
+      "published": "2026-10-28T10:44:19+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "a6a679c3a892d0bfce87",
+      "title": "국힘 소속 천안시의원, 농촌 혼란 방치하는 농지 정책 규탄...전면 혁신 촉구",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGaTRlS3N6Y1dFYmhzLUxpcFV6VF9DVUVaWkw4QTJmYjVoQXQ0SlpvdnhSQjA3OWZ2d0xzRGU1QV9OWmNDcUdIV0h4WXA5SVRYWU5nT3IteUFCSWNnSmFCOFVXVk0?oc=5",
+      "published": "2026-10-28T10:42:57+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
+      "id": "24e9ba4ce1652398be63",
+      "title": "천안시, 천안제일고 학교복합시설 사업 착공...2028년 개관 목표",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Gd29hdnNhYTdUSXVlTDRpRVo0VmNNaE5CNWhjOFp5M0lKdkI2akpPdF9EcWxwVk5nMm1XQnl4NmdxUkd0b3IyZHNDUUhSTlNPZDVzbEYtOTVGcGV1RnBJMHhSYUo?oc=5",
+      "published": "2026-10-28T10:41:53+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "973c4c7882a5eaccaa38",
+      "title": "상명대 천안캠 재직동문교수회, 제21회 '제자사랑·후배사랑 장학증서 수여식' 개최",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Ic2lpZmcySGJVWnNRWG9Yb2VHMl9QejE0ZDFnaVFyRS1RNXc4eEF1aFBGVmRHdmUyY3pZQTRkT1l5UVBLazhRcmlwVG9yNERTc281QzFtVDA5dlVSeEpFMmZINV8?oc=5",
+      "published": "2026-10-28T10:40:41+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "a57a7e6e59ddffcbe7a4",
+      "title": "천안시 서북구, 성거읍·입장면 지적불부합지 토지경계 바로잡아",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsVm1hN0gyd2g2MTQ0QnZRZXpVUFVneGRobTJIRUVxT2dUY2o4VnhQS2FRTEpyaFNVTTA3TnlxLUYwRGRxdXgwSnp0LUd6NHFkLThQb25JUjdyS0MtaTQtR1c5QzFRRlJORDNVNVRqLWhQWlU?oc=5",
+      "published": "2026-10-28T10:40:14+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "02bdd91af80a10fefcfd",
+      "title": "천안동남소방서, 화재대응능력 2급 실기시험 대비 특별훈련 추진",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNaW1fMjBkZFc5M1RGNHFkUjJWWXJIQjNZeFFYc2tZWUNrbUpncG9sY25Xc21fMDFjc08zOGtFODU5eUx4MFdHMzNYc1J5RThfNmV1UVJmSHdJeUNMdDJKSlM5M2VEQU5ZcDJRWHo2ckg5UQ?oc=5",
+      "published": "2026-10-28T10:38:46+09:00",
+      "topic": "사건·안전",
+      "group": "충청·지역"
+    },
+    {
+      "id": "3711427584d67306d6d0",
+      "title": "천안시, 오는 11월 ‘알기 쉬운 농지법’ 공개강좌 운영",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xdUR4QXYxNmdoYU5vS2htZ3J6c1JkeTNQZ1lMeEh5NVVVVFJWYTk0cFlEUEhlMjZDV3VIbEt6Ym9teEloM2pSOC1pU2VXajYtX0ZiQlJNbjNQWkI1cUpVU0ZHTG1QdFpibFNjTmpOMDVsZVE?oc=5",
+      "published": "2026-10-28T10:37:17+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "4f9836a3e44f922b2223",
+      "title": "천안 쌍용도서관, 학교로 찾아가는 ‘작가와의 만남’ 호응",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02VHVNR0lVRzlOR1ExQkYtaGFBNzM2ZnhzRVNiN3lBYlVRR1BxTTZxcVlEbkJPZEpfYTF0d3Exd1JwTklkMV9qNi1CQ0Q0NGhYeUxLdzUwYkpiWFFZVEszM09MZE1CRU10MXhTN0ZtS1JKUVk?oc=5",
+      "published": "2026-10-28T10:36:01+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "5c37b11f6933e7067b69",
+      "title": "천안서북소방서, \"단풍철 산불 주의… 화기 소지·소각 엄금\"",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PYmpYRVNtZzJTY1JGVDViYnFFcmVfZ19nLThqTWhMSVF5RW0zTmFCSHp0NHFmNU95UEUzNHdQdy00a1FtdThVMmhhTUlXV2N6SW91eWhsNFNLekZCRThIcmE2UlM?oc=5",
+      "published": "2026-10-28T10:35:57+09:00",
+      "topic": "사건·안전",
+      "group": "충청·지역"
+    },
+    {
+      "id": "134df5ded63ef17364ad",
+      "title": "천안시 쌍용도서관, 학교로 찾아가는 '작가와의 만남' 호응",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwaHByNmN2MmxnWWUxNkd3eE1vQXZmQmJodWlsMHdqaEJUdnNBQkpIa25RRXR0d2M4eWdfZjQxTmhZRU9Ka0NSU21BdWVveEZXSlQ3dmlMbUxBaGRXMHM1UXpubDQ?oc=5",
+      "published": "2026-10-28T10:35:38+09:00",
+      "topic": "교육·복지",
+      "group": "충청·지역"
+    },
+    {
+      "id": "de7f4117c127c3c511f1",
+      "title": "천안 도솔신협, 성환읍 취약계층에 겨울나기 물품 기탁 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBDWDZ2eXJaazdmV1QxSUxCUmFtSm9kTWtZVW5vTld0X09kTk9wYkp4eGgwTjRUQ0JSV2I4Wk9TckJFa1k?oc=5",
+      "published": "2026-10-28T10:35:02+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "bef25d94225660cc48e5",
+      "title": "김윤주 바르게살기운동 천안시협의회장, 국민포장 수상",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LTFdTVWFLOU9GWFlRV1ZJc05TWVBxSl9KbHpENE1iZy1OcDFqUlc0azRLZFEzRTFmRlBDQ3BkUEdnbTFnZkdvTTRRQmxNWjNxM3hHcF9UVldvS0hIT3RBSDVaOGtnYlhKWUt0ZFBYeks0QWc?oc=5",
+      "published": "2026-10-28T10:34:43+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "77a8c331a5b0a1ecd499",
+      "title": "천안예술의전당, 오는 11월 연극 ‘동백당; 빵집의 사람들’ 선보여",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE90MS1mVzF5dWcxUEItbVhMTWs1eWdHVVJaOExSeHczQnZqWTVRWTR0aE14bUgzOV9fMDRuZUhTbTFHV0phNHMwT0c1c2NCeWFKODdnY2VaTVVjRFYySVdyMFZlSWJFS2RnandPUXlGOG5QR3M?oc=5",
+      "published": "2026-10-28T10:34:13+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "bc50343c21d27d304721",
+      "title": "아이유·천안다온·해솔어린이집, 3년째 천안 이웃위한 공동나눔",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xdWZvVkQtcUlLN281QTZGLWg2TXdLMFFtY05jc29qd0NIMUZKdlNld2RRSXpZdGctVnp0dlhxTkplcjdjbnBsY3AyWlRHUWYtOXVZRHJkN2JVZDJGYVVsakNWZ1BFTjl2TTFsbzZtYlZnSzg?oc=5",
+      "published": "2026-10-28T10:33:58+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "c1decaa78350418ac76b",
+      "title": "천안시청소년복합커뮤니티센터-축구종합센터건립추진과, 중국 청소년 여자축구단 맞이해 북부스포츠센터 견학",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBld2JFeTFPNjRBTl90aUxnZHlJMTI3LVlJQzJDcnU5T0plc3JMSm9WQkZYTFBjM1pYdXVqOFZhdVFEYlRZTkNTVWZfTEpzLWJGY2UybXlRdl95aC1fSFJzNllfU2JkdUJodjh5Q2JrMVdEWjg?oc=5",
+      "published": "2026-10-28T10:32:25+09:00",
+      "topic": "문화·생활",
+      "group": "충청·지역"
+    },
+    {
+      "id": "abb9cfcd9e656e017ff2",
+      "title": "천안시 서북구, 성거읍·입장면 지적불부합지 토지경계 바로잡아",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85NXN6WHFqQ0JaX21GWUtyemNOYTBZaWtQRkVpc1JPQVpUM0lVdEhLeXI3cU9BUmlwZmpSN0hPVGhOeTZRdTFqN3FyQ0doNDRNNGFXcVVsYnZGRDE4SmtJTUVJZnI?oc=5",
+      "published": "2026-10-28T10:28:52+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "8fe219a50387037439c3",
+      "title": "천안시, 31일 들깨페스티벌 개막",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YcndvNTY0NHVNREFMandrb3ZRZDI1MjJDSGFBb1VsZlNYMEFrUHFxTGViSTQ1blB5bmU4NldJMmNIVUhJVlpkUXE5YnI5UVlOVmFqNnQ3Ml9FeW1WbEw1MDQ3ZjQ?oc=5",
+      "published": "2026-10-28T10:28:41+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "53bac365dc2beebb152f",
+      "title": "천안시, 민원담당 공무원 힐링 워크숍 개최",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CSkJlcXJId2tLUlJCSEoyamJTT25GUk9FeXZsQThMMVVWUGJiWXRlako5cTgxVkJhcThjclk4THFUTWVKd05QOVI0TWlIVE1hZEJ1VWFPVVN6NERWdFNROHV0UGE?oc=5",
+      "published": "2026-10-28T10:28:18+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "c0c9aa1c31a6699a9396",
+      "title": "천안법원, 15억원대 불법스포츠토토 도박한 40대 '집행유예'",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uaGdjb1BhMzRtOWxIM25hdV9kbzZSbEJIUDJlN0dsLUpuY040dC1GN3RkLVNhd1p3QnZsVDhJWDg2QmVULUxLbVZKTVVXV0xyeGNrRlY1YjRYbWZmdWZHMG41M0Z1Mi1iejB1VA?oc=5",
+      "published": "2026-10-28T10:27:47+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "b475e7aa41f39fb50a4c",
+      "title": "1947년 군산 빵집 이야기…연극 ‘동백당’ 천안 무대에 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1zb002V3FSTDdoQ2h3SDhfVEFaNEtHWFppZE1wRWhHNmI2Y0RFT3J3T180c0piYmt2YTlDeVNlU1Y5aGM?oc=5",
+      "published": "2026-10-28T10:26:29+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "785ef6d18361a3d86707",
+      "title": "천안시, 충남장애인체전 경기장 막바지 점검…안전망 완비",
+      "source": "중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yaEZxZGtBTWlQSVh1cUd4SFFZUVNodHRQUzZYZ08yQkpKWEJjRks1cEtDazBqcFhnRE5IYWt3Rk56bGxoaDJGWDAxeTAzemFicnM0SzBIQm1EX2dNOU12OUxkY20?oc=5",
+      "published": "2026-10-28T10:25:28+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "b629e6a6ec85bf1ef1a7",
+      "title": "천안 들깨페스티벌 31일 개막…요리경연·체험 다채",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uS256d21iS3VYTEhFckY0TmlMbUFCZHNhYU5sRzd1aW81N2FOQlpMY0N3bnBuVFIxVEdzNUU4dUJQREt2NWRENzZLcjJPME1UcFFRUzNJVXJRc3laT2F6T3EwNVVWaEJxQ0h5QlRZMUJFbnM?oc=5",
+      "published": "2026-10-28T10:22:25+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "61144afaf764ceec2de1",
+      "title": "천안 거산케미칼, 취약계층 위해 1,300만 원 기탁 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9icl93dzVaTmROTzFVenYwb09UQzJwYzdOWTh6WGMtc19ocG1CWVRLTDY1TC1xUjRwVHFOQ1UzenlxTGc?oc=5",
+      "published": "2026-10-28T10:21:34+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "3ffab3258b237405a331",
+      "title": "천안시, 충남장애인체전 경기장 막바지 점검…안전망 완비",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sZ2xlZG5WQmt5QVNSUUs4ekx1YjEwa2lRQ3VyaS1ycUF3MWJTck8xR2pUT0JXNE14Uy1HTElMZnFtRXRyLXRRMFFzMm9ndGJzSTNCdU9HWUdoSHFOSmNXSlpTRGc5SDJ5ZHJ6U0xqNTlUeDg?oc=5",
+      "published": "2026-10-28T10:19:25+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "51169faf80db3a59c7b9",
+      "title": "거산케미칼, 천안 취약계층 위해 1300만 원 기탁",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVb2NvUkxncFV0RnBvNzhYajdmUlNDZWlQdm9BT2J6M1RtTzcxcTJpSk1tVHc1alhMVGthV2hWX2tZX05wbUZuUzhZbDB1bUVyWlo2UnR2VjU4dlE4LTJqcWFFeXBWNWFmbER0Vm1uM0NKQ0U?oc=5",
+      "published": "2026-10-28T10:18:43+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "813eca52d5029c86e5ed",
+      "title": "천안시 충남장애인체전 경기장 막바지 안전망 점검",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jYzJXQ0N4cjQyaENSd1c2QnlibGVxMFU0MWRzc1RWN3ZNTjB0a25xaUZ5MlgySURLSG9nblh2OTNPS2NkODNnR3UwUkliMlFMTWZnY0I4SzVacEpHenZteC0wRmE5U2FLa0tTV3dTYWs?oc=5",
+      "published": "2026-10-28T10:17:29+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "69a5560f32c340f15c6e",
+      "title": "천안시, 충남장애인체전 개막 앞두고 최종 현장점검 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBfNTlWOTdBVThveV9fSGtIemF5R0pVQktGWlFYR3otY0g2RmplVlpUZER0TER1a1NwZDk3TXg5RkpTejA?oc=5",
+      "published": "2026-10-28T10:16:51+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "e5363417fffe52a76337",
+      "title": "천안시, '농지법' 이해하기 쉽게 알려준다...11월 23일 공개강좌",
+      "source": "굿모닝충청",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE04azRFcS1DaWJ6RXI5aTQyUldNNWx6UW02WEh4U3paYm1zSE0tWWhDX3l0US01NHZKY01TQWl0Y0NIbHRmMUptLWFrcTAxV1R1dGExdUJpQ0dZY0Jqa0ZiUVdHMU9hd2cyVGpVOG94b1gyQQ?oc=5",
+      "published": "2026-10-28T10:12:24+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "315577beafee65020c0f",
+      "title": "’3.3㎡당 1485만원’…대우건설, 천안 ’두정역 푸르지오 그랑피크’ 분양 By EBN",
+      "source": "Investing.com 한국어",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zM3hzLWl4UnFGajNVWGQ3OUl2U01QLV9xN0NrZF91dlF3aXVJY09ROGdSNWM5c3Y3U19zeDFITUZmX05uNlhXcXc2RTdvQmFUMFN5dDdpbFcwMVBYV2xKTl9BTjd0TDBERl9FaXdUVWM?oc=5",
+      "published": "2026-10-28T10:03:00+09:00",
+      "topic": "경제·개발",
+      "group": "기타 매체"
+    },
+    {
+      "id": "36f027aa42ef707e937e",
+      "title": "천안 아우내영농조합, 전국 최고 품질 생산단지 경진대회서 대상",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01c29XbS13N0ZGTi1RNm5LR0tleXZ3LUNnSnZFcnpoVGNCN0ZSSmhyV3dEQWstWDNZRnN6azZtN2U2Tk5iNkV6a2JRNW1Xc0NiaDgyUzFmcks5N21ESlVEStIBYEFVX3lxTE01c29XbS13N0ZGTi1RNm5LR0tleXZ3LUNnSnZFcnpoVGNCN0ZSSmhyV3dEQWstWDNZRnN6azZtN2U2Tk5iNkV6a2JRNW1Xc0NiaDgyUzFmcks5N21ESlVESg?oc=5",
+      "published": "2026-10-28T09:48:43+09:00",
+      "topic": "경제·개발",
+      "group": "중앙·통신"
+    },
+    {
+      "id": "d53797a39edc1e4898da",
+      "title": "[뉴스픽] 천안시, 아동급식카드 재검토…위약금 쟁점 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBMZC1GS1FLSm5xSE84cnVQSUNFQ3ZRZ1BuMjJRbjJPdTdTM3puajRZNV9pWWpUQ2VVTHdfMGMza2pJajA?oc=5",
+      "published": "2026-10-28T09:46:23+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "6095068705816c784da1",
+      "title": "천안 제 5회 들깨페스티벌 31일 개막",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fUDVhQ2QwQkxBbEZXY0VpN2tEcXRTS2g1YjdEdUZkbzFCWHF5aklUTHdhTURpbE9HUXdNdVZyajFtckttRlVlSGs2Y2puZzNMam1jYlplS3VSTjA0WWk0anRSTHNhVy1IcVRYTXkySjE?oc=5",
+      "published": "2026-10-28T09:45:11+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "dc6912a4973b16587cdc",
+      "title": "대우건설, 천안 ‘두정역 푸르지오 그랑피크’ 분양…1438세대 공급",
+      "source": "뉴스락",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80b0JZNWZxb3FKSHBrcE94ZWxnUUQ3UFZERi1zOFZGdHM3RDZxRzAzaWVPcWJ6NHJaZ0psUDBYenZoSnRZMG1LaU1LUXcxZVZsX3VHX3I2WFVxaWphRjhhQzVPVjZud3RyRnhKTw?oc=5",
+      "published": "2026-10-28T09:41:02+09:00",
+      "topic": "경제·개발",
+      "group": "기타 매체"
+    },
+    {
+      "id": "bb573329702d4acab7f8",
+      "title": "천안 ㈜거산케미칼 천안 취약계층 위해 1300만원 기탁",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ueWZnSWo5bTNfa1lENjN1RG15ZzBQMEZtQV9sTjAxUnhiZnlVWTQzUTh6WXphWF9sVHJKdGxMLS1nSDJiblktMkZ3LWN2SVc0ZmhxT1pkWWxMTmR3d3kwSkd4NVFOQ1NPeWVScldYZXg?oc=5",
+      "published": "2026-10-28T09:39:42+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "776c60115056e1ca8a3a",
+      "title": "\"국립치의학연구원, 국가적 필요성 따지면 충남 천안이 최적\"",
+      "source": "굿모닝충청",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40aUY0cExwNm50RXlTa1h3ZFI5QlA3WVJSSTVaMzAzX2xneGpCalJhZkxHUWd5NmNBWTVjSVNCYzdldl9Rd3kxOC1VN3ZQRnVjMWhmZE5pT1dfalpzY25GRHlvVTBrT1VOY2diRDZPTjV3QQ?oc=5",
+      "published": "2026-10-28T09:39:21+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "e5d8486aa08c3c537e15",
+      "title": "천안제일고 체육·공원 복합시설 착공",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nNDZuaFpTNWxqQzZVbHMyUk5QYldvRmpIclJieEFtUmpvcHpGM25UeW1vNDhFMzdYMUU4V1laekZqRTJWRHE3SVJIcHBFWk9fZEJ0eDBjNENRV200SzRpNlZZVklmTXdWUkZ0QVZmeTY?oc=5",
+      "published": "2026-10-28T09:34:19+09:00",
+      "topic": "문화·생활",
+      "group": "충청·지역"
+    },
+    {
+      "id": "6dbc58cd402d1436c498",
+      "title": "충남 희망나눔 걷기대회, 31일 천안 독립기념관서 열린다 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE8wNkEzMER6TWxGeHpraUdfMkZYMWt2XzltcWd6dmdKdkRCYWpxMUpMZnFfbUM4R00xMzJFbVlnbU5NeDg?oc=5",
+      "published": "2026-10-28T09:32:57+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "4635f80f8fceed701dc3",
+      "title": "천안 곳곳서 겨울맞이 사랑나눔…성금·이불·김장 지원 이어져",
+      "source": "브릿지경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qVTd6ckx1RG5VX2dDOXY4NVdKOHBlOXV2YUUza3ZkWU03Sm1rUmFheXJNclBqU1YwUUtpLUdGdDU3MS1wZVdkaVQzSnBiSjNlNFgxOVdYVW4yZw?oc=5",
+      "published": "2026-10-28T09:26:00+09:00",
+      "topic": "기타",
+      "group": "기타 매체"
+    },
     {
       "id": "55690122c6a1e2ce33b2",
       "title": "[천안-동정 및 행사] 10월 29일",
@@ -189,10 +1179,19 @@
       "group": "충청·지역"
     },
     {
+      "id": "5e99c7f3d5bfb500da41",
+      "title": "천안테크노파크 산업시설용지 공급 완료…지원시설용지 10개 필지 공급",
+      "source": "센트럴경제",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfcXBUS2JRXzZ2b3UtTV90YnB1Z3hmZHJVNl9zbW5LNDNZdmh1aUttWG1NNzUyUGRFdnRBU01tWjdWeHJFN1EtMS1DcUVjSXRMSF9qYkotZUZWTENSWHVQMGlKdzVXcEnSAWpBVV95cUxPSzUySDg2Qi05LWVqT25mTmVmZ0tZLV9OOXgtRVV2ZnZmOVlqaHBPZzAtZjhBUGh5aS0xRElrd1pxdUJIWDdRWWM2WFJiSGxhR2Q0WXp6eUFGSmdNeFI0aG5yV2RyczlZUlFn?oc=5",
+      "published": "2026-10-28T09:20:04+09:00",
+      "topic": "경제·개발",
+      "group": "기타 매체"
+    },
+    {
       "id": "9034f6dcb29f154f7b56",
       "title": "천안 등 충남 10곳 한파주의보 해제",
       "source": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EVjd0eXFkWVVoWldRaVVURVJpSWNZREtkdE1YWVRHbzBxS0JQa3R6Y05WU2VoUVNBMUJ0ekZrdWx1ZXhIWi1Rb1NsczdRbGVvNE5jYUJNUzdBWknSAWBBVV95cUxNeUpzVjJ0Zmt2blBMWWhsQTBZSDVKaTcyVHhCSC1DNHR2ZEhSd1JrRDlRck5LRGFJU1hXLVViTlNJUG9BUjF1dy0zZi1zQTRZajV1Z1lPZTdVLWQyRzVIYV8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15SnNWMnRma3ZuUExZaGxBMFlINUppNzJUeEJILUM0dHZkSFJ3UmtEOVFyTktEYUlTWFctVWJOU0lQb0FSMXV3LTNmLXNBNFlqNXVnWU9lN1UtZDJHNUhhX9IBYEFVX3lxTE15SnNWMnRma3ZuUExZaGxBMFlINUppNzJUeEJILUM0dHZkSFJ3UmtEOVFyTktEYUlTWFctVWJOU0lQb0FSMXV3LTNmLXNBNFlqNXVnWU9lN1UtZDJHNUhhXw?oc=5",
       "published": "2026-10-28T09:04:23+09:00",
       "topic": "기타",
       "group": "중앙·통신"
@@ -219,7 +1218,7 @@
       "id": "af823cb245ebba326d3e",
       "title": "천안제일고에 체육·공원 복합시설 착공…2028년 개관",
       "source": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0c0FRNXR3LWQyWVdIQmM2SEJzVy1wVk1nRzhfWFNQM1MzTGNnTEdiWnN1bkw5eThRM3ZheEt1eTdEZjRudWNwSTRkVGJwclZTc0VwLUtnVDhwS1nSAWBBVV95cUxPYnBuVDQyanhiMGp1QUNvSFFzbUI3Rlg0WkJFdkwydHdsSk9uZnB0VHF4bDgzRFBwN0ZtdVpkNlhMOTdtaERxWG1Cak5GeFBDQkdfd1VodURnMVdhTEpjZHM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9icG5UNDJqeGIwanVBQ29IUXNtQjdGWDRaQkV2TDJ0d2xKT25mcHRUcXhsODNEUHA3Rm11WmQ2WEw5N21oRHFYbUJqTkZ4UENCR193VWh1RGcxV2FMSmNkc9IBYEFVX3lxTE9icG5UNDJqeGIwanVBQ29IUXNtQjdGWDRaQkV2TDJ0d2xKT25mcHRUcXhsODNEUHA3Rm11WmQ2WEw5N21oRHFYbUJqTkZ4UENCR193VWh1RGcxV2FMSmNkcw?oc=5",
       "published": "2026-10-28T08:42:15+09:00",
       "topic": "문화·생활",
       "group": "중앙·통신"
@@ -237,10 +1236,19 @@
       "id": "384901c7a6755ea1ecf4",
       "title": "천안 서북구, 성거읍·입장면 지적불부합지 경계 바로잡아",
       "source": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tY0JUaEV2NnpUZnU5NU9qV0lMUlc0WVZRQ2lOTWpkQVNKVTdOQTBLbFpKMkV1UG9JRjh2RDhIRDdHQ0NZSkh6M0F6XzZ6cE1zU3AtZkdsOXY5Nmp0YTRSWdIBeEFVX3lxTE1ydXc0aHJ2aUxueEJKSEViaFlNMzl3dm0xV2MxSlNOUG1JTzloTUVFT0RRdUtQdDV1bTBxRm1IRHkyd2tJQkZNVERvaDQxZndhSUdmTEtiUG9rWGpIUW1CMWExaTdub1BGYVB6bVVDLTcxVFBKZnB4ZQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ydXc0aHJ2aUxueEJKSEViaFlNMzl3dm0xV2MxSlNOUG1JTzloTUVFT0RRdUtQdDV1bTBxRm1IRHkyd2tJQkZNVERvaDQxZndhSUdmTEtiUG9rWGpIUW1CMWExaTdub1BGYVB6bVVDLTcxVFBKZnB4ZdIBeEFVX3lxTE1ydXc0aHJ2aUxueEJKSEViaFlNMzl3dm0xV2MxSlNOUG1JTzloTUVFT0RRdUtQdDV1bTBxRm1IRHkyd2tJQkZNVERvaDQxZndhSUdmTEtiUG9rWGpIUW1CMWExaTdub1BGYVB6bVVDLTcxVFBKZnB4ZQ?oc=5",
       "published": "2026-10-28T07:45:53+09:00",
       "topic": "기타",
       "group": "중앙·통신"
+    },
+    {
+      "id": "874ab75537537a5f5e98",
+      "title": "[아침 뉴스픽] 28일 충남 주요뉴스…로컬푸드 예산 논란·천안시 재정운용·홍성 바비큐축제 > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5JVFZZc2N0dC04OFJSbkxUaExIWWlzbzlQRHlBTERaM0VlTkJmcThHMlVSejJodlVFY0dndDlHbzNlaUU?oc=5",
+      "published": "2026-10-28T07:41:04+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
     },
     {
       "id": "35b5bf566ca66359b931",
@@ -250,6 +1258,15 @@
       "published": "2026-10-28T06:43:00+09:00",
       "topic": "문화·생활",
       "group": "기타 매체"
+    },
+    {
+      "id": "0baad60806d6b33a3197",
+      "title": "천안시, 알기 쉬운 농지법 공개강좌 운영",
+      "source": "C뉴스041",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQT0lwaTRsNW9rOVcyejNlblpxbnIxV1l3OTBRN25oRUFPSHhjSFNRWVNaaWZNN3RaY1FNdmMyZnZOSDhlZ1p1N0pKRDFLakY2Qlc2Zks2UFloLVpCQmlqTy1ZVXlRVDNRajkwTTExMWs0MXJPTjdVR21SYzJQU1gzS2R3?oc=5",
+      "published": "2026-10-28T06:14:00+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
     },
     {
       "id": "3af3f6999bdb1931cc0c",
@@ -426,9 +1443,27 @@
       "id": "6ab995254713a267f666",
       "title": "천안시, 사할린 이주동포 맞춤형 건강프로그램 운영",
       "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SeWtFQWhfbnN6YmlxSUExVnhoUThCeDF1amxneEZuLXpQcndKblFSaUQzVVpOeU5aU1BsdlVwbHhTM2RrNDVmM2FWZHhJYl9RR0V6blktUHZrbVNxVm1kSE9SVm96R1BCWTNYT2VfNGJaalE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pNnNUM2twdE9yZGdPaW1McmpTUWFWZWNhcTE0bzR3TDR3YlFVeDlobHExdDVqS0J6MFg0THNrZExNWE5JNXVua1I1Y09fbWdFMnpLTk9QWV9ua3EyVk5hWDZyemVSdGQxa29VTHVDUFBKdw?oc=5",
       "published": "2026-10-27T16:18:14+09:00",
       "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "19ca70fbcc5757b38f91",
+      "title": "천안교육지원청, ‘천안의 얼’ 다문화·비다문화 학생들이 함께하는 역사·문화체험 프로그램 개최",
+      "source": "엠뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oWWZwbVcyTW1mZG82WHgwSU9zc0dGSzVEcDVqTjV0Z1VhZ3NkRFByaW9JTVFBUmJ2SDZZMVM0Z2JxZjZkNFRQZEZKU3pUcUZEd1VrRUlBbFJ2eHY2OUtibGpGMm04Zw?oc=5",
+      "published": "2026-10-27T16:13:14+09:00",
+      "topic": "교육·복지",
+      "group": "기타 매체"
+    },
+    {
+      "id": "b5ca6c9925fcc7dee7c0",
+      "title": "천안시 연구용역 255건에 188억 원…김연정 의원 “성과관리 강화해야” > 뉴스",
+      "source": "천안신문",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5DV3ZYX3g2OEtXQWhRaGJYOWJpR3h6RUFneDZPSUhHUGFnTDNiUXFiR2VCNlJZYXZPUVpSZFFxbWNtX0U?oc=5",
+      "published": "2026-10-27T16:07:41+09:00",
+      "topic": "행정·정치",
       "group": "충청·지역"
     },
     {
@@ -531,6 +1566,15 @@
       "group": "기타 매체"
     },
     {
+      "id": "be8588f70038731ed608",
+      "title": "천안시의회 시정질의…황경수 의원, 도서관·체육시설 없는데 로컬푸드직매장 추진하나? 장기수 시장 진땀!",
+      "source": "충청신문",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SeGJfUDEyQlNIWm1uYUNCMGc4QUdQSmZucFlaN1hrWFktczJlTHlnZ0ZqbmpGaVJLVnlUNlgwVGNyMXFRMGRnZmEzck1xdFpLbUJrQ1V4MkhsUzF3THc5bzhRRW54S3RvQzZQbGRR0gFuQVVfeXFMT1J4Yl9QMTJCU0habW5hQ0IwZzhBR1BKZm5wWVo3WGtYWS1zMmVMeWdnRmpuakZpUktWeVQ2WDBUY3IxcVEwZGdmYTNyTXF0WkttQmtDVXgySGxTMXdMdzlvOFFFbnhLdG9DNlBsZFE?oc=5",
+      "published": "2026-10-27T14:33:39+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
       "id": "ee946866c742f7f9e5d5",
       "title": "배민, 천안시와 농특산물 유통 협력…온라인 판로 확대",
       "source": "주간한국",
@@ -567,15 +1611,6 @@
       "group": "충청·지역"
     },
     {
-      "id": "be8588f70038731ed608",
-      "title": "천안시의회 시정질의…황경수 의원, 도서관·체육시설 없는데 로컬푸드직매장 추진하나? 장기수 시장 진땀!",
-      "source": "충청신문",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jU0xkeTlSMUlGS1J5ZHFfQWlMTGdBNG1vZ19GMVFLYUJYX3h6eEpRamNoNDBSUHN1TEVMb0kwLUtob0tYWjVwelRHLWdWT3JiOWwyU0dRMndOVl80cVk5cmRpYmduQUYxSXfSAW5BVV95cUxPUnhiX1AxMkJTSFptbmFDQjBnOEFHUEpmbnBZWjdYa1hZLXMyZUx5Z2dGam5qRmlSS1Z5VDZYMFRjcjFxUTBkZ2ZhM3JNcXRaS21Ca0NVeDJIbFMxd0x3OW84UUVueEt0b0M2UGxkUQ?oc=5",
-      "published": "2026-10-27T14:11:47+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
       "id": "827a3671283d85b4a8c0",
       "title": "천안시·상명대 시민공간 혁신·지역가치 창출 위해 '맞손'",
       "source": "충청일보",
@@ -588,7 +1623,7 @@
       "id": "7da73dcce9bbcf2c893f",
       "title": "상명대-천안시, 도시디자인 기반 관·학 협약 체결",
       "source": "충청뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04dXpPTEdjMkVzc2YwZG12V282WFZvem84T0V6ODZrSVFvWkZNZWZrZW1fbThjNDF1ZE5HaUtiZkdGQjBiZ2ZuQ2U4OWVkeGMyUV8xZHdJNTdNb3pyZXFsYlJNS09OSFk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qU3Zpa0doZXNYa1RnaDhDVmlrTnlILUZpRlNWUjRNNlVnRlJXV05tU1NocHlXQjF6LW42LXR0UnVMbFBqelE2dDdVeFVLdDBFaWNrWGNpc0dyS0V4aHhoVnphbnhDM3RBTW14UQ?oc=5",
       "published": "2026-10-27T13:54:01+09:00",
       "topic": "기타",
       "group": "기타 매체"
@@ -651,7 +1686,7 @@
       "id": "c8bcf0c78dc50d905b4c",
       "title": "만기 출소 아닌데 교도소 정문 무사통과?…천안서 ’황당 탈옥’",
       "source": "연합뉴스TV",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XRmktNXVjd2NvZ3JnYjdpaWZJakJRZzUyZGprRHFEWDVMY3Bzb3BmZklZVEs0bjFINDNHSWMtUjk2SmVYa1Jyc1YyekR1aE51VDZkNVN6UmUtdFhRMDVSMENLVTgzZ1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81MGNnOUdxNnZFb1ZCVkFaMTFZUHNaNC1lSWdpS2k3RVVKVGlWd3dhaC0zbUUwTkRQTjNGTHQycHcyQkpPZ216UlRBMFhHR0h2OW1WV1RTaDBWOGM4NWt6QlR5LUhUMFU?oc=5",
       "published": "2026-10-27T13:33:00+09:00",
       "topic": "기타",
       "group": "기타 매체"
@@ -660,7 +1695,7 @@
       "id": "a36ec06c6da32396a612",
       "title": "타타대우모빌리티, 충청권 상용차 판매망 재정비...\"천안에 신규 거점\"",
       "source": "팍스경제TV",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02UUs2dktrMmhwalRvcloyMTM3WnExWl9MRjZMZFF5WS01X0RnUTMtZUgxbzh5ZHhVVUp0amp4UHpBMEUtUkZWUExmcVpaTTBMdGl6QzdPOHZsRllNQ2Y3d2RJVkRlR251?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44LTNFYzZpS05ueHEzQ183ek5BRlVhbHo4QmMtcHEtVUFGb1FvZWx0a3RZRldDZWlkaDVNU1A2WTctX0Y2bTVsUk1hYVFVOVVNUVVMOTVXbmpkNHVudTUwbGpQMnZua3c?oc=5",
       "published": "2026-10-27T13:24:42+09:00",
       "topic": "기타",
       "group": "기타 매체"
@@ -756,6 +1791,15 @@
       "group": "중앙·통신"
     },
     {
+      "id": "28c0376f1ca35037edb4",
+      "title": "천안동남소방서, 소화전 5m 이내 불법 주·정차 금지 당부",
+      "source": "중부매일",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EZm1OUVRKeFJPSEUyOTN5dGhSdnV0U2ZLSHZTMDhFSXdIYmg4cHdnVE5QSlBoeDZmbVhoR3doZUJjNl9wM2FDUlBheWlueGRwUEVQVVItZGpWbFZPajlxMndDRWZWMGRwVnfSAW5BVV95cUxOZmRETlZEeENZRUhVZVhNSnpVa0dkYUs2b1J1NDZlTEQzRzRpbk5WZi0wSDh1SU1JU2dmT2FKZW1uMThRdkpuMHl0TVZTenBjNlZDUDN0aTlNMWo4NU1tWHZZbXNETmZBV3JJV0QxZw?oc=5",
+      "published": "2026-10-27T11:27:08+09:00",
+      "topic": "사건·안전",
+      "group": "기타 매체"
+    },
+    {
       "id": "d298164fde8bca804894",
       "title": "천안 농특산물 판로 넓힌다…배민-천안시, '동반성장 상생협약' 체결",
       "source": "아시아경제",
@@ -849,7 +1893,7 @@
       "id": "338cdffc366676af3bb1",
       "title": "[게시판] 배민, 천안시와 지역사회 동반성장 상생협약 체결",
       "source": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45bl90NThjWFY4cktVeUh3Y2F1VEhpNmh6RFdwbzZuY0YyUDVYeTZpTWFLRlk1bXBxQ1VncXBDdXNGUnBteXphUmw1U09EUmNaa3ZKYWlJREgtbk9HaVM4MdIBYEFVX3lxTE45bl90NThjWFY4cktVeUh3Y2F1VEhpNmh6RFdwbzZuY0YyUDVYeTZpTWFLRlk1bXBxQ1VncXBDdXNGUnBteXphUmw1U09EUmNaa3ZKYWlJREgtbk9HaVM4MQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aYWtOMmdQQm5tZ3V3d01mLUJSc2h4aWFNRmNOeFFKZVpSR2U2bWJRWUFVNGFUTDREZUZlWW5scEVkdkFOOWF3dlpUXzRXTUpzUnVlU3d5WnFDWVnSAWBBVV95cUxOOW5fdDU4Y1hWOHJLVXlId2NhdVRIaTZoekRXcG82bmNGMlA1WHk2aU1hS0ZZNW1wcUNVZ3FwQ3VzRlJwbXl6YVJsNVNPRFJjWmt2SmFpSURILW5PR2lTODE?oc=5",
       "published": "2026-10-27T10:54:46+09:00",
       "topic": "기타",
       "group": "중앙·통신"
@@ -966,7 +2010,7 @@
       "id": "37e4efaed162331a8607",
       "title": "천안법원, 스쿨존 만취운전 혐의 50대 남성 징역형",
       "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGYkpKdnk4SWVFUkVBU0RsbkdLLUoyNWRvbFU0ZjBWWkthSVBjTWZrNGJaaTBkWGtDa2tUc0ZXZUV0MW1rU2JsdEljcTNrcmZCUzgzODVjalhMUEFkM2Q4ckUwSzA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WUUdaRUx5RGdKeGFsQ093bTNJc2YwcDVsNmFoREx0NmlYMjlja0J5eEtwM09qcEZsTXZuMjlPSGJzYzVoUFk0ampfT0RRZ3hxSFUzTXBzYWppbEFPV2hYdkZib0I2QmpoLS1Jcg?oc=5",
       "published": "2026-10-27T10:32:53+09:00",
       "topic": "기타",
       "group": "충청·지역"
@@ -997,6 +2041,15 @@
       "published": "2026-10-27T10:27:14+09:00",
       "topic": "행정·정치",
       "group": "기타 매체"
+    },
+    {
+      "id": "c139b952e1f99b4630e1",
+      "title": "고락희 천안시의원, “산업단지 화재 예방·재난 대응체계 강화해야”",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UTk5CLUJEVm1MMUdUNlpvYjdYR2NSeklJclpDemtCWk9nLXR5MkdvWHZCdTBYQWlBeTNMLW1faS10WTlsVnVMSkk1bWJQWExpNDNCcjRVV2R2aHo3a05laHBLOW1pYU1rVldncVlyTVp2QQ?oc=5",
+      "published": "2026-10-27T10:13:16+09:00",
+      "topic": "사건·안전",
+      "group": "충청·지역"
     },
     {
       "id": "b4a6ed353594aacd1588",
@@ -1053,19 +2106,19 @@
       "group": "충청·지역"
     },
     {
-      "id": "002b83ee03ebd6d0b820",
-      "title": "천안서 ‘충남 일자리 박람회’…73개 기업 860명 채용",
+      "id": "4b4b98e499b6d015af68",
+      "title": "천안시 동남구보건소, 내달 ‘바른자세 요가교실’ 운영",
       "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqV05odmFmeVpWbnlqOGstLVRnUE1KTjRWY0xMYjF5dXRscldaZUVxVFZhaVpGdERBSXlYVFcxeFN6bHlmX2d5QmFBOXRCV3lxdFpmQjl5NVdURk9CMm9UVm1zYjJab3lEbW5JY1hjbmlJQQ?oc=5",
-      "published": "2026-10-27T09:55:47+09:00",
-      "topic": "경제·개발",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UUDdHRVgxYUFMdnhycW1FVVNqRXJiYkhMRHBjTFlFSnBBeEVWY1RXQlNPd2t5R3ZEcXlxNElYZ1BzcVBSYjItdHIwc3liSWMwNmc0Y1ZXYW91WTZMYk1nRV9peXdJT29vdTRNbmhaOHpuQQ?oc=5",
+      "published": "2026-10-27T09:52:08+09:00",
+      "topic": "기타",
       "group": "충청·지역"
     },
     {
       "id": "77b7bd2f0152f75160b9",
       "title": "천안사랑카드, 연매출 30억 초과 가맹점 정비",
       "source": "뉴데일리 충청세종",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpQks0TmZZZnZFQ3Q5em03Smd3c3l3NG9rb2xBT0NLSmZLNTFsX25GMzBGV1BFbUhvcUhfTEpOXzVfeWhTR0k1MDJjOGhqbWtFM2YtMFNnc2d3MmhsQnZNM2FvWmJ6V2lURkh1UmN4TXI0aHFYSmZOR2tR0gF_QVVfeXFMTTdBOG9RNm5pQnVzSWVFWHVQM3Z6Yk9pc0pZVENtNExHTkF3Q1AydGdMYjhXbDBkOXMzTXJGZU1QU01xLTJBbExnRWloX1ItWkVaZjdfNzNHQVFuNUZiS3ZtZ1ZsZFVTSHpndV9VZ05GUkE0d0xVYUhuMFBhTUliYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03QThvUTZuaUJ1c0llRVh1UDN2emJPaXNKWVRDbTRMR05Bd0NQMnRnTGI4V2wwZDlzM01yRmVNUFNNcS0yQWxMZ0VpaF9SLVpFWmY3XzczR0FRbjVGYkt2bWdWbGRVU0h6Z3VfVWdORlJBNHdMVWFIbjBQYU1JYmPSAX9BVV95cUxNN0E4b1E2bmlCdXNJZUVYdVAzdnpiT2lzSllUQ200TEdOQXdDUDJ0Z0xiOFdsMGQ5czNNckZlTVBTTXEtMkFsTGdFaWhfUi1aRVpmN183M0dBUW41RmJLdm1nVmxkVVNIemd1X1VnTkZSQTR3TFVhSG4wUGFNSWJj?oc=5",
       "published": "2026-10-27T09:52:00+09:00",
       "topic": "기타",
       "group": "기타 매체"
@@ -1125,6 +2178,15 @@
       "group": "기타 매체"
     },
     {
+      "id": "0e24d7dc314a4683b085",
+      "title": "천안시청소년복합커뮤니티센터, 중국 장쑤성 청소년 여자축구 대표단 환영식 개최",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1UlpYVTJhNTBxemplVmh3TGh5eDF5cVV2ajYxZEt4WV9MbWtQck9oMjdUOUhacG9kUWI1TEJUdkNwcGpBMjlEbFVPaS1wRV84M1o2eHVxbzNZcFZGNWpqR2NKd3VwUWJVOWxiamZYUEttZw?oc=5",
+      "published": "2026-10-27T09:40:25+09:00",
+      "topic": "문화·생활",
+      "group": "충청·지역"
+    },
+    {
       "id": "131ade22aeb78a987feb",
       "title": "수형자가 유유히 교도소 정문 걸어나갔다? 천안서 '황당' 해프닝",
       "source": "연합뉴스",
@@ -1161,15 +2223,6 @@
       "group": "충청·지역"
     },
     {
-      "id": "d53797a39edc1e4898da",
-      "title": "[뉴스픽] 천안시, 아동급식카드 재검토…위약금 쟁점 > 뉴스",
-      "source": "천안신문",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1GZENpYnRCMHZRN2RNZXZrUmI2alVDblZGcHlZNkVKWlV4bGJ4Q2REWGVRY1pjRkV3ODJweDJreUR0bms?oc=5",
-      "published": "2026-10-27T09:08:51+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
       "id": "ce4f6e4ea2563963732f",
       "title": "[뉴스픽] 천안시의회 4개 상임위, 민생현장 점검 > 뉴스",
       "source": "천안신문",
@@ -1182,7 +2235,7 @@
       "id": "a542b019b5bc3fd18fe4",
       "title": "\"전국 누구나 신청 가능\"… LH대전충남본부, 천안·아산 등에 134호 공급",
       "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUUWhMZTFtbXlwWThXbjhpTldacEVjc2RmUzdfSTBpRWFVNlZScUp2VVZwMU5MRGhiOTg0aDVqNllpZ1hpY21sRGtUM2JFaDJxbHZ5Y0NzUW1USlQwRE05Yi1kZGw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nWFlQenhXNzYtc2hiYjllNkIxclp0dG02WG5KMGxEZXlnRmhuSzVNSVFzQUVBRE9nM2dsd1Jnc3VSODRXVFhOcm5GY3FDcnRBWXFvNmJLc2NJWlQxcGpkMVdmX3d1U3Zkdzl4VA?oc=5",
       "published": "2026-10-27T08:56:43+09:00",
       "topic": "기타",
       "group": "충청·지역"
@@ -1314,6 +2367,15 @@
       "group": "충청·지역"
     },
     {
+      "id": "51ce99495e0daeed3360",
+      "title": "“일 잘하는 천안시 여성가족과”…양성평등마을 확대·전국 벤치마킹 잇따라",
+      "source": "충청신문",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kQWEzT2RGbnZjV2ZhS2JaWmZEaC02UWM5LTgyR09LS3FlSEE2R1JYY09scjRpWjVGUjFSc3BNb2J4M3dRUXJoT1FoTkdjYTFPLWJ1Tm5jLU9KeGlYZXlLZHVsSG9UNjFJanhpTEtn0gFuQVVfeXFMT2RBYTNPZEZudmNXZmFLYlpaZkRoLTZRYzktODJHT0tLcWVIQTZHUlhjT2xyNGlaNUZSMVJzcE1vYngzd1FRcmhPUWhOR2NhMU8tYnVObmMtT0p4aVhleUtkdWxIb1Q2MUlqeGlMS2c?oc=5",
+      "published": "2026-10-26T17:28:06+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
       "id": "4ca22a3a48b8dfb58659",
       "title": "천안시 공직자 대상 적극행정·규제혁신 역량강화 교육 실시",
       "source": "아산포커스",
@@ -1347,15 +2409,6 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE50ZDA0VkhNMy1iU3I1SEctdXJ6RkhFNF93b2dscm9IQkZubG5EWUs2dEluZW0zQXhfRUVYXzkyOHFBZUlUeVdUbnhrVTh2a25NdGNJU00wZ0RxMi1oLTgyQzZmbzlOQmR1VGlMcU1BdjVBUWs?oc=5",
       "published": "2026-10-26T17:11:59+09:00",
       "topic": "교육·복지",
-      "group": "충청·지역"
-    },
-    {
-      "id": "51ce99495e0daeed3360",
-      "title": "“일 잘하는 천안시 여성가족과”…양성평등마을 확대·전국 벤치마킹 잇따라",
-      "source": "충청신문",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaRU5zNHBWR1YzMjZTYWRWVVU2VldXUzJ1YWZsQ0hSUS1Cd2swUlZYV2xmaEtYb0VrZzE2Y3BJVE1RcTVXak5lblpXeTFGX25iczFZTndoZnBqVG53c200YWRIb1FnRC00N2fSAW5BVV95cUxPZEFhM09kRm52Y1dmYUtiWlpmRGgtNlFjOS04MkdPS0txZUhBNkdSWGNPbHI0aVo1RlIxUnNwTW9ieDN3UVFyaE9RaE5HY2ExTy1idU5uYy1PSnhpWGV5S2R1bEhvVDYxSWp4aUxLZw?oc=5",
-      "published": "2026-10-26T17:08:37+09:00",
-      "topic": "기타",
       "group": "충청·지역"
     },
     {
@@ -1404,6 +2457,24 @@
       "group": "기타 매체"
     },
     {
+      "id": "f495d68eff6d5adb4f70",
+      "title": "중부재단 환경그림대회 대상에 천안 불무초 성은우 군",
+      "source": "대전일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SMVFVMmgtcEp2a0ZvdWVFaVQwLUJwallyZHdYUktkMWxjUGVxNlBwWUkzakZ1NFRuRS11dXFJNFJEbmdUeC1CQTg3VVQydzE5ZEhKWm9qTVBCUzFYM0FWRmhUUGtrWVZMei1veGJBSVdlVXPSAXNBVV95cUxOUjFRVTJoLXBKdmtGb3VlRWlUMC1CcGpZcmR3WFJLZDFsY1BlcTZQcFlJM2pGdTRUbkUtdXVxSTRSRG5nVHgtQkE4N1VUMncxOWRISlpvak1QQlMxWDNBVkZoVFBra1lWTHotb3hiQUlXZVVz?oc=5",
+      "published": "2026-10-26T16:27:04+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "8a30d30752eb17474aaf",
+      "title": "LH 대전충남본부, 천안·아산 등 아파트 134가구 선착순 공급",
+      "source": "대전일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tbENPdFFabWlLM1VOWS05cHRLM2o4ZEkzbnY2dmNuYXhRUXVlN044bkpaNnlSVUlzU0xnVTVtcFBKTEIzVFk5OEhpOTNTb0lVWjJWcXZkOVF3RHlXdk5WeWlsUi1SQzM5NUdSYjRuMmt0THPSAXNBVV95cUxNbWxDT3RRWm1pSzNVTlktOXB0SzNqOGRJM252NnZjbmF4UVF1ZTdOOG5KWjZ5UlVJc1NMZ1U1bXBQSkxCM1RZOThIaTkzU29JVVoyVnF2ZDlRd0R5V3ZOVnlpbFItUkMzOTVHUmI0bjJrdExz?oc=5",
+      "published": "2026-10-26T16:27:04+09:00",
+      "topic": "경제·개발",
+      "group": "충청·지역"
+    },
+    {
       "id": "12cc684662c92467b023",
       "title": "천안, 배달의민족과 협약…농특산물 온라인 판매 확대",
       "source": "서울일보",
@@ -1431,21 +2502,21 @@
       "group": "충청·지역"
     },
     {
-      "id": "f495d68eff6d5adb4f70",
-      "title": "중부재단 환경그림대회 대상에 천안 불무초 성은우 군",
-      "source": "대전일보",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84Z3RSSkt0RjhEYU1FaG5FbXVRVlFSUU11VTVyell3TlViNDVqZmFaU0NCX2p6eUZhdlg2WFpnZGR5dFk1Y3hFR2V1aF9oLWQwM3pkOVNCRXZTeEstRHZDQ041NTVVLW81clZPYXdCVdIBc0FVX3lxTE5SMVFVMmgtcEp2a0ZvdWVFaVQwLUJwallyZHdYUktkMWxjUGVxNlBwWUkzakZ1NFRuRS11dXFJNFJEbmdUeC1CQTg3VVQydzE5ZEhKWm9qTVBCUzFYM0FWRmhUUGtrWVZMei1veGJBSVdlVXM?oc=5",
-      "published": "2026-10-26T16:13:01+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
       "id": "8333222dfc77e9ca8a8b",
       "title": "LH, 천안·아산 등 아파트 134호 선착순 공급",
       "source": "금강일보",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9USlFSWUxESldCT1JDOU1HTG5lXzRSSVZqNlktd0JFV2c1R3RIMTBWRENwYjNPaDA2cnFkNk9rRk9QOGZBVXE3elNsRF84VU9XUHl0a1FKMV9vVWZELWhPM3J4NThOdXBIa1E?oc=5",
       "published": "2026-10-26T16:05:28+09:00",
       "topic": "경제·개발",
+      "group": "충청·지역"
+    },
+    {
+      "id": "bdf20151074dca48d25e",
+      "title": "천안 서북구문화원 신축 준공",
+      "source": "대전일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vU0dtTDZ4bzZyVUI3NzczZDg0ZGd1TzMwREZ0bWNoQWN3cnZlQkoybTB2ODM5R2xJbEJEWjJSSWVua2JvblBwNjR6Y0hHTlIyZEsyTXBkQmhUbExCMHBpa1E2dHRYcUp3VERrTXUyajZaclHSAXNBVV95cUxNb1NHbUw2eG82clVCNzc3M2Q4NGRndU8zMERGdG1jaEFjd3J2ZUJKMm0wdjgzOUdsSWxCRFoyUkllbmtib25QcDY0emNIR05SMmRLMk1wZEJoVGxMQjBwaWtRNnR0WHFKd1REa011Mmo2WnJR?oc=5",
+      "published": "2026-10-26T16:05:09+09:00",
+      "topic": "문화·생활",
       "group": "충청·지역"
     },
     {
@@ -1465,15 +2536,6 @@
       "published": "2026-10-26T16:03:04+09:00",
       "topic": "기타",
       "group": "기타 매체"
-    },
-    {
-      "id": "bdf20151074dca48d25e",
-      "title": "천안 서북구문화원 신축 준공",
-      "source": "대전일보",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tWnp3THYzRENhc25zRGtSZV9YZXZKZXFPWktsYkx1TWxBVmV4bDFNUWRfNDVRaXpoVDBXc3pNRExseEVkYTJ6NTRSbU5lVjFOeUJHVm1xWVVCS2ZMZDdNNHNBZElCNW94blczcW5Ka9IBc0FVX3lxTE1vU0dtTDZ4bzZyVUI3NzczZDg0ZGd1TzMwREZ0bWNoQWN3cnZlQkoybTB2ODM5R2xJbEJEWjJSSWVua2JvblBwNjR6Y0hHTlIyZEsyTXBkQmhUbExCMHBpa1E2dHRYcUp3VERrTXUyajZaclE?oc=5",
-      "published": "2026-10-26T15:57:54+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
     },
     {
       "id": "97a9fa768eb81c27e55e",
@@ -1539,15 +2601,6 @@
       "group": "충청·지역"
     },
     {
-      "id": "8a30d30752eb17474aaf",
-      "title": "LH 대전충남본부, 천안·아산 등 아파트 134가구 선착순 공급",
-      "source": "대전일보",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VSkk1QTdGbWpaNGkxdFc1Yk4yMXFUeEFhZVJMN09QUzQ5SE41X0hIR3NvUDNvekQwcTBHc0J4NFo3TTRHOURteDdmR0ZQVzlIakdLWXF4c1RfZjEwR2lXTzNvd2FCSFd4Q0lKejJyRdIBc0FVX3lxTE1tbENPdFFabWlLM1VOWS05cHRLM2o4ZEkzbnY2dmNuYXhRUXVlN044bkpaNnlSVUlzU0xnVTVtcFBKTEIzVFk5OEhpOTNTb0lVWjJWcXZkOVF3RHlXdk5WeWlsUi1SQzM5NUdSYjRuMmt0THM?oc=5",
-      "published": "2026-10-26T15:28:00+09:00",
-      "topic": "경제·개발",
-      "group": "충청·지역"
-    },
-    {
       "id": "cfa14c98a03834ba1533",
       "title": "93억 원 투입 천안 서북구문화원 준공…성환에 역사·문화 거점 조성 > 뉴스",
       "source": "천안신문",
@@ -1578,7 +2631,7 @@
       "id": "4d65c7e1beb093f8d8ea",
       "title": "‘천안 20만 청년도시…이한솔 시의원, 취업·주거정책 점검 촉구",
       "source": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1paDFPQmo0bkdlQWRCZGdHSTE2ZUJLaTJMenJXUWJ4VTVkbUJkdEptRllHd0NhaGtxMlZRSFdjV3FidUpkdnNTMktmV0VfVy13d003bTFQRXRuMy0zUWpjd3kzUG5fS29SdnNxVTFZbUEyOHRVVFo2etIBeEFVX3lxTE1paDFPQmo0bkdlQWRCZGdHSTE2ZUJLaTJMenJXUWJ4VTVkbUJkdEptRllHd0NhaGtxMlZRSFdjV3FidUpkdnNTMktmV0VfVy13d003bTFQRXRuMy0zUWpjd3kzUG5fS29SdnNxVTFZbUEyOHRVVFo2eg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tUFNMYTJJRml0R1J2bWVjaXVNQ1FxWkpzNzN3N0NEWWpiSzBkWGc0d3FQaGg1MUdiWFN0WmEwVUQyT2hJWHpoTHJqRnhtQUh2SThsMEdLYnhfT256eVlxa9IBeEFVX3lxTE1paDFPQmo0bkdlQWRCZGdHSTE2ZUJLaTJMenJXUWJ4VTVkbUJkdEptRllHd0NhaGtxMlZRSFdjV3FidUpkdnNTMktmV0VfVy13d003bTFQRXRuMy0zUWpjd3kzUG5fS29SdnNxVTFZbUEyOHRVVFo2eg?oc=5",
       "published": "2026-10-26T15:15:31+09:00",
       "topic": "행정·정치",
       "group": "중앙·통신"
@@ -1777,6 +2830,15 @@
       "title": "천안서 전국 청소년 댄스경연 ‘2026 댄싱Y’ 성료",
       "source": "금강일보",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nSWsySE1JdG1mcTVqaXJjQTlCVkNlSlYzVTlISGhHUTVIWTJKX0RyTHZ2blp2V0tYQVZ3NEhJUHVGb0RRMUZxZWJ5dWJYa3ROdk1mUC1NLWI0T0Y3YkJOdmZHSUVheHpxOVE?oc=5",
+      "published": "2026-10-26T13:17:28+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "611b1bc0bea8548f3e4e",
+      "title": "천안 농특산물, 배달의민족 B마트 입점 확대",
+      "source": "금강일보",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wYmU5NzlyanVxc2NCbjZLUlZBaU9aelAtcWNRcUR3Z2UtbmVKTGxPY0RfUW5MU3dwcmNpbndLR2pFRFFTQ2dJM1g4QWxDY2FuWmVQUUdtOFBEWThXaW5JS19ITTY3ZVFCQ0E?oc=5",
       "published": "2026-10-26T13:17:28+09:00",
       "topic": "기타",
       "group": "충청·지역"
@@ -2163,7 +3225,7 @@
       "id": "95646695084974b31784",
       "title": "천안시립미술관, 오는 11월 장애인 문화예술 세미나 개최",
       "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KQ1owSWE1LUFrWEtoT1JNRmVEQW82T0ZoYzV6NnVEU2RiVzd1eHdmbWQzaW1HTU9QcXpILVhSR3dndXZPQm05ZEJOQ0xkNnp5OVNZNmhhMG11eFM1QldkbzdrTkpLV0dscHEzNWdmazBCVWs?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5NalVFOWRGYndyLUM1Q2ZJMkRHdGs3OHBrWGk1MW9QT0hmLXNEZ0RlTGl5bFctU1lvay04c2hWLWY4U2FDZUUzQ1ZFSk10Zk5HT3Y2RzdKclBoUlk4ZzZZMWtWZjJ5ZkotdGVDVXctaEowUQ?oc=5",
       "published": "2026-10-26T10:13:34+09:00",
       "topic": "문화·생활",
       "group": "충청·지역"
@@ -2172,7 +3234,7 @@
       "id": "d5152525e953f6edc4c3",
       "title": "천안직산도서관, 오는 11월 ‘도서관 속 문화정원’ 운영",
       "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wUnB6b1hVRl84VTFQaC1lajQ2c1pLWS1YSkpzU3RCNU01M2VWYU5oTzJKMFl3WElvY2xMVTdFbDBfeTFOc21pazk4OWhieXBCSXFGajVyaG5YSGVsZ0stN0dIUGJGZllGRkxONFAtU1JTdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mSG95QWNCdDNmRWtZU21FS1lkQVRJS0JvWFFQeHNONVA0Q0V5LXBmQXpHby03bVRGVW9GaF9rNTdUYUMzcXBOcEY5OVNMOHdVNF9HVTJBTi1fUVRsSGROMGpWMGJhM2RpbVU1ZzRfZXl6d3c?oc=5",
       "published": "2026-10-26T10:01:03+09:00",
       "topic": "문화·생활",
       "group": "충청·지역"
@@ -2236,6 +3298,15 @@
       "title": "정해선씨(천안시 예산법무과장) 모친 별세",
       "source": "충청일보",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rb1VrdlZYZVRwdXJZUWZfaHptWU5BRE8xR0ZhTG1lTm5OZk5rbkdzRnQzWmY0RWxSejhld1ZTcFV2eGg3UEJ5dExrVDVaa24wd3VScmp4WFVzdjg2Z29faHd2amlMdjROMGwwR3hwOA?oc=5",
+      "published": "2026-10-26T09:50:53+09:00",
+      "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
+      "id": "cbd6a145914dac5bb47e",
+      "title": "[부음] 정해선씨(천안시 예산법무과장) 모친.현미환씨(천안시 여성친화정책팀장) 시모 별세",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmVUxqUkZ6eXVKdExTckFRcUNiY1M4OUNyVUlDQ1A3ZDl0cFUtZkZPWmR1LXBxYmtha3d6VDJGOGxzcmNSUjVJLWdTbTRCZGF5RzhNQVk2WWM1Sk03ZXllN3dYaDdmZGFCdmxfR2lWaV8?oc=5",
       "published": "2026-10-26T09:50:53+09:00",
       "topic": "행정·정치",
       "group": "충청·지역"
@@ -2370,7 +3441,7 @@
       "id": "d6c38d7c0e70546d9336",
       "title": "[부동산 특집] 천안 두정·불당 생활권… 1호선 도보 이용 가능",
       "source": "세계일보",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEMmJkYklsTHFEbWhLQ2ZybFhsczEtR1FGSUdwdkxPR3gtT3M5QWo5Q3F1Tm9xaVpHcWQ0bWg3d0JwamdmQ1VyTElMeDNTSDV6OFBzdGRMOTZnSzBxZ3FLdTlPeHJnTVFiRHdr0gFUQVVfeXFMTzRkMHlxRHpoTXpGQllVY0JGRUlPa0xRZG92b0RlX0F2dEw5LWtPQTZ5SXJkM3FLUUcwdEp3dXhqeHdDWXMxSVNpM3BRdmJvRDByTHQz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80ZDB5cUR6aE16RkJZVWNCRkVJT2tMUWRvdm9EZV9BdnRMOS1rT0E2eUlyZDNxS1FHMHRKd3V4anh3Q1lzMUlTaTNwUXZib0Qwckx0M9IBVEFVX3lxTE80ZDB5cUR6aE16RkJZVWNCRkVJT2tMUWRvdm9EZV9BdnRMOS1rT0E2eUlyZDNxS1FHMHRKd3V4anh3Q1lzMUlTaTNwUXZib0Qwckx0Mw?oc=5",
       "published": "2026-10-25T19:13:28+09:00",
       "topic": "기타",
       "group": "중앙·통신"
@@ -2379,7 +3450,7 @@
       "id": "73b2ff17dfe73ae99288",
       "title": "첫 '2연승' 천안시티 박진섭 \"승리했지만 경기력에선 질책 받아야\"",
       "source": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBXcGJibDY4dkxWRk5NdXJhbkNIOWV5M0VEVFBxU0Q4V3N3Tm1GdjVkR0E4ZWVsemVwOEphVXdPUWQxYWw1QmJ0TXpKNUVwcVhnekwtSlo1aWNiN3pacGhNRzJ2bGFVR3lUcmk1bEM2R3E3VUI3OTEySNIBeEFVX3lxTFBXcGJibDY4dkxWRk5NdXJhbkNIOWV5M0VEVFBxU0Q4V3N3Tm1GdjVkR0E4ZWVsemVwOEphVXdPUWQxYWw1QmJ0TXpKNUVwcVhnekwtSlo1aWNiN3pacGhNRzJ2bGFVR3lUcmk1bEM2R3E3VUI3OTEySA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtTWN1MDlQbUI1T0ZtNTczUWhYZnA5aDNMZC1nQ3NqWXIwMEphaFpUazVSSGhOSU91U05vZ3JWVk9SbGstMFR6cldQbG1FR201STdqSzJ5SGtiLUhyM1F4bNIBeEFVX3lxTFBXcGJibDY4dkxWRk5NdXJhbkNIOWV5M0VEVFBxU0Q4V3N3Tm1GdjVkR0E4ZWVsemVwOEphVXdPUWQxYWw1QmJ0TXpKNUVwcVhnekwtSlo1aWNiN3pacGhNRzJ2bGFVR3lUcmk1bEM2R3E3VUI3OTEySA?oc=5",
       "published": "2026-10-25T19:04:37+09:00",
       "topic": "문화·생활",
       "group": "중앙·통신"
@@ -2394,19 +3465,19 @@
       "group": "중앙·통신"
     },
     {
+      "id": "002b83ee03ebd6d0b820",
+      "title": "천안서 ‘충남 일자리 박람회’…73개 기업 860명 채용",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55YTgtc0tQMkIweEEtaEQ4NW9FV2tXRTFOWndRUno0ZkZ6Rzh3OXREYUsxQS1CY2ZvdG04ZkxJUlE4M0RCdEt4NVVpaHl2VGRIa0FqcTFJWnM5RkRkSmJKNXZNLXM3bGRIRGc4M0h3TEx5UHc?oc=5",
+      "published": "2026-10-25T16:00:00+09:00",
+      "topic": "경제·개발",
+      "group": "충청·지역"
+    },
+    {
       "id": "a109a210c6167982b600",
       "title": "천안시, ‘천안사랑카드’ 연 매출 30억 초과 가맹점 결제 제한 추진",
       "source": "충남일보",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yYldDR2hpdkp5NnhLX3FJTGxINmxlT2xrbW5rLXA1czBlNmYtQUlyU3lhR3RpMW9wcHVBUnhIbUlqZ0ZIMktsc1RUSkhmYVh4X2dpcGZaZ1d0UG9GZ0FPY2FJVmRFck4tRWlGdjlsMmlkSHc?oc=5",
-      "published": "2026-10-25T16:00:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "4b4b98e499b6d015af68",
-      "title": "천안시 동남구보건소, 내달 ‘바른자세 요가교실’ 운영",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xRXc5SmFMV2lZdFZOUmhPc3N5TUtPZlo3SDVwX1UxbWUwY0hoM2E3cDcwc1VmY1NrVmFlZnRaNnlTOE9GekRWTVBrbXBZMXFfOVVveHV1OHBTd19ad0V1V19ZbVM4NjByQnFuejBUOUlJX0U?oc=5",
       "published": "2026-10-25T16:00:00+09:00",
       "topic": "기타",
       "group": "충청·지역"
@@ -2427,24 +3498,6 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQS2Vxa1VTWUExRldlejMxajNyUjRtTm9qUGExY3VRcVF3YU42OGtvemd6MXhtdFhfN292ek1yaDRibVM4MVc0MmtoaXJhbHNUcUJYYXl3c0g5NWFTRTlxQXIyZEpDMGdpWDZIcDJmNENxMTA?oc=5",
       "published": "2026-10-25T16:00:00+09:00",
       "topic": "교육·복지",
-      "group": "충청·지역"
-    },
-    {
-      "id": "0e24d7dc314a4683b085",
-      "title": "천안시청소년복합커뮤니티센터, 중국 장쑤성 청소년 여자축구 대표단 환영식 개최",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xOEZyNVUwSVRBOWZVdDBkQUl0UUNnU21PdTZONXlzVkg4amx5OVUxMVVzdWVqQWo2OUN3Tlg4RHpicDcydVBjNnkwR0hwS2JlRzVOaDFYRWp1bzBFbVItRkdFUDc2X2RDaFFVMGxITUdIaFE?oc=5",
-      "published": "2026-10-25T16:00:00+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
-    },
-    {
-      "id": "c139b952e1f99b4630e1",
-      "title": "고락희 천안시의원, “산업단지 화재 예방·재난 대응체계 강화해야”",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5id1pBVG1FN3Z2azV1S0VSbzYtS3NETHl5UmJvbldJRFRfc2R5Ri1Yd1pkR05vYzBrT2hoTUlEWjl3TU00WGd4bWszTmcxSC1NUU1ucGRSeEhEaERmUkFUNF82NHVjZlFoS3hvUS0yN3pmVm8?oc=5",
-      "published": "2026-10-25T16:00:00+09:00",
-      "topic": "사건·안전",
       "group": "충청·지역"
     },
     {
@@ -2793,7 +3846,7 @@
       "id": "887bb82775f86bb7bbdd",
       "title": "\"한국 축구 혁신은 협회부터\" 천안서 축구정책포럼",
       "source": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1USEx3Y054NkVZZlFRYldGaFVxSlNkTjk3anZob1c4WE1KdlFrbXVnenlQeFdyeFpLU2NoUGVlTktjbzAtdXJra21WTE1sRWJlZkN5M1hCY1pQdWxYSzBXU0xwYmI3V09uUHo0cTNQbjM4djNTY0lMOdIBeEFVX3lxTE1USEx3Y054NkVZZlFRYldGaFVxSlNkTjk3anZob1c4WE1KdlFrbXVnenlQeFdyeFpLU2NoUGVlTktjbzAtdXJra21WTE1sRWJlZkN5M1hCY1pQdWxYSzBXU0xwYmI3V09uUHo0cTNQbjM4djNTY0lMOQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14VzJLNkE4TnNVbk5hSWl1a3Eza0VTeUdqR3JrYWlIa2FLZWJRYTZCY3MtaHRNUFdEX2FONVAwVTVZNXdOMkJ0MmczY3ZyQ29nZVdVbWJ6S1FTYmZLWFFsStIBeEFVX3lxTE1USEx3Y054NkVZZlFRYldGaFVxSlNkTjk3anZob1c4WE1KdlFrbXVnenlQeFdyeFpLU2NoUGVlTktjbzAtdXJra21WTE1sRWJlZkN5M1hCY1pQdWxYSzBXU0xwYmI3V09uUHo0cTNQbjM4djNTY0lMOQ?oc=5",
       "published": "2026-10-24T16:17:01+09:00",
       "topic": "행정·정치",
       "group": "중앙·통신"
@@ -2820,7 +3873,7 @@
       "id": "b10b24f6f52167e50bbf",
       "title": "천안시민한마음체육대회, 31개 읍면동 참여…\"화합·결속\"",
       "source": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81aWJYQzZ6ZmhDdUt3SGk3azhESnhuX3pSMmZDalFsejBKeFhkNVRpc0JGNGE4aDJjTnpjR1ZOUk9EZlpfSWZLZWFpRE1lZnlRZi04US1mdXMxTUJBUFJuYjJoWXU1RU00TW1hWlVZVWFEYl9nZWRTRtIBeEFVX3lxTE81aWJYQzZ6ZmhDdUt3SGk3azhESnhuX3pSMmZDalFsejBKeFhkNVRpc0JGNGE4aDJjTnpjR1ZOUk9EZlpfSWZLZWFpRE1lZnlRZi04US1mdXMxTUJBUFJuYjJoWXU1RU00TW1hWlVZVWFEYl9nZWRTRg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EcldjazRfQVg5b1RjSjVmeTl4ZEFwbWl5Um9YNlBoWkVDRkJic2RWT2ZCcTl0ZHQ1bjFKQUR2UmdJcW9PMUZ2S1BQT3V3NE51Z1U5elZNX1ZEM1E1anQzWdIBeEFVX3lxTE81aWJYQzZ6ZmhDdUt3SGk3azhESnhuX3pSMmZDalFsejBKeFhkNVRpc0JGNGE4aDJjTnpjR1ZOUk9EZlpfSWZLZWFpRE1lZnlRZi04US1mdXMxTUJBUFJuYjJoWXU1RU00TW1hWlVZVWFEYl9nZWRTRg?oc=5",
       "published": "2026-10-24T14:02:20+09:00",
       "topic": "문화·생활",
       "group": "중앙·통신"
@@ -3096,15 +4149,6 @@
       "group": "기타 매체"
     },
     {
-      "id": "55934879673c5f509af4",
-      "title": "대전대 천안한방병원, 개원 35주년 기념식 개최",
-      "source": "충청신문",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OU3pBcG9kSE9JVVU5cVhkZTBHcVNTaTcyRWFIRmRzNFRQNUZTbllVUUs5ZlZpeDVjUDNYcXFyNzMtTzFJU0xzRUx5dGZhS1hWUFZOWXpYdW5MUF8wOC1lWTJHeHk3eW1wQXZReEln0gFuQVVfeXFMTU5TekFwb2RIT0lVVTlxWGRlMEdxU1NpNzJFYUhGZHM0VFA1RlNuWVVRSzlmVml4NWNQM1hxcXI3My1PMUlTTHNFTHl0ZmFLWFZQVk5Zelh1bkxQXzA4LWVZMkd4eTd5bXBBdlF4SWc?oc=5",
-      "published": "2026-10-23T16:26:34+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
       "id": "3c6c4b7b0f67fbd15511",
       "title": "‘제3회 전국 평생학습도시 페스티벌’ 천안서 개막",
       "source": "디트NEWS24",
@@ -3121,6 +4165,15 @@
       "published": "2026-10-23T16:08:35+09:00",
       "topic": "기타",
       "group": "기타 매체"
+    },
+    {
+      "id": "55934879673c5f509af4",
+      "title": "대전대 천안한방병원, 개원 35주년 기념식 개최",
+      "source": "충청신문",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UY003eE02b3RIeHFweE8xMWtvU3lPN1BPRURBR2dJVU9xQk50cl9aQ0g2ZkVYTlVkU0VtT1IzT2o3Ulk3UzNVbHppcG04Um8yX0l1SmV1N2FXemRLS1l3cWxSeEs1RVlwX3fSAW5BVV95cUxNTlN6QXBvZEhPSVVVOXFYZGUwR3FTU2k3MkVhSEZkczRUUDVGU25ZVVFLOWZWaXg1Y1AzWHFxcjczLU8xSVNMc0VMeXRmYUtYVlBWTll6WHVuTFBfMDgtZVkyR3h5N3ltcEF2UXhJZw?oc=5",
+      "published": "2026-10-23T16:00:48+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
     },
     {
       "id": "1e7d739b1c6235b6dddf",
@@ -3186,6 +4239,15 @@
       "group": "충청·지역"
     },
     {
+      "id": "47c172f6ae3d64d70155",
+      "title": "천안시 재난·안전 및 격무·기피 업무 공무원 인사 우대 강화 예고",
+      "source": "충청일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwU1AxNFZIRVpEOF9rd1NXcU9iY3VlbHVVbFhoSnhfbnVWOGdQZktlWGw2SmV6UjREaHl0b1VqV3Y2bzIxQ1ZPaG1ZUWRNSWJQbjQwRXZXbDY4RXd3Q0l4bWYxbC1uLUk1a2pubGd6XzQ?oc=5",
+      "published": "2026-10-23T16:00:00+09:00",
+      "topic": "사건·안전",
+      "group": "충청·지역"
+    },
+    {
       "id": "8460bcf064db9db2b4bc",
       "title": "천안서 전국 평생학습도시 페스티벌 개막… 배움의 미래 모색",
       "source": "전국매일신문",
@@ -3213,6 +4275,15 @@
       "group": "충청·지역"
     },
     {
+      "id": "eb4082cf406b453f84b4",
+      "title": "‘제3회 충남 월남전참전 전우회 활성화 행사’ 천안서 개최",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tOXR2T3FteVFKOXlHTDJjS0dkUVhlaVh1NHNQb0ZzOTloWUJxcUx0Y1oyTVNDQXY4R3FXLXUxUWlsN3RNaFlOVzZPY01IUTM4ZVlSYS1hTVZvZHp4ZFhRZzVmNkE5OTh0SnduRUtWdkdUV1U?oc=5",
+      "published": "2026-10-23T14:56:49+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
       "id": "0972e9093951a195d4cd",
       "title": "충남 월남전 참전유공자 1200명 천안 집결…헌신 기리고 화합 다져",
       "source": "프라임경제",
@@ -3234,7 +4305,7 @@
       "id": "3e709134ae9f2d7c7ad3",
       "title": "천안시-전국평생학습도시협의회, `제3회` 전국 평생학습도시 페스티벌` 개최",
       "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qM0ZuWURneTlqbTFzS2h5eTByQlBEMFlOTkZ0S01CSU5sZ2pHZVZhSGhLZFpSczhzR1dKZGYxZ2kwOTRGQ0N1Q3JhazZUT1dBeVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA1TmU2dDNfdXlwaFFEcGh0bk1fZFRjMWFaYm44R19WX0hrSFUyNS1CcFhMdkQwUDkyNHZZZzJzZjdVVjh4T0E?oc=5",
       "published": "2026-10-23T14:46:00+09:00",
       "topic": "기타",
       "group": "충청·지역"
@@ -3246,6 +4317,42 @@
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1SNHNCU1ZEZGRNRjRhUWZsdDliNTVoZjdfMkR4NWRaRERIeFR1ak1FRTIyT1AxYzJfOXVjSGpaNTZiWDg?oc=5",
       "published": "2026-10-23T14:32:20+09:00",
       "topic": "행정·정치",
+      "group": "충청·지역"
+    },
+    {
+      "id": "5fa9b86011999b07959d",
+      "title": "천안시티FC, 천안패밀리 ‘마초스테이크 천안아산점’ 통합축구 선수단 위한 특별한 식사 지원",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BSGt3VFNlM0xfTU5iZEJoekpMNWoxZU51VV9lc2JrNE85V2wwaTN5U2JybzlmVFh5dHBWSTJMQzEyVWFoYkNMSElTUFB5Y24xTGlyamV1SWVsOEZKcnQ3XzI5R181NlcxaVVOQnFsVUhQNEE?oc=5",
+      "published": "2026-10-23T13:34:44+09:00",
+      "topic": "문화·생활",
+      "group": "충청·지역"
+    },
+    {
+      "id": "a9e8f58bba2a0da35ed2",
+      "title": "천안동남소방서, 하반기 신규 의용소방대원 임명 및 직무역량 교육 실시",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBweWQ4OHZ5aHpaZzdzbDdZcE4yNmJWN1ZRRWNpeWhaRkNQSFphdTVNUlVTbUlRMFpvc0pla3o2M095aS1fQWpFeGVxRFhPekNPcm4yMjRZU3R2RWpjMVVjdGMtMk1XTlROR2J1QURscndzMW8?oc=5",
+      "published": "2026-10-23T13:31:21+09:00",
+      "topic": "사건·안전",
+      "group": "충청·지역"
+    },
+    {
+      "id": "92d9e5c35b71ece7d383",
+      "title": "순천향대천안병원 장성웅·이형남, 국제학술대회서 최우수 포스터 발표상 수상",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mY3VDR2R0VXdCUUQ4Z0FoMnd2UHZmUzJ1QTZCb1E4WHlzcUtGYzVnUGZVQmx0QUxfQTR4NnBWQmdXOVJnRTlIcE9hUHk4TG9SNTlKMGhIY1VaMFlXbFZRZWJmZi1qZkJpa0RVdndaU0FrSG8?oc=5",
+      "published": "2026-10-23T13:28:11+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
+      "id": "af07a53184fc36b46045",
+      "title": "천안시, 건강한 숲 조성 순환고리 ‘벌채-조림-숲가꾸기’",
+      "source": "충남일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEMjBrMUFZbld5dmRfZkZmbWFYYndPN1l0Z2gxQTNhLXJWQVN4YlBWbmk5eW1wQ2w5ajNFREtEYUpPTUFFNFVvR2NwVzdPUkNGY19MSmVGdEhvQUNvODB5MjVmbHl1SURWUFVNUjhWaVVfdUE?oc=5",
+      "published": "2026-10-23T13:24:26+09:00",
+      "topic": "기타",
       "group": "충청·지역"
     },
     {
@@ -3510,15 +4617,6 @@
       "group": "충청·지역"
     },
     {
-      "id": "37cc897eecd262ccffd9",
-      "title": "천안청화공사, 천안시 일봉동 이웃사랑 성금 300만원 기탁",
-      "source": "충청신문",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Ld25vZUdnNTB2NWhWS3l2UDloemRILXA5QVFnbE9YUEg2UHQwQWpvYmJaemNvMmJISnNmNzFkLXV4Zzc5SlhZdTJ3Mkp0bWtTZVJQMlR3cW1fUHk4OVluOVlfQVk5MzNMUFNfUTZn0gFuQVVfeXFMT0t3bm9lR2c1MHY1aFZLeXZQOWh6ZEgtcDlBUWdsT1hQSDZQdDBBam9iYlp6Y28yYkhKc2Y3MWQtdXhnNzlKWFl1MncySnRta1NlUlAyVHdxbV9QeTg5WW45WV9BWTkzM0xQU19RNmc?oc=5",
-      "published": "2026-10-22T19:17:31+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
       "id": "a16e3db20082967243eb",
       "title": "천안 명품 특산물 ‘하늘그린 멜론’ 본격 출하 > 뉴스",
       "source": "천안신문",
@@ -3564,6 +4662,15 @@
       "group": "충청·지역"
     },
     {
+      "id": "37cc897eecd262ccffd9",
+      "title": "천안청화공사, 천안시 일봉동 이웃사랑 성금 300만원 기탁",
+      "source": "충청신문",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13MHhhN3NiTllJQmlxV2VGWFhtVmdMNlNSNlZsZzV2c2IwWHcyUkRMa3lkTUxnYzlPemxjdlhsZU9QMHh5cXFfNll6SGhaWVBKS01mVEhLZkozdU9hQkVib1lqNTVyOG9WU0HSAW5BVV95cUxPS3dub2VHZzUwdjVoVkt5dlA5aHpkSC1wOUFRZ2xPWFBINlB0MEFqb2JiWnpjbzJiSEpzZjcxZC11eGc3OUpYWXUydzJKdG1rU2VSUDJUd3FtX1B5ODlZbjlZX0FZOTMzTFBTX1E2Zw?oc=5",
+      "published": "2026-10-22T18:12:01+09:00",
+      "topic": "기타",
+      "group": "충청·지역"
+    },
+    {
       "id": "3cd597b6f79910375077",
       "title": "양명환 의원 \"신계룡-신천안 송전선로 전면 재검토해야\"",
       "source": "대전일보",
@@ -3576,7 +4683,7 @@
       "id": "40234b27739b74661d7e",
       "title": "유성구의회, 신계룡-신천안 송전선로 재검토 결의안 채택",
       "source": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HOTVqSjFSLU5sSVl6Wlp1ZkhvNmJXYy1zVWxnMHlhejNQOU9kRUpmYTZkdHo4WW1PSHk3am5yTDIzVnU1S3l3azQ3dVZTRW9rRW9uN3VKa29xVno4Y0pIWEdxZ25YLXgzRnNuWHh6bXo3a01NSmk3LdIBeEFVX3lxTE5HOTVqSjFSLU5sSVl6Wlp1ZkhvNmJXYy1zVWxnMHlhejNQOU9kRUpmYTZkdHo4WW1PSHk3am5yTDIzVnU1S3l3azQ3dVZTRW9rRW9uN3VKa29xVno4Y0pIWEdxZ25YLXgzRnNuWHh6bXo3a01NSmk3LQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoVFFmLTVoMVpoQ2Z2MUlZbzNHRWxkOWNBbnhfTlFVNmRrVmg4R3h6OHkwTEFpc2UzbVJlMGVSek40Tk5NS3oxaE9CaHZSekF1Q19qcnFVNTdqakI4Z0xDONIBeEFVX3lxTE5HOTVqSjFSLU5sSVl6Wlp1ZkhvNmJXYy1zVWxnMHlhejNQOU9kRUpmYTZkdHo4WW1PSHk3am5yTDIzVnU1S3l3azQ3dVZTRW9rRW9uN3VKa29xVno4Y0pIWEdxZ25YLXgzRnNuWHh6bXo3a01NSmk3LQ?oc=5",
       "published": "2026-10-22T17:25:49+09:00",
       "topic": "기타",
       "group": "중앙·통신"
@@ -4020,15 +5127,6 @@
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFB2Q0xZVzJfQXFDeTNSQ3VNOVY4SHc5ajg5WEFLeUtrejVXc3Y3b0lIVG9vTDlJOFpBeU5TRlR1QWFpUGs?oc=5",
       "published": "2026-10-22T11:14:48+09:00",
       "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "47c172f6ae3d64d70155",
-      "title": "천안시 재난·안전 및 격무·기피 업무 공무원 인사 우대 강화 예고",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwU1AxNFZIRVpEOF9rd1NXcU9iY3VlbHVVbFhoSnhfbnVWOGdQZktlWGw2SmV6UjREaHl0b1VqV3Y2bzIxQ1ZPaG1ZUWRNSWJQbjQwRXZXbDY4RXd3Q0l4bWYxbC1uLUk1a2pubGd6XzQ?oc=5",
-      "published": "2026-10-22T11:12:44+09:00",
-      "topic": "사건·안전",
       "group": "충청·지역"
     },
     {
@@ -4653,15 +5751,6 @@
       "group": "충청·지역"
     },
     {
-      "id": "af07a53184fc36b46045",
-      "title": "천안시, 건강한 숲 조성 순환고리 ‘벌채-조림-숲가꾸기’",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEMjBrMUFZbld5dmRfZkZmbWFYYndPN1l0Z2gxQTNhLXJWQVN4YlBWbmk5eW1wQ2w5ajNFREtEYUpPTUFFNFVvR2NwVzdPUkNGY19MSmVGdEhvQUNvODB5MjVmbHl1SURWUFVNUjhWaVVfdUE?oc=5",
-      "published": "2026-10-21T16:00:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
       "id": "7dc6c9cf77bace88906a",
       "title": "천안시, 충남장애인체전 홍보·물가안정 민관 합동 캠페인",
       "source": "충남일보",
@@ -4689,15 +5778,6 @@
       "group": "충청·지역"
     },
     {
-      "id": "eb4082cf406b453f84b4",
-      "title": "‘제3회 충남 월남전참전 전우회 활성화 행사’ 천안서 개최",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tOXR2T3FteVFKOXlHTDJjS0dkUVhlaVh1NHNQb0ZzOTloWUJxcUx0Y1oyTVNDQXY4R3FXLXUxUWlsN3RNaFlOVzZPY01IUTM4ZVlSYS1hTVZvZHp4ZFhRZzVmNkE5OTh0SnduRUtWdkdUV1U?oc=5",
-      "published": "2026-10-21T16:00:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
       "id": "7c49172ebe0d737ee1e8",
       "title": "천안예술의전당, 장애예술인과 함께하는 ‘아르크 음악축제’ 개최",
       "source": "충남일보",
@@ -4707,37 +5787,10 @@
       "group": "충청·지역"
     },
     {
-      "id": "a9e8f58bba2a0da35ed2",
-      "title": "천안동남소방서, 하반기 신규 의용소방대원 임명 및 직무역량 교육 실시",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBweWQ4OHZ5aHpaZzdzbDdZcE4yNmJWN1ZRRWNpeWhaRkNQSFphdTVNUlVTbUlRMFpvc0pla3o2M095aS1fQWpFeGVxRFhPekNPcm4yMjRZU3R2RWpjMVVjdGMtMk1XTlROR2J1QURscndzMW8?oc=5",
-      "published": "2026-10-21T16:00:00+09:00",
-      "topic": "사건·안전",
-      "group": "충청·지역"
-    },
-    {
       "id": "3abace9984a8b3aa54be",
       "title": "천안시 동남구, 게임제공업소 합동점검 추진…불법사행 근절",
       "source": "충남일보",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sZXAzX2pUajh5bFk1Nzk3MDhmNF9SdklpbjhOTXc3VWczMEdDT1ZwbDFPcUlYSEt3MV9LTDFxRkhLSGhhVFhJcTFobXJjakk3MzV0SndNQ2JsUVpsWjNIT0thWUl3MkNJRUgtc2p2U2tFcEU?oc=5",
-      "published": "2026-10-21T16:00:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "5fa9b86011999b07959d",
-      "title": "천안시티FC, 천안패밀리 ‘마초스테이크 천안아산점’ 통합축구 선수단 위한 특별한 식사 지원",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BSGt3VFNlM0xfTU5iZEJoekpMNWoxZU51VV9lc2JrNE85V2wwaTN5U2JybzlmVFh5dHBWSTJMQzEyVWFoYkNMSElTUFB5Y24xTGlyamV1SWVsOEZKcnQ3XzI5R181NlcxaVVOQnFsVUhQNEE?oc=5",
-      "published": "2026-10-21T16:00:00+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
-    },
-    {
-      "id": "92d9e5c35b71ece7d383",
-      "title": "순천향대천안병원 장성웅·이형남, 국제학술대회서 최우수 포스터 발표상 수상",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mY3VDR2R0VXdCUUQ4Z0FoMnd2UHZmUzJ1QTZCb1E4WHlzcUtGYzVnUGZVQmx0QUxfQTR4NnBWQmdXOVJnRTlIcE9hUHk4TG9SNTlKMGhIY1VaMFlXbFZRZWJmZi1qZkJpa0RVdndaU0FrSG8?oc=5",
       "published": "2026-10-21T16:00:00+09:00",
       "topic": "기타",
       "group": "충청·지역"
@@ -22966,1176 +24019,6 @@
       "published": "2026-09-29T10:05:00+09:00",
       "topic": "기타",
       "group": "중앙·통신"
-    },
-    {
-      "id": "388337778b3fec8be619",
-      "title": "천안시 제32회 충남장애인체육대회 공식 누리집 개설",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RWkhBYjlEb0pac1JFaENWZFpiSTZ5aTFkNmg1ajZiU1h1OThMczhUdzBJYVFPeGd5WjJNVHI3alptVnk3M1ZNUmRBN0V2ZS0zWjN5NlJFckEyME1mcHFQVGUzQTc0REg3blhseXRrbzk?oc=5",
-      "published": "2026-09-29T09:58:03+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
-    },
-    {
-      "id": "a0efc0c21353c84c17a8",
-      "title": "천안시, K-컬처박람회, 관람객 40만명 돌파",
-      "source": "충청뉴스",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fQ09GV2FMaE5BRzhHVUJUQVMyeW5nRHA5eVlMd1NiWG9JazgwanVoLWJhaWpRb1RPLWhGazFrT2gtWFFEeF9oNDNMZUl5NEgwYnVmZ0laUHpwR2VJNURldlBlb1JGZG5fRFNwZg?oc=5",
-      "published": "2026-09-29T09:50:34+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "8d9e5d69b4664f9ac7cc",
-      "title": "천안시, 유관순 열사 순국 제106주기 추모제 봉행",
-      "source": "충청뉴스",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOQXUzS3VRZzNING1RSWlUMEN4NEtXMGYzRWE2bzcyVkFKUkd0ZXZxbEZybk0tTVlDUzlBOV9EZkRpYS1VaFZGQ0pzcHlTX2s3TmRQX2MwTkpLcm56WHVSTktLck83WGVMM3ctRg?oc=5",
-      "published": "2026-09-29T09:50:34+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "c9eb1fa40abecf5898d6",
-      "title": "천안시 2026 C-STAR Awards 개막",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13SUhxTk1OR21uQVJyeWxZZVlaS2lwU0VKTWZMc1o0dV8yN051ZTdWdFphcHBIbU55NklETjBLYzVjSGp1dnNHd2FNenkwQV9BbWZNRTFrb3dPem5rNjRUQ1YtUGRxWU1ZSk5WNTR6cS0?oc=5",
-      "published": "2026-09-29T09:49:27+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "349676076e80c4731dc7",
-      "title": "책이 무대가 되고 공원이 도서관 된다… 천안 북페스티벌",
-      "source": "뉴스홈(newshome)",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Xb29YU1lkS0I3c0Y4Qk5GTGZQTFhEcnFfMXBwSHFaWGpvVnJlWFhIQlUwNktOZ25qYklRT1U3TVNlNjktcHh6SkNheWRsTkFUREYxMzMtTjBlREx3Q2UwQzdjUjg5WGFDM0NPTHhR?oc=5",
-      "published": "2026-09-29T09:49:09+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "2ed074488f9f6563fd02",
-      "title": "천안시, 10월에는 책과 함께…“북페스티벌 놀러오세요”",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14aTIxeTJjdkNkOVVDNFVBX3R6aUdhbEtzeFVvSFctSUI0cUJ2OXVfMTZINmJFV2M5N0Y4QVVGTkpaUE1CU21QZll2Q3g3N0lnNktfU0owbU5LOXJmS2tIb3M3VkFWQkJpZ0F2UzlERW90VDQ?oc=5",
-      "published": "2026-09-29T09:48:16+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "f42b8fe183eda72e5389",
-      "title": "천안 흑성산 시민연대 10월 3일 출범 \"역사·문화자원 연계해 천안 미래 만들 것\"",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NVmhJUFFlQk5saUVCSkZkRzEza3dZTUF5bmQ1Qlo5ZE9ZeFV0QjhOSTFWcFE5aF9mNkowcmpGUF9CZFN2a0llV2F5Tm9ocGM1QTNrNEpVcEhZSDJjZHN3WUx1OGdBWEd6bjNQcFFKSFI?oc=5",
-      "published": "2026-09-29T09:43:00+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
-    },
-    {
-      "id": "3a33ce86b6577644b6ba",
-      "title": "스타트업·투자자 한자리에…'2026 천안 C-스타 어워즈' 개막",
-      "source": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wekR3TWUtZDBWamFrU0lwSkUyZ1BaR2M0eEMtSm5iV1VhdzNaNkN5ZGh6ZXFQQndIdHgxT1ZRSWtnRU1LbHNMdFhBQ2p3aTR2OUtjM1E2QzRJOW_SAWBBVV95cUxPY3ZkNnA3X2s5bk02cHB3MVA0VW5lVzJtMHhQUktkNlJLdEJFNEEtcmhIcVJ4c2h0VG9sSms0am9BOHRibnh0UTg5Mk1LVmdMYjRIc1E1eFdrbmJaaHhjZUo?oc=5",
-      "published": "2026-09-29T09:36:24+09:00",
-      "topic": "경제·개발",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "5f0b99284e9d7526cb69",
-      "title": "천안사랑카드 캐시백, 10~12월 3달간 월 50만원…10만원↑",
-      "source": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTYUxhMEhlYWhLVUFUcnNjdXV3MGtPcE1PVGZYYW00RU1LdThpckJvWnkzcEhVU2hQTllLRERfQXgzeVhTNXYtdnRPemdvdGxsbDVDZnNhSTlKclcwbExHNEtzM3NuMjdRUEJmQWFsUUg1RkxlZlBmcNIBeEFVX3lxTFBTYUxhMEhlYWhLVUFUcnNjdXV3MGtPcE1PVGZYYW00RU1LdThpckJvWnkzcEhVU2hQTllLRERfQXgzeVhTNXYtdnRPemdvdGxsbDVDZnNhSTlKclcwbExHNEtzM3NuMjdRUEJmQWFsUUg1RkxlZlBmcA?oc=5",
-      "published": "2026-09-29T09:36:14+09:00",
-      "topic": "기타",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "f7575fd2252544b22e5b",
-      "title": "축제 50건에 32억 썼는데 상권 효과는 ‘깜깜’…천안시의원, 대학축제 연계 제안",
-      "source": "다음 뉴스 (매체 미확인)",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5MUXQtNzN0NWpwOTJablV2dkxWQ0dQYTcweXpxWTdLQVhjellxVDAzaEZVMENESEktdU9NckpQTWZWZmZHWmc?oc=5",
-      "published": "2026-09-29T09:32:00+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "d5bf7b85c201f4b7656a",
-      "title": "천안사랑카드 10∼12월 캐시백 한도 50만원으로 상향…10% 혜택",
-      "source": "다음 뉴스 (매체 미확인)",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5URDN5alVjVjFSSDFwdEwyZW9JbU5DT2pGMV82NlFtcUpPVHB3VG1ObkwwYUVnSHo1TG5xem80a0pXaDRvdThjTFNDQQ?oc=5",
-      "published": "2026-09-29T09:30:00+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "b2302e4e408970852a04",
-      "title": "천안사랑카드 혜택 커진다… 10∼12월 월 50만원까지 10% 캐시백",
-      "source": "세계일보",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWb0x0dFQyZUhpc194OHY1eHlTbzhqdHpBUmpQSzItWS0wc0oxOTN1OWpEVklmeWphS280ZFhkSlFOX2dmQy1PZUpnaXlja0VERzl3a1RfclXSAVRBVV95cUxQTWF4dUxxQlJJd3lFVWdESVBOT3U2bTF4NnBsbVcySjcxd1R5NVlSZU5qRjBTZHhPYlNmbE1qcWFZTkY1cnoxT29LVWY3UW5PYncteW4?oc=5",
-      "published": "2026-09-29T09:29:54+09:00",
-      "topic": "기타",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "5bf1166c2ffb5f3a5172",
-      "title": "천안사랑카드 10∼12월 캐시백 한도 50만원으로 상향…10% 혜택",
-      "source": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95YUVhNFdvdWtONmFiVWlCQXpJb3owV2p4azd2Z255Y0Z1RG90Y3dHMXpINk9xdHVzYkpyeVIxcHJab0s0bVlJNU5QT0p3aGpsdlE4LVNTSmROVDDSAWBBVV95cUxNeGR0bllMMHFhZ25hcU1rWXh1eTcwbS1HSHdlUGF5OURVSDdzUXY4TU1JRTZBbi05bW9VVGtBLUUxSUR5c2tqejMtR20tb09rdjJvZ0NNQlZBWXptSGlhTHo?oc=5",
-      "published": "2026-09-29T09:28:20+09:00",
-      "topic": "기타",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "4b9b21c0f0172482fca1",
-      "title": "천안시, 천안삼거리공원서 북페스티벌…책·공연·체험 한자리에",
-      "source": "뉴스충청인",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1xbVZLdkRaQVZtY3NsVmprUGdpaDYtMUZzWVk5cThHM3VteW85UkVkMkJlMklxSUtwT0dNdE1XaWRVeFJKdGc?oc=5",
-      "published": "2026-09-29T09:25:08+09:00",
-      "topic": "문화·생활",
-      "group": "기타 매체"
-    },
-    {
-      "id": "77bc4f7dc8d552b37ae1",
-      "title": "천안 K-컬처박람회 관람객 ‘만족도 91.8점’…40만 명 찾았다",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qZE44Z2hkZzdJZlZpVE4yWmEtT3hCamFlLUpMV01LeUhVbmFINDVDS0ROVkVvYnVWN2FHMG5WeGNJeWt5QWZkdjFqVzZKdVZza2drejlHYjI0ZTdvUldfbDFvT2VwZ19QdEVRRE9mZkdISDQ?oc=5",
-      "published": "2026-09-29T09:25:07+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "04ccc8520bff1046fe05",
-      "title": "[동정-천안] 나선심 성정2동장, 박종구 풍세면장, 윤대영 병천면장, 최명섭 청룡동장, 박성자 쌍용2동장, 김주선 성정1동장, 임홍섭 신안동장.",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95UmZCTzJmcUV4YkxSbW9FS0c1NUszLTN4TlVLR3RVZjZXTHpqQ3ZrRG9KLTZXUEIyYlA1Q2RFOU1xQ20xbVB5V1ZFSXp0UHNjQ0VpUDNfUDMwRTcyUU4wNUdnMkRSNnhoNlZjWTJseFM?oc=5",
-      "published": "2026-09-29T09:15:49+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "b1ff4bfcc8d82e8201da",
-      "title": "박수현 충남지사 5억3308만원·장기수 천안시장 3억8833만원 신고 > 뉴스",
-      "source": "천안신문",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE14QUxoRFNfREpxY0NDazZ4QTJoWWFQV3lYejVMMVpHR05YVVFlYThYeTloTEU0aUYtanpTbWx3?oc=5",
-      "published": "2026-09-29T08:57:50+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "2d6a94b0d8681a9eef9a",
-      "title": "박수현 충남지사 5억3308만원·장기수 천안시장 3억8833만원 신고 > 뉴스",
-      "source": "icj.kr",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5ob19fdXJZM3hwNldyR1I5S3o3Z3htLWFwS2plN3lOR0NLamFNMGhDTjhVc2hGM08yVnpZbXh0ajVZeVk?oc=5",
-      "published": "2026-09-29T08:57:50+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "78c5a56b72e93f8d7cfe",
-      "title": "천안사랑카드, 10~12월 캐시백 한도 50만원으로 상향",
-      "source": "메가충청뉴스",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16MEViZTk4UlpqVDhxWWoxcC1uY3I3M3IyYmw0MnRqTWF4SXpLOUxoUk9KZS05NENDdkxTdTBZUTFzNG5Ic1JXNXNoZVk1NWZwMlpuUjdlNTQ3WVc2WnBQTzBkV2ViRDJVLWhZ?oc=5",
-      "published": "2026-09-29T07:42:23+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "b515e09193b434c706ab",
-      "title": "[천안의 하루] K-컬처 40만명·102억 효과…시의회는 ‘천안의 빈틈’ 파고들었다",
-      "source": "타파인",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SZUlpdHBnY3o1REZjNXdMSVFTWDdvUFA1M0xHdVdjLXV1N2NBUkxWazN2NDJTb1hGTFdLdmZJYUtqWUNRYkl0YXJCTzRtU3VnWE50QzNMSVQ?oc=5",
-      "published": "2026-09-29T07:21:57+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "52b4a2b4c5cb0f4e6ff3",
-      "title": "[천안의 하루] K-컬처 40만명·102억 효과…시의회는 ‘천안의 빈틈’ 파고들었다",
-      "source": "tapain.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SZUlpdHBnY3o1REZjNXdMSVFTWDdvUFA1M0xHdVdjLXV1N2NBUkxWazN2NDJTb1hGTFdLdmZJYUtqWUNRYkl0YXJCTzRtU3VnWE50QzNMSVQ?oc=5",
-      "published": "2026-09-29T07:21:57+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "afde0132a0354ead92d9",
-      "title": "[자치리포트] 천안의 미래, 시민에게 듣다",
-      "source": "대전일보",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxSzVUUWNsTkhXUnZzRGJsVG8tdXllXzRrZ1FPVFJJOS1zSUxQUkd5QTFmVDJkNnZWZmhtSTg3QmhBWFlXdkhRMk50SUltdkhhSkJBWlY0WmZBVnVwR01Qbzh4NVpYWDR3NDdBX1Zaa9IBc0FVX3lxTE5Wb3NSRDhXUmVpbGE3NnV1aUdFS3d3eXJQb0xlQVRueE1GOFh6dWRiajlUb1BRT05Oem1TSzNYWEVydDJaNWJIUlVUeUtLeW1yV3dUVEk1NldENm0zYi1Qa29Ib3hBTzFvZ2FobWpDd3VzRGM?oc=5",
-      "published": "2026-09-29T07:00:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "bbd95773cb251423accc",
-      "title": "천안시, 천안사랑카드 캐시백 한도 월 50만원 확대",
-      "source": "전국매일신문",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43ME5jdFlPWHhfQTdWamV2WXI1Z2NVZ0lDaHJRTnh5Vmc2M1NMU2dqakNFMjlTbEpLOFM0VlMza2sxNHR0elFjQzM3VTRfYjAxU2txNzdWUUlmSmVxd2lfbkg2QXRPTkdBSjRrLTVn?oc=5",
-      "published": "2026-09-29T06:30:19+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "f4a888f0eb65a11d0283",
-      "title": "‘2026 천안 C-STAR Awards’ 29~30일 천안시청서 열려",
-      "source": "C뉴스041",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1BSGtUbkxqdlVaSEdqZ1d5Yk1CeFAzN1FIR0p4QUFycEZ6ZG5oTWhjaVBKQkpldENHelFoTTA1RERTczV1?oc=5",
-      "published": "2026-09-29T06:26:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "2258106f8cc81f0d53f5",
-      "title": "[동정] 장기수 천안시장",
-      "source": "우리투데이",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pOThtMi1USGNPeE5oWGdEeERfa0stYlI5ZGpvVnNUVGlEZFVRNXFULXNjRkVTdVY1Z3BGVWhYTnduMG9hcEN4aS1DU29qNURWQTBvYkQ2LVJ3bndqNFFfTjJNaw?oc=5",
-      "published": "2026-09-29T06:14:57+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "e55d12119304cb425526",
-      "title": "천안 K-컬처박람회 관람객 ‘만족도 91.8점’…40만 명 방문",
-      "source": "C뉴스041",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORGVOOWJOaC1SWjRPNWRwbWdpTHlDcUtBRmFYdUNBWm10VGhkTnAzcEpqbkcwTjI4Rl9qdlV5ZXcwYm9vajNZdkhiZjlrT3pEYlZMZ1FXYVg1ZXd5TXRrelJhLUZjNnpQVHYzZG13NUxKcjFKc0d5aE04NTJBN0ZhbG5B?oc=5",
-      "published": "2026-09-29T04:59:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "d85ac3f99d2b8b1cfc94",
-      "title": "천안 K컬처박람회 방문객 만족도 ‘91.8점’",
-      "source": "동아일보",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zenFPSDlQZWlELTQ3TjhVZHBtQ01uOXJER040ZHUwTmpTeXFHUkQwZ2R3ZTlxWTJfeEJyYnE0M0pubndnS1V2b2U3QVAwd3ZrRGduRERXQ2pIRm9fdVdSMUJTaHVqVVgwclNSRS1taGxSS0JxR0HSAWZBVV95cUxOeXlmOWVrU2toX0FISXlyUDZoSG84RGNzZkRzVmFUQVhXQmJPN2d0QlFUaGdsMV8yLWhmUERYaDVubFJZYUZzM2FacVB5ZC03dklYd0RBMDZ5SUNHNlV2MTY5THh4dEE?oc=5",
-      "published": "2026-09-29T04:30:00+09:00",
-      "topic": "기타",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "48fc80f02babe659203d",
-      "title": "천안시의회 김세환 의원, “아산 열병합발전사업\", 갈등 줄이기 위한 소통 강조",
-      "source": "충청뉴스",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WQTRkSElvS0Y0Q0owbUJVdERodldyalh2Y1dvTl8tY2FfQjNhbnN1WGhWU3FaOGwtNlZ4OUs0MnpBQVZSMUJ1ay1CQy16dGJkX09YMnloanFKQ3dpSnZfdWtRZFkyQlhmeDh6Tg?oc=5",
-      "published": "2026-09-28T23:29:59+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "ff016416646c708fb6d7",
-      "title": "천안시의회 김철환 의원, ‘천안형 대학과 지역 상생 축제’ 제안",
-      "source": "충청뉴스",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pTnpmVS1JTlFfelE5NERYeXNod0NHQTBBdGt1OWtnOHlvWWMtRUN2NF83OVRmTTcyTHdjMzk2bU5KREttUUVKRHlRSzNCa1RXVnNZQzgySUY2bnVmTkp6Nmh2ZmVCVWxKa0owTQ?oc=5",
-      "published": "2026-09-28T23:29:55+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "6d3a5f59232251cefa3e",
-      "title": "천안 8만 청년, 골목상권과 만난다…김철환 의원 ‘대학-지역 상생축제’ 제안",
-      "source": "시사뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1JTlhVX0gtMWIySG9KZ0ZRSmxJVmVwclNmNHJvTEhHSHB0ei13bjhscDJMTU51TW0xM0p4dHpiUE1Ic0tDZ1RiM3g0cWZiUFNIUVhOVXMwX3Z5cWk3VnlyXzlxYw?oc=5",
-      "published": "2026-09-28T22:23:00+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "0a80f93fbbf62561c9e8",
-      "title": "\"사전 협의 없었다\"... 아산 열병합발전소 주민설명회 일방 통보에 천안 '발끈'",
-      "source": "한국일보",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UbDQydWZDalR1Mkx4d2Q3M3Jlc2VlUkhqSlR0WThUWS1DQUV4R3F4a3RDZDNCcW02dVdER0NMRVRmaGFZaDBfLUh1NnF1MTV3dlhpb3VmSDlaVVNKOW5JZzR3ckNtbVF3QkhReVRB0gFzQVVfeXFMT09ZQ0ZabHR5WUVTakJEZUVsSmFod1k3QnY1R2YteXgteVNDMEJ3THIzZEJtQlZLRUtkSkVlSWc0dUJJSWJqUl85ZGR5OGxCZ1pSS3R3YndJekRfUW9pdzVLQTBZUXdCV1VYaGxDdWx5MmVQdw?oc=5",
-      "published": "2026-09-28T22:15:00+09:00",
-      "topic": "기타",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "cff7c6ec13f85211a8fe",
-      "title": "천안 K컬처박람회 40만명 방문…전년比 12.9%↑",
-      "source": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0Y1ZBdGdEUWZrV1pZUWFSWkl3RzBsVXZoczdwV2pKbjdDSzlhSWplbkJuNUlna0E0dXMwSmYwR0hzOEdnSEVUcnhiYUtCdnY4Y1pOS3R3bWdycHh2OGRnetIBeEFVX3lxTE9neUFuaDRNZm1fZ2g5T29iemx0X29HeUp6QjlaQkZXYlJqY3lfeXhQWEdrUmZqMTA3LWtCd3VTcFRUbDlTVWVjT3VtWGI1dHJPbjVWQVlLVG5PMHg2Q19mNmdUU2dOTE1rMEdvN084eEw5MGVfUFYteg?oc=5",
-      "published": "2026-09-28T21:41:47+09:00",
-      "topic": "기타",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "49c029a2d35d5ef52598",
-      "title": "단국대병원 단우후원회 천안 '우리아이 수호천사 되어주기' 동참 300만원 기탁",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jLWVrUF9pY1RXU3g5Nzdidmt6cmJSbjZVdmJkVUV0cEo5ck1EMlFTRlpDOXZjRkExYzVmZnVGelJyUldGZ1NpXzljQ1lOWHY1cDRiZnBMMWx6WEE3QnJVZDBMbExvUzEzZ2sxUUUzNWw?oc=5",
-      "published": "2026-09-28T21:04:27+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "10a1f9f31166c743c1fe",
-      "title": "천안시 유관순 열사 순국 제106주기 추모제 거행",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92R2YtTVFPdlg4bVNadm1KbWZ3TGtXUEI5cWZXUkdSSVJvOHJzT3U1UHZrUzhpWWc2SGQzeU03bklPV1ppTHR5VFpzcndrUy1JeV9YNXMza3MxN1RXcmlFSWwtVHFVTUZHZWgtTERYdEE?oc=5",
-      "published": "2026-09-28T20:59:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "043617450b49d718285a",
-      "title": "하나은행 충남북영업본부, 천안흥타령춤축제 성공 개최 후원금 기탁",
-      "source": "엠뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yNVhtb3JwbEpidGFsU1RlNFh1d3dDeURZZldYbHJkc1QyQmsxM3phT1ZsZmFjZVBCYVB3NmxPT0lzWkNQdGVEbkJkakVjeWpfR2E4cjdwYnVzZTVQSkNhRFVkbmZpQQ?oc=5",
-      "published": "2026-09-28T19:32:09+09:00",
-      "topic": "문화·생활",
-      "group": "기타 매체"
-    },
-    {
-      "id": "0ff75d54521315890105",
-      "title": "천안 8만 청년 에너지, 골목상권으로…김철환 의원 ‘대학-지역 상생축제’ 제안",
-      "source": "광역행정신문",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBrcDByY1BKN1dXNVR2dWR6UUotTlVKem9EZWFGcUVyMlF3bEFBWWt5c3RTcDhvWGFZbzRhclZDY1VIZ3Bm?oc=5",
-      "published": "2026-09-28T18:53:00+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "c6f9e18b7aa2b0d9392b",
-      "title": "천안 방축골농악 명맥 잇는 어린 풍물꾼들",
-      "source": "대전일보",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xMU4xVWt2d0RCMmZXM1RtMW1hR1J5dmlKNEJmYmJYcGhqaVNDOEFmLWhUYkE3aEc0T1ZpR2lOMkRkNHM1eU5BZS1IYmdDODFVT3FETTBpdk41dVFQSWE3SWlGTVdjRENSckJqcGJ6UdIBc0FVX3lxTE16akRWT1U1TVE2WFVyZWRIVDl6NDZtY3lyeTg4am83YzNIQjhMaHRfWTM4NmFoemotSW1YaElRaTRod3JSY3R2Z0cwVi1XNC1GWXFOUFhlRFhNVlhtRVJXTzlKeVFKRFo0dERmdWsxTW0zeWs?oc=5",
-      "published": "2026-09-28T18:40:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "5b9f46246ad06d888259",
-      "title": "김철환 천안시의원, 천안형 대학-지역 상생 축제’제안",
-      "source": "충남문화신문",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BUVNWbWZaeUg1WjNLUjktdGg1ajNUR0pCclRkRXdzS3BHSWRXYmV6NXh0RzludGR4czdYZVF5UGt6R0ItYkV2T1RaVXRzQmZGd2RYLTVNaUw5b0tQVzlEMUpKeldhdjlEa3FZa9IBbEFVX3lxTE1BUVNWbWZaeUg1WjNLUjktdGg1ajNUR0pCclRkRXdzS3BHSWRXYmV6NXh0RzludGR4czdYZVF5UGt6R0ItYkV2T1RaVXRzQmZGd2RYLTVNaUw5b0tQVzlEMUpKeldhdjlEa3FZaw?oc=5",
-      "published": "2026-09-28T18:21:53+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "767853964a5255c27b89",
-      "title": "김세환 천안시의원,‘아산 열병합발전사업, 천안지역 영향도 검증’해야!",
-      "source": "충남문화신문",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHMmdkV1NPUVBDc192WVpYSHU5NHVOMWxnRTVCRmV6cHlZSDZuNkVjQTBoQlFlVXdwcDNoc1Q3SFIxeDRNX0ZMa3ExZEZkVDlwSTE5MjVfWndLTWlnWkZvLWxVdUx0ZGRsNmYzcdIBbEFVX3lxTFBHMmdkV1NPUVBDc192WVpYSHU5NHVOMWxnRTVCRmV6cHlZSDZuNkVjQTBoQlFlVXdwcDNoc1Q3SFIxeDRNX0ZMa3ExZEZkVDlwSTE5MjVfWndLTWlnWkZvLWxVdUx0ZGRsNmYzcQ?oc=5",
-      "published": "2026-09-28T18:21:52+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "a5afb0f33e3f2b6e3293",
-      "title": "도병국 “천안 31개 읍·면·동장 직렬 기준 다시 살펴야” > 뉴스",
-      "source": "천안신문",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5WLTZMSFhXSWJMY29NMkNRdndBdnZ6UDVfcVh5MThKVHQ0c1J2cXJpckp2MTVBSzBQUG5KQkN3?oc=5",
-      "published": "2026-09-28T17:38:49+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "ee28d0484275df027284",
-      "title": "천안시의회 김세환 의원, 아산 열병합발전 천안 영향 검증 촉구",
-      "source": "전국매일신문",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MMlN4djRkTXZpRTBMeHluVmgtZjJWRElwMkZzZ242UEd2YmxtSldiNEs0X3JWd0pUa0FvWlIweXUxTXJpM0R0bUVnX0FYRE5SU1FZeTd6dmZZTUdvYlZtNUVSNnRsS1JQTzRZZWxn?oc=5",
-      "published": "2026-09-28T17:36:13+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "2a6e0ba26d5a7fe5eed1",
-      "title": "'천안흥타령춤축제 2026' 10월 1일 개막…5대륙 24개국 참가",
-      "source": "축제뉴스",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrcnFQZVg2dnFKS2NjcHVaRU53aTk1WjlBTzZOY0VrNDcxdlNMWjBxUjk4alRvVHZENkUzMjBvYTNCMWFHeXRZZkV1NXBTY3pqOVJPQ0pPTm0zdGdnRWRUU091OTlQNlRrRjNxdQ?oc=5",
-      "published": "2026-09-28T17:32:46+09:00",
-      "topic": "문화·생활",
-      "group": "기타 매체"
-    },
-    {
-      "id": "f37306d8883be4a98429",
-      "title": "순천향대 천안병원 윤종혁 교수 대한위암학회 국제학술대회 우수구연상 수상",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yemZ6bXg0djBGZ1RPZ2xUV1dmVnh5R25vM3J2eUdsWklPRTlBbnBXaTRjanFOeGFUOGR6OEhzRzhINmdtYUJuWnBqUUNhWFQtLTcwMHZuQy1OY0N0SHJ1ZDJpbUREM3dYRnp3aldWMGk?oc=5",
-      "published": "2026-09-28T17:22:14+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "6dadcf928fb60dbf3c27",
-      "title": "대우건설, 천안 '두정역 푸르지오 그랑피크 분양 중 |",
-      "source": "연합인포맥스",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rLTVyejFWTEF4czVEUmE1RUNORnBzalRXSUN1VUVvZHkwX3JyMFcyb1RDRFZtQjg3Y3gzU3Zmb19Ga29OQU5WTTh6T2kwSTJkLWZEdXpfUWVyTkRTSWtHN3NIWVlPWjNUMHZhckpCd1FiaUNR?oc=5",
-      "published": "2026-09-28T17:22:07+09:00",
-      "topic": "경제·개발",
-      "group": "기타 매체"
-    },
-    {
-      "id": "789988908f4990dd063c",
-      "title": "천안시의회 김세환 시의원, “아산 열병합발전사업, 행정경계 넘어 천안지역 영향도 검증해야”",
-      "source": "우리투데이",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fMldYZ1NFZVJjZXRJdWRWSElyVkhLQzBhcjJTX3FWLUo0MnVFdHBWbnl5Z1AzVG5JRHdVM3o0eHE5cmY1UWNXYXdOaHluYXFmdzRHNk5kZzJudTlJeFdseXQ5TQ?oc=5",
-      "published": "2026-09-28T17:21:45+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "d2264360855df1dc168e",
-      "title": "천안시청소년재단, ‘2026 한국·몽골 청소년 예술 페스타’ 개최",
-      "source": "매일일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pYkVzbmFPM1JVSW9BR2pCTThQSzlnaVVDUEN5TmFhSjJtT0VGTEF5SWZNMXRPS1ZRSS1XdzNXMEVkRVR1Mm5oZFptNmM4cmZUMEg3LUZ5ckphRWdUZTc1czJFR0PSAWhBVV95cUxPcG5iN21LS1MyaTlUUkl2b0FqQ3ZHeWR6dEFMcGRIMzItemg0RWh5NWNQampXZVhWMVVzSllPcU8zT1RJcHNCLW9OSjM1M0I2U0tXSERMQjhHZDZDQ3k2VktvbFI3bk5Kdg?oc=5",
-      "published": "2026-09-28T17:19:22+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "4179d57c13c2da852633",
-      "title": "대우건설, 천안 '두정역 푸르지오 그랑피크 분양 중",
-      "source": "연합인포맥스",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wSGtBNzNpandfeDNsYnJrNE9RZExyY1M4TnN3Y1ZsVUpvbVhjODBnaFpXUjZkMV9zOUxTdjB3SWExd0diaHNTZjlQY1pFTHRLZFZRVGlKVUZaMDNSbkZIbm5kM3g1dnZzaEI3WFJ0Wlg?oc=5",
-      "published": "2026-09-28T17:15:20+09:00",
-      "topic": "경제·개발",
-      "group": "기타 매체"
-    },
-    {
-      "id": "74f54b45e84f9c700a47",
-      "title": "499.4MW 아산 열병합발전…김세환 “천안 생활권 영향 공개해야” > 뉴스",
-      "source": "천안신문",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9uTFYtb1lqQThWLXlKTXNoQUd6TFEzcG1Wb0NDbE1oZDNtSDVCX0JiWm9ZemZOZTBlY1I3TDlB?oc=5",
-      "published": "2026-09-28T17:14:39+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "701c726a92baf88b1fea",
-      "title": "유관순 열사 순국 106주기…천안 추모각서 숭고한 뜻 기려",
-      "source": "canews.kr",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84WWxoU3dabWh4ZHpFRzQ1bUQ3NnFRdVRCZVdPOWdJZDBqUld3YjczSzFyNWljTkVpU2xwRFo0ZVVseEhRb2t2VVQ4cXBHUlM5ck9kcHk2QkJhcDdyT0p1c0RTcw?oc=5",
-      "published": "2026-09-28T17:14:00+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "0a9ec5f062ac2da12ad2",
-      "title": "유관순 열사 순국 106주기…천안 추모각서 숭고한 뜻 기려",
-      "source": "천안아산신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84WWxoU3dabWh4ZHpFRzQ1bUQ3NnFRdVRCZVdPOWdJZDBqUld3YjczSzFyNWljTkVpU2xwRFo0ZVVseEhRb2t2VVQ4cXBHUlM5ck9kcHk2QkJhcDdyT0p1c0RTcw?oc=5",
-      "published": "2026-09-28T17:14:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "e0f702b23cff55e81433",
-      "title": "천안시, 아산탕정2 집단에너지 ‘천안 별도 설명회’ 공식 요청 > 뉴스",
-      "source": "천안신문",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5mTjhoRWZscmxfZE5nSFlRdnF5dG05ZE5JZ0ZpYno3RW9lUVhibEQtZl9xTFJLVldJY1FhVkw2R243REU?oc=5",
-      "published": "2026-09-28T17:06:12+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "7a6106fd0f416f1eabf7",
-      "title": "천안시의회 제292회 임시회 개회…3일간 34개 안건 심사 > 뉴스",
-      "source": "천안신문",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5BcVVaZGtRT3VPb1l2M1dNblJhU1B6Q2ozZUs2OFZ4X3B6TlVLNnZIaVhueFVUcXpWcHdseXFQemxILWs?oc=5",
-      "published": "2026-09-28T17:02:45+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "2de9ac70b0353c8815f2",
-      "title": "충남경찰청 수사·생활안전부장 및 천안서북서장 전격 교체… 경찰청, 경무관 인사 단행",
-      "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9iZk9UYXRjZC1qQmJzRFlCQ3Rmc2xKQUVPREFlRFhydmY4NVNHcHBlNHZQemdQUEdwb3NuVlJZTDI3VEdv?oc=5",
-      "published": "2026-09-28T16:52:00+09:00",
-      "topic": "사건·안전",
-      "group": "충청·지역"
-    },
-    {
-      "id": "982a4c1cbc79cc0826fe",
-      "title": "[김성열 칼럼] 천안흥타령춤축제 > 뉴스",
-      "source": "천안신문",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBDQ09oZERRblA2c09SOVVQRHZnNGV6MmpESGtfT2V3RmpKanBDcTJxVzlxRTROTW9ZZWFBNHA1czRZRDA?oc=5",
-      "published": "2026-09-28T16:48:48+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
-    },
-    {
-      "id": "5337b9fd47b9c5ed52f5",
-      "title": "대우건설, 옛 KT&G 천안공장 부지 1438가구 조성",
-      "source": "세이프타임즈",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBiVThNWmRBcWYwTGVwLVBqYUdtbGtMM1RSeUhpSTIwTWVqMEVERzU5dkN1QjlyOUFXZUY2b0RmX18zM3NRd0ViZXQ1YjR4cWR1OFdoMzFPc2lRVWx3S3hWNjVVeG5BS1lRR3pFSWVSY9IBc0FVX3lxTFBENjAydGRlMllFOUdqTzVKU1duRHpPdnlUYlVRekNoYjd3YWJqaFcxMmFSMElMZTY0REJ3NGM4ZU5QWklzcEI3dDJEM1hvaWh5cE5OX0p4U085cGl6NkY1RlUyMFlrR0l2Q3hleGtLeHc3WHM?oc=5",
-      "published": "2026-09-28T16:42:30+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "8f8f8b3e0f2f7bd77bdb",
-      "title": "천안 학생들, “SNS 보느라 친구와 대화도 없어”",
-      "source": "충청신문",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ORGtLbXdqNmpPQXNjSk1qaXFGY011MVdCeGs0cDRVRXNQVmxkQmxmRzhrZnVjWVQzWUN2V3FzYjE4a2pfVkI0ZVNpcFc4djVpZm41SWE4Z1M4RHFfcUFUNUtheFZHM1p2ZEHSAW5BVV95cUxNWl9hdzR5LUJ4TXNxMjBFSDhjYUxydndQMWI5NE1NWl9tTDN2azZISDhnU2x1MzRoT2NIWDFwY0xZTmVpODBPVlJXMjhTWHhmdE56eEhoNFA4emU4XzJiUU1fSUVlMzBUUmd4LTB1dw?oc=5",
-      "published": "2026-09-28T16:37:36+09:00",
-      "topic": "교육·복지",
-      "group": "충청·지역"
-    },
-    {
-      "id": "0322010db0fe37c5a727",
-      "title": "“천안시의회, 지역 현안 ‘정조준’”",
-      "source": "충청신문",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYbGtkaXMzdmhkeHMxT0FWaHpsd3p2d0FhQlNFbWtvc2ttSi16aGFIZ1prS1dWcjVXNEZVQUVMczdaMENDaEtRZmVsSnIzOUo5cXRuSzJDUlpmeGxLNUF5Z2pHRG44NnFKRkHSAW5BVV95cUxQQWgzUzAzbER1UmFKWE45ek5GRXYwSll2M0VsZlFwZy13MzRRVTdKMUFOSV9WcGt1QTVfUVN4a0dIOEJHWmE1Rl9OWXlrQjJlNXU5a0g3ZVJMUUV1NkZZMEpOSFExdG11WmVOMmdIZw?oc=5",
-      "published": "2026-09-28T16:37:27+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "0ce7d3c64d4016a5af11",
-      "title": "[분양 스케치] 천안 아이파크시티, 지방 시장 침체 속 청약 미달",
-      "source": "블로터",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UQTNEd3oxeVBuRmd3Y1U4MVY3eE56VFdadzJWTjdSUXl3b2pHdmhXOFZUeTN4aFlnYlJFQUZaRHpJM01MbnNCRl9qcU5aUWlKbUlWX0lrVDF3dUw2Vnl1Tm43aFJjX1I50gFsQVVfeXFMTmRZT1hqUVM0c3FYZVVMOHFjTWt4NW9JdU1NM1JFa3B5cnZpOUlSd1JITTJRcnJOc2tVWTNTSGhVSUxaQUFjRlRWaWdWcjJhZUhfWnJuaUdBRGE4aUdvdmdxRHpSbTR2djlTcUg5?oc=5",
-      "published": "2026-09-28T16:29:56+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "a0f3345f033c832f042f",
-      "title": "[분양 스케치] 천안 아이파크시티, 지방 시장 침체 속 청약 미달",
-      "source": "bloter.net",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UQTNEd3oxeVBuRmd3Y1U4MVY3eE56VFdadzJWTjdSUXl3b2pHdmhXOFZUeTN4aFlnYlJFQUZaRHpJM01MbnNCRl9qcU5aUWlKbUlWX0lrVDF3dUw2Vnl1Tm43aFJjX1I50gFsQVVfeXFMTmRZT1hqUVM0c3FYZVVMOHFjTWt4NW9JdU1NM1JFa3B5cnZpOUlSd1JITTJRcnJOc2tVWTNTSGhVSUxaQUFjRlRWaWdWcjJhZUhfWnJuaUdBRGE4aUdvdmdxRHpSbTR2djlTcUg5?oc=5",
-      "published": "2026-09-28T16:29:56+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "f56b73ef5988840d8bd5",
-      "title": "천안에 1438가구 대단지…대우건설 ‘두정역 푸르지오 그랑피크’ 분양 본격화",
-      "source": "아시아투데이",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFByNVNXeTNCRHZ6R0dVRDZORzFuOGRhOVRyYW1faHdRTEJwR1JlYkotRkdFOHhvRkxzR1RYS1c5LU16amhDWXN2R2padC1ZQ3M4RFBPenJvSWtQdTV3dW9mY09JMndTSVYxNU1iYW1R?oc=5",
-      "published": "2026-09-28T16:29:55+09:00",
-      "topic": "경제·개발",
-      "group": "기타 매체"
-    },
-    {
-      "id": "ea9436a71a36f3b9af8f",
-      "title": "[천안시의회소식] 김세환 의원, “아산 열병합발전소, 천안 생활권 영향 객관적 검증해야” 외",
-      "source": "daily.hankooki.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10Q1VZdXlUSGRtMWxIN3RVWVcycWlpTmpQb2VadzdZNEZRSHJRVklsQ3l2akYyZG5GRHBvMS1WbVdnZTdnVWxVa1Q3bVcxazRHeFZ5VTUwSUk3SHhVNmtrdzN6TG04OFRxQ2VZSGp0UnB2WnPSAXNBVV95cUxNdENVWXV5VEhkbTFsSDd0VVlXMnFpaU5qUG9lWnc3WTRGUUhyUVZJbEN5dmpGMmRuRkRwbzEtVm1XZ2U3Z1VsVWtUN21XMWs0R3hWeVU1MElJN0h4VTZra3czekxtODhUcUNlWUhqdFJwdlpz?oc=5",
-      "published": "2026-09-28T16:19:10+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "e905dea24408690fd034",
-      "title": "대우건설, 천안 '두정역 푸르지오 그랑피크' 분양",
-      "source": "뉴스토마토",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zR3A5V1FLZ1V4cGJZWGNKbkw0NXpTS181c2dOUDlzN1RGTll6Z255bktmOW02ckJKTWtJNHhKSWRYQ3ZqaGJUcEF2ZDdoeHFJQWtLejYxTHRyeHdtUHcyRA?oc=5",
-      "published": "2026-09-28T16:17:49+09:00",
-      "topic": "경제·개발",
-      "group": "기타 매체"
-    },
-    {
-      "id": "62327d062dbbdb9bfcff",
-      "title": "천안서 유관순 열사 순국 106주기 추모제…“나라사랑 정신 계승”",
-      "source": "프레시안",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ya1BRdS03YmJwbXV5aE5zSkRNaUlYR1EyTW9xcTJtakVQWENES0ZTQS1wY3JFTEx2WnBsaU1GMFRfMGxGRE5rMExVUmFSWWt5cGZvblRtUmNJSU1VdXhzNVdxdHE2SUpnRU9j?oc=5",
-      "published": "2026-09-28T16:15:31+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "5d4fdb6ec27b1cdb6ab7",
-      "title": "대우건설, 천안 서북구 성정동에 1천438가구 ‘두정역 푸르지오 그랑피크’ 공급",
-      "source": "경기일보",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13ZDh4bGxvWlRxZU45ZEZSeWI5NE5VdG12UTNBbGpGZHgwY3pYYkFLakpHeHFKTXliWnBrb285WHlBNnotOTNQYUtBNmM5cXVZcWEyVU54Wmhxa0E?oc=5",
-      "published": "2026-09-28T16:11:11+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "d9ff8c53702a7aba00b8",
-      "title": "[취재노트] ‘더 나은 천안’을 그리는 목소리, 제292회 임시회 현장에서 > 뉴스",
-      "source": "천안신문",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5XRHA0ZkVvNkhENFhxazQtZ2g2WG9GczBXVkJNVEd3MzhPRVdZQTVMZHVnTTg0WFRsZlV5V3pB?oc=5",
-      "published": "2026-09-28T16:08:09+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "0592b918abbafa0c2089",
-      "title": "도병국 천안시의원, 읍·면·동장 직렬 기준 재검토해야",
-      "source": "C뉴스041",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBFU1ZJQWtFWnp3YmJLendOYWFmRWlxRHVCRmNhWVZaUXJIR0lobGw4bTJ2aXAtVUY5ZmV2TkFUdDdpSjd5?oc=5",
-      "published": "2026-09-28T16:06:00+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "38b49ddce86ab1cfe2b9",
-      "title": "유관순 열사 순국 106주기…천안서 숭고한 뜻 기려 > 뉴스",
-      "source": "천안신문",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1DcWIyZGMxZGRWXzJLVVhHQkpXWmE3c0h1Nm8yVm5ydTc0bk55RVhWc0xlQzJhX3FkX1RCQWdESGtqRkE?oc=5",
-      "published": "2026-09-28T16:05:25+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "1c8d96b87a731a795c22",
-      "title": "\"두정역부터 천안IC까지\"…1438가구 '푸르지오' 들어서는 '이곳'",
-      "source": "땅집고",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45NFBCenM2d1AtREtPS2JWNVVsRkFLS250UUVLZWVUdE8xTjg3d1I1c01VLWhLYkNlUXA5UTVpX1lkTVdEZ21CRGMwcW5uaW11R3V4QTc1S1dBaEg2NmtYVmhOZTVhamphZWtrSklUWTEyUTDSAXNBVV95cUxOOTRQQnpzNndQLURLT0tiVjVVbEZBS0tudFFFS2VlVHRPMU44N3dSNXNNVS1oS2JDZVFwOVE1aV9ZZE1XRGdtQkRjMHFubmltdUd1eEE3NUtXQWhINjZrWFZoTmU1YWpqYWVra0pJVFkxMlEw?oc=5",
-      "published": "2026-09-28T15:55:00+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "909e264d522bbc291bbb",
-      "title": "천안시, 유관순 열사 순국 제106주기 추모제 거행",
-      "source": "다음 뉴스 (매체 미확인)",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5mdnRPZ25Ib05iLUNJdmk2ZnEtTlNGVUFQNnBNak5WQ0NuNzA4OWFycElFMGxMZGg2Y2pfM0ZRcVUzRmxOMFh3U09zdHItdGY0VGJQdw?oc=5",
-      "published": "2026-09-28T15:47:43+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "f883b68783d5ba0b937e",
-      "title": "천안 독립기념관 분원 어디로…국회 입법 추진에 충북·대구 유치 뛰어들어",
-      "source": "한겨레",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11aHhDQ0E3VU9Sa3pjVDBlNmZMenFmZGMtTUR0VkhqcGtDNm9yUnlFT0Q0ZmhiOE1iNEhZbjA4M3FUZjZ2Ynh1V1BWUU5TYzF3d2xycmt6akFidDh0X09MemVsWl9GSjR6?oc=5",
-      "published": "2026-09-28T15:23:00+09:00",
-      "topic": "기타",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "f8d723e57e9c40ba0893",
-      "title": "천안시, 유관순 열사 순국 제106주기 추모제 거행",
-      "source": "디트NEWS24",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE85cDBtaHZod01DdnI2dEdVNUJ3eDVvT0R0dGJ4UG9GTFhpOUpqM1hQTUdlTl9YdXVhQWU3ekM1eXB0d0FRSXgyTlMzclNKeUVkN01xU3ZUUi1HcWtzZmRmMmZYcG1pd1d6Z1FN?oc=5",
-      "published": "2026-09-28T15:21:46+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "756c21bd4529c8d02e41",
-      "title": "천안 대원산업 폭발사고 한 달…유족 요구에 사측 '원칙 동의'",
-      "source": "뉴스토마토",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaMTZlTW5iZVhDUFFrNUw1M3dleVB3SEhPQnYtQkU4QW5pVU9Ebmk0ZGxwY3ROUDY3US1faXNDZ0tjZ0twbXJWYWdXazB6VnBxR1ljQ0RrN2pzQXREUzFYdg?oc=5",
-      "published": "2026-09-28T15:13:51+09:00",
-      "topic": "사건·안전",
-      "group": "기타 매체"
-    },
-    {
-      "id": "804d95e5638a9148740c",
-      "title": "단국대병원 단우후원회, 천안 ‘우리아이 수호천사 되어주기’ 동참…300만 원 기탁",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ac2ZIenB1VURTWGlZUmo3cDhPczZxZ2FRLV92QzlmcThweTZzN0QtQ2d0TnNJZjBfUnlZTFFpLU9iWGxlZDZCQVBkU3ROcWJzbFZFbFF0OF9jM2tFek1nOVJzbldOTHZEQkIxYWhZSk9Kd0E?oc=5",
-      "published": "2026-09-28T14:52:34+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "a5ecfec7d29e4e4b2b94",
-      "title": "유관순 열사 106주기 추모제 맞아 천안시·기념사업회 공동 개최",
-      "source": "주간한국",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kT05rRWtiam9mQXl3ZkNrVlN6cXllQUJCQmg1NkJSUkdQdGFtc2dmVEhRNVJwVTdrTmFHWldlWW9WTTJEdzZXMHRaV01jZ1NUTDA0MjRTUmNvT19kN3VadTBwc3U0YXNiY09CQ1U3cUt4azN30gF0QVVfeXFMTWRPTmtFa2Jqb2ZBeXdmQ2tWU3pxeWVBQkJCaDU2QlJSR1B0YW1zZ2ZUSFE1UnBVN2tOYUdaV2VZb1ZNMkR3NlcwdFpXTWNnU1RMMDQyNFNSY29PX2Q3dVp1MHBzdTRhc2JjT0JDVTdxS3hrM3c?oc=5",
-      "published": "2026-09-28T14:52:29+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "fee5f1928744bfb83009",
-      "title": "김세환 천안시의원, “아산 열병합발전사업… 천안 영향 검증해야”",
-      "source": "천지일보",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XQWhnMlFBMWVLZTNJODZaY0xhTVZHcmNZa1QzdG81QWNCQ0N3LVV0M3ZDdzVIY1NWaVB6eUpPR2UzMXJtTkwxZWwza0NYWTh5UmtjT0JJY204YXhfM1Y4Z1F5VDFoc0JSalE?oc=5",
-      "published": "2026-09-28T14:51:48+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "daaa59055f23a30db8dc",
-      "title": "천안시의회 도병국 의원, 행정 환경 변화 맞춘 ‘읍·면·동장 직렬 지정 기준’ 개선 제안",
-      "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1KR1lYdHVkUzFwNFRFdlZpLUdMaWdiTm1zS3UxU2VjcjlNX0dFUk43WE8zUEhuNV8wbHMtWEE5dWNpU0ZO?oc=5",
-      "published": "2026-09-28T14:51:00+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "00394d18b8704e092c28",
-      "title": "천안시의회 이영재 의원, 성성호수공원 음악분수 조성·수질 개선 등 4대 과제 제안",
-      "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VcXpNVmYwd2dOZzV0QlBTeUxndFVhWGxHQVpWYUxReDIwaDk4eUhQaTFKd1VscllBeXBJRmJHT2dXRjlo?oc=5",
-      "published": "2026-09-28T14:49:00+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "cae66b00ca0bfd8746ab",
-      "title": "김세환 천안시의원 \"아산 열병합발전소 시민 우려…귀 기울여야\"",
-      "source": "뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BMm4xLTdPRTNvdXJHY3VIOTdSRVA0bEpiWDEzcDJDOEtNcDVMZXVZTHh4RlJXR0VYWDloRFJWMUszc1J2M1JEQzlZMnNKYmo4THhvdl9TMkRhcnBFUHFoRtIBeEFVX3lxTFB6SmMtZzNJd0JneFFkd1J4YnBobDQzRHh3Wl9zb1Z6NUVQNlpxbzFmQ1BTckMyeVhMUnhXYVp0TEhJVUlaWFV0NThyYURHaEp0OUE0LXlwSi1mTUFDdDVyWGhKZ2lEV28xTWQ2MDRGMVV1T3FWWHI3dA?oc=5",
-      "published": "2026-09-28T14:47:28+09:00",
-      "topic": "행정·정치",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "b8a5e5089a64cae98d2a",
-      "title": "인구 줄어드는 지방, 천안은 왜 늘었나…3년 새 약 9000명 증가",
-      "source": "한국금융신문",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjeHhSWU9vczRDRE5BeDd4ZVRmRUV3cm5ZQjRFNmNTVzJCZndmbkEyRGxsNXEtRy1WQXk5a3FZbWRVemkxWXFHc3MxUjZrUGpLWG43a0UwSl9RUkhnSloxZXlEV1JLbzhmQTNxcVV5YmJrQWItSFQzbmJaTVI?oc=5",
-      "published": "2026-09-28T14:44:52+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "8ee5e72879e666966970",
-      "title": "천안시의회 윤철상 의원, 공설동물장묘시설 검토 및 장례 정보 접근성 강화 제안",
-      "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5GRUpDQVpUTm1WT3RhZVRLYkYzYVlmTjVYMHgwMkI0WWV4MTdRWjYtanBNNTRTX2NpSS1aU3pZaWx1V2Jz?oc=5",
-      "published": "2026-09-28T14:44:00+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "96c2c7b9ab7a7769694e",
-      "title": "천안시의회 김세환 의원, 아산 열병합발전소 환경영향 재검토 및 투명한 정보 공개 촉구",
-      "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9aaVI0ci1sRDAyczducGJQa0Zvb1FkSkMzU3cwbEJjdC1ITWFMSk5iQzVCam5kQ3BNV1NSX3dJMWx3X1Za?oc=5",
-      "published": "2026-09-28T14:40:00+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "5462dc3ca41272b1a8d8",
-      "title": "천안시의회 김철환 의원, 대학 축제 '상생 매칭형' 연계 방안 제안",
-      "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5NYlN2Y0x2d2hCd09JYk9wRlZDUl9tejNuNTM3bElhNE9QdG1iMi1jb2JGNFBDR0QtTFZ2RFdIR3FzOU9R?oc=5",
-      "published": "2026-09-28T14:37:00+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "4dd572998ff045b4437d",
-      "title": "단국대병원 단우후원회, 천안 ‘우리아이 수호천사 되어주기’ 동참 ··· 300만 원 기탁",
-      "source": "금강일보",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CakZaVlFUWlN4a0wtTDY1dVZEUTVBS0dhUFJOSzNFMjJGUkttUkM2REZHWTBZcldpcTcyZnR5cEpsRU5TZWpmd2E0M0JsYm9VeVNQaW54U2o2bHNLZDZtTm9FdkRoSFRPOVE?oc=5",
-      "published": "2026-09-28T14:34:24+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "39a7e5536709c9c2bbda",
-      "title": "아산 열병합발전소 우려에 김세환 천안시의원 “객관적 자료로 설명해야”",
-      "source": "충청투데이",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13cU9HaGhYVTJJNnJfdWwwVEU4UVByZGRkbzhaeDhRWHZIRXVSd1lJeHdGNW9BR3JvMVF6MnM1THNEdXRVSWg4UGxOakpVTG13SkhEQ2pEMDE4RjIwemY4eGZwLUZYSjJpcVQxT3JB?oc=5",
-      "published": "2026-09-28T14:29:00+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "a9bf765b98328aaa02d4",
-      "title": "천안·아산 제조업 경기 ‘먹구름’ 걷히나…두 분기 연속 상승",
-      "source": "금강일보",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yUUpKM1JiZnhId0xMUzhZT3BwcGM2Q1NtbXh3YlRwOWd6MGpTc3hfd1N4RGQxdkZyclAzMEN0aVVuQUlSUmNIa0o4UkZYVE4tUWVNa3pFYTNReDRxQ04tdDVLZ1BMaXVWanc?oc=5",
-      "published": "2026-09-28T14:25:58+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "1f8206204734a5e86bdd",
-      "title": "천안서북소방서, 직원 대상 청렴교육·정서 회복 프로그램 운영",
-      "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE0xamhKOVdNYmJvTGRyR0xmNm1RZHNETlRTZnJIbEVDS1huVFVtb2tTSDJBZ002T3JRUjAzeWZBeHRVdkZI?oc=5",
-      "published": "2026-09-28T14:23:00+09:00",
-      "topic": "사건·안전",
-      "group": "충청·지역"
-    },
-    {
-      "id": "a29cbb650d4d90b61399",
-      "title": "천안동남소방서, 아파트 공동현관 ‘119패스’ 보급 확대",
-      "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9wT1VfbmZrZS0wal9rRVZSeUN3TGlzMnUzb3Q5ZkRzalZabDh5aFBOelYxT2ROLTNmU1B4OXZ1N3MxckU3?oc=5",
-      "published": "2026-09-28T14:20:00+09:00",
-      "topic": "사건·안전",
-      "group": "충청·지역"
-    },
-    {
-      "id": "3b1df745265ac9e5c77f",
-      "title": "천안시, 유관순 열사 순국 제106주기 추모제 거행",
-      "source": "국민일보",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xX1lNWUg3THpycEJGQmx4WnhtaHg0dndyX0oyc29lZkk3M3JiVktDaUU4eEI3VTYxbjZhZDVYbm9SZWNSQ094dWw4S0NUbW1uNDUyT1FYSmN5TlN2YWVGX1owaGFTWFXSAWxBVV95cUxOSlY3aVY2cUNSa0s5Vi1CTW1peTJEMFZ3ZmJ6Yzl1aWZUUFVua0ZSZV94bTBnMXA3Mkw2T0lwd3JiampaRERVN3pJd0lLeGdkSGZfd0NoZzBDODhFb3FfT1paOWV6UGdBTUMzcVY?oc=5",
-      "published": "2026-09-28T14:13:00+09:00",
-      "topic": "기타",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "c094995cf1e465064b67",
-      "title": "천안시의회 상임위, 미래도시·보건의료 정책 현장서 해법 찾는다",
-      "source": "금강일보",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1yTzBZUUx5ejdObXRrMkVadDM3WmQ5TkZLRlZvMWlja1V6YkhHVnhTZk1iTWxiN000Vk1KNmR5TkhJdDJSN2VmQ3RGeHZSVUZqbFd4a2xGSjdfM1JTb3RVeGQ2YVY1UmdEZUE?oc=5",
-      "published": "2026-09-28T14:11:39+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "2123373ea62f93a5d776",
-      "title": "김철환 의원, ‘천안형 대학·상권 상생축제’ 제안",
-      "source": "투데이충남",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA5NUMtalNuX2d5TnhXQlpDb19zbUV3Y0w3SzM0RXQxQ2NBWDBxZjBnQTNkTFRWdlR1NW40OWRYT2FwSEE0b1Zfd05SeWhuOTJCejdPdktUeEtxTDVtano0ZHJsT0Y1QmtEUDNiZlRjOXVGQQ?oc=5",
-      "published": "2026-09-28T14:05:41+09:00",
-      "topic": "행정·정치",
-      "group": "기타 매체"
-    },
-    {
-      "id": "076313dd12b48d45e994",
-      "title": "천안서 ‘한국·몽골 청소년 예술 페스타’…내달 4일 개최",
-      "source": "한국시민기자협회 뉴스포털1",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uR2s0TmpNS2oweFZxWDI1c0VUX0JoMElCTjRkd3NiQWRRUkZleDdHZUJoRHp6V0cxZXlqdFpfelYwZUhKN3pKYW9kZ2hlWkltazFTZ2xVLXdxa1VjdTJJY3hWbGFackoyVC1hbEhPcWxlVDllN0NZ0gF3QVVfeXFMTm5HazROak1LajB4VnFYMjVzRVRfQmgwSUJONGR3c2JBZFFSRmV4N0dlQmhEenpXRzFleWp0Wl96VjBlSEo3ekphb2RnaGVaSW1rMVNnbFUtd3FrVWN1MkljeFZsYVpySjJULWFsSE9xbGVUOWU3Q1k?oc=5",
-      "published": "2026-09-28T13:55:37+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "2cec09ffc7b7621dbe38",
-      "title": "유관순 열사 순국 106주기… 천안서 추모제 열려",
-      "source": "bntnews.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3X3FqVm83WEk1UjNHSmxSbnlYalZvS1hfSVBkOTlCdVFTS3dTZU83OThmM29KYVlTOXlBX283ZzJLU0dkLWhXYjBkZUJzT1dlQXBlZmlTSjhnQWJHcmlwajV4d3o?oc=5",
-      "published": "2026-09-28T13:43:43+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "95cbed841fc76b32f761",
-      "title": "천안서북소방서 청렴·갑질 예방 교육으로 건강한 조직문화 조성",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xd1BKdHFTM1FsMHVPSzUyekNSZTF2am05TGVteEJCTFhOLWx5bS1FTlBqcjRCRUk5MnBmajZOWjUxZlBmRTZrLWNWb2xYY0ZyWE10US1yQTI5Mmh3UDNnN1B0RWo4aWNvT1Y2bFp2QVg?oc=5",
-      "published": "2026-09-28T13:39:03+09:00",
-      "topic": "사건·안전",
-      "group": "충청·지역"
-    },
-    {
-      "id": "50cd7f3c91ead4a42701",
-      "title": "[천안 24시] 천안 K-컬처박람회 관람객 12.9% 증가…경제효과 102억원",
-      "source": "시사저널",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzcVI1Z2xTNzdGaFloMGhsMUZ5ZkNtSEUzNFBWd1VlT09fZmNnTEVIbWdGeEs2M1ZvVXVRbUJkUXlwM3lUTTVlMGh6UEllUHJkUmJVZzdWQ0tySGxEYVFFNUgxamhKV3IxYmh3TWlJMNIBc0FVX3lxTE9EeEUyZDl1UmlXLVBweGV1bkZQV1ZnRFFpOVlQSEFqN3d5RktJSjJxZ1NvWngwUjlRT3laeVFBcGZNWG1sSmVOOFhTci1RVWg3ZkJSb25iMVg1YlZ1RW5vSURNdWVzS0lWQng3UWR0Yms2UWM?oc=5",
-      "published": "2026-09-28T13:35:15+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "9cf694a80aa70ceed5d6",
-      "title": "천안 70만시민, 누구나 AI교육 도시 대전환 시동",
-      "source": "DWBNEWS",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mVkl4VlZYb1J0dnZpSDRFY1VDT2lGcHExaTRJVWl3dVVmVFVIY182d3d2X3h3V3NTVS1MTEZpTEFqYlZWcVdpYlRWYlB0Zjd1d0t5Z3ljTmdMTmJLUEZMdm42Q3ZBa0s5?oc=5",
-      "published": "2026-09-28T13:31:47+09:00",
-      "topic": "교육·복지",
-      "group": "기타 매체"
-    },
-    {
-      "id": "790b406365f7abe72a2b",
-      "title": "천안시, 유관순 열사 순국 제106주기 추모제 거행",
-      "source": "C뉴스041",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAxTzE0Z29oVUJJaTVCRGpSTV9sS1BxMkRGelRrTDZJZE5xelhtbEVRQmw0TXVkRThWM1ptRVBudzFhVDZr?oc=5",
-      "published": "2026-09-28T13:30:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "93a2667db9160c5c7623",
-      "title": "활림건설㈜ 천안시복지재단에 후원금 1000만원 기탁",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hc3V2a0dmZWhvbEgwSDBoWTdTOGoyNk1QVmdyajdkWVBiTXptUVZnWnR1VExDd2VNbThtR0NRVTBINWpFbWtZZ093OUpyRmNFOElWcGVnRzNrZHN2TnB5WXJQbDhwbThUejI4UE5xTlY?oc=5",
-      "published": "2026-09-28T13:28:54+09:00",
-      "topic": "교육·복지",
-      "group": "충청·지역"
-    },
-    {
-      "id": "b9170ca66b86960cf884",
-      "title": "천안시, 유관순 열사 순국 제106주기 추모제 거행",
-      "source": "금강일보",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RZVFQVXFIby1RVmVuQ2xBQlJiN3VIMEtwY3pYdm5qNEZRR1VvaE01MlNQbzdpUWFaWjh3S09Yb0dHcW53RUJQekVZem9MeUtUWDhGMVcyZG9Vbk1JZEVOTll5dEdIZGZkSmc?oc=5",
-      "published": "2026-09-28T13:16:16+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "470be708d4b601c156a0",
-      "title": "수도권 전철 아산-천안 증편 코레일 '난색'",
-      "source": "대전일보",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TRV9DaUwzMHhUa2xJTVRuN2QxUUxpMEl0Y2k4ZE5hdVNlRllfd1hLMS04aE44S1R3QUZ4Zm5uajRhVThRcHpBb3FOd253OGROQl9SaFVlbUdIVmszOHA2d3o1RHBRSm8tWGFEb3dQVdIBc0FVX3lxTE9yZFlORUtCYjZDcEVoQzFJd0NSMXg5dy1xWTNhX2xZNFktVFQ4V2tfQVRaMTd2RWlUdUhCYk5FZ3VaZDlVUVFzNzlXNjlxY25nTXdyS1FOVGd5eHJtaGZKc00tNkZwaWZTLWN0Y2l4NE80U2c?oc=5",
-      "published": "2026-09-28T13:10:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "fdd92fd900200e1e2663",
-      "title": "천안 대학축제·지역상권 잇는 '상생 매칭형' 제안",
-      "source": "대전일보",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrcVJBMXVVRmZKWjdXQlRoQmpzZVZHeHRpVnRrOWVkSXVadDBDeklIbVZCcGdYVmJQd3NhVWh2ZFBXeXV3dnZwdzFVRjg3TThMMHNzMWJrVWNaRUlZemFEakN3Vm9ZNnlOLTVBeFUwY9IBc0FVX3lxTE5rclEwT1NadnBkRGltcFlpdy1YVFV0alFlUm9CcnBDMHlfenRZdXZCXzluVW9YTzBqaGNuUDIxUG5uSzZjZGUzTm5WdHdRZm4wX0dtQ1NYQzQtMkxZMHduNlQ1RTdfZ2hnTlM4Y3I2V0wtbEE?oc=5",
-      "published": "2026-09-28T13:10:00+09:00",
-      "topic": "교육·복지",
-      "group": "충청·지역"
-    },
-    {
-      "id": "859eab757b569b12c2f0",
-      "title": "천안 K-컬처박람회 관람객 40만 돌파…행사장 내 경제효과 102억원 추산",
-      "source": "대전일보",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE55UVNRU3JzeHIzdHBSWXBlcldHQzhpXzZfM1JqTkR2ckI2ZWwzaFhhYjl5eE43ZFhENU1vSXRLSmlNYV9IRDQ1QXRtQVotQ0tDN2xrRTZWU0VqV292RmFvV2pOdk43RzRjLTRfczhTQdIBc0FVX3lxTE1HWjlKWm1velpRNzJqTm12dnhPRjZmR2N6S0Q2Mm9zdUpsWWJjREw3TmJtS2EzMzdwckppS09sMHdmQUQ5ajhBb0I2UkVBSHRYWGhPT1VnS0tCSDFQUUxVcnpMWXl6TjQycUY4VjNsUEw4Z28?oc=5",
-      "published": "2026-09-28T13:10:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "839df2f52ebcd5ac8b3b",
-      "title": "천안시, 유관순 열사 순국 제106주기 추모제 거행",
-      "source": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zVHBFUEltdnR3ZWhUNWZrT1BlekhzSDlhUWRJYkZxMzdNajF0c0l5YlM3S2dBdUlFNnRoZlBHYXExdmVwZFRFb3ltV0dqWDdMeTJWR0w1dk1iazDSAWBBVV95cUxQbDNyUGFnSDhOX0I5VW44ZV9vSG5EUGlodE56U3NOLXNFbmNfaVNBbXkzcGRvWGowb3M0MTl6ci1DeUo0c0FJYTVSUGJCQkhmZVp4N2xYUzJoT3hLUVI5UDE?oc=5",
-      "published": "2026-09-28T13:00:01+09:00",
-      "topic": "기타",
-      "group": "중앙·통신"
-    },
-    {
-      "id": "26ec00e5e809588b35bd",
-      "title": "천안공고, 2026 전국기능경기대회 금·은메달 포함 대거 입상 쾌거",
-      "source": "엠뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxT3I2cVNrZmo4U1g1TlB2eUw4LTZxMGZVSkVDM09jWVVROEdwQkVEc3ZkTXI5ZWpCSGlfanNoTXFrRG93c19aVGtKRWVtX1ZYbHBBeHFjQ2xTUlpsbGhfblVtNDhoUQ?oc=5",
-      "published": "2026-09-28T12:33:53+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "ead572a6f6a11f0a3a8e",
-      "title": "[중도초대석] 엄소영 천안시의장, \"의회의 변화, 말로 설명보다 일하는 모습으로 보여줄 것\"",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1QUFHdmJjeHBBbEk4dnJObmMwRWZ0c2FhNDN5X1hheXVreTlob2w2WlJMVFJjY1lJTWxPWlRaVzlPV3lnOEN6dmFQZTlQTVczMTFjNlhIUWxGLXZ3OGhScnpLQ3Y?oc=5",
-      "published": "2026-09-28T11:30:26+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "4f6e0a5f8b778aceafa2",
-      "title": "천안 K-컬처박람회 40만명 찾았다…전년보다 12.9% 증가",
-      "source": "프라임경제",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oVFBBaVFSRWVWTWQ1ZFdwRWx3YnllTEF2alVaaFhJRjFjNmZ0eVV3dUJUNnBWTWdDSUtCVS1GM0VDWkZHeldZamg0TnhiaUpHUmh1SEN1NWRndzh1dFRHSVVLUHJSNXJOOEJMMm1udnU0UQ?oc=5",
-      "published": "2026-09-28T11:25:20+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "fe9a4b5876420267f337",
-      "title": "천안 아파트 건설현장 22곳 ‘감리 제대로 하나’…민관 합동점검",
-      "source": "hdnews.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HX0NoekJ3djB3aWpOR2ZKOGRHcERvblFtc2cxUlRIVXBtdTcwenNRdkw2V3NRczJEVUtSSl9YX3R6N0dLU1pUTlhXSUI5WDlzUWdnQ0lsX0g4aVV0aExrQkNoa3lNY1phV09N?oc=5",
-      "published": "2026-09-28T11:25:03+09:00",
-      "topic": "경제·개발",
-      "group": "기타 매체"
-    },
-    {
-      "id": "b6f761f189a9b9e4ff6f",
-      "title": "천안 여성일자리 Festival 10월 16일 개최…현장면접·AI 직종상담",
-      "source": "굿뉴스365",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RODRqLWJHUkxpMWFydnl2R0pWWjNhT0FOX2E3MlJJcTRvQ1E3OUY3TjJsSUd6V1g0UHBpVlJYMm45b1RmRWhBMmw2RE5BREZDZldzM3RKd2Q1VFVFZ0xDS1VyUkdmaTd5QWNVeHlVbDBxMHR4U3c?oc=5",
-      "published": "2026-09-28T11:08:00+09:00",
-      "topic": "경제·개발",
-      "group": "기타 매체"
-    },
-    {
-      "id": "dec9e75a9133dbb1b226",
-      "title": "천안을 이재관 의원, \"농가소득 매년 증가했지만, 농업소득은 오히려 9.7% 줄어...대책 마련 시급\"",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vYXNSNDlpZFZIUF9rRXRISUdPekRMNk5CZ3JpSGJ5TnVLdWMybnNVT2YxVkZhUHFscFhheVIwSGNXTWhXS3ZEMlNqalhBREhYaW5DLVRaUTBqdHhQZTZYR1M1Q0k?oc=5",
-      "published": "2026-09-28T11:06:00+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "be8aeb74779ec8e73f51",
-      "title": "천안시청소년수련관, 10월 매주 토요일 '가족 문화 프로그램' 운영",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tUTZXbUdNbm9WM1dsOVJrcmxaMmJfU0RHbkRIbTY0MnUwWUg4NDItNVJuQ00tRktCWDlYZHVtdk43eTN5RGpHR3ZxSW8zNlhPSThQWGtjRGxBM2tDMVlxX3AxV25fSElRZWdBSA?oc=5",
-      "published": "2026-09-28T11:05:56+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
-    },
-    {
-      "id": "2e7f4ae101f367a08ba0",
-      "title": "천안청소년복합커뮤니티센터, 10월 4일 '한국·몽골 청소년 예술 페스타' 개최",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HOXJ3U2stRTQtSXFrWlFPOFFNU2thVUEyUm5tZTNCYTIzY2Q5aHR2RWxOSW5mSG1sWFRRRmtYNjFDTWVPdGgyaEc4SnROLXB6NnMxZ1NRSzk4aW5LR1ZGUE9PQTY?oc=5",
-      "published": "2026-09-28T11:05:54+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "443a14bbe6334b6a1b16",
-      "title": "천안시, 관내 공동주택 감리업무 수행실태 합동점검 실시",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oa2U2SW1yTWtFN190b1MxMHdPNlctZ0o0SVN0UEhpQTNzX2FCUk4yVVF5Wi00Uk1rdlJCWTUzc0FFZ0JOSEhUemJwRUlXV0g0M2ZtZVQ3dm5fXzE2TTVzaGhFTDA?oc=5",
-      "published": "2026-09-28T11:05:52+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "a0469c34637457bc4189",
-      "title": "천안시, 유관순 열사 순국 제106주기 추모제 거행",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IcjlwQ1JnOWVLYkZnVXRFdXlDNkhhMW1uMF9lYXYyQ3pubXg2S0U3VF95RHNWVG9YcXZyVWJESHA1T1J1V2QzSkFyZUw5UlRzVnJsVEtMbnNwLWtvYU5HZ0loVGs?oc=5",
-      "published": "2026-09-28T11:05:46+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "150c5e59d152b27c060b",
-      "title": "천안법원, 동거녀에 흉기 휘두른 30대 남성 '집행유예 5년'",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81bDJ2NTJWMnk2UE1LOTdDX192TGl6ckJZVEVoMzBYdk9tSWpjZVdxbVZ1cjJhbjdENUR2MFplMnF1Y19VRlEwUU9kNDVqd09UNUZScEdQc2FGT0NqeWRMSHF6WUs?oc=5",
-      "published": "2026-09-28T11:05:44+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "38f8117c6253c68a2844",
-      "title": "단국대병원 단우후원회, 천안 '우리아이 수호천사 되어주기' 동참…300만원 기탁",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xb3YtaWxwVTR2YW0zVTdNNVJTLTRoSnkyR3JveUpNT1k0MkQyYUhrWjI5cXdLWE4yRDR0Sl9YV2dFajdQZ2d6MzJvTExZMTFUQkVwcUQxa1UtNUlvU05MZ2RzbUw?oc=5",
-      "published": "2026-09-28T11:05:41+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "e659ce12a160c5b15631",
-      "title": "천안동남소방서, 골든타임 확보 위한 공동주택 '119패스' 추진",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMdnJkZzYtY25XRm8zdDJWcUpWOWF1WThYNW9vbFUxQVprc2Qwblg3N2E4LW5DT3Y5SUdBTXlTLUtzVUlEUjl6SzllTFl5bmd2NzNwX0RoMUhkeE9wOFY0NWFyY1Q?oc=5",
-      "published": "2026-09-28T11:05:10+09:00",
-      "topic": "사건·안전",
-      "group": "충청·지역"
-    },
-    {
-      "id": "ad2730c0b8375bcd1318",
-      "title": "천안시·도의원, 시정현안 공유…도비 확보 공조 강화",
-      "source": "중도일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kZFJCLU42b24yWFpnZzB2czRyS3ZFSTNtMG5uSndsWUNOYUphSUpWMFIzY1NzMWhPeE9fd2FZYUNjdzRKdVF3YmV2RmUxRzV2YnlGVEZFWkNLUndlLUhkUVlfd0E?oc=5",
-      "published": "2026-09-28T11:05:05+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "87e1417fac8923d8d16d",
-      "title": "‘70만 시민 누구나 AI를’…천안, AI교육 도시 대전환 시동",
-      "source": "canews.kr",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44bGVNLXhIcHRQd3BpWTlIU2R6MjdKcTZSSjh5WGNmT1dsRTVOaE95VEF1UExTTlh4c2dQVmFoZ1ZKM3ppWWxwSTlFOFd4NDJTVlFVdjJDWWY3X19KbGlCMDRwSQ?oc=5",
-      "published": "2026-09-28T10:39:00+09:00",
-      "topic": "교육·복지",
-      "group": "기타 매체"
-    },
-    {
-      "id": "9dd0b4abd9dde2917f9e",
-      "title": "천안시청소년재단, 10월 4일 ‘한국·몽골 청소년 예술 페스타’ 개최… 군악대·국악 협연",
-      "source": "뉴스파고",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBndzBvSTFWdkhaNGRLVUI0M2xlSV9tRDk5SC0zMFd6UGk3THF0OHcyMExFS2QtOEZmVXFDVldSNFE5Rk5t?oc=5",
-      "published": "2026-09-28T10:15:00+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "1ebf6f3e920512ff70db",
-      "title": "천안시, 지역 내 공동주택 감리업무 수행실태 합동점검 실시",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mR0x2SUFiYXRnQ0NYczNxNjBPbUlOLVk1VGhpQzdTQks3LXd2clBKYXk5S2ZTMXlCaFpySUJOd3NLT1UxSWZDYzhCLTh5aThrYmdCMzJrM0Q3Y1ptOGFaQ09ial9LeURyYmFZZzZ4SFRpUUU?oc=5",
-      "published": "2026-09-28T10:09:03+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "7619f472e6c3ab4aef4e",
-      "title": "천안시, 동남구 공립지역아동센터 수탁운영기관 공개 모집",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ob3U1SUhEbHBMcUQ1UHZ5U3ZMT2V0VVJfSFRpcDlZbDlpZXoybDY4RTd5blZiNHd5QUpCZG1HRnJmU3pjUjVnNFNtXzRmRUtUVW55cXQ4aEJTTXlVOTI3N1I5TEpHdk1OTVZyQ0lOVFpvaUE?oc=5",
-      "published": "2026-09-28T10:07:39+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "0469d4b262f8d6baaed3",
-      "title": "천안동남소방서, 골든타임 확보 위한 공동주택 ‘119패스’ 추진",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzaEhJUGZwY2gxMXJoSnBxZFNqbE1lUk1zTEdFczk4R3ZVeEJIbFM3bWs0S3I5TVQwVDEzUWZFekEzUE1vVndDeDFIVTgyQVA5bjc2R2c1VVRkdExMMFAzSUo0ekJHUzdUVGZIMHBQekdrbTQ?oc=5",
-      "published": "2026-09-28T10:06:49+09:00",
-      "topic": "사건·안전",
-      "group": "충청·지역"
-    },
-    {
-      "id": "11c4a4dc93209621a30f",
-      "title": "천안시청소년수련관, 10월 매주 토요일 ‘가족 문화 프로그램’ 운영",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VUEQ1bV9hMkNzbUd2MVNBdFJMaDZBS1hIaUZwT0ljNjRUMjgyb3FnalpydHVMUUVTNjJsMXE1MkZWZ1EwSFZTRU9JV3l4SHJZd2Nkdm1valREQTRZbURQSHUzRkdyMmV3dHdqSWY5ZlNRMmM?oc=5",
-      "published": "2026-09-28T10:04:29+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
-    },
-    {
-      "id": "9a08751135343e456ea2",
-      "title": "천안서 한·몽 청소년 ‘예술로 하나 된다’",
-      "source": "충청매일",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PWlNIMXZQaWRScUY4anQwdDdVZHBLNzhjd21IdzVpbkJoa0pMZGktZzYzb1pUd0g5Q3pZbUY0eW5MenJMYjUzQWFrdFVEZ0p1dDdUclNmNjlnNFl0Q2pxTTF6S1VMX2RxLWc?oc=5",
-      "published": "2026-09-28T10:00:04+09:00",
-      "topic": "기타",
-      "group": "기타 매체"
-    },
-    {
-      "id": "a3ee15363ae967f19d5f",
-      "title": "천안시 관내 공동주택 감리업무 수행실태 합동점검 실시",
-      "source": "충청일보",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mdWNJQmlpandUNS1VYWhoLXBHd2hMMnNXRFcxLW9fV0MtRDBtOTkwTmJTMF9DLWZ4NjdrTVBUcUY2dFZGeFBfWHlOd3VhUC1NRW43NF9yUjYxSDF6dTZRcG1FN1hfZWpIcGdpN0dnNEw?oc=5",
-      "published": "2026-09-28T09:52:44+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "b3bce366b0d528449eac",
-      "title": "하나은행 충남북영업본부, 천안흥타령춤축제 성공 개최 후원금 기탁",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96LXMxQWEtVmUtb0dibmR0SHpGOEU3LXBDYXEzZC1Vd1dQSFR0VlZFRFB5U3llaEVUSFM4c3lXZXNQLVRobW5wUUJuRGl4akdiblM3ekE4X1Y4Rl9HWlJQM2dnRE5pckJHemZiVUJUOXljcDQ?oc=5",
-      "published": "2026-09-28T09:48:41+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
-    },
-    {
-      "id": "aef857f8d26387e352fa",
-      "title": "천안시청소년상담복지센터-순천향대학교 부속 천안병원, 위기청소년 지원을 위한 업무협약 체결",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1lbUFLdFU1ci1HY2w3a0VvTTRzWU9HSDNzYUt3LWY5WERLWEdtLWRrZEN5MEtSTXdDbmEzamIxSlJIZG9PUXpUU1ZQSmhJcWk5RnR2VU1mN0tPNUVlclAyd1FjTmJVeUZMQW1MNTc0UFFOUWs?oc=5",
-      "published": "2026-09-28T09:46:08+09:00",
-      "topic": "교육·복지",
-      "group": "충청·지역"
-    },
-    {
-      "id": "5fa002ce207a03e6bf1a",
-      "title": "천안시건강가정지원센터, 천안시육아종합지원센터와 업무협약 체결",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LSjUxRHFXdFRoNXFZRTBxZmg4eVo4RVM2MG1uVFcyMXMyd2p0cXhpUUlyV0VQcXQ0UjZRS2VMR2w0WU1JbXBsRV94d0VCZXVhSDF6WXJKWEMtb21CVVA2ckV5cjE4UzlnZnBRdl9YSkRsQ00?oc=5",
-      "published": "2026-09-28T09:44:22+09:00",
-      "topic": "기타",
-      "group": "충청·지역"
-    },
-    {
-      "id": "bfc187be0828f59bf64b",
-      "title": "천안시의회, 28일부터 제292회 임시회 운영",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QSzBrbFotVUpOTk9DOXFBWG9aWkpjb2hiR1o5RUJTOW9SX3dzNmlva1o5eERnbkNVQVBwUmdLaUFQWERFUXZJZ1FjRHFjaHJwN0RHMnd5Yno3RlMwY3VwYklsNF94NmRoTU9hUnhyV3ZySWM?oc=5",
-      "published": "2026-09-28T09:43:26+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
-    },
-    {
-      "id": "94b21f21a7120b2f64e3",
-      "title": "천안시, 축구역사박물관 건립 본격화…건축설계 착수보고회 개최",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OZi1QYW40R0ZndDFMd0pMT0lVdTI3dU9ud3hZT2stdzhRZGtZYUpfUFFLNHd3ZHRzTFRpZzZHMnpoMk5POGVGSGFLOURBV1JUQ1UxN29uRnpjNXlBbzFaUlBLUU5lZktVX3JDdjlXeU1hQ2c?oc=5",
-      "published": "2026-09-28T09:38:13+09:00",
-      "topic": "문화·생활",
-      "group": "충청·지역"
-    },
-    {
-      "id": "e5603a647921af2ab75e",
-      "title": "장기수 천안시장, 추석 앞두고 민생 행보…전통시장·노인복지관 방문",
-      "source": "충남일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tNHI5dEdURjVSdkhQRFZ1b2pQUm5VcGNJdG9Rai1rOG1MaW9UdVJnS1ZMQjdYa0NlN1daaDlRUDJpVUw3bmg5WEpvdS1sVHJ2RFNtUHlKZFFTSkE1dGpNZVVkX1h4eDJ3MHFJRFpaMExkcWs?oc=5",
-      "published": "2026-09-28T09:36:31+09:00",
-      "topic": "행정·정치",
-      "group": "충청·지역"
     }
   ]
 }
