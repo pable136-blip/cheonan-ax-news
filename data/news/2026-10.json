@@ -1,5 +1,108 @@
 [
   {
+    "id": "cb663f6e82b9d942",
+    "agency_id": "rda",
+    "title": "돼지 도축로봇, 현장 실증으로 정밀 제어 기술 높인다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787299",
+    "published": "2026-10-30",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "농촌진흥청  (  청장 이승돈  )  은 돼지 도축로봇 실증 시설과 목 절개  ·  복부 절개  ·  내장 적출 총  3  개 공정 로봇을 갖추고  ,  실제 시험 도축을 통해 공정별 동작을 정밀하게 조정하고 있다고 밝혔다  .  이번 연구의 핵심은 도체마다 달라지는 절개 위치와... 2026-10-30 농촌진흥청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "로봇"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-30T20:00:01+09:00",
+    "topics": [
+      "physical"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156787299"
+  },
+  {
+    "id": "9afec59615cee6f5",
+    "agency_id": "cheonan",
+    "title": "장기수 천안시장, 스페인 스마트시티 엑스포 참가… 인공지능 도시 해법 모색",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000515873Zw1vQ8",
+    "published": "2026-10-30",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "장기수 천안시장이 스페인 바르셀로나에서 열리는 세계 최대 스마트도시 박람회에 참가해 미래 첨단 도시 해법 모색과 지역 기업의 글로벌 진출 지원에 나선다.",
+    "subtitle": "11월 1일부터 5박 7일간 천안관 운영…8개 유망기업 해외 진출 지원",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "스마트시티"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-30T20:02:11+09:00",
+    "topics": [
+      "smartcity",
+      "talent",
+      "industry"
+    ],
+    "primary_topic": "smartcity",
+    "dept": "스마트도시정책팀",
+    "nttId": "B000000515873Zw1vQ8"
+  },
+  {
+    "id": "90cd75f4508859d5",
+    "agency_id": "moe",
+    "title": "인공지능시대사이버보안영재교육지원을위한 교육부.LG유플러스.티오리한국 업무협약 체결",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787281",
+    "published": "2026-10-30",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "인공지능시대사이버보안영재교육지원을위한 교육부.LG유플러스.티오리한국 업무협약 체결 2026-10-30 교육부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-30T20:00:01+09:00",
+    "topics": [
+      "talent",
+      "security",
+      "diplomacy"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156787281"
+  },
+  {
+    "id": "50a107a62c2a4c4f",
+    "agency_id": "fsc",
+    "title": "불법 가상자산 취급업자(특금법상 미신고 가상자산사업자)에 대한 수사의뢰(DAXA, 3건) 및 접속차단(2건) 요청",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787377",
+    "published": "2026-10-30",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "불법 가상자산 취급업자  (특금법상 미신고 가상자산사업자)  에  대한 수사의뢰  (DAXA, 3건)  및 접속차단  (2건)  요청  금융위원회  금융정보분석원  (원장: 이형주, 이하 'FIU')  은 금일 오전  디지털자산거래소 공동협의체  (이하 'DAXA')  가 수사의뢰한  불법 가상자산 취급... 2026-10-30 금융위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-30T20:00:01+09:00",
+    "topics": [
+      "data",
+      "law"
+    ],
+    "primary_topic": "data",
+    "newsId": "156787377"
+  },
+  {
     "id": "31c4c4a238fc9169",
     "agency_id": "acc",
     "title": "행복청, 인공지능 추진성과 공유...전문가들과 발전방향 논의",
@@ -48,6 +151,33 @@
     ],
     "primary_topic": "talent",
     "newsId": "156787243"
+  },
+  {
+    "id": "04ec4fa546be284e",
+    "agency_id": "mohw",
+    "title": "AI 발전 속도에 발맞춰 보건의료데이터 안전 활용법 교육한다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787292",
+    "published": "2026-10-30",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "AI 발전 속도에 발맞춰 보건의료데이터 안전 활용법 교육한다  - 2026년 하반기 보건의료데이터 활용 정기교육 개최 -  - 가이드라인 개정 방향 안내 및 AI 기반 연구 사례 교육으로 연구자 실무 역량 강화 -  보건복지부(장관 정은경)와 한국보건의료정보원(원장 염민섭), 대한의료정보학회(이사장 김종... 2026-10-30 보건복지부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-10-30T20:00:01+09:00",
+    "topics": [
+      "talent",
+      "security",
+      "data"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156787292"
   },
   {
     "id": "e7b3dc358f9dd8e0",
