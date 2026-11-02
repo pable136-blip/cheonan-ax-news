@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T01:45:06+00:00",
+  "updated": "2026-11-02T12:35:46+00:00",
   "topics": [
     {
       "id": "genai",
@@ -157,7 +157,7 @@
       "law": 12,
       "security": 6,
       "public": 8,
-      "diplomacy": 11,
+      "diplomacy": 12,
       "other": 5
     },
     "msit": {
@@ -173,7 +173,7 @@
       "law": 46,
       "security": 29,
       "public": 35,
-      "diplomacy": 41,
+      "diplomacy": 42,
       "other": 18
     },
     "mois": {
@@ -219,7 +219,7 @@
       "startup": 1,
       "talent": 3,
       "law": 0,
-      "security": 0,
+      "security": 1,
       "public": 1,
       "diplomacy": 2,
       "other": 0
@@ -473,7 +473,7 @@
       "infra": 4,
       "smartcity": 0,
       "startup": 2,
-      "talent": 3,
+      "talent": 4,
       "law": 5,
       "security": 2,
       "public": 7,
@@ -569,7 +569,7 @@
       "infra": 3,
       "smartcity": 0,
       "startup": 2,
-      "talent": 15,
+      "talent": 16,
       "law": 2,
       "security": 0,
       "public": 14,
@@ -590,7 +590,7 @@
       "security": 4,
       "public": 2,
       "diplomacy": 1,
-      "other": 2
+      "other": 3
     },
     "kcs": {
       "genai": 0,
@@ -986,12 +986,12 @@
     "infra": 139,
     "smartcity": 17,
     "startup": 202,
-    "talent": 401,
+    "talent": 403,
     "law": 206,
-    "security": 144,
+    "security": 145,
     "public": 283,
-    "diplomacy": 216,
-    "other": 103
+    "diplomacy": 218,
+    "other": 104
   },
   "quarters": {
     "2025-Q3": {
@@ -1075,13 +1075,13 @@
       "smartcity": 5
     },
     "2026-Q4": {
-      "diplomacy": 10,
+      "diplomacy": 12,
       "physical": 22,
       "smartcity": 1,
-      "talent": 24,
+      "talent": 26,
       "data": 18,
-      "other": 24,
-      "security": 16,
+      "other": 25,
+      "security": 17,
       "industry": 25,
       "public": 17,
       "agent": 5,
@@ -1091,10 +1091,10 @@
       "startup": 3
     }
   },
-  "newsTotal": 2394,
+  "newsTotal": 2400,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
-    "count": 401
+    "count": 403
   }
 }
