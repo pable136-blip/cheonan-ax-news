@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T12:35:46+00:00",
+  "updated": "2026-11-03T03:41:59+00:00",
   "topics": [
     {
       "id": "genai",
@@ -164,7 +164,7 @@
       "genai": 15,
       "agent": 13,
       "physical": 28,
-      "industry": 38,
+      "industry": 39,
       "data": 32,
       "infra": 65,
       "smartcity": 0,
@@ -178,7 +178,7 @@
     },
     "mois": {
       "genai": 1,
-      "agent": 7,
+      "agent": 8,
       "physical": 2,
       "industry": 1,
       "data": 11,
@@ -334,12 +334,12 @@
       "security": 2,
       "public": 4,
       "diplomacy": 3,
-      "other": 5
+      "other": 6
     },
     "mafra": {
       "genai": 1,
       "agent": 0,
-      "physical": 9,
+      "physical": 10,
       "industry": 9,
       "data": 7,
       "infra": 2,
@@ -526,7 +526,7 @@
       "security": 1,
       "public": 1,
       "diplomacy": 0,
-      "other": 1
+      "other": 2
     },
     "mpva": {
       "genai": 0,
@@ -718,7 +718,7 @@
       "security": 0,
       "public": 22,
       "diplomacy": 1,
-      "other": 2
+      "other": 3
     },
     "kcg": {
       "genai": 0,
@@ -748,7 +748,7 @@
       "talent": 0,
       "law": 0,
       "security": 1,
-      "public": 1,
+      "public": 2,
       "diplomacy": 0,
       "other": 1
     },
@@ -907,7 +907,7 @@
       "startup": 1,
       "talent": 1,
       "law": 2,
-      "security": 35,
+      "security": 36,
       "public": 1,
       "diplomacy": 1,
       "other": 1
@@ -979,19 +979,19 @@
   },
   "totals": {
     "genai": 63,
-    "agent": 42,
-    "physical": 149,
-    "industry": 215,
+    "agent": 43,
+    "physical": 150,
+    "industry": 216,
     "data": 214,
     "infra": 139,
     "smartcity": 17,
     "startup": 202,
     "talent": 403,
     "law": 206,
-    "security": 145,
-    "public": 283,
+    "security": 146,
+    "public": 284,
     "diplomacy": 218,
-    "other": 104
+    "other": 107
   },
   "quarters": {
     "2025-Q3": {
@@ -1076,22 +1076,22 @@
     },
     "2026-Q4": {
       "diplomacy": 12,
-      "physical": 22,
+      "physical": 23,
       "smartcity": 1,
       "talent": 26,
       "data": 18,
-      "other": 25,
-      "security": 17,
-      "industry": 25,
-      "public": 17,
-      "agent": 5,
+      "other": 28,
+      "security": 18,
+      "industry": 26,
+      "public": 18,
+      "agent": 6,
       "genai": 9,
       "law": 4,
       "infra": 2,
       "startup": 3
     }
   },
-  "newsTotal": 2400,
+  "newsTotal": 2408,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
