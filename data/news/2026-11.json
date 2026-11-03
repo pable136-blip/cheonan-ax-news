@@ -99,6 +99,30 @@
     "newsId": "156787716"
   },
   {
+    "id": "94a224cac8f87fcf",
+    "agency_id": "motie",
+    "title": "대한민국 제조업 판 바꾼다... 산업부, 제조AI 4단계 확산전략 가동",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787789",
+    "published": "2026-11-03",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "대한민국 제조업 판 바꾼다  ...  산업부  ,  제조  AI 4  단계 확산전략 가동  -  산업부  , 11.3  일  「  AI  팩토리 전략회의  」  개최 및  AI  팩토리 확산전략 발표  그간의 개별 공정 단위 제조  AI  혁신  ,  공급망  ·  산단 등 생태계 전체로 확... 2026-11-03 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-03T21:04:16+09:00",
+    "topics": [
+      "industry"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156787789"
+  },
+  {
     "id": "8bc2603332ce7130",
     "agency_id": "msit",
     "title": "\"연결을 넘어, AI가 만드는 새로운 가치\" 「2026 AIoT Week Korea」 개막",
@@ -149,6 +173,32 @@
     ],
     "primary_topic": "physical",
     "newsId": "156787709"
+  },
+  {
+    "id": "482e631d6933ded9",
+    "agency_id": "msit",
+    "title": "휴머노이드가 '일하는 법' 배우는 데이터 생산기지 문 연다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787790",
+    "published": "2026-11-03",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  공공 개방형  'AI  휴머노이드 데이터 팩토리  '  개소  -  -  국산 휴머노이드  'KAIROS'  개발 연계  …  2027  년 말 산학연 개방 추진  - 2026-11-03 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-03T21:04:16+09:00",
+    "topics": [
+      "industry",
+      "data",
+      "law"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156787790"
   },
   {
     "id": "1b3b0610d9e8f149",
