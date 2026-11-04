@@ -24,6 +24,30 @@
     "newsId": "156787873"
   },
   {
+    "id": "f4f691aa49ae62a6",
+    "agency_id": "mofa",
+    "title": "AI 시대, '대체불가 대한민국' 실현을 위한 AI 전략과 글로벌 협력 방안 공유",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787940",
+    "published": "2026-11-04",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국립외교원은 11.4.(수)「2026 주한대사 대상 고위급 정책강연회」를 개최하였다.  ※ 주한대사 대상 고위급 정책강연회는 우리 정부 고위인사가 주요 국정 정책을 소개하고 주한대사들과 소통하는 자리로, 2025년에는 외교부장관(9월), 국립중앙박물관장(12월)이 강연자로 참석  올해 강연회에는 하정우 ... 2026-11-04 외교부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-04T21:16:00+09:00",
+    "topics": [
+      "diplomacy"
+    ],
+    "primary_topic": "diplomacy",
+    "newsId": "156787940"
+  },
+  {
     "id": "f2bdfc835abe5946",
     "agency_id": "mfds",
     "title": "[보도참고] 식품안전나라 'AI 기반 검색'·'자주 찾는 민원'으로 쉽고 빠르게",
@@ -72,6 +96,31 @@
     ],
     "primary_topic": "physical",
     "newsId": "156787899"
+  },
+  {
+    "id": "a50e0a51d359d9cd",
+    "agency_id": "molit",
+    "title": "이 땅에 집 지을 수 있나요? \"복잡한 인허가, 인공지능(AI)으로 쉽게\"",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787948",
+    "published": "2026-11-04",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "이 땅에 집 지을 수 있나요 \"복잡한 인허가, 인공지능(AI)으로 쉽게\" 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-11-04 국토교통부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-04T21:16:00+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156787948"
   },
   {
     "id": "9b84a063479ad4d2",
@@ -151,6 +200,60 @@
     ],
     "primary_topic": "talent",
     "newsId": "156787858"
+  },
+  {
+    "id": "4927caeba97bac3a",
+    "agency_id": "msit",
+    "title": "[관계부처 합동] 이 땅에 집 지을 수 있나요? 복잡한 토지개발 인허가, 인공지능(AI)으로 쉽게",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787945",
+    "published": "2026-11-04",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  「  AI  민생  10  대 프로젝트  」  지원을 통해 내년  1  월부터 시범운영  -  -  K-Geo Festa  서  AI  통합인허가 사전진단 서비스 첫선  -  -  복잡한 법령 몰라도  ,  평소 쓰는 말로 질문하면  AI  가 인허가 사전 진단  - 2026-11-04 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-04T21:16:00+09:00",
+    "topics": [
+      "public",
+      "law"
+    ],
+    "primary_topic": "public",
+    "newsId": "156787945"
+  },
+  {
+    "id": "335766aced425a30",
+    "agency_id": "mnd",
+    "title": "국방부·산업통상부, 군수 빅데이터 기반 「RAM-C AI 에이전트」 기술개발 착수",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787932",
+    "published": "2026-11-04",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국방부·산업통상부, 군수 빅데이터 기반 「RAM-C AI 에이전트」 기술개발 착수  □ 국방부와 산업통상부(이하 산업부)는 11월 4일(수) 대전컨벤션센터(DCC)에서 주관연구개발기관인 한국항공우주산업(KAI)을 비롯하여 육·해·공군, 한국국방연구원, 국방기술품질원 ... 2026-11-04 국방부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "에이전트",
+      "빅데이터",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-04T21:16:00+09:00",
+    "topics": [
+      "agent",
+      "data"
+    ],
+    "primary_topic": "agent",
+    "newsId": "156787932"
   },
   {
     "id": "2a129b0c97c6268a",
@@ -253,6 +356,30 @@
     ],
     "primary_topic": "genai",
     "newsId": "156787854"
+  },
+  {
+    "id": "00e60d0b411f0f5a",
+    "agency_id": "moee",
+    "title": "기후부, 소속·산하기관과 인공지능 활용으로 업무혁신 함께 이룬다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787931",
+    "published": "2026-11-04",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "▷ 화학물질 배출량 조사·화학사고 초동대응 지원 등… 20개 팀 성과 공유  ▷ 기후 에이아이 프렌즈 성과공유회 개최… 기관 경계 넘어 함께 배우고 도전  연간 7,190개(2025년 기준)에 이르는 사업장의 화학물질 배출량 조사 검증을 비롯해 한국동서발전에 연간 접수되는 전자문서 약 1만 ... 2026-11-04 기후에너지환경부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-04T21:16:00+09:00",
+    "topics": [
+      "security"
+    ],
+    "primary_topic": "security",
+    "newsId": "156787931"
   },
   {
     "id": "f346cd0453bc0ecd",
