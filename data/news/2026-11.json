@@ -1,5 +1,109 @@
 [
   {
+    "id": "fd7a0c2d0dc83f76",
+    "agency_id": "pipc",
+    "title": "「모두의 토론회」 로 모은 국민의 목소리 \"AI 시대 개인정보, 유연한 처리·명확한 고지·확실한 거부권 필요",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788109",
+    "published": "2026-11-05",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "「모두의 토론회」 로 모은 국민의 목소리  \"AI 시대 개인정보, 유연한 처리·명확한 고지·확실한 거부권 필요\"  - 행안부·개인정보위, '개인정보 안전 활용 방안' 주제로 '모두의 토론회' 성료  - 사전 온라인 토론(1,333명) 결과, 동의가 반복되면 형식적으로... 2026-11-05 개인정보보호위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-05T21:30:24+09:00",
+    "topics": [
+      "security"
+    ],
+    "primary_topic": "security",
+    "newsId": "156788109"
+  },
+  {
+    "id": "e676ef9c2997afc3",
+    "agency_id": "kfs",
+    "title": "산림청, 'AI·데이터 행정' 산하기관 협력 체계 구축",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788115",
+    "published": "2026-11-05",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "산림청, 'AI·데이터 행정' 산하기관 협력 체계 구축  - AI·데이터행정책임관 회의 개최···산림 분야 AI전환 및 데이터 공동활용 총력-  산림청은 정부대전청사에서 '제1회 산림청 및 산하 공공기관 AI·데이터행정책임관 회의... 2026-11-05 산림청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-05T21:30:24+09:00",
+    "topics": [
+      "data",
+      "public",
+      "diplomacy"
+    ],
+    "primary_topic": "data",
+    "newsId": "156788115"
+  },
+  {
+    "id": "d8788fdde4f15bb5",
+    "agency_id": "moe",
+    "title": "로봇 기업 인사 담당자가 직접 부트캠프 학생의 취업 상담에 나선다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788063",
+    "published": "2026-11-05",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "로봇 기업 인사 담당자가 직접 부트캠프 학생의 취업 상담에 나선다 2026-11-05 교육부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "로봇"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-05T21:30:24+09:00",
+    "topics": [
+      "physical",
+      "industry"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156788063"
+  },
+  {
+    "id": "c8093c401106fa7d",
+    "agency_id": "pipc",
+    "title": "에이전트·피지컬 인공지능(AI) 시대의 개인정보 보호, 기술에서 해법 찾는다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788108",
+    "published": "2026-11-05",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "에이전트·피지컬 인공지능(AI) 시대의 개인정보 보호, 기술에서 해법 찾는다  -  11월 5일, 「제4기 개인정보 기술포럼 공개토론회」 개최  - 개인정보보호 강화기술(PET)을 통한 개인정보 보호와 안전활용 방안 모색  개인정보보호위원회(위원장 송경희, 이하 '개인정보위')는 에이전트&m... 2026-11-05 개인정보보호위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI",
+      "에이전트"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-05T21:30:24+09:00",
+    "topics": [
+      "agent",
+      "security",
+      "law"
+    ],
+    "primary_topic": "agent",
+    "newsId": "156788108"
+  },
+  {
     "id": "a4f30d9bf0295cae",
     "agency_id": "fsc",
     "title": "AI시대, 거세지는 침해위협에 맞서 全 금융권이 튼튼한 보안체계로 무장하도록 혁신적인 정책과제를 적극 추진하겠습니다.",
