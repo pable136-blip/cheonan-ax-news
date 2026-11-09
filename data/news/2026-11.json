@@ -1,5 +1,79 @@
 [
   {
+    "id": "e5296fc59b74a172",
+    "agency_id": "msit",
+    "title": "국산 NPU, 엔비디아 시스템과 연계해 글로벌 AI 인프라 시장 진출 길 연다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788455",
+    "published": "2026-11-09",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국산 NPU, 엔비디아 시스템과 연계해 글로벌 AI 인프라 시장 진출 길 연다 관련 보도자료 내용입니다.  자세한 내용은 첨부파일을 참고하시기 바랍니다.  ※ 대용량 첨부파일은 바로보기가 지원되지 않으니, 첨부파일명을 클릭하여 확인하시기 바랍니다. 2026-11-09 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-09T22:01:16+09:00",
+    "topics": [
+      "infra",
+      "diplomacy"
+    ],
+    "primary_topic": "infra",
+    "newsId": "156788455"
+  },
+  {
+    "id": "ab06a293954fb933",
+    "agency_id": "pipc",
+    "title": "개인정보위, 민간과 함께 인공지능 침해 위협에 대응하는 보호체계 정착방안 모색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788460",
+    "published": "2026-11-09",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "개인정보위, 민간과 함께 인공지능 침해 위협에 대응하는 보호체계 정착방안 모색  - 개인정보위·한국개인정보보호책임자협의회 공동주관 \"개인정보 정책포럼\" 개최  - 개인정보 보호 제도 혁신 효과 및 인공지능 침해 위협에 대한 대응 전략 등 논의  개인정보보호위원회(위원장 송경희, 이하 '개인정... 2026-11-09 개인정보보호위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-09T22:01:16+09:00",
+    "topics": [
+      "law"
+    ],
+    "primary_topic": "law",
+    "newsId": "156788460"
+  },
+  {
+    "id": "87ca6e6fff3f324f",
+    "agency_id": "msit",
+    "title": "과기정통부, 전직급 인공지능 대화형 코딩으로 행정혁신 앞당긴다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788451",
+    "published": "2026-11-09",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  관리자부터 실무자까지 대화형 코딩  실습 교육  으로 인공지능  활용 역량 제고  -  -  국산  인공지능 모델을 활용해  소프트웨어 개발 및 업무방식 변화 직접 체험  - 2026-11-09 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-09T22:01:16+09:00",
+    "topics": [
+      "talent",
+      "public"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156788451"
+  },
+  {
     "id": "7a65d08cf040cd7c",
     "agency_id": "moip",
     "title": "AI가 흔드는 지식재산의 경계, 새로운 질서를 논의한다",
@@ -863,6 +937,30 @@
     ],
     "primary_topic": "genai",
     "newsId": "156787854"
+  },
+  {
+    "id": "087980360a7a7f38",
+    "agency_id": "nda",
+    "title": "국가데이터처, 중국 통계청과 양자회의 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788474",
+    "published": "2026-11-04",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국가데이터처(처장 안형준)는 11월 3일부터 6일까지 대전과 부산에서 중국 통계청과 양자회의를 개최한다.  이번 회의에는 롼 젠훙(Ms. RUAN Jianhong) 차장을 단장으로 하는 중국 통계청 대표단 5명이 참석한다. 양 기관은 1993년부터 상호 방문을 통한 양자회의를 이어오며 통계 분야의 정책과... 2026-11-04 국가데이터처",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-09T22:01:16+09:00",
+    "topics": [
+      "data"
+    ],
+    "primary_topic": "data",
+    "newsId": "156788474"
   },
   {
     "id": "00e60d0b411f0f5a",
