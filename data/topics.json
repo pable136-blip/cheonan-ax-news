@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T04:19:56+00:00",
+  "updated": "2026-11-10T12:51:25+00:00",
   "topics": [
     {
       "id": "genai",
@@ -174,7 +174,7 @@
       "security": 29,
       "public": 36,
       "diplomacy": 42,
-      "other": 19
+      "other": 20
     },
     "mois": {
       "genai": 1,
@@ -430,14 +430,14 @@
       "security": 2,
       "public": 0,
       "diplomacy": 2,
-      "other": 0
+      "other": 1
     },
     "mofa": {
       "genai": 0,
       "agent": 0,
       "physical": 0,
       "industry": 1,
-      "data": 0,
+      "data": 1,
       "infra": 0,
       "smartcity": 0,
       "startup": 1,
@@ -982,7 +982,7 @@
     "agent": 48,
     "physical": 156,
     "industry": 220,
-    "data": 217,
+    "data": 218,
     "infra": 141,
     "smartcity": 18,
     "startup": 203,
@@ -991,7 +991,7 @@
     "security": 150,
     "public": 286,
     "diplomacy": 219,
-    "other": 114
+    "other": 116
   },
   "quarters": {
     "2025-Q3": {
@@ -1079,8 +1079,8 @@
       "physical": 29,
       "smartcity": 2,
       "talent": 30,
-      "data": 21,
-      "other": 35,
+      "data": 22,
+      "other": 37,
       "security": 22,
       "industry": 30,
       "public": 20,
@@ -1091,7 +1091,7 @@
       "startup": 4
     }
   },
-  "newsTotal": 2452,
+  "newsTotal": 2455,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
