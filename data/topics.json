@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T02:11:40+00:00",
+  "updated": "2026-11-11T12:00:21+00:00",
   "topics": [
     {
       "id": "genai",
@@ -213,7 +213,7 @@
       "agent": 1,
       "physical": 0,
       "industry": 0,
-      "data": 16,
+      "data": 17,
       "infra": 0,
       "smartcity": 0,
       "startup": 1,
@@ -227,7 +227,7 @@
     "motie": {
       "genai": 1,
       "agent": 1,
-      "physical": 28,
+      "physical": 29,
       "industry": 59,
       "data": 5,
       "infra": 12,
@@ -244,7 +244,7 @@
       "genai": 0,
       "agent": 0,
       "physical": 0,
-      "industry": 34,
+      "industry": 35,
       "data": 1,
       "infra": 1,
       "smartcity": 0,
@@ -265,7 +265,7 @@
       "infra": 1,
       "smartcity": 0,
       "startup": 4,
-      "talent": 72,
+      "talent": 73,
       "law": 6,
       "security": 0,
       "public": 13,
@@ -412,7 +412,7 @@
       "talent": 15,
       "law": 5,
       "security": 1,
-      "public": 34,
+      "public": 35,
       "diplomacy": 3,
       "other": 3
     },
@@ -980,16 +980,16 @@
   "totals": {
     "genai": 66,
     "agent": 48,
-    "physical": 156,
-    "industry": 220,
-    "data": 218,
+    "physical": 157,
+    "industry": 221,
+    "data": 219,
     "infra": 142,
     "smartcity": 18,
     "startup": 203,
-    "talent": 408,
+    "talent": 409,
     "law": 207,
     "security": 150,
-    "public": 287,
+    "public": 288,
     "diplomacy": 220,
     "other": 119
   },
@@ -1076,14 +1076,14 @@
     },
     "2026-Q4": {
       "diplomacy": 14,
-      "physical": 29,
+      "physical": 30,
       "smartcity": 2,
-      "talent": 31,
-      "data": 22,
+      "talent": 32,
+      "data": 23,
       "other": 40,
       "security": 22,
-      "industry": 30,
-      "public": 21,
+      "industry": 31,
+      "public": 22,
       "agent": 11,
       "genai": 12,
       "law": 5,
@@ -1091,10 +1091,10 @@
       "startup": 4
     }
   },
-  "newsTotal": 2462,
+  "newsTotal": 2467,
   "topTopic": {
     "id": "talent",
     "name": "AI 인재·교육",
-    "count": 408
+    "count": 409
   }
 }
