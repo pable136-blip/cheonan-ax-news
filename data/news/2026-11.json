@@ -1,5 +1,32 @@
 [
   {
+    "id": "ef28d382c250a317",
+    "agency_id": "mohw",
+    "title": "AI 기반 의료데이터 표준화로 기관 간 정보 연계·활용 확대",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789187",
+    "published": "2026-11-13",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "AI 기반 의료데이터 표준화로 기관 간 정보 연계·활용 확대  - 보건복지부, 보건의료데이터 상호운용성 R&D 2차년도 성과교류회 개최 -  - 표준데이터모델·표준통합운영체계와 AI 소프트웨어 시제품 공개·시연 -  보건복지부(장관 정은경)는 11월 13일(금... 2026-11-13 보건복지부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-13T21:22:09+09:00",
+    "topics": [
+      "data",
+      "public",
+      "diplomacy"
+    ],
+    "primary_topic": "data",
+    "newsId": "156789187"
+  },
+  {
     "id": "73f1ae9c608f22f3",
     "agency_id": "msit",
     "title": "미래 인공지능·정보통신기술 기술 혁신, 한-해외 연구자가 함께 만들어 간다",
@@ -293,6 +320,33 @@
     ],
     "primary_topic": "public",
     "newsId": "156788942"
+  },
+  {
+    "id": "1370e73181640e94",
+    "agency_id": "cheonan",
+    "title": "천안시, 화학물질 취급 사업장 대상 ‘AX 확산 세미나’ 개최",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000516467Ss7fJ9",
+    "published": "2026-11-12",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시는 12일 성성호수공원 방문자센터에서 관내 화학물질 취급 사업장의 안전관리 역량을 높이기 위한 ‘천안시 AX(인공지능 전환) 확산 세미나’를 개최했다.",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-13T21:24:19+09:00",
+    "topics": [
+      "talent",
+      "industry",
+      "security"
+    ],
+    "primary_topic": "talent",
+    "dept": "수질환경팀",
+    "nttId": "B000000516467Ss7fJ9"
   },
   {
     "id": "0e43ffa9659d9338",
