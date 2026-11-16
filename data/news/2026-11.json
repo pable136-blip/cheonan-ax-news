@@ -1,5 +1,128 @@
 [
   {
+    "id": "75cb0d9dcc0f4c27",
+    "agency_id": "npa",
+    "title": "경찰대학 치안정책연구소 조정혜 경위, SCOPUS 국제학술지 「Security and Human Rights」에 인공지능(AI) 기반 예방적 대테러 전략 연구 게재",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789303",
+    "published": "2026-11-16",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "경찰대학 치안정책연구소 조정혜 경위, SCOPUS 국제학술지 「Security and Human Rights」에 인공지능(AI) 기반 예방적 대테러 전략 연구 게재 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-11-16 경찰청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-16T11:21:49+09:00",
+    "topics": [
+      "diplomacy"
+    ],
+    "primary_topic": "diplomacy",
+    "newsId": "156789303"
+  },
+  {
+    "id": "1b8d0aae75e66179",
+    "agency_id": "mcst",
+    "title": "'제4회 문화·체육·관광 디지털혁신 포럼', 인공지능으로 새로운 문화 만나다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789283",
+    "published": "2026-11-16",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "'제4회 문화·체육·관광 디지털혁신 포럼', 인공지능으로 새로운 문화 만나다 관련 보도자료 내용입니다.  자세한 사항은 붙임파일([1116]문체부보도자료-제4회 문화·체육·관광 디지털혁신 포럼 개최.pdf)을 참고하시기 바랍니다. 2026-11-16 문화체육관광부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-16T11:21:49+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "newsId": "156789283"
+  },
+  {
+    "id": "8293ae8739a4b394",
+    "agency_id": "moel",
+    "title": "(참고)「제63회 세무사 시험 인공지능(AI) 활용 부정행위 관련 비상대책 회의」 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789271",
+    "published": "2026-11-15",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "고용노동부와 산업인력공단은 11.15.(일) 16시 30분, 권창준 차관 주재로 이번 세무사 시험 AI 활용 부정행위에 대한 비상대책회의를 개최하였다. 이 회의는 청와대 하준경 정책실장 주재로, 열린 'AI 활용 부정시험 확산방지 긴급대책회의(11.15, 15:30)'의 후속으로 이루어졌다.  청와대 긴... 2026-11-15 고용노동부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-16T11:21:49+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156789271"
+  },
+  {
+    "id": "69b3e6a27ea5cc10",
+    "agency_id": "molit",
+    "title": "「광주 자율주행 실증도시」 본궤도 진입 … 이달 30일 첫 차량 운행 준비",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789253",
+    "published": "2026-11-15",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "「광주 자율주행 실증도시」 본궤도 진입 … 이달 30일 첫 차량 운행 준비 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-11-15 국토교통부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "자율주행"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-16T11:21:49+09:00",
+    "topics": [
+      "physical"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156789253"
+  },
+  {
+    "id": "3dd9ca6a6ce9b287",
+    "agency_id": "moe",
+    "title": "데이터로 읽는 우리 교육 제18호 발간",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789247",
+    "published": "2026-11-15",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "데이터로 읽는 우리 교육 제18호 발간 2026-11-15 교육부",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-16T11:21:49+09:00",
+    "topics": [
+      "talent",
+      "data"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156789247"
+  },
+  {
     "id": "ef28d382c250a317",
     "agency_id": "mohw",
     "title": "AI 기반 의료데이터 표준화로 기관 간 정보 연계·활용 확대",
