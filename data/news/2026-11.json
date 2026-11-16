@@ -1,5 +1,32 @@
 [
   {
+    "id": "8be32444618bd99a",
+    "agency_id": "mofe",
+    "title": "전략경제자문단 AI에이전트커머스분과 현장방문",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789448",
+    "published": "2026-11-16",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "재정경제부 전략경제자문단은 11.16일(월) AI기업 솔트룩스를 방문하고, 현장에서 AI에이전트커머스 분과위원회 회의를 개최하였습니다.  ※ 자세한 내용은 첨부를 참고하여 주시기 바랍니다.  문의. 재정경제부 전략경제정책관 전략경제분석과 양지연 (044-215-4932) 2026-11-16 재정경제부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "에이전트"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-16T21:49:10+09:00",
+    "topics": [
+      "agent",
+      "industry",
+      "data"
+    ],
+    "primary_topic": "agent",
+    "newsId": "156789448"
+  },
+  {
     "id": "75cb0d9dcc0f4c27",
     "agency_id": "npa",
     "title": "경찰대학 치안정책연구소 조정혜 경위, SCOPUS 국제학술지 「Security and Human Rights」에 인공지능(AI) 기반 예방적 대테러 전략 연구 게재",
@@ -23,6 +50,33 @@
     ],
     "primary_topic": "diplomacy",
     "newsId": "156789303"
+  },
+  {
+    "id": "2a169f866cfae60a",
+    "agency_id": "cheonan",
+    "title": "천안시 및 한국화재보험협회, AI지능형 CCTV로 골목상권 화재안전 강화",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000516556Hv6jE0",
+    "published": "2026-11-16",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시는 16일 직산읍 행정복지센터에서 한국화재보험협회와 함께 소규모 음식점의 화재 예방 및 안전관리 강화를 위한 ‘인공지능(AI) 지능형 CCTV 기증식’을 개최했다.",
+    "subtitle": "삼은1번가 소규모 음식점 15곳 안팎에 3,000만 원 상당 기증",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-16T21:51:23+09:00",
+    "topics": [
+      "security",
+      "data",
+      "public"
+    ],
+    "primary_topic": "security",
+    "dept": "소상공인지원팀",
+    "nttId": "B000000516556Hv6jE0"
   },
   {
     "id": "1b8d0aae75e66179",
@@ -1012,6 +1066,33 @@
     ],
     "primary_topic": "genai",
     "newsId": "156788410"
+  },
+  {
+    "id": "67f66364a99ff3e9",
+    "agency_id": "cheonan",
+    "title": "천안시, 세계 스마트도시 무대서 ‘지역기업, 대학, 청년’ 동반성장 모델 빛났다",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000516563De0xE0",
+    "published": "2026-11-09",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시가 세계 최대 스마트도시 박람회에서 지역기업과 대학생이 함께하는 산학협력 모델을 선보이며 ‘지역기업의 글로벌 진출’과 ‘청년 인재 양성’이라는 주요 성과를 거뒀다.",
+    "subtitle": "지역기업 8개사, 대학생 서포터즈 협업… 203건 상담, LOI 6건, MOU 21건 성과",
+    "tier": "accepted",
+    "matched": [
+      "스마트도시"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-16T21:51:23+09:00",
+    "topics": [
+      "physical",
+      "smartcity",
+      "talent"
+    ],
+    "primary_topic": "physical",
+    "dept": "스마트도시정책팀",
+    "nttId": "B000000516563De0xE0"
   },
   {
     "id": "6683c43fac5befea",
