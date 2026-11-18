@@ -152,6 +152,87 @@
     "newsId": "156789747"
   },
   {
+    "id": "80b003804f95f28e",
+    "agency_id": "moel",
+    "title": "피지컬 인공지능(AI) 테스트베드 4곳 개소,지역 기업에 개방하여 실무인력 양성에 활용",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789765",
+    "published": "2026-11-18",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 18일 전주 폴리텍을 시작으로 청주·성남·창원 폴리텍 연내 가동, 올해 총 100억 투입  - 지역 기업에 개방하여 실무인력 양성에 활용, 내년 총 240억 투입 8곳 추가 구축  고용노동부(장관 김영훈)와 학교법인 한국폴리텍(이사장 이철수, 이하 '폴리텍')은 11월 18일... 2026-11-18 고용노동부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-18T22:12:29+09:00",
+    "topics": [
+      "physical",
+      "talent",
+      "industry"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156789765"
+  },
+  {
+    "id": "61c043ee649e4f5b",
+    "agency_id": "moel",
+    "title": "근로복지공단, '인공지능(AI) 윤리준수기관 확인마크' 획득",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789756",
+    "published": "2026-11-18",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 인공지능(AI) 윤리헌장 제정... 개인정보 보호·공정성·책임성 등 7대 실천원칙 마련  - 임직원 인공지능(AI) 윤리교육 99.5% 수료...'나의 AI 윤리 한 줄 약속' 캠페인 진행  근로복지공단(이사장 박승흡)은 한국지능정보사회진흥원(NIA)으로부터'AI 윤리준수기관... 2026-11-18 고용노동부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-18T22:12:29+09:00",
+    "topics": [
+      "talent",
+      "public",
+      "law"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156789756"
+  },
+  {
+    "id": "5c4e457e17adaefa",
+    "agency_id": "moel",
+    "title": "\"인공지능(AI) 시대 직업훈련의 미래는?\" 한국기술교육대, 개교 35주년 고용·평생직업능력개발 발전 전략 포럼 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789759",
+    "published": "2026-11-18",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- '수요·역량·통합' 중심의 인공지능(AI) 시대 직업능력개발·고용서비스 미래 비전 모색  - 기업 AX·AI 교강사·STEP 콘텐츠·훈련 품질관리 등 5개 기관 혁신 전략 제시  한국기술교육대학교(KOREATECH·... 2026-11-18 고용노동부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-18T22:12:29+09:00",
+    "topics": [
+      "talent",
+      "industry",
+      "public"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156789759"
+  },
+  {
     "id": "4d2d8ab6ef9a549f",
     "agency_id": "nfa",
     "title": "소방청, 누구나 쉽게 이용하는 소방안전 자료(데이터) 조회 서비스 제공",
@@ -250,6 +331,33 @@
     ],
     "primary_topic": "data",
     "newsId": "156789586"
+  },
+  {
+    "id": "c8015821f553b1a9",
+    "agency_id": "cheonan",
+    "title": "천안시, 자율주행버스 501번 23일부터 무료 운행",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000516675Mu7aG5",
+    "published": "2026-11-17",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안에서 직장인의 출퇴근 편의 증진과 미래 모빌리티 기술의 안전성 검증을 위한 자율주행버스가 달린다.",
+    "subtitle": "KTX천안아산역~성성교차로 평일 11회 운행…제3산단 출퇴근 편의, 기술 검증",
+    "tier": "accepted",
+    "matched": [
+      "자율주행"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-18T22:14:41+09:00",
+    "topics": [
+      "physical",
+      "industry",
+      "startup"
+    ],
+    "primary_topic": "physical",
+    "dept": "지능형교통팀",
+    "nttId": "B000000516675Mu7aG5"
   },
   {
     "id": "b3b4a2f114729646",
