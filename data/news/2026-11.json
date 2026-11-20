@@ -1,5 +1,134 @@
 [
   {
+    "id": "ff61bb05fdee163c",
+    "agency_id": "motie",
+    "title": "제조설비 데이터 수집 활용가이드, 국가표준화(KS)로 제조AX 지원",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790036",
+    "published": "2026-11-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "제조설비 데이터 수집 활용가이드  ,  국가표준화  (KS)  로 제조  AX  지원  -  활용가이드  KS  공청회 개최  ,  제조데이터의 공통된 수집체계 마련 기대     제조현장에서의 인공지능 전환  (M.AX)  을 지원하기 위해  ,  서로 다른 이름과  구조로 존재하는 제조설비 데이터의 수... 2026-11-20 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AX",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-20T12:37:43+09:00",
+    "topics": [
+      "industry",
+      "data"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156790036"
+  },
+  {
+    "id": "889ba7ee06f6c227",
+    "agency_id": "moee",
+    "title": "과기정통부-기후부, AI 데이터센터 신속 구축을 위한 전력계통영향평가 제도 개선 추진",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790061",
+    "published": "2026-11-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "▷ 비수도권 AIDC 계약전력 50MW 이하는 전력계통영향평가 면제  ▷ AIDC 특구 내 AIDC는 비기술적 평가 면제(평가 간소화)  ▷ 메가프로젝트, 인허가 일괄처리 대상 AIDC는 평가 우선 처리(AIDC 패스트트랙)  과학기술정보통신부(부총리 겸 과기정통부 장관 배경훈, 이하 '과기정통부')와 ... 2026-11-20 기후에너지환경부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-20T12:37:43+09:00",
+    "topics": [
+      "infra",
+      "data",
+      "law"
+    ],
+    "primary_topic": "infra",
+    "newsId": "156790061"
+  },
+  {
+    "id": "61cbef435b8697dc",
+    "agency_id": "moe",
+    "title": "MS·Google·AWS와 손잡고 교사의 인공지능(AI)·융합교육 역량을 키운다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790063",
+    "published": "2026-11-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "MS·Google·AWS와 손잡고 교사의 인공지능(AI)·융합교육 역량을 키운다 2026-11-20 교육부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-20T12:37:43+09:00",
+    "topics": [
+      "talent"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156790063"
+  },
+  {
+    "id": "23310291cd2f558f",
+    "agency_id": "oka",
+    "title": "재외동포청, 한상 연결망 활용해 국내 AI 스타트업 미국시장 진출 지원",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790026",
+    "published": "2026-11-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "재외동포청, 한상 연결망 활용해  국내 AI 스타트업 미국시장 진출 지원  - 제24차 세계한상대회 IR 경연에서 선정된 우수기업 참가  - 시애틀서 현지 투자자·기업 대상 IR 피칭 및 비즈니스 매칭 진행  - 총 60건 상담(1,500만 달러) 및 4건 MOU 체결  □ 재외동포청(청장 ... 2026-11-20 재외동포청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-20T12:37:43+09:00",
+    "topics": [
+      "industry",
+      "startup",
+      "diplomacy"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156790026"
+  },
+  {
+    "id": "0bcd661d385c2aea",
+    "agency_id": "pps",
+    "title": "조달청, AI 시대 공공조달의 미래전략 모색",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790019",
+    "published": "2026-11-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "조달청, AI 시대 공공조달의 미래전략 모색  - 한국정책학회와 공동 세미나 개최… 26년 조달정책 성과 점검 및 발전 방향 논의  - 공급망 안정·공정조달 강화부터 데이터·AI 기반 조달행정 혁신까지  조달청(청장 백승보)은 20일 서울지방조달청에서 한국정책학회와 ... 2026-11-20 조달청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-20T12:37:43+09:00",
+    "topics": [
+      "data",
+      "public"
+    ],
+    "primary_topic": "data",
+    "newsId": "156790019"
+  },
+  {
     "id": "d4d8690cb831e733",
     "agency_id": "mss",
     "title": "대·중소기업, AI로 연결하고 상생으로 도약한다",
