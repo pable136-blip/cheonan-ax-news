@@ -26,6 +26,30 @@
     "newsId": "156790036"
   },
   {
+    "id": "e91306636c7123b2",
+    "agency_id": "mnd",
+    "title": "국방부, 제5회 국방 AI 경진대회 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790131",
+    "published": "2026-11-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국방부, 제5회 국방 AI 경진대회 개최  □ 국방부는 11월 18일(수)부터 20일(금)까지 3일간 경기도 화성시 YBM 연수원에서 「제5회 국방 AI 경진대회(MAICON:Military AI CONtest)」 본선을 개최하고, 20일(금) 오후 우수 참가자에 대한 시상식을 거행했습니다.  1... 2026-11-20 국방부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-20T21:57:33+09:00",
+    "topics": [
+      "talent"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156790131"
+  },
+  {
     "id": "889ba7ee06f6c227",
     "agency_id": "moee",
     "title": "과기정통부-기후부, AI 데이터센터 신속 구축을 위한 전력계통영향평가 제도 개선 추진",
@@ -78,6 +102,58 @@
     "newsId": "156790063"
   },
   {
+    "id": "4199d92c07e2ef2c",
+    "agency_id": "mss",
+    "title": "민간 AI 솔루션 기업 A사 개인정보 유출...유출 대상에 2차 모두의 창업 참가자 818명 포함",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790122",
+    "published": "2026-11-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "1. 유출 경위 및 확인 내용  □ 2차「모두의 창업」AI 솔루션 공급기업(총 50개) 중 하나인 '아미쿠스렉스(솔루션명 '로폼')'가 11월 11일 (수) 08시 30분 자체 시스템에서 외부 해킹 공격 정황을 포착했습니다. 이후 조사 결과, 해당 기업이 보유하고 있던 총 20,028명의 개인정보가 유출... 2026-11-20 중소벤처기업부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-20T21:57:33+09:00",
+    "topics": [
+      "industry",
+      "startup"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156790122"
+  },
+  {
+    "id": "39a882f15a07cf90",
+    "agency_id": "msit",
+    "title": "인공지능 데이터센터 신속 구축을 위한 「인공지능 데이터센터 특별법」 하위법령 제정안 입법예고",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790072",
+    "published": "2026-11-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  인공지능 데이터센터  인정 기준  신설 및  신고제 구체화  -  -  인허가 일괄처리 절차  ·  시한  명시  ,  전력계통영향평가 면제 기준  마련  -  -  비수도권 인공지능 데이터센터 특구  의 지정 절차  ·  기준 및  지원 기반시설 범위  도 규정  - 2026-11-20 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-20T21:57:33+09:00",
+    "topics": [
+      "infra",
+      "data",
+      "law"
+    ],
+    "primary_topic": "infra",
+    "newsId": "156790072"
+  },
+  {
     "id": "23310291cd2f558f",
     "agency_id": "oka",
     "title": "재외동포청, 한상 연결망 활용해 국내 AI 스타트업 미국시장 진출 지원",
@@ -102,6 +178,33 @@
     ],
     "primary_topic": "industry",
     "newsId": "156790026"
+  },
+  {
+    "id": "16250f9e43f05fe9",
+    "agency_id": "msit",
+    "title": "과기정통부-기후부, 인공지능 데이터센터 신속 구축을 위한 전력계통영향평가 제도 개선 추진",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790068",
+    "published": "2026-11-20",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  비수도권  AIDC  계약전력  50MW  이하  는 전력계통영향평가 면제  -  - AIDC  특구 내  AIDC  는  비기술적 평가 면제  (  평가 간소화  )  -  메가프로젝트  ,  인허가 일괄처리 대상  AIDC  는  평가 우선 처리  (AIDC  패스트트랙  ) - 2026-11-20 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-20T21:57:33+09:00",
+    "topics": [
+      "infra",
+      "data",
+      "law"
+    ],
+    "primary_topic": "infra",
+    "newsId": "156790068"
   },
   {
     "id": "0bcd661d385c2aea",
