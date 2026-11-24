@@ -1,5 +1,207 @@
 [
   {
+    "id": "f3bcc167ab8f987b",
+    "agency_id": "kdca",
+    "title": "검체에서 데이터로, 바이오뱅크의 미래를 논의하다(11.24.화)",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790519",
+    "published": "2026-11-24",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "검체에서 데이터로, 바이오뱅크의 미래를 논의하다  - 11월 24일(화), 「한국인체자원은행사업(KBP) 심포지엄」 개최  - 인체자원 활용 우수성과 공유 및 데이터 활용 확대 방안 논의  질병관리청(청장 임승관) 국립보건연구원(원장 남재환)은 2026년 11월 24일(화) 보코 서울 명동 호텔에서「20... 2026-11-24 질병관리청",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-24T15:14:39+09:00",
+    "topics": [
+      "data",
+      "public"
+    ],
+    "primary_topic": "data",
+    "newsId": "156790519"
+  },
+  {
+    "id": "cd4d4c270ac41897",
+    "agency_id": "molit",
+    "title": "인공지능(AI)과 로봇이 바꾸는 건설 현장, 안전하고 더 스마트한 미래를 열다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790452",
+    "published": "2026-11-24",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "인공지능(AI)과 로봇이 바꾸는 건설 현장, 안전하고 더 스마트한 미래를 열다 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-11-24 국토교통부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI",
+      "로봇"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-24T15:14:39+09:00",
+    "topics": [
+      "physical",
+      "security"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156790452"
+  },
+  {
+    "id": "b96f0e93b369781b",
+    "agency_id": "moel",
+    "title": "국가자격시험, 인공지능(AI) 활용 부정행위를 철저히 대비하고 범죄는 끝까지 추적한다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790535",
+    "published": "2026-11-24",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 11.21. 경비지도사 시험부터 강화된 대책 즉시 적용, AI 부정행위 6건 적발  - 예산확보와 법령개정 등을 통해 내년 상반기 내에 추가 대책 완료  고용노동부(장관 김영훈)와 한국산업인력공단(이사장 이병훈)은 스마트안경과 초소형 카메라 등 첨단기술을 활용한 국가자격시험 부정행위를 근절하기 위해 ... 2026-11-24 고용노동부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-24T15:14:39+09:00",
+    "topics": [
+      "law"
+    ],
+    "primary_topic": "law",
+    "newsId": "156790535"
+  },
+  {
+    "id": "7ce49f35ae8fc726",
+    "agency_id": "motie",
+    "title": "일상 속 AI, '가전 M.AX'로 실현한다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790495",
+    "published": "2026-11-24",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "일상 속  AI, '  가전  M.AX'  로 실현한다  -  중소  ·  중견기업의 제품  AX  를 밀착 지원하는  「  가전  AX  제품화지원센터  」  개소  -  - '31  년까지 공공 데이터  15  종을 구축하는  ｢  AI  가전 학습데이터 로드맵  ࿶... 2026-11-24 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-24T15:14:39+09:00",
+    "topics": [
+      "industry",
+      "data"
+    ],
+    "primary_topic": "industry",
+    "newsId": "156790495"
+  },
+  {
+    "id": "678ea2080ec24dca",
+    "agency_id": "mois",
+    "title": "행안부, '공공 AI 서비스 UI/UX 가이드라인' 마련… AI 안내·선택 기준 제시",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790510",
+    "published": "2026-11-24",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "- 행정안전부, 11월 25일 「공공 AI 서비스 UI/UX 가이드라인」 배포  - AI의 역할·말투부터 정보 입력, 결과 확인까지 29개 기준과 적용사례 제시  행정안전부  (  장관 윤호중  )  는 국민과 공공 인공지능  (AI)  이 소통하는 방식에 대한 설계기준을 담은  「  공공 ... 2026-11-24 행정안전부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-24T15:14:39+09:00",
+    "topics": [
+      "security",
+      "public"
+    ],
+    "primary_topic": "security",
+    "newsId": "156790510"
+  },
+  {
+    "id": "42b3d7a6cf3bf785",
+    "agency_id": "moee",
+    "title": "인공지능 활용, 안전한 지하수 이용을 위한 관리 기반 다진다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790503",
+    "published": "2026-11-24",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "▷ 국립환경과학원·제주특별자치도개발공사, 지하수·환경 분야 업무협약 체결  기후에너지환경부 소속 국립환경과학원(원장 김영우)은 제주특별자치도개발공사(사장 김도영)와 11월 25일 제주특별자치도개발공사 임시 본사 대회의실(제주 영평동 소재)에서 지하수를 수원으로 하는 먹는샘물의 수... 2026-11-24 기후에너지환경부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-24T15:14:39+09:00",
+    "topics": [
+      "security",
+      "diplomacy"
+    ],
+    "primary_topic": "security",
+    "newsId": "156790503"
+  },
+  {
+    "id": "1c01a2519e4f2851",
+    "agency_id": "msit",
+    "title": "인공지능·인간형 로봇부터 전기차까지, 미래 일상을 움직일 '차세대 이차전지' 핵심 성과 한자리에",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790471",
+    "published": "2026-11-24",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  최신 기술 동향 및 연구개발 성과 공유를 위한  「  차세대 이차전지 성과공유회  」  개최  -  -  산학연관이 함께하는  「  차세대 이차전지 민관협의체  」  개최  - 2026-11-24 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "로봇"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-24T15:14:39+09:00",
+    "topics": [
+      "physical"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156790471"
+  },
+  {
+    "id": "1a1b06a990662ae1",
+    "agency_id": "npa",
+    "title": "경찰청, 정부혁신 박람회서 'AI로 달라지는 국민의 일상' 선보인다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790566",
+    "published": "2026-11-24",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "경찰청, 정부혁신 박람회서 'AI로 달라지는 국민의 일상' 선보인다 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다. 2026-11-24 경찰청",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-24T15:14:39+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156790566"
+  },
+  {
     "id": "f0dce5f0920b9c62",
     "agency_id": "pipc",
     "title": "\"개인정보 보호법 인공지능 특례\" 세부 기준 마련 … 개인정보 보호법 시행령 개정안 입법예고",
