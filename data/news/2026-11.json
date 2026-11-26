@@ -24,6 +24,56 @@
     "newsId": "156790920"
   },
   {
+    "id": "a3aec7f6d0766228",
+    "agency_id": "motie",
+    "title": "한-일 정부와 민간, 반도체·AI 등 미래성장 협력 논의",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156791028",
+    "published": "2026-11-26",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "한  -  일 정부와 민간  ,  반도체  ·AI  등 미래성장 협력 논의     -  「  한  ·  일  (  홋카이도  )  미래성장산업 포럼  2026  」  개최  -  반도체 공급망부터  AI·  로봇  ,  지역경제 활성화까지 협력 분야 확대     산업... 2026-11-26 산업통상부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-26T23:02:29+09:00",
+    "topics": [
+      "physical",
+      "industry"
+    ],
+    "primary_topic": "physical",
+    "newsId": "156791028"
+  },
+  {
+    "id": "9daa882f13d314fb",
+    "agency_id": "nda",
+    "title": "국가데이터처, 실용통계교육 컨퍼런스 개최 보도자료",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156791022",
+    "published": "2026-11-26",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "국가데이터처(처장 안형준) 국가데이터인재개발원은 오는 11월 26일(목) 서울 LW컨벤션 그랜드볼룸에서 충청남도교육청과 공동으로 「2026년 실용통계교육 컨퍼런스」를 개최하였다.  이번 컨퍼런스는 '학교 현장에 스며드는 실용 통계교육과 AI(인공지능)·데이터교육 : 통계 적합형 미래 인재 양... 2026-11-26 국가데이터처",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-26T23:02:29+09:00",
+    "topics": [
+      "talent",
+      "data"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156791022"
+  },
+  {
     "id": "716f8346a044c2a7",
     "agency_id": "mohw",
     "title": "AI 시대, 의료데이터 더 안전하고 쉽게 활용 「보건의료데이터 활용 가이드라인」 전부개정",
@@ -99,6 +149,107 @@
     ],
     "primary_topic": "talent",
     "newsId": "156790946"
+  },
+  {
+    "id": "5507423ec2149fd9",
+    "agency_id": "fsc",
+    "title": "AI 친화적인 금융공공데이터를 추가로 개방합니다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790991",
+    "published": "2026-11-26",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "금융위원회 및 14개 금융유관기관  *  은 '20.6월 금융공공데이터를 개방한  이후 매년 개인사업자정보('22년), 침수차량정보('23년), 사회적금융지원정보('24년), ESG 지수정보('25년) 등 금융공공데이터를 추가로 개방해 왔다.  *  금융감독원, 예금보험공사, 신용보증기금, 주택금융공사,... 2026-11-26 금융위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-26T23:02:29+09:00",
+    "topics": [
+      "security",
+      "data"
+    ],
+    "primary_topic": "security",
+    "newsId": "156790991"
+  },
+  {
+    "id": "51dafa6d0d0d742d",
+    "agency_id": "mohw",
+    "title": "AI 시대 보건의료데이터의 윤리적 활용 방안 논의 제9회 국가생명윤리포럼 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156791001",
+    "published": "2026-11-26",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "AI 시대 보건의료데이터의 윤리적 활용 방안 논의 제9회 국가생명윤리포럼 개최  - 정보주체 권리 보호와 연구 발전의 공존 방안 모색 -  「생명윤리 및 안전에 관한 법률」에 따라 설치된 제7기 국가생명윤리심의위원회(위원장 김옥주, 이하 '위원회')는 11월 26일(목) 오후 1시 서울 교원 챌린지홀에서... 2026-11-26 보건복지부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "AI",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-26T23:02:29+09:00",
+    "topics": [
+      "security",
+      "data",
+      "public"
+    ],
+    "primary_topic": "security",
+    "newsId": "156791001"
+  },
+  {
+    "id": "49a4e7e75ee627c6",
+    "agency_id": "msit",
+    "title": "인공지능 시대, 우리 사회가 마주한 쟁점을 논하는｢인공지능 사회정책포럼｣ 공개 발표회 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790997",
+    "published": "2026-11-26",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  지난  4  월 인공지능 사회정책포럼 출범 이후 논의 결과를 국민과 공유  -  -  각계 전문가 종합토론으로 인공지능 사회정책 대응 방향과 과제 논의  - 2026-11-26 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-26T23:02:29+09:00",
+    "topics": [
+      "other"
+    ],
+    "primary_topic": "other",
+    "newsId": "156790997"
+  },
+  {
+    "id": "37eda6ffc9d01068",
+    "agency_id": "nda",
+    "title": "국가데이터처, 유엔마약범죄사무소(UNODC)와 범죄분류 공동세미나 개최",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156791007",
+    "published": "2026-11-26",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "'국가데이터처, 유엔마약범죄사무소(UNODC)와 범죄분류 공동세미나 개최' 보도자료입니다.  ※ 세부내용은 첨부파일을 참고바랍니다. 2026-11-26 국가데이터처",
+    "subtitle": "",
+    "tier": "accepted",
+    "matched": [
+      "데이터"
+    ],
+    "reason": "제목의 인접 키워드로 AX 밀접 판정",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-26T23:02:29+09:00",
+    "topics": [
+      "data"
+    ],
+    "primary_topic": "data",
+    "newsId": "156791007"
   },
   {
     "id": "2d509fc403470880",
@@ -226,6 +377,31 @@
     ],
     "primary_topic": "public",
     "newsId": "156790872"
+  },
+  {
+    "id": "05180bfb430fff50",
+    "agency_id": "pipc",
+    "title": "개인정보위, 인공지능 기반 보이스피싱 탐지 서비스로 적극행정 우수사례 경진대회 대상 수상",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156791020",
+    "published": "2026-11-26",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "개인정보위, 인공지능 기반 보이스피싱 탐지 서비스로 적극행정 우수사례 경진대회 대상 수상  - 범죄자 음성정보를 보이스피싱 예방 인공지능 개발·검증에 활용하도록 특례 인정  - 통신 3사에 이어 올해 휴대폰 단말기 기본 탑재까지 확대 추진  개인정보보호위원회(위원장 송경희, 이하 '개인정보위... 2026-11-26 개인정보보호위원회",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-26T23:02:29+09:00",
+    "topics": [
+      "talent",
+      "public"
+    ],
+    "primary_topic": "talent",
+    "newsId": "156791020"
   },
   {
     "id": "ffef3b42ca286503",
