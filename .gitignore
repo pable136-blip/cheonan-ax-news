@@ -14,8 +14,6 @@ _t-*.html
 .vscode/
 .idea/
 
-# 참여기업 관리대장 — 기업 데이터(백업·제출 파일)는 절대 커밋하지 않는다(공개 저장소)
-partners/**/*.json
-partners/**/*.csv
+# 참여기업 관리대장은 pable136-blip/cheonan-partners 로 옮겼다. 혹시 남은 데이터 파일이 섞여 들어오지 않게 막아 둔다.
 참여기업관리_백업_*.json
 실적제출_*.json
