@@ -49,7 +49,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--brand-soft);bord
   <h1>박람회 참여기업 분기 실적 제출</h1>
   <p id="sub">천안시 해외 AI·스마트시티 박람회 참여기업이 분기별 성과를 알려 주시는 양식입니다. 약 5분 걸립니다.</p>
 </header>
-<div class="safe">🔒 입력하신 내용은 <b>인터넷으로 전송되지 않습니다.</b> 마지막에 만들어지는 파일을 담당자에게 직접 보내 주시면 되고, 다른 기업은 이 내용을 볼 수 없습니다.</div>
+<div class="safe" id="safeMsg">🔒 입력하신 내용은 <b>인터넷으로 전송되지 않습니다.</b> 마지막에 만들어지는 파일을 담당자에게 직접 보내 주시면 되고, 다른 기업은 이 내용을 볼 수 없습니다.</div>
 
 <form id="sf" novalidate>
 <div class="card">
@@ -97,7 +97,8 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--brand-soft);bord
 <div class="actions no-print">
   <span class="err" id="err"></span>
   <button type="button" class="btn" id="printBtn">인쇄·PDF</button>
-  <button class="btn pri">제출 파일 만들기</button>
+  <button type="button" class="btn" id="fileBtn" hidden>파일로 저장</button>
+  <button class="btn pri" id="submitBtn">제출 파일 만들기</button>
 </div>
 </form>
 
@@ -160,12 +161,54 @@ function loadDraft(){let d;try{d=JSON.parse(localStorage.getItem(DRAFT))}catch(e
 loadDraft();
 let dt=null;form.addEventListener("input",()=>{clearTimeout(dt);dt=setTimeout(saveDraft,500)});
 
-form.onsubmit=e=>{e.preventDefault();const err=document.getElementById("err");err.textContent="";
+/* ---- 바로 제출(수신함 연결 링크로 열었을 때) ----
+   관리대장의 공개키로 암호화한 뒤 보낸다. 수신함(Google 시트)에는 암호문만 남는다. */
+const EP=q.get("ep")||"", KF=q.get("kf")||"";
+const DIRECT=/^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(EP)&&/^[0-9a-f]{16}$/.test(KF)&&!!(window.crypto&&crypto.subtle);
+if(DIRECT){
+  document.getElementById("safeMsg").innerHTML="🔒 「제출하기」를 누르면 입력 내용이 <b>이 PC에서 암호화된 뒤</b> 천안시 담당자에게 바로 전달됩니다. 담당자 외에는 누구도 내용을 볼 수 없고, 다른 기업도 볼 수 없습니다.";
+  document.getElementById("submitBtn").textContent="제출하기";document.getElementById("fileBtn").hidden=false;
+}
+const b64=buf=>{const u=new Uint8Array(buf);let s="";for(let i=0;i<u.length;i+=0x8000)s+=String.fromCharCode.apply(null,u.subarray(i,i+0x8000));return btoa(s)};
+const unb64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function encryptFor(pubB64,obj){
+  const fp=[...new Uint8Array(await crypto.subtle.digest("SHA-256",unb64(pubB64)))].map(x=>x.toString(16).padStart(2,"0")).join("").slice(0,16);
+  if(fp!==KF)throw new Error("수신함 열쇠가 링크와 맞지 않습니다");
+  const pk=await crypto.subtle.importKey("spki",unb64(pubB64),{name:"RSA-OAEP",hash:"SHA-256"},false,["encrypt"]);
+  const ak=await crypto.subtle.generateKey({name:"AES-GCM",length:256},true,["encrypt"]);
+  const iv=crypto.getRandomValues(new Uint8Array(12));
+  const ct=await crypto.subtle.encrypt({name:"AES-GCM",iv},ak,new TextEncoder().encode(JSON.stringify(obj)));
+  const wk=await crypto.subtle.encrypt({name:"RSA-OAEP"},pk,await crypto.subtle.exportKey("raw",ak));
+  return {v:1,kf:KF,wk:b64(wk),iv:b64(iv),ct:b64(ct)};
+}
+async function sendDirect(d){
+  const r1=await fetch(EP+"?a=pubkey");const k=await r1.json();if(!k.ok||!k.publicKey)throw new Error("수신함에 연결할 수 없습니다");
+  const payload=await encryptFor(k.publicKey,d);
+  const r2=await fetch(EP,{method:"POST",body:JSON.stringify({a:"submit",payload})});const j=await r2.json();
+  if(!j.ok)throw new Error(j.error==="full"?"수신함이 가득 찼습니다":"수신함 오류("+j.error+")");return j.id;
+}
+function validate(){const err=document.getElementById("err");err.textContent="";
   const d=collect();
-  if(!d.companyName){err.textContent="기업명을 입력해 주세요.";form.companyName.focus();return}
+  if(!d.companyName){err.textContent="기업명을 입력해 주세요.";form.companyName.focus();return null}
   const neg=NUMS.find(k=>d.report[k]!==""&&(d.report[k]<0||!Number.isFinite(d.report[k])));
-  if(neg){err.textContent="숫자 항목에 0 이상의 값을 넣어 주세요.";form[neg].focus();return}
-  if(d.report.overseasContracts!==""&&d.report.contracts!==""&&d.report.overseasContracts>d.report.contracts){err.textContent="해외 계약 건수가 전체 계약 건수보다 많습니다.";form.overseasContracts.focus();return}
+  if(neg){err.textContent="숫자 항목에 0 이상의 값을 넣어 주세요.";form[neg].focus();return null}
+  if(d.report.overseasContracts!==""&&d.report.contracts!==""&&d.report.overseasContracts>d.report.contracts){err.textContent="해외 계약 건수가 전체 계약 건수보다 많습니다.";form.overseasContracts.focus();return null}
+  return d;
+}
+form.onsubmit=async e=>{e.preventDefault();const d=validate();if(!d)return;
+  if(!DIRECT)return saveFile(d);
+  const btn=document.getElementById("submitBtn");btn.disabled=true;btn.textContent="암호화해서 보내는 중…";
+  try{const id=await sendDirect(d);
+    const done=document.getElementById("done");done.hidden=false;
+    done.innerHTML=`<h2>✔ 제출했습니다</h2><p><b>${h(d.companyName)}</b>의 ${h(periodLabel(d.period))} 실적이 ${q.get("to")?`<b>${h(q.get("to"))}</b>에게`:"천안시 담당자에게"} 전달되었습니다.</p>
+    <p style="font-size:13.5px;color:var(--text-dim)">접수번호 ${h(String(id).slice(0,8))} · 내용을 고치려면 같은 분기로 다시 제출하시면 최신 내용으로 바뀝니다. 보관용 사본이 필요하면 「인쇄·PDF」를 누르세요.</p>`;
+    done.scrollIntoView({behavior:"smooth"});
+  }catch(ex){console.error(ex);
+    document.getElementById("err").textContent="바로 제출하지 못했습니다("+ex.message+"). 대신 파일로 저장합니다.";saveFile(d);
+  }finally{btn.disabled=false;btn.textContent="제출하기"}
+};
+document.getElementById("fileBtn").onclick=()=>{const d=validate();if(d)saveFile(d)};
+function saveFile(d){
   const fname=`실적제출_${d.companyName.replace(/[\\/:*?"<>|\s]/g,"")}_${d.period}.json`;
   const blob=new Blob([JSON.stringify(d,null,1)],{type:"application/json"});
   const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=fname;document.body.appendChild(a);a.click();
@@ -177,7 +220,7 @@ form.onsubmit=e=>{e.preventDefault();const err=document.getElementById("err");er
   <button type="button" class="btn sm" id="clearDraft">이 PC의 임시 저장 지우기</button>`;
   document.getElementById("clearDraft").onclick=()=>{try{localStorage.removeItem(DRAFT)}catch(e){}alert("임시 저장을 지웠습니다.")};
   done.scrollIntoView({behavior:"smooth"});
-};
+}
 </script>
 </body>
 </html>
