@@ -1,5 +1,31 @@
 [
   {
+    "id": "c33821ab2881dc14",
+    "agency_id": "msit",
+    "title": "[보도참고] 초대형 사업 인공지능 데이터센터, 동해에서 떠오르다",
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156791260",
+    "published": "2026-11-28",
+    "source": "대한민국 정책브리핑",
+    "collector": "koreakr",
+    "source_domain": "www.korea.kr",
+    "snippet": "-  동해  1.2GW  급  GS  인공지능 데이터센터 착공식 개최  -  - GS,  동해 인공지능 데이터센터 구축 및 지역상생 계획 공개  -  -  과기정통부  ,  인공지능 데이터센터 생태계 활성화를 위한 정책적 지원 본격화  - 2026-11-28 과학기술정보통신부",
+    "subtitle": "",
+    "tier": "tier1",
+    "matched": [
+      "인공지능",
+      "데이터"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-28T22:03:59+09:00",
+    "topics": [
+      "infra",
+      "data"
+    ],
+    "primary_topic": "infra",
+    "newsId": "156791260"
+  },
+  {
     "id": "fc8fbb29ab00cee5",
     "agency_id": "mois",
     "title": "인공지능 활용 능력과 현장 대응력 갖춘지역 문제 해결사 389명이 간다",
@@ -148,6 +174,33 @@
     ],
     "primary_topic": "physical",
     "newsId": "156791120"
+  },
+  {
+    "id": "7cf1e5626ba8da72",
+    "agency_id": "cheonan",
+    "title": "천안시, ‘대한민국 제조 AX 창업수도’ 구축 본격화",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000517139Ju2wB4",
+    "published": "2026-11-27",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시가 그동안 구축해 온 민간 중심의 창업생태계와 첨단 제조산업 기반을 바탕으로 ‘대한민국 제조 인공지능 전환(AX) 창업수도’ 구축에 나선다.",
+    "subtitle": "중기부 창업도시 공모 공동 대응…‘충남 창업도시 출정식’동참",
+    "tier": "tier1",
+    "matched": [
+      "AX"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-28T22:06:25+09:00",
+    "topics": [
+      "talent",
+      "industry",
+      "infra"
+    ],
+    "primary_topic": "talent",
+    "dept": "스타트업지원팀",
+    "nttId": "B000000517139Ju2wB4"
   },
   {
     "id": "721a190020dd20ae",
@@ -655,6 +708,31 @@
     "newsId": "156790963"
   },
   {
+    "id": "08e274394bddaf56",
+    "agency_id": "cheonan",
+    "title": "천안시, ‘내년 소셜미디어 서포터즈’ 27명 모집…확산형, 인공지능 영상 신설",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000517131Xz8gY6",
+    "published": "2026-11-26",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안시는 다음 달 9일까지 ‘2027년 천안시 소셜미디어 서포터즈’ 27명을 모집한다고 26일 밝혔다.",
+    "subtitle": "콘텐츠 제작형 17명, 확산형 10명 선발…내달 9일까지 전자우편 접수",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-28T22:06:25+09:00",
+    "topics": [
+      "public"
+    ],
+    "primary_topic": "public",
+    "dept": "미디어홍보팀",
+    "nttId": "B000000517131Xz8gY6"
+  },
+  {
     "id": "08b883d879114c9f",
     "agency_id": "motie",
     "title": "인공지능(AI), 기술 진화에서 산업 대전환까지 표준이 함께 한다",
@@ -953,6 +1031,33 @@
     ],
     "primary_topic": "talent",
     "newsId": "156790655"
+  },
+  {
+    "id": "60232688f9511321",
+    "agency_id": "cheonan",
+    "title": "천안문화재단, 지식공유포럼 성료… 인공지능 시대 문화예술의 변화 모색",
+    "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000030/view.do?nttId=B000000517111Ub5eB9",
+    "published": "2026-11-25",
+    "source": "천안시 보도자료",
+    "collector": "cheonan",
+    "source_domain": "www.cheonan.go.kr",
+    "snippet": "천안문화재단은 지난 24일 천안축구센터에서 ‘2026 지식공유포럼’을 성황리에 마쳤다고 밝혔다.",
+    "subtitle": "인공지능 기술 확산에 따른 지속가능한 문화예술 생태계 조성 방향 제시",
+    "tier": "tier1",
+    "matched": [
+      "인공지능"
+    ],
+    "reason": "제목에 AI 핵심 키워드 포함",
+    "ai_confirmed": true,
+    "first_seen": "2026-11-28T22:06:25+09:00",
+    "topics": [
+      "talent",
+      "security",
+      "law"
+    ],
+    "primary_topic": "talent",
+    "dept": "천안문화재단",
+    "nttId": "B000000517111Ub5eB9"
   },
   {
     "id": "3421d67758fba21a",
